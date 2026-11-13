@@ -1,0 +1,1547 @@
+{
+  "STEP_NUMBER": 566,
+  "ORIGINAL_FEATURE_INDEX": 2106,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+    "full_path": "Handle_Base1/几何体.24/凸台.16",
+    "name": "凸台.16",
+    "internal_name": "Pad.16",
+    "type": "Pad",
+    "body": "几何体.24",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "cce2ff97-b8bd-4e10-cce2-ff97b8bd4e10",
+              "name": "实体.88",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/实体.88",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.88",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cce2ff97-b8bd-4e10-cce2-ff97b8bd4e10",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "31872803-ce74-1f01-3187-2803ce741f01",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "name": "Direction",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Direction",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Direction",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e3112828-63eb-52bb-e311-282863eb52bb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "name": "第一限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第一限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第一限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "543163a7-5e31-a991-5431-63a75e31a991",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "name": "第二限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第二限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第二限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6d4ccc0-610c-1a57-a6d4-ccc0610c1a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "name": "SymRel.16",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/SymRel.16",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SymRel.16",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0201ca0-b8cd-9deb-d020-1ca0b8cd9deb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "name": "Profile.17",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Profile.17",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.17",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "227f14e6-3219-aa13-227f-14e63219aa13",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ca98a59d-b07a-d95d-ca98-a59db07ad95d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c382cc0d-0efe-2b07-c382-cc0d0efe2b07",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Direction",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "name": "Direction",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Direction",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Direction",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e3112828-63eb-52bb-e311-282863eb52bb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "EndLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "name": "第一限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第一限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第一限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "543163a7-5e31-a991-5431-63a75e31a991",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Profile",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "name": "Profile.17",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Profile.17",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.17",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "227f14e6-3219-aa13-227f-14e63219aa13",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "StartLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "name": "第二限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第二限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第二限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6d4ccc0-610c-1a57-a6d4-ccc0610c1a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Sym",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SymRel",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "name": "SymRel.16",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/SymRel.16",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SymRel.16",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0201ca0-b8cd-9deb-d020-1ca0b8cd9deb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ca98a59d-b07a-d95d-ca98-a59db07ad95d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c382cc0d-0efe-2b07-c382-cc0d0efe2b07",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "db8e4648-3e55-be64-db8e-46483e55be64",
+      "name": "几何体.24",
+      "full_path": "Handle_Base1/几何体.24",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 2106
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.24",
+    "definition_sources": [
+      "features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/几何体.24/凸台.16",
+    "id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "cce2ff97-b8bd-4e10-cce2-ff97b8bd4e10",
+              "name": "实体.88",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/实体.88",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.88",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cce2ff97-b8bd-4e10-cce2-ff97b8bd4e10",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "31872803-ce74-1f01-3187-2803ce741f01",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "name": "Direction",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Direction",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Direction",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e3112828-63eb-52bb-e311-282863eb52bb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "name": "第一限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第一限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第一限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "543163a7-5e31-a991-5431-63a75e31a991",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "name": "第二限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第二限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第二限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6d4ccc0-610c-1a57-a6d4-ccc0610c1a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "name": "SymRel.16",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/SymRel.16",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SymRel.16",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0201ca0-b8cd-9deb-d020-1ca0b8cd9deb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "name": "Profile.17",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Profile.17",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.17",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "227f14e6-3219-aa13-227f-14e63219aa13",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ca98a59d-b07a-d95d-ca98-a59db07ad95d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c382cc0d-0efe-2b07-c382-cc0d0efe2b07",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Direction",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "name": "Direction",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Direction",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Direction",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ac7a5ce0-5db7-211b-ac7a-5ce05db7211b",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e3112828-63eb-52bb-e311-282863eb52bb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "EndLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "name": "第一限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第一限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第一限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "334609a6-e2d8-a6b5-3346-09a6e2d8a6b5",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "543163a7-5e31-a991-5431-63a75e31a991",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Profile",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "name": "Profile.17",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Profile.17",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.17",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "227f14e6-3219-aa13-227f-14e63219aa13",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "StartLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "name": "第二限制",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/第二限制",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "第二限制",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1146c320-b14c-0bdf-1146-c320b14c0bdf",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6d4ccc0-610c-1a57-a6d4-ccc0610c1a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Sym",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SymRel",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "name": "SymRel.16",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/SymRel.16",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SymRel.16",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5a2effaf-d8a4-d2df-5a2e-ffafd8a4d2df",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0201ca0-b8cd-9deb-d020-1ca0b8cd9deb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0fe28e70-9346-f1ba-0fe2-8e709346f1ba",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ca98a59d-b07a-d95d-ca98-a59db07ad95d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "name": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.24\\凸台.16\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a67bb6a9-f7ef-372d-a67b-b6a9f7ef372d",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c382cc0d-0efe-2b07-c382-cc0d0efe2b07",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "Pad.16",
+    "kind": "pad",
+    "name": "凸台.16",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "params": {
+      "profile": "Profile.17",
+      "profile_reference": {
+        "id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+        "name": "Profile.17",
+        "full_path": "Handle_Base1/几何体.24/凸台.16/Profile.17",
+        "in_feature_catalog": true
+      },
+      "profile_elements_available": true,
+      "profile_elements": [
+        {
+          "id": "04841b35-4502-ad39-0484-1b354502ad39",
+          "name": "草图.40",
+          "full_path": "Handle_Base1/几何体.23/草图.40",
+          "is_sketch": true
+        }
+      ],
+      "direction": [
+        0.5903518186077427,
+        -6.549701406233233e-11,
+        0.8071460402346846
+      ],
+      "direction_reversed": false,
+      "symmetric": false,
+      "inner_side": 0,
+      "reference_direction": "Profile.17",
+      "limit1": {
+        "type": "UpToPlane",
+        "offset": 13.189999999999998,
+        "offset_from_surface": 0,
+        "up_to_reference": {
+          "id": "9d59829c-9c5c-ec04-9d59-829c9c5cec04",
+          "name": "平面.228",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.228",
+          "in_feature_catalog": true
+        },
+        "up_to": "平面.228"
+      },
+      "limit2": {
+        "type": "UpToPlane",
+        "offset": 0,
+        "offset_from_surface": 0,
+        "up_to_reference": {
+          "id": "947e7dc0-99c5-a86f-947e-7dc099c5a86f",
+          "name": "平面.230",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.230",
+          "in_feature_catalog": true
+        },
+        "up_to": "平面.230"
+      },
+      "thin_solid": {
+        "enabled": false,
+        "thickness1": 1,
+        "thickness2": 0,
+        "neutral_fiber": false,
+        "merge_end": false
+      }
+    },
+    "parent": {
+      "id": "db8e4648-3e55-be64-db8e-46483e55be64",
+      "name": "几何体.24",
+      "full_path": "Handle_Base1/几何体.24",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "features",
+        "feature": {
+          "id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+          "full_path": "Handle_Base1/几何体.24/凸台.16",
+          "name": "凸台.16",
+          "kind": "pad",
+          "type": "CATISpecObject",
+          "body": "几何体.24",
+          "params": {
+            "profile": "Profile.17",
+            "profile_reference": {
+              "id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "name": "Profile.17",
+              "full_path": "Handle_Base1/几何体.24/凸台.16/Profile.17",
+              "in_feature_catalog": true
+            },
+            "profile_elements_available": true,
+            "profile_elements": [
+              {
+                "id": "04841b35-4502-ad39-0484-1b354502ad39",
+                "name": "草图.40",
+                "full_path": "Handle_Base1/几何体.23/草图.40",
+                "is_sketch": true
+              }
+            ],
+            "direction": [
+              0.5903518186077427,
+              -6.549701406233233e-11,
+              0.8071460402346846
+            ],
+            "direction_reversed": false,
+            "symmetric": false,
+            "inner_side": 0,
+            "reference_direction": "Profile.17",
+            "limit1": {
+              "type": "UpToPlane",
+              "offset": 13.189999999999998,
+              "offset_from_surface": 0,
+              "up_to_reference": {
+                "id": "9d59829c-9c5c-ec04-9d59-829c9c5cec04",
+                "name": "平面.228",
+                "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.228",
+                "in_feature_catalog": true
+              },
+              "up_to": "平面.228"
+            },
+            "limit2": {
+              "type": "UpToPlane",
+              "offset": 0,
+              "offset_from_surface": 0,
+              "up_to_reference": {
+                "id": "947e7dc0-99c5-a86f-947e-7dc099c5a86f",
+                "name": "平面.230",
+                "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.230",
+                "in_feature_catalog": true
+              },
+              "up_to": "平面.230"
+            },
+            "thin_solid": {
+              "enabled": false,
+              "thickness1": 1,
+              "thickness2": 0,
+              "neutral_fiber": false,
+              "merge_end": false
+            }
+          },
+          "selections": [
+            {
+              "role": "profile",
+              "label": "Profile.17",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1b094b86-868f-7eb2-1b09-4b86868f7eb2",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            {
+              "role": "limit1_up_to",
+              "label": "平面.228",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "9d59829c-9c5c-ec04-9d59-829c9c5cec04",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "272278c6-12ab-810d-2722-78c612ab810d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            {
+              "role": "limit2_up_to",
+              "label": "平面.230",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "947e7dc0-99c5-a86f-947e-7dc099c5a86f",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "bd71de6f-2f16-2c7a-bd71-de6f2f162c7a",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            {
+              "role": "reference_direction",
+              "label": "Profile.17",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+              "owner_feature": "凸台.16",
+              "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "875fa595-4a83-7054-875f-a5954a837054",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            }
+          ]
+        }
+      }
+    ],
+    "selections": [
+      {
+        "role": "profile",
+        "label": "Profile.17",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+        "owner_feature": "凸台.16",
+        "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "1b094b86-868f-7eb2-1b09-4b86868f7eb2",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      },
+      {
+        "role": "limit1_up_to",
+        "label": "平面.228",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "9d59829c-9c5c-ec04-9d59-829c9c5cec04",
+        "owner_feature": "凸台.16",
+        "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "272278c6-12ab-810d-2722-78c612ab810d",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      },
+      {
+        "role": "limit2_up_to",
+        "label": "平面.230",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "947e7dc0-99c5-a86f-947e-7dc099c5a86f",
+        "owner_feature": "凸台.16",
+        "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "bd71de6f-2f16-2c7a-bd71-de6f2f162c7a",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      },
+      {
+        "role": "reference_direction",
+        "label": "Profile.17",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "416e2aae-67e4-152e-416e-2aae67e4152e",
+        "owner_feature": "凸台.16",
+        "owner_feature_id": "cef460fe-47eb-fee8-cef4-60fe47ebfee8",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "875fa595-4a83-7054-875f-a5954a837054",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      }
+    ],
+    "source_visibility": 0,
+    "type": "Pad"
+  },
+  "DEPENDENCIES": [
+    "04841b35-4502-ad39-0484-1b354502ad39",
+    "947e7dc0-99c5-a86f-947e-7dc099c5a86f",
+    "9d59829c-9c5c-ec04-9d59-829c9c5cec04",
+    "db8e4648-3e55-be64-db8e-46483e55be64"
+  ],
+  "GEOMETRY": {}
+}

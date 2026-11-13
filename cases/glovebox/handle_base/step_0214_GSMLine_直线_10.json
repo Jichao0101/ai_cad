@@ -1,0 +1,568 @@
+{
+  "STEP_NUMBER": 214,
+  "ORIGINAL_FEATURE_INDEX": 254,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10",
+    "name": "直线.10",
+    "internal_name": "GSMLine.10",
+    "type": "GSMLine",
+    "body": "Part",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "96ab95c7-4ef5-1249-96ab-95c74ef51249",
+              "name": "MFparameter.743",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10/MFparameter.743",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.743",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "96ab95c7-4ef5-1249-96ab-95c74ef51249",
+              "owner_feature": "直线.10",
+              "owner_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ecedabba-3605-1041-eced-abba36051041",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "99dc49f3-5f2a-1b98-99dc-49f35f2a1b98",
+              "name": "MFparameter.744",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10/MFparameter.744",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.744",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "99dc49f3-5f2a-1b98-99dc-49f35f2a1b98",
+              "owner_feature": "直线.10",
+              "owner_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "25054082-6ab7-1b93-2505-40826ab71b93",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TypeObject",
+        "value_type": 26,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "3a28db15-1191-4224-3a28-db1511914224",
+              "name": "点-方向线.1",
+              "full_path": "点-方向线.1",
+              "in_feature_catalog": false
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点-方向线.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3a28db15-1191-4224-3a28-db1511914224",
+              "owner_feature": "直线.10",
+              "owner_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4c93c067-810d-d5dd-4c93-c067810dd5dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "ee902a16-13a4-a3af-ee90-2a1613a4a3af",
+      "name": "03-SupportGeo_HandleLimit",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 254
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Part",
+    "definition_available": true,
+    "definition_source": "child_spec_objects",
+    "definition_sources": [
+      "gsm_features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10",
+    "gsm_category": "GSMLine",
+    "id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "96ab95c7-4ef5-1249-96ab-95c74ef51249",
+              "name": "MFparameter.743",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10/MFparameter.743",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.743",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "96ab95c7-4ef5-1249-96ab-95c74ef51249",
+              "owner_feature": "直线.10",
+              "owner_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ecedabba-3605-1041-eced-abba36051041",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "99dc49f3-5f2a-1b98-99dc-49f35f2a1b98",
+              "name": "MFparameter.744",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10/MFparameter.744",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.744",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "99dc49f3-5f2a-1b98-99dc-49f35f2a1b98",
+              "owner_feature": "直线.10",
+              "owner_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "25054082-6ab7-1b93-2505-40826ab71b93",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TypeObject",
+        "value_type": 26,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "3a28db15-1191-4224-3a28-db1511914224",
+              "name": "点-方向线.1",
+              "full_path": "点-方向线.1",
+              "in_feature_catalog": false
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点-方向线.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3a28db15-1191-4224-3a28-db1511914224",
+              "owner_feature": "直线.10",
+              "owner_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4c93c067-810d-d5dd-4c93-c067810dd5dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 2,
+    "internal_name": "GSMLine.10",
+    "missing_reason": "",
+    "name": "直线.10",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_source_topology": {
+      "dimension_0_cell_count": 2,
+      "dimension_1_cell_count": 1,
+      "dimension_2_cell_count": 0,
+      "geometry_interface_available": true,
+      "request_result_count": 0,
+      "source_updated": false,
+      "stored_body_available": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 96,
+    "parameter_count": 0,
+    "params": [
+      {
+        "name": "MFparameter.743",
+        "kind": "reference",
+        "late_type": "MFparameter",
+        "id": "435ec9f7-bbe9-aa1d-435e-c9f7bbe9aa1d"
+      },
+      {
+        "name": "MFparameter.744",
+        "kind": "reference",
+        "late_type": "MFparameter",
+        "id": "2532d939-91e2-6644-2532-d93991e26644"
+      }
+    ],
+    "parent": {
+      "id": "ee902a16-13a4-a3af-ee90-2a1613a4a3af",
+      "name": "03-SupportGeo_HandleLimit",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 96,
+          "name": "直线.10",
+          "type": "GSMLine",
+          "gsm_category": "GSMLine",
+          "body": "Part",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10",
+          "id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+          "parameter_count": 0,
+          "input_count": 2,
+          "definition_available": true,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "",
+          "params": [
+            {
+              "name": "MFparameter.743",
+              "kind": "reference",
+              "late_type": "MFparameter",
+              "id": "435ec9f7-bbe9-aa1d-435e-c9f7bbe9aa1d"
+            },
+            {
+              "name": "MFparameter.744",
+              "kind": "reference",
+              "late_type": "MFparameter",
+              "id": "2532d939-91e2-6644-2532-d93991e26644"
+            }
+          ],
+          "selections": []
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+          "name": "直线.10",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10",
+          "native_source_topology": {
+            "dimension_0_cell_count": 2,
+            "dimension_1_cell_count": 1,
+            "dimension_2_cell_count": 0,
+            "geometry_interface_available": true,
+            "request_result_count": 0,
+            "source_updated": false,
+            "stored_body_available": true
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "selections": [],
+    "source_visibility": 1,
+    "type": "GSMLine"
+  },
+  "DEPENDENCIES": [
+    "ee902a16-13a4-a3af-ee90-2a1613a4a3af"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit/直线.10": {
+      "topology": {
+        "body": "03-SupportGeo_HandleLimit",
+        "result_feature": "直线.10",
+        "face_count": 0,
+        "edge_count": 1,
+        "vertex_count": 0,
+        "shell_count": 0,
+        "loop_count": 1,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [
+          {
+            "index": 1,
+            "edge_count": 1,
+            "edge_start": 1
+          }
+        ],
+        "edges": [
+          {
+            "index": 1,
+            "length": 200.00000000000009,
+            "start": [
+              731.5915735063697,
+              318.57589950147565,
+              431.3406944864171
+            ],
+            "end": [
+              724.006587047034,
+              518.355004805556,
+              436.8884025098213
+            ],
+            "sub_curves": [
+              {
+                "type": "Line",
+                "root": [
+                  731.5915735063697,
+                  318.57589950147565,
+                  431.3406944864171
+                ],
+                "dir": [
+                  -0.03792493229667855,
+                  0.9988955265204009,
+                  0.02773854011702093
+                ]
+              }
+            ]
+          }
+        ],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 106,
+        "body_name": "03-SupportGeo_HandleLimit",
+        "result_name": "直线.10",
+        "source_feature_id": "ee902a16-13a4-a3af-ee90-2a1613a4a3af",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/03-SupportGeo_HandleLimit",
+        "result_id": "9d1850e8-ad6d-9b40-9d18-50e8ad6d9b40",
+        "face_count": 0,
+        "edge_count": 1,
+        "faces": [],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7362718,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.9.2(E,2CDA)0.",
+              "label_context_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef",
+              "initial_feature_id": "cffd1d9a-ab45-56ef-cffd-1d9aab4556ef"
+            },
+            "generated_by_verified": false,
+            "label": "03-SupportGeo_HandleLimit",
+            "generated_by": "03-SupportGeo_HandleLimit",
+            "generated_by_id": "ee902a16-13a4-a3af-ee90-2a1613a4a3af",
+            "length": 200.00000000000009,
+            "start_vertex": [
+              731.5915735063697,
+              318.57589950147565,
+              431.3406944864171
+            ],
+            "end_vertex": [
+              724.006587047034,
+              518.355004805556,
+              436.8884025098213
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 0,
+              "end_parameter": 200.00000000000009,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "Line",
+                  "definition_available": true,
+                  "root": [
+                    731.5915735063697,
+                    318.57589950147565,
+                    431.3406944864171
+                  ],
+                  "direction": [
+                    -0.03792493229667855,
+                    0.9988955265204009,
+                    0.02773854011702093
+                  ]
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

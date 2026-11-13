@@ -1,0 +1,1880 @@
+{
+  "STEP_NUMBER": 819,
+  "ORIGINAL_FEATURE_INDEX": 2770,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+    "full_path": "Handle_Base1/Left Claw/倒圆角.24",
+    "name": "倒圆角.24",
+    "internal_name": "EdgeFillet.24",
+    "type": "EdgeFillet",
+    "body": "Left Claw",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "bf78bb7c-9033-fc88-bf78-bb7c9033fc88",
+              "name": "实体.129",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/实体.129",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.129",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "bf78bb7c-9033-fc88-bf78-bb7c9033fc88",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "03fe01b3-5e81-20e1-03fe-01b35e8120e1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "name": "CstEdgeRibbon.48",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.48",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.48",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "279df427-97bf-2f31-279d-f42797bf2f31",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "name": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d61bc026-e58e-535f-d61b-c026e58e535f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "9a13c707-7194-bdcb-9a13-c7077194bdcb",
+              "name": "MFparameter.45",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/MFparameter.45",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.45",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "9a13c707-7194-bdcb-9a13-c7077194bdcb",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d5ea71fe-9a12-0d77-d5ea-71fe9a120d77",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "name": "CstEdgeRibbon.49",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.49",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.49",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "09e5deab-3834-3689-09e5-deab38343689",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "488a9a0c-c561-1852-488a-9a0cc5611852",
+              "name": "实体.130",
+              "full_path": "Handle_Base1/Left Claw/移除.20/实体.130",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.130",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "488a9a0c-c561-1852-488a-9a0cc5611852",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "27e51d7c-a781-ed91-27e5-1d7ca781ed91",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BitangencyType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BoundariesRelimitationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletVisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletWorkShop",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimSupportMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ChordalMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CliffEdgeMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicRatio",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "name": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d61bc026-e58e-535f-d61b-c026e58e535f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "RibbonList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "name": "CstEdgeRibbon.48",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.48",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.48",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "279df427-97bf-2f31-279d-f42797bf2f31",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "name": "CstEdgeRibbon.49",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.49",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.49",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "09e5deab-3834-3689-09e5-deab38343689",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimRibbonMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SetBackType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrackActivation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TransitionalCornerMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "3ca59d96-3bcb-2620-3ca5-9d963bcb2620",
+      "name": "Left Claw",
+      "full_path": "Handle_Base1/Left Claw",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+      "name": "移除.20",
+      "full_path": "Handle_Base1/Left Claw/移除.20",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 2770
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Left Claw",
+    "definition_sources": [
+      "features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Left Claw/倒圆角.24",
+    "id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "bf78bb7c-9033-fc88-bf78-bb7c9033fc88",
+              "name": "实体.129",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/实体.129",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.129",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "bf78bb7c-9033-fc88-bf78-bb7c9033fc88",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "03fe01b3-5e81-20e1-03fe-01b35e8120e1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "name": "CstEdgeRibbon.48",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.48",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.48",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "279df427-97bf-2f31-279d-f42797bf2f31",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "name": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d61bc026-e58e-535f-d61b-c026e58e535f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "9a13c707-7194-bdcb-9a13-c7077194bdcb",
+              "name": "MFparameter.45",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/MFparameter.45",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.45",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "9a13c707-7194-bdcb-9a13-c7077194bdcb",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d5ea71fe-9a12-0d77-d5ea-71fe9a120d77",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "name": "CstEdgeRibbon.49",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.49",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.49",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "09e5deab-3834-3689-09e5-deab38343689",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "488a9a0c-c561-1852-488a-9a0cc5611852",
+              "name": "实体.130",
+              "full_path": "Handle_Base1/Left Claw/移除.20/实体.130",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.130",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "488a9a0c-c561-1852-488a-9a0cc5611852",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "27e51d7c-a781-ed91-27e5-1d7ca781ed91",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BitangencyType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BoundariesRelimitationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletVisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletWorkShop",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimSupportMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ChordalMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CliffEdgeMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicRatio",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "name": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Left Claw\\倒圆角.24\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ba7873ec-b078-14b1-ba78-73ecb07814b1",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d61bc026-e58e-535f-d61b-c026e58e535f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "RibbonList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "name": "CstEdgeRibbon.48",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.48",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.48",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "461d815c-a695-1d7a-461d-815ca6951d7a",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "279df427-97bf-2f31-279d-f42797bf2f31",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "name": "CstEdgeRibbon.49",
+              "full_path": "Handle_Base1/Left Claw/倒圆角.24/CstEdgeRibbon.49",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.49",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cf5f26fb-7f34-f4e9-cf5f-26fb7f34f4e9",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "09e5deab-3834-3689-09e5-deab38343689",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimRibbonMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SetBackType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrackActivation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TransitionalCornerMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "EdgeFillet.24",
+    "kind": "fillet",
+    "name": "倒圆角.24",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_fillet_edges": [
+      {
+        "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.34;1);None:();Cf11:());Face:(Brp:(Pad.33;0:(Brp:(Sketch.29;5)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      },
+      {
+        "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.33;1);None:();Cf11:());Face:(Brp:(Pad.33;0:(Brp:(Sketch.29;5)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      }
+    ],
+    "native_result_geometry": {
+      "area_mm2": 336.7334739913485,
+      "cog_mm": [
+        705.8431176035778,
+        344.93616081753026,
+        439.2472338669673
+      ],
+      "volume_mm3": 258.19102613850737
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "params": {
+      "fillet_type": "Constant",
+      "radius": 0.3,
+      "propagation": "Tangency",
+      "variation": "Cubic"
+    },
+    "parent": {
+      "id": "3ca59d96-3bcb-2620-3ca5-9d963bcb2620",
+      "name": "Left Claw",
+      "full_path": "Handle_Base1/Left Claw",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+      "name": "移除.20",
+      "full_path": "Handle_Base1/Left Claw/移除.20",
+      "in_feature_catalog": true
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "features",
+        "feature": {
+          "id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+          "full_path": "Handle_Base1/Left Claw/倒圆角.24",
+          "name": "倒圆角.24",
+          "kind": "fillet",
+          "type": "CATISpecObject",
+          "body": "Left Claw",
+          "params": {
+            "fillet_type": "Constant",
+            "radius": 0.3,
+            "propagation": "Tangency",
+            "variation": "Cubic"
+          },
+          "selections": [
+            {
+              "role": "fillet_object",
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "860e45e8-1bb4-5f35-860e-45e81bb45f35",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "acf0051d-339b-9bd1-acf0-051d339b9bd1",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+              "support_feature": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+              "brep_type": "REdge(Edge)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 10,
+                "curve_points": [
+                  [
+                    708.9889707791029,
+                    340.74028974651384,
+                    435.2731605971085
+                  ],
+                  [
+                    706.6090369173904,
+                    340.83890337538577,
+                    436.9510660199843
+                  ],
+                  [
+                    704.2291030556778,
+                    340.9375170042577,
+                    438.6289714428601
+                  ]
+                ],
+                "length_mm": 5.827238262519196,
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+                  "label_context_id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+                    "name": "移除.20",
+                    "full_path": "Handle_Base1/Left Claw/移除.20",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+                    "name": "移除.20",
+                    "full_path": "Handle_Base1/Left Claw/移除.20",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7623988,
+                      "bbox_min": [
+                        704.2281030485779,
+                        340.73928974309445,
+                        435.1903425143597
+                      ],
+                      "bbox_max": [
+                        708.9899707862028,
+                        340.9385170076771,
+                        438.7117895256089
+                      ],
+                      "curve_points": [
+                        [
+                          708.9889707791029,
+                          340.74028974651384,
+                          435.2731605971084
+                        ],
+                        [
+                          707.7990038482466,
+                          340.7895965609498,
+                          436.1121133085464
+                        ],
+                        [
+                          706.6090369173904,
+                          340.83890337538577,
+                          436.9510660199843
+                        ],
+                        [
+                          705.419069986534,
+                          340.88821018982173,
+                          437.79001873142226
+                        ],
+                        [
+                          704.2291030556777,
+                          340.9375170042577,
+                          438.6289714428602
+                        ]
+                      ],
+                      "length_mm": 5.827238262519196,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        706.6090369173903,
+                        340.83890337538577,
+                        436.9510660199843
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "fillet_object",
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "25cfd3f2-e8d2-1867-25cf-d3f2e8d21867",
+              "owner_feature": "倒圆角.24",
+              "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5e2ef2f-f99a-424f-f5e2-ef2ff99a424f",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+              "support_feature": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+              "brep_type": "REdge(Edge)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 10,
+                "curve_points": [
+                  [
+                    711.6458187942891,
+                    340.74028974621905,
+                    438.905679863366
+                  ],
+                  [
+                    709.2657951508576,
+                    340.83890337509104,
+                    440.5834625340853
+                  ],
+                  [
+                    706.8857715074262,
+                    340.93751700396297,
+                    442.26124520480454
+                  ]
+                ],
+                "length_mm": 5.8272435614990465,
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+                  "label_context_id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "f2af074c-fdd4-686e-f2af-074cfdd4686e",
+                    "name": "凸台.33",
+                    "full_path": "Handle_Base1/几何体.47/凸台.33",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+                    "name": "移除.20",
+                    "full_path": "Handle_Base1/Left Claw/移除.20",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7620773,
+                      "bbox_min": [
+                        706.8847715002996,
+                        340.7392897427997,
+                        438.8226162762679
+                      ],
+                      "bbox_max": [
+                        711.6468188014155,
+                        340.9385170073823,
+                        442.3443087919027
+                      ],
+                      "curve_points": [
+                        [
+                          711.6458187942891,
+                          340.74028974621905,
+                          438.905679863366
+                        ],
+                        [
+                          710.4558069725733,
+                          340.789596560655,
+                          439.7445711987257
+                        ],
+                        [
+                          709.2657951508576,
+                          340.83890337509104,
+                          440.5834625340853
+                        ],
+                        [
+                          708.0757833291418,
+                          340.888210189527,
+                          441.422353869445
+                        ],
+                        [
+                          706.8857715074262,
+                          340.93751700396297,
+                          442.26124520480454
+                        ]
+                      ],
+                      "length_mm": 5.8272435614990465,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        709.2657951508576,
+                        340.83890337509104,
+                        440.5834625340853
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+          "name": "倒圆角.24",
+          "full_path": "Handle_Base1/Left Claw/倒圆角.24",
+          "native_result_geometry": {
+            "area_mm2": 336.7334739913485,
+            "cog_mm": [
+              705.8431176035778,
+              344.93616081753026,
+              439.2472338669673
+            ],
+            "volume_mm3": 258.19102613850737
+          },
+          "native_fillet_edges": [
+            {
+              "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.34;1);None:();Cf11:());Face:(Brp:(Pad.33;0:(Brp:(Sketch.29;5)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            },
+            {
+              "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.33;1);None:();Cf11:());Face:(Brp:(Pad.33;0:(Brp:(Sketch.29;5)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            }
+          ],
+          "selection_geometry": {
+            "acf0051d-339b-9bd1-acf0-051d339b9bd1": {
+              "curve_points": [
+                [
+                  708.9889707791029,
+                  340.74028974651384,
+                  435.2731605971085
+                ],
+                [
+                  706.6090369173904,
+                  340.83890337538577,
+                  436.9510660199843
+                ],
+                [
+                  704.2291030556778,
+                  340.9375170042577,
+                  438.6289714428601
+                ]
+              ],
+              "dimension": 1,
+              "edge_supports": [
+                {
+                  "area_m2": 2.168990334509479e-05,
+                  "cog_mm": [
+                    704.9278257480862,
+                    342.67457957203374,
+                    438.1381285377351
+                  ],
+                  "dimension": 2,
+                  "measurement_source": "CAA selection context",
+                  "normal": [
+                    0.5761908227390078,
+                    -0.0008200268019487712,
+                    0.8173147884061497
+                  ],
+                  "origin": [
+                    702.8714420641772,
+                    317.2571776099503,
+                    439.5623367771623
+                  ],
+                  "surface_type": "Plane"
+                },
+                {
+                  "area_m2": 9.892772637830766e-06,
+                  "cog_mm": [
+                    706.1546822340192,
+                    340.8369380116258,
+                    436.2315683115298
+                  ],
+                  "dimension": 2,
+                  "measurement_source": "CAA selection context",
+                  "normal": [
+                    0.027322598501797732,
+                    0.999426894958663,
+                    -0.019983924649467494
+                  ],
+                  "origin": [
+                    714.9925023424169,
+                    340.74028974584775,
+                    443.4813621745689
+                  ],
+                  "surface_type": "Plane"
+                }
+              ],
+              "length_mm": 5.827238262519196,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0."
+            },
+            "f5e2ef2f-f99a-424f-f5e2-ef2ff99a424f": {
+              "curve_points": [
+                [
+                  711.6458187942891,
+                  340.74028974621905,
+                  438.905679863366
+                ],
+                [
+                  709.2657951508576,
+                  340.83890337509104,
+                  440.5834625340853
+                ],
+                [
+                  706.8857715074262,
+                  340.93751700396297,
+                  442.26124520480454
+                ]
+              ],
+              "dimension": 1,
+              "edge_supports": [
+                {
+                  "area_m2": 5.0878544381049594e-05,
+                  "cog_mm": [
+                    707.6934258036404,
+                    344.20926241339765,
+                    441.69522039968354
+                  ],
+                  "dimension": 2,
+                  "measurement_source": "CAA selection context",
+                  "normal": [
+                    0.576148073521345,
+                    -0.0008224866312336396,
+                    0.8173449216171736
+                  ],
+                  "origin": [
+                    705.5280252477969,
+                    317.25717761181295,
+                    443.19449395826086
+                  ],
+                  "surface_type": "Plane"
+                },
+                {
+                  "area_m2": 9.892772637638068e-06,
+                  "cog_mm": [
+                    708.8114422568415,
+                    340.83693801133103,
+                    439.8639672720868
+                  ],
+                  "dimension": 2,
+                  "measurement_source": "CAA selection context",
+                  "normal": [
+                    0.027322598501797732,
+                    0.999426894958663,
+                    -0.019983924649467494
+                  ],
+                  "origin": [
+                    714.9925023424169,
+                    340.74028974584775,
+                    443.4813621745689
+                  ],
+                  "surface_type": "Plane"
+                }
+              ],
+              "length_mm": 5.8272435614990465,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0."
+            }
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "selection_geometry": {
+      "acf0051d-339b-9bd1-acf0-051d339b9bd1": {
+        "curve_points": [
+          [
+            708.9889707791029,
+            340.74028974651384,
+            435.2731605971085
+          ],
+          [
+            706.6090369173904,
+            340.83890337538577,
+            436.9510660199843
+          ],
+          [
+            704.2291030556778,
+            340.9375170042577,
+            438.6289714428601
+          ]
+        ],
+        "dimension": 1,
+        "edge_supports": [
+          {
+            "area_m2": 2.168990334509479e-05,
+            "cog_mm": [
+              704.9278257480862,
+              342.67457957203374,
+              438.1381285377351
+            ],
+            "dimension": 2,
+            "measurement_source": "CAA selection context",
+            "normal": [
+              0.5761908227390078,
+              -0.0008200268019487712,
+              0.8173147884061497
+            ],
+            "origin": [
+              702.8714420641772,
+              317.2571776099503,
+              439.5623367771623
+            ],
+            "surface_type": "Plane"
+          },
+          {
+            "area_m2": 9.892772637830766e-06,
+            "cog_mm": [
+              706.1546822340192,
+              340.8369380116258,
+              436.2315683115298
+            ],
+            "dimension": 2,
+            "measurement_source": "CAA selection context",
+            "normal": [
+              0.027322598501797732,
+              0.999426894958663,
+              -0.019983924649467494
+            ],
+            "origin": [
+              714.9925023424169,
+              340.74028974584775,
+              443.4813621745689
+            ],
+            "surface_type": "Plane"
+          }
+        ],
+        "length_mm": 5.827238262519196,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0."
+      },
+      "f5e2ef2f-f99a-424f-f5e2-ef2ff99a424f": {
+        "curve_points": [
+          [
+            711.6458187942891,
+            340.74028974621905,
+            438.905679863366
+          ],
+          [
+            709.2657951508576,
+            340.83890337509104,
+            440.5834625340853
+          ],
+          [
+            706.8857715074262,
+            340.93751700396297,
+            442.26124520480454
+          ]
+        ],
+        "dimension": 1,
+        "edge_supports": [
+          {
+            "area_m2": 5.0878544381049594e-05,
+            "cog_mm": [
+              707.6934258036404,
+              344.20926241339765,
+              441.69522039968354
+            ],
+            "dimension": 2,
+            "measurement_source": "CAA selection context",
+            "normal": [
+              0.576148073521345,
+              -0.0008224866312336396,
+              0.8173449216171736
+            ],
+            "origin": [
+              705.5280252477969,
+              317.25717761181295,
+              443.19449395826086
+            ],
+            "surface_type": "Plane"
+          },
+          {
+            "area_m2": 9.892772637638068e-06,
+            "cog_mm": [
+              708.8114422568415,
+              340.83693801133103,
+              439.8639672720868
+            ],
+            "dimension": 2,
+            "measurement_source": "CAA selection context",
+            "normal": [
+              0.027322598501797732,
+              0.999426894958663,
+              -0.019983924649467494
+            ],
+            "origin": [
+              714.9925023424169,
+              340.74028974584775,
+              443.4813621745689
+            ],
+            "surface_type": "Plane"
+          }
+        ],
+        "length_mm": 5.8272435614990465,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0."
+      }
+    },
+    "selections": [
+      {
+        "role": "fillet_object",
+        "label": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "860e45e8-1bb4-5f35-860e-45e81bb45f35",
+        "owner_feature": "倒圆角.24",
+        "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "acf0051d-339b-9bd1-acf0-051d339b9bd1",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+        "support_feature": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+        "brep_type": "REdge(Edge)",
+        "resolved_brep_count": 1,
+        "missing_reason": "",
+        "caa_measurement": {
+          "geometry_name": 10,
+          "curve_points": [
+            [
+              708.9889707791029,
+              340.74028974651384,
+              435.2731605971085
+            ],
+            [
+              706.6090369173904,
+              340.83890337538577,
+              436.9510660199843
+            ],
+            [
+              704.2291030556778,
+              340.9375170042577,
+              438.6289714428601
+            ]
+          ],
+          "length_mm": 5.827238262519196,
+          "available": true
+        },
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.I.21.14.S.11.2(E,3E9C,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+            "label_context_id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+              "name": "移除.20",
+              "full_path": "Handle_Base1/Left Claw/移除.20",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+              "name": "移除.20",
+              "full_path": "Handle_Base1/Left Claw/移除.20",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7623988,
+                "bbox_min": [
+                  704.2281030485779,
+                  340.73928974309445,
+                  435.1903425143597
+                ],
+                "bbox_max": [
+                  708.9899707862028,
+                  340.9385170076771,
+                  438.7117895256089
+                ],
+                "curve_points": [
+                  [
+                    708.9889707791029,
+                    340.74028974651384,
+                    435.2731605971084
+                  ],
+                  [
+                    707.7990038482466,
+                    340.7895965609498,
+                    436.1121133085464
+                  ],
+                  [
+                    706.6090369173904,
+                    340.83890337538577,
+                    436.9510660199843
+                  ],
+                  [
+                    705.419069986534,
+                    340.88821018982173,
+                    437.79001873142226
+                  ],
+                  [
+                    704.2291030556777,
+                    340.9375170042577,
+                    438.6289714428602
+                  ]
+                ],
+                "length_mm": 5.827238262519196,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  706.6090369173903,
+                  340.83890337538577,
+                  436.9510660199843
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "fillet_object",
+        "label": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "25cfd3f2-e8d2-1867-25cf-d3f2e8d21867",
+        "owner_feature": "倒圆角.24",
+        "owner_feature_id": "513169c0-c0b4-c782-5131-69c0c0b4c782",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "f5e2ef2f-f99a-424f-f5e2-ef2ff99a424f",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+        "support_feature": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+        "brep_type": "REdge(Edge)",
+        "resolved_brep_count": 1,
+        "missing_reason": "",
+        "caa_measurement": {
+          "geometry_name": 10,
+          "curve_points": [
+            [
+              711.6458187942891,
+              340.74028974621905,
+              438.905679863366
+            ],
+            [
+              709.2657951508576,
+              340.83890337509104,
+              440.5834625340853
+            ],
+            [
+              706.8857715074262,
+              340.93751700396297,
+              442.26124520480454
+            ]
+          ],
+          "length_mm": 5.8272435614990465,
+          "available": true
+        },
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.I.21.14.S.11.2(E,3E60,1)0.31.14.S.21.2(E,3E60,0(E,349D,5))0.0.",
+            "label_context_id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "f2af074c-fdd4-686e-f2af-074cfdd4686e",
+              "name": "凸台.33",
+              "full_path": "Handle_Base1/几何体.47/凸台.33",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb",
+              "name": "移除.20",
+              "full_path": "Handle_Base1/Left Claw/移除.20",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7620773,
+                "bbox_min": [
+                  706.8847715002996,
+                  340.7392897427997,
+                  438.8226162762679
+                ],
+                "bbox_max": [
+                  711.6468188014155,
+                  340.9385170073823,
+                  442.3443087919027
+                ],
+                "curve_points": [
+                  [
+                    711.6458187942891,
+                    340.74028974621905,
+                    438.905679863366
+                  ],
+                  [
+                    710.4558069725733,
+                    340.789596560655,
+                    439.7445711987257
+                  ],
+                  [
+                    709.2657951508576,
+                    340.83890337509104,
+                    440.5834625340853
+                  ],
+                  [
+                    708.0757833291418,
+                    340.888210189527,
+                    441.422353869445
+                  ],
+                  [
+                    706.8857715074262,
+                    340.93751700396297,
+                    442.26124520480454
+                  ]
+                ],
+                "length_mm": 5.8272435614990465,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  709.2657951508576,
+                  340.83890337509104,
+                  440.5834625340853
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "source_visibility": 0,
+    "type": "EdgeFillet"
+  },
+  "DEPENDENCIES": [
+    "3ca59d96-3bcb-2620-3ca5-9d963bcb2620",
+    "6e4d6b8f-ef23-e6fb-6e4d-6b8fef23e6fb"
+  ],
+  "GEOMETRY": {}
+}

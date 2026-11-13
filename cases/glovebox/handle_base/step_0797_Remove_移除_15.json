@@ -1,0 +1,556 @@
+{
+  "STEP_NUMBER": 797,
+  "ORIGINAL_FEATURE_INDEX": 1622,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "41a11719-16dd-8388-41a1-171916dd8388",
+    "full_path": "Handle_Base1/Circle Axis Body/移除.15",
+    "name": "移除.15",
+    "internal_name": "Remove.15",
+    "type": "Remove",
+    "body": "Circle Axis Body",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ca9e14ec-0683-415a-ca9e-14ec0683415a",
+              "name": "实体.67",
+              "full_path": "Handle_Base1/Circle Axis Body/移除.15/实体.67",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.67",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ca9e14ec-0683-415a-ca9e-14ec0683415a",
+              "owner_feature": "移除.15",
+              "owner_feature_id": "41a11719-16dd-8388-41a1-171916dd8388",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b38c4db5-e2b3-3dd5-b38c-4db5e2b33dd5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "6b687ddf-d1b2-4828-6b68-7ddfd1b24828",
+              "name": "实体.68",
+              "full_path": "Handle_Base1/Circle Axis Body/移除.14/实体.68",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.68",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6b687ddf-d1b2-4828-6b68-7ddfd1b24828",
+              "owner_feature": "移除.15",
+              "owner_feature_id": "41a11719-16dd-8388-41a1-171916dd8388",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ef37b24b-1514-3225-ef37-b24b15143225",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5b50b35a-ea30-e293-5b50-b35aea30e293",
+              "name": "Q block -",
+              "full_path": "Handle_Base1/Q block -",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Q block -",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5b50b35a-ea30-e293-5b50-b35aea30e293",
+              "owner_feature": "移除.15",
+              "owner_feature_id": "41a11719-16dd-8388-41a1-171916dd8388",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "bf14e0c2-1fc5-f995-bf14-e0c21fc5f995",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "4802214c-5c6b-7b9b-4802-214c5c6b7b9b",
+      "name": "Circle Axis Body",
+      "full_path": "Handle_Base1/Circle Axis Body",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "b024a414-f4db-7519-b024-a414f4db7519",
+      "name": "移除.14",
+      "full_path": "Handle_Base1/Circle Axis Body/移除.14",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "06c25b86-1e23-6a8a-06c2-5b861e236a8a",
+      "name": "添加.10",
+      "full_path": "Handle_Base1/Circle Axis Body/添加.10",
+      "in_feature_catalog": true
+    },
+    "order": 1622
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Circle Axis Body",
+    "definition_sources": [
+      "boolean_operations"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "实体.68",
+    "first_operand_id": "6b687ddf-d1b2-4828-6b68-7ddfd1b24828",
+    "first_operand_inferred_from_result_body": false,
+    "first_operand_path": "Handle_Base1/Circle Axis Body/移除.14/实体.68",
+    "full_path": "Handle_Base1/Circle Axis Body/移除.15",
+    "id": "41a11719-16dd-8388-41a1-171916dd8388",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ca9e14ec-0683-415a-ca9e-14ec0683415a",
+              "name": "实体.67",
+              "full_path": "Handle_Base1/Circle Axis Body/移除.15/实体.67",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.67",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ca9e14ec-0683-415a-ca9e-14ec0683415a",
+              "owner_feature": "移除.15",
+              "owner_feature_id": "41a11719-16dd-8388-41a1-171916dd8388",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b38c4db5-e2b3-3dd5-b38c-4db5e2b33dd5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "6b687ddf-d1b2-4828-6b68-7ddfd1b24828",
+              "name": "实体.68",
+              "full_path": "Handle_Base1/Circle Axis Body/移除.14/实体.68",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.68",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6b687ddf-d1b2-4828-6b68-7ddfd1b24828",
+              "owner_feature": "移除.15",
+              "owner_feature_id": "41a11719-16dd-8388-41a1-171916dd8388",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ef37b24b-1514-3225-ef37-b24b15143225",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5b50b35a-ea30-e293-5b50-b35aea30e293",
+              "name": "Q block -",
+              "full_path": "Handle_Base1/Q block -",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Q block -",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5b50b35a-ea30-e293-5b50-b35aea30e293",
+              "owner_feature": "移除.15",
+              "owner_feature_id": "41a11719-16dd-8388-41a1-171916dd8388",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "bf14e0c2-1fc5-f995-bf14-e0c21fc5f995",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "interface_available": true,
+    "internal_name": "Remove.15",
+    "name": "移除.15",
+    "next_shape": {
+      "id": "06c25b86-1e23-6a8a-06c2-5b861e236a8a",
+      "name": "添加.10",
+      "full_path": "Handle_Base1/Circle Axis Body/添加.10",
+      "in_feature_catalog": true
+    },
+    "parent": {
+      "id": "4802214c-5c6b-7b9b-4802-214c5c6b7b9b",
+      "name": "Circle Axis Body",
+      "full_path": "Handle_Base1/Circle Axis Body",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "b024a414-f4db-7519-b024-a414f4db7519",
+      "name": "移除.14",
+      "full_path": "Handle_Base1/Circle Axis Body/移除.14",
+      "in_feature_catalog": true
+    },
+    "reconstruction_ready": true,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "移除.15",
+          "type": "Remove",
+          "id": "41a11719-16dd-8388-41a1-171916dd8388",
+          "full_path": "Handle_Base1/Circle Axis Body/移除.15",
+          "body": "Circle Axis Body",
+          "tool_body": "Q block -",
+          "tool_body_path": "Handle_Base1/Q block -",
+          "tool_body_id": "5b50b35a-ea30-e293-5b50-b35aea30e293",
+          "first_operand": "实体.68",
+          "first_operand_path": "Handle_Base1/Circle Axis Body/移除.14/实体.68",
+          "first_operand_id": "6b687ddf-d1b2-4828-6b68-7ddfd1b24828",
+          "second_operand": "实体.72",
+          "second_operand_path": "Handle_Base1/Q block -/拔模.11/实体.72",
+          "second_operand_id": "f9bfb2fd-4bd8-032f-f9bf-b2fd4bd8032f",
+          "interface_available": true,
+          "first_operand_inferred_from_result_body": false,
+          "reconstruction_ready": true,
+          "activity": "true"
+        }
+      }
+    ],
+    "second_operand": "实体.72",
+    "second_operand_id": "f9bfb2fd-4bd8-032f-f9bf-b2fd4bd8032f",
+    "second_operand_path": "Handle_Base1/Q block -/拔模.11/实体.72",
+    "source_visibility": 0,
+    "tool_body": "Q block -",
+    "tool_body_id": "5b50b35a-ea30-e293-5b50-b35aea30e293",
+    "tool_body_path": "Handle_Base1/Q block -",
+    "type": "Remove"
+  },
+  "DEPENDENCIES": [
+    "4802214c-5c6b-7b9b-4802-214c5c6b7b9b",
+    "4e4cdaa3-605e-c33c-4e4c-daa3605ec33c",
+    "5b50b35a-ea30-e293-5b50-b35aea30e293",
+    "b024a414-f4db-7519-b024-a414f4db7519"
+  ],
+  "GEOMETRY": {}
+}

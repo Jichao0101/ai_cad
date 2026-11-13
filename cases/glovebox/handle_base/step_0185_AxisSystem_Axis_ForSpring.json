@@ -1,0 +1,4099 @@
+{
+  "STEP_NUMBER": 185,
+  "ORIGINAL_FEATURE_INDEX": 225,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "bf54365f-ca57-248a-bf54-365fca57248a",
+    "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring",
+    "name": "Axis_ForSpring",
+    "internal_name": "AxisSystem.10",
+    "type": "AxisSystem",
+    "body": "Part",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "69baf402-6a8c-4cd7-69ba-f4026a8c4cd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b4c31c97-fc08-9319-b4c3-1c97fc089319",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "10ec9c57-a0bd-80ff-10ec-9c57a0bd80ff",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f3a87307-2873-8193-f3a8-730728738193",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f3a87307-2873-8193-f3a8-730728738193",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "215e1289-cfcb-0c81-215e-1289cfcb0c81",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "68535e7e-bfb4-8fbd-6853-5e7ebfb48fbd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1c7ae545-2a17-615d-1c7a-e5452a17615d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6e1939f6-2308-ae21-6e19-39f62308ae21",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80577484-2dcc-52ad-8057-74842dcc52ad",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "df33b684-7bce-e315-df33-b6847bcee315",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "020ef324-bee7-043b-020e-f324bee7043b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b655ab08-6973-178c-b655-ab086973178c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b655ab08-6973-178c-b655-ab086973178c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0f144526-d0df-4d5f-0f14-4526d0df4d5f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "fa48cba2-c5e3-97cf-fa48-cba2c5e397cf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "Axis_ForSpring"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "_Elts",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "name": "草图.1",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/草图.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "草图.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f30302b4-add0-f019-f303-02b4add0f019",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a5b2be37-7f70-f3e5-a5b2-be377f70f3e5",
+              "name": "平面.100",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.100",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.100",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a5b2be37-7f70-f3e5-a5b2-be377f70f3e5",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "db8057d8-8013-d941-db80-57d88013d941",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "7c470677-0745-9b6e-7c47-067707459b6e",
+              "name": "平面.75",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.75",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.75",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7c470677-0745-9b6e-7c47-067707459b6e",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "687f34b4-29b1-d62b-687f-34b429b1d62b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "c14bce4a-e9f3-d3df-c14b-ce4ae9f3d3df",
+              "name": "平面.74",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.74",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.74",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "c14bce4a-e9f3-d3df-c14b-ce4ae9f3d3df",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7e11401c-d56b-97cf-7e11-401cd56b97cf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Coord",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "69baf402-6a8c-4cd7-69ba-f4026a8c4cd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b4c31c97-fc08-9319-b4c3-1c97fc089319",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "10ec9c57-a0bd-80ff-10ec-9c57a0bd80ff",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f3a87307-2873-8193-f3a8-730728738193",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f3a87307-2873-8193-f3a8-730728738193",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "215e1289-cfcb-0c81-215e-1289cfcb0c81",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "68535e7e-bfb4-8fbd-6853-5e7ebfb48fbd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1c7ae545-2a17-615d-1c7a-e5452a17615d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6e1939f6-2308-ae21-6e19-39f62308ae21",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80577484-2dcc-52ad-8057-74842dcc52ad",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "df33b684-7bce-e315-df33-b6847bcee315",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "020ef324-bee7-043b-020e-f324bee7043b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b655ab08-6973-178c-b655-ab086973178c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b655ab08-6973-178c-b655-ab086973178c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0f144526-d0df-4d5f-0f14-4526d0df4d5f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "fa48cba2-c5e3-97cf-fa48-cba2c5e397cf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Mode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          632847
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Cur",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+      "name": "Others",
+      "full_path": "Handle_Base1/Construction/Definition Construction/Others",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 225
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "axis": {
+      "origin": [
+        720.33448913401,
+        308.25299139262194,
+        447.00779758845493
+      ],
+      "source": "CATIMf3DAxisSystem.GetMathAxis evaluated frame",
+      "x": [
+        0.806254568840899,
+        0.04698645653303973,
+        -0.589699790677973
+      ],
+      "y": [
+        -0.03792493229667856,
+        0.9988955265204009,
+        0.027738540117020913
+      ],
+      "z": [
+        0.5903518186077427,
+        -6.549701059288536e-11,
+        0.8071460402346845
+      ]
+    },
+    "body": "Part",
+    "definition_available": true,
+    "definition_source": "caa_native_interfaces",
+    "definition_sources": [
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring",
+    "id": "bf54365f-ca57-248a-bf54-365fca57248a",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "69baf402-6a8c-4cd7-69ba-f4026a8c4cd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b4c31c97-fc08-9319-b4c3-1c97fc089319",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "10ec9c57-a0bd-80ff-10ec-9c57a0bd80ff",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f3a87307-2873-8193-f3a8-730728738193",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f3a87307-2873-8193-f3a8-730728738193",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "215e1289-cfcb-0c81-215e-1289cfcb0c81",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "68535e7e-bfb4-8fbd-6853-5e7ebfb48fbd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1c7ae545-2a17-615d-1c7a-e5452a17615d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6e1939f6-2308-ae21-6e19-39f62308ae21",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80577484-2dcc-52ad-8057-74842dcc52ad",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "df33b684-7bce-e315-df33-b6847bcee315",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "020ef324-bee7-043b-020e-f324bee7043b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b655ab08-6973-178c-b655-ab086973178c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b655ab08-6973-178c-b655-ab086973178c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0f144526-d0df-4d5f-0f14-4526d0df4d5f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "fa48cba2-c5e3-97cf-fa48-cba2c5e397cf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "Axis_ForSpring"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "_Elts",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "name": "草图.1",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/草图.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "草图.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f30302b4-add0-f019-f303-02b4add0f019",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a5b2be37-7f70-f3e5-a5b2-be377f70f3e5",
+              "name": "平面.100",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.100",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.100",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a5b2be37-7f70-f3e5-a5b2-be377f70f3e5",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "db8057d8-8013-d941-db80-57d88013d941",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "7c470677-0745-9b6e-7c47-067707459b6e",
+              "name": "平面.75",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.75",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.75",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7c470677-0745-9b6e-7c47-067707459b6e",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "687f34b4-29b1-d62b-687f-34b429b1d62b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "c14bce4a-e9f3-d3df-c14b-ce4ae9f3d3df",
+              "name": "平面.74",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.74",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.74",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "c14bce4a-e9f3-d3df-c14b-ce4ae9f3d3df",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7e11401c-d56b-97cf-7e11-401cd56b97cf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Coord",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e8737fc-5641-4798-5e87-37fc56414798",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "69baf402-6a8c-4cd7-69ba-f4026a8c4cd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e24b9124-280c-de5d-e24b-9124280cde5d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b4c31c97-fc08-9319-b4c3-1c97fc089319",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\原点\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4d1a5e9b-62d7-6faa-4d1a-5e9b62d76faa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "10ec9c57-a0bd-80ff-10ec-9c57a0bd80ff",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f3a87307-2873-8193-f3a8-730728738193",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f3a87307-2873-8193-f3a8-730728738193",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "215e1289-cfcb-0c81-215e-1289cfcb0c81",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "76d3968d-dc6e-6436-76d3-968ddc6e6436",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "68535e7e-bfb4-8fbd-6853-5e7ebfb48fbd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\X 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0234def3-cd62-ea1d-0234-def3cd62ea1d",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1c7ae545-2a17-615d-1c7a-e5452a17615d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "54b13ba3-5ab2-9dfa-54b1-3ba35ab29dfa",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6e1939f6-2308-ae21-6e19-39f62308ae21",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "22a3ed9f-574f-0b57-22a3-ed9f574f0b57",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80577484-2dcc-52ad-8057-74842dcc52ad",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Y 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3a6fcb1f-4877-8e3c-3a6f-cb1f48778e3c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "df33b684-7bce-e315-df33-b6847bcee315",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\X",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "afbf554a-025a-3811-afbf-554a025a3811",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "020ef324-bee7-043b-020e-f324bee7043b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b655ab08-6973-178c-b655-ab086973178c",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Y",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b655ab08-6973-178c-b655-ab086973178c",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0f144526-d0df-4d5f-0f14-4526d0df4d5f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "name": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring/Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Construction\\Definition Construction\\Others\\Axis_ForSpring\\Z 轴\\Z",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a3c0095d-5f96-3e27-a3c0-095d5f963e27",
+              "owner_feature": "Axis_ForSpring",
+              "owner_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "fa48cba2-c5e3-97cf-fa48-cba2c5e397cf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Mode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          632847
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Cur",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "AxisSystem.10",
+    "name": "Axis_ForSpring",
+    "native_definition_available": true,
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+      "name": "Others",
+      "full_path": "Handle_Base1/Construction/Definition Construction/Others",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "bf54365f-ca57-248a-bf54-365fca57248a",
+          "name": "Axis_ForSpring",
+          "full_path": "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring",
+          "axis": {
+            "origin": [
+              720.33448913401,
+              308.25299139262194,
+              447.00779758845493
+            ],
+            "source": "CATIMf3DAxisSystem.GetMathAxis evaluated frame",
+            "x": [
+              0.806254568840899,
+              0.04698645653303973,
+              -0.589699790677973
+            ],
+            "y": [
+              -0.03792493229667856,
+              0.9988955265204009,
+              0.027738540117020913
+            ],
+            "z": [
+              0.5903518186077427,
+              -6.549701059288536e-11,
+              0.8071460402346845
+            ]
+          },
+          "native_definition_available": true,
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "source_visibility": 0,
+    "type": "AxisSystem"
+  },
+  "DEPENDENCIES": [
+    "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Construction/Definition Construction/Others/Axis_ForSpring": {
+      "topology": {
+        "body": "Others",
+        "result_feature": "Axis_ForSpring",
+        "face_count": 3,
+        "edge_count": 0,
+        "vertex_count": 0,
+        "shell_count": 1,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {
+          "Plane": 3
+        },
+        "faces": [
+          {
+            "index": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.8062545688408989,
+                0.046986456533039726,
+                -0.589699790677973
+              ],
+              "axis_v": [
+                -0.03792493229667857,
+                0.9988955265204009,
+                0.027738540117020916
+              ],
+              "origin": [
+                720.33448913401,
+                308.25299139262194,
+                447.00779758845493
+              ],
+              "normal": [
+                0.5903518186077423,
+                -6.549703140956709e-11,
+                0.8071460402346848
+              ]
+            },
+            "bbox_min": [
+              -37204.6978156143,
+              308.15298093070953,
+              -589252.882886277
+            ],
+            "bbox_max": [
+              806975.0033381026,
+              1046190.336055295,
+              28185.6479205019
+            ]
+          },
+          {
+            "index": 2,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                -0.03792493229667855,
+                0.9988955265204008,
+                0.02773854011702091
+              ],
+              "axis_v": [
+                0.5903518186077427,
+                -6.549700712343842e-11,
+                0.8071460402346844
+              ],
+              "origin": [
+                720.33448913401,
+                308.25299139262194,
+                447.00779758845493
+              ],
+              "normal": [
+                0.8062545688408984,
+                0.046986456533039705,
+                -0.5896997906779733
+              ]
+            },
+            "bbox_min": [
+              -37204.69781345528,
+              308.15291590355986,
+              446.907789235126
+            ],
+            "bbox_max": [
+              591072.2531027874,
+              999203.8795217854,
+              835331.6881576471
+            ]
+          },
+          {
+            "index": 3,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.5903518186077427,
+                -6.549701060976076e-11,
+                0.8071460402346844
+              ],
+              "axis_v": [
+                0.8062545688408984,
+                0.04698645653303972,
+                -0.5896997906779733
+              ],
+              "origin": [
+                720.33448913401,
+                308.25299139262194,
+                447.00779758845493
+              ],
+              "normal": [
+                -0.03792493229667856,
+                0.9988955265204008,
+                0.02773854011702092
+              ]
+            },
+            "bbox_min": [
+              720.2344751607328,
+              308.1529254226542,
+              -589252.8828884609
+            ],
+            "bbox_max": [
+              1397326.8219517497,
+              47294.80952490534,
+              807593.1480403492
+            ]
+          }
+        ],
+        "shells": [
+          {
+            "index": 1,
+            "face_count": 3,
+            "face_start": 1,
+            "is_closed": false
+          }
+        ],
+        "loops": [],
+        "edges": [],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 89,
+        "body_name": "Others",
+        "result_name": "Axis_ForSpring",
+        "source_feature_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/Others",
+        "result_id": "399a424e-3291-ac76-399a-424e3291ac76",
+        "face_count": 3,
+        "edge_count": 9,
+        "faces": [
+          {
+            "id": 0,
+            "cgm_tag": 7576038,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.11.2(E,2C92,1)0.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.8062545688408989,
+                0.046986456533039726,
+                -0.589699790677973
+              ],
+              "axis_v": [
+                -0.03792493229667857,
+                0.9988955265204009,
+                0.027738540117020916
+              ],
+              "origin": [
+                720.33448913401,
+                308.25299139262194,
+                447.00779758845493
+              ],
+              "normal": [
+                0.5903518186077423,
+                -6.549703140956709e-11,
+                0.8071460402346848
+              ]
+            },
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 0,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          125000,
+                          1.8189894035458565e-12
+                        ],
+                        [
+                          250000,
+                          3.637978807091713e-12
+                        ],
+                        [
+                          375000,
+                          5.4569682106375694e-12
+                        ],
+                        [
+                          500000,
+                          7.275957614183426e-12
+                        ],
+                        [
+                          625000,
+                          9.094947017729282e-12
+                        ],
+                        [
+                          750000,
+                          1.0913936421275139e-11
+                        ],
+                        [
+                          875000,
+                          1.2732925824820995e-11
+                        ],
+                        [
+                          1000000,
+                          1.4551915228366852e-11
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            0,
+                            0,
+                            1
+                          ],
+                          [
+                            1000000,
+                            1.4551915228366852e-11,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 1,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": 1.4551915228366852e-11,
+                      "end_parameter": 1000000,
+                      "uv_samples": [
+                        [
+                          1000000,
+                          1.4551915228366852e-11
+                        ],
+                        [
+                          1000000,
+                          125000.00000000001
+                        ],
+                        [
+                          1000000,
+                          250000
+                        ],
+                        [
+                          1000000,
+                          375000
+                        ],
+                        [
+                          1000000,
+                          500000
+                        ],
+                        [
+                          1000000,
+                          625000
+                        ],
+                        [
+                          1000000,
+                          750000
+                        ],
+                        [
+                          1000000,
+                          875000
+                        ],
+                        [
+                          1000000,
+                          1000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          1.4551915228366852e-11,
+                          1000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1000000,
+                            1.4551915228366852e-11,
+                            1
+                          ],
+                          [
+                            1000000,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 2,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          1000000,
+                          1000000
+                        ],
+                        [
+                          875000,
+                          1000000
+                        ],
+                        [
+                          750000,
+                          1000000
+                        ],
+                        [
+                          625000,
+                          1000000
+                        ],
+                        [
+                          500000,
+                          1000000
+                        ],
+                        [
+                          375000,
+                          1000000
+                        ],
+                        [
+                          250000,
+                          1000000
+                        ],
+                        [
+                          125000,
+                          1000000
+                        ],
+                        [
+                          0,
+                          1000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1000000,
+                            1000000,
+                            1
+                          ],
+                          [
+                            0,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 3,
+                    "side": -1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          1.5916157281026244e-12,
+                          125000
+                        ],
+                        [
+                          3.183231456205249e-12,
+                          250000
+                        ],
+                        [
+                          4.774847184307873e-12,
+                          375000
+                        ],
+                        [
+                          6.366462912410498e-12,
+                          500000
+                        ],
+                        [
+                          7.958078640513122e-12,
+                          625000
+                        ],
+                        [
+                          9.549694368615746e-12,
+                          750000
+                        ],
+                        [
+                          1.1141310096718371e-11,
+                          875000
+                        ],
+                        [
+                          1.2732925824820995e-11,
+                          1000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            0,
+                            0,
+                            1
+                          ],
+                          [
+                            1.2732925824820995e-11,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              -37204.6978156143,
+              308.15298093070953,
+              -589252.882886277
+            ],
+            "bbox_max": [
+              806975.0033381026,
+              1046190.336055295,
+              28185.6479205019
+            ]
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7576053,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.11.2(E,2C92,2)0.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                -0.03792493229667855,
+                0.9988955265204008,
+                0.02773854011702091
+              ],
+              "axis_v": [
+                0.5903518186077427,
+                -6.549700712343842e-11,
+                0.8071460402346844
+              ],
+              "origin": [
+                720.33448913401,
+                308.25299139262194,
+                447.00779758845493
+              ],
+              "normal": [
+                0.8062545688408984,
+                0.046986456533039705,
+                -0.5896997906779733
+              ]
+            },
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 3,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 499999.9999999999,
+                      "uv_samples": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          125000,
+                          -4.547473508864641e-13
+                        ],
+                        [
+                          249999.99999999997,
+                          -9.094947017729282e-13
+                        ],
+                        [
+                          374999.99999999994,
+                          -1.3642420526593922e-12
+                        ],
+                        [
+                          499999.99999999994,
+                          -1.8189894035458563e-12
+                        ],
+                        [
+                          625000,
+                          -2.27373675443232e-12
+                        ],
+                        [
+                          749999.9999999999,
+                          -2.7284841053187843e-12
+                        ],
+                        [
+                          874999.9999999999,
+                          -3.1832314562052484e-12
+                        ],
+                        [
+                          999999.9999999999,
+                          -3.637978807091712e-12
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            0,
+                            0,
+                            1
+                          ],
+                          [
+                            1000000,
+                            -3.637978807091713e-12,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 4,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -3.637978807091713e-12,
+                      "end_parameter": 999999.9999999998,
+                      "uv_samples": [
+                        [
+                          1000000,
+                          -3.637978807091713e-12
+                        ],
+                        [
+                          1000000,
+                          124999.99999999997
+                        ],
+                        [
+                          1000000,
+                          249999.99999999994
+                        ],
+                        [
+                          1000000,
+                          374999.9999999999
+                        ],
+                        [
+                          1000000,
+                          499999.9999999999
+                        ],
+                        [
+                          1000000,
+                          624999.9999999999
+                        ],
+                        [
+                          1000000,
+                          749999.9999999998
+                        ],
+                        [
+                          1000000,
+                          874999.9999999998
+                        ],
+                        [
+                          1000000,
+                          999999.9999999998
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -3.637978807091713e-12,
+                          999999.9999999998
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1000000,
+                            -3.637978807091713e-12,
+                            1
+                          ],
+                          [
+                            1000000,
+                            999999.9999999998,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 5,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          1000000,
+                          999999.9999999998
+                        ],
+                        [
+                          875000,
+                          999999.9999999998
+                        ],
+                        [
+                          750000,
+                          999999.9999999998
+                        ],
+                        [
+                          625000,
+                          999999.9999999999
+                        ],
+                        [
+                          500000,
+                          999999.9999999999
+                        ],
+                        [
+                          375000,
+                          999999.9999999999
+                        ],
+                        [
+                          250000,
+                          1000000
+                        ],
+                        [
+                          125000,
+                          1000000
+                        ],
+                        [
+                          0,
+                          1000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1000000,
+                            999999.9999999998,
+                            1
+                          ],
+                          [
+                            0,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 6,
+                    "side": -1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -4.547473508864641e-13,
+                          125000
+                        ],
+                        [
+                          -9.094947017729282e-13,
+                          250000
+                        ],
+                        [
+                          -1.3642420526593924e-12,
+                          375000
+                        ],
+                        [
+                          -1.8189894035458565e-12,
+                          500000
+                        ],
+                        [
+                          -2.2737367544323206e-12,
+                          625000
+                        ],
+                        [
+                          -2.7284841053187847e-12,
+                          750000
+                        ],
+                        [
+                          -3.183231456205249e-12,
+                          875000
+                        ],
+                        [
+                          -3.637978807091713e-12,
+                          1000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            0,
+                            0,
+                            1
+                          ],
+                          [
+                            -3.637978807091713e-12,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              -37204.69781345528,
+              308.15291590355986,
+              446.907789235126
+            ],
+            "bbox_max": [
+              591072.2531027874,
+              999203.8795217854,
+              835331.6881576471
+            ]
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7576065,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.11.2(E,2C92,3)0.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.5903518186077427,
+                -6.549701060976076e-11,
+                0.8071460402346844
+              ],
+              "axis_v": [
+                0.8062545688408984,
+                0.04698645653303972,
+                -0.5896997906779733
+              ],
+              "origin": [
+                720.33448913401,
+                308.25299139262194,
+                447.00779758845493
+              ],
+              "normal": [
+                -0.03792493229667856,
+                0.9988955265204008,
+                0.02773854011702092
+              ]
+            },
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 6,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          125000,
+                          5.093170329928398e-11
+                        ],
+                        [
+                          250000,
+                          1.0186340659856796e-10
+                        ],
+                        [
+                          375000,
+                          1.5279510989785194e-10
+                        ],
+                        [
+                          500000,
+                          2.0372681319713593e-10
+                        ],
+                        [
+                          625000,
+                          2.546585164964199e-10
+                        ],
+                        [
+                          750000,
+                          3.055902197957039e-10
+                        ],
+                        [
+                          875000,
+                          3.5652192309498787e-10
+                        ],
+                        [
+                          1000000,
+                          4.0745362639427185e-10
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            0,
+                            0,
+                            1
+                          ],
+                          [
+                            1000000,
+                            4.0745362639427185e-10,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 7,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": 4.0745362639427185e-10,
+                      "end_parameter": 1000000.0000000007,
+                      "uv_samples": [
+                        [
+                          1000000,
+                          4.0745362639427185e-10
+                        ],
+                        [
+                          1000000,
+                          125000.00000000044
+                        ],
+                        [
+                          1000000,
+                          250000.00000000047
+                        ],
+                        [
+                          1000000,
+                          375000.00000000047
+                        ],
+                        [
+                          1000000,
+                          500000.0000000006
+                        ],
+                        [
+                          1000000,
+                          625000.0000000006
+                        ],
+                        [
+                          1000000,
+                          750000.0000000006
+                        ],
+                        [
+                          1000000,
+                          875000.0000000006
+                        ],
+                        [
+                          1000000,
+                          1000000.0000000007
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          4.0745362639427185e-10,
+                          1000000.0000000007
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1000000,
+                            4.0745362639427185e-10,
+                            1
+                          ],
+                          [
+                            1000000,
+                            1000000.0000000007,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 8,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 500000,
+                      "uv_samples": [
+                        [
+                          1000000.0000000006,
+                          1000000.0000000007
+                        ],
+                        [
+                          875000.0000000006,
+                          1000000.0000000006
+                        ],
+                        [
+                          750000.0000000006,
+                          1000000.0000000005
+                        ],
+                        [
+                          625000.0000000006,
+                          1000000.0000000005
+                        ],
+                        [
+                          500000.0000000006,
+                          1000000.0000000003
+                        ],
+                        [
+                          375000.0000000006,
+                          1000000.0000000002
+                        ],
+                        [
+                          250000.00000000058,
+                          1000000.0000000002
+                        ],
+                        [
+                          125000.00000000058,
+                          1000000.0000000001
+                        ],
+                        [
+                          5.820766091346741e-10,
+                          1000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1000000.0000000006,
+                            1000000.0000000007,
+                            1
+                          ],
+                          [
+                            5.820766091346741e-10,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 0,
+                    "side": -1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -500000,
+                      "end_parameter": 499999.9999999999,
+                      "uv_samples": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          6.548361852765083e-11,
+                          125000
+                        ],
+                        [
+                          1.3096723705530164e-10,
+                          249999.99999999997
+                        ],
+                        [
+                          1.9645085558295247e-10,
+                          374999.99999999994
+                        ],
+                        [
+                          2.619344741106033e-10,
+                          499999.99999999994
+                        ],
+                        [
+                          3.2741809263825417e-10,
+                          625000
+                        ],
+                        [
+                          3.9290171116590495e-10,
+                          749999.9999999999
+                        ],
+                        [
+                          4.583853296935558e-10,
+                          874999.9999999999
+                        ],
+                        [
+                          5.238689482212067e-10,
+                          999999.9999999999
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -500000,
+                          500000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            0,
+                            0,
+                            1
+                          ],
+                          [
+                            5.238689482212067e-10,
+                            1000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              720.2344751607328,
+              308.1529254226542,
+              -589252.8828884609
+            ],
+            "bbox_max": [
+              1397326.8219517497,
+              47294.80952490534,
+              807593.1480403492
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7576013,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,2C92,1)0.21.14.S.11.2(E,2C92,3)0.0.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 1000000.0000000001,
+            "start_vertex": [
+              720.3344891340239,
+              308.2529913926228,
+              447.00779758853605
+            ],
+            "end_vertex": [
+              806974.903330033,
+              47294.70952443236,
+              -589252.7828803845
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -500000.00000000006,
+              "end_parameter": 500000.00000000006,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "Line",
+                  "definition_available": true,
+                  "root": [
+                    403847.6189095835,
+                    23801.48125791249,
+                    -294402.887541398
+                  ],
+                  "direction": [
+                    0.8062545688408989,
+                    0.046986456533039726,
+                    -0.589699790677973
+                  ]
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        720.33448913401,
+                        308.25299139262194,
+                        447.00779758845493,
+                        1
+                      ],
+                      [
+                        806974.9033300328,
+                        47294.70952443236,
+                        -589252.7828803845,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 2,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        720.33448913401,
+                        308.25299139262194,
+                        447.00779758845493,
+                        1
+                      ],
+                      [
+                        806974.9033300332,
+                        47294.70952443234,
+                        -589252.7828803841,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0,
+              2
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7576014,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2C92,4)0.0.0.1.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 999999.9999999999,
+            "start_vertex": [
+              806974.903330033,
+              47294.70952443236,
+              -589252.7828803845
+            ],
+            "end_vertex": [
+              769049.9710333543,
+              1046190.2360448331,
+              -561514.2427633635
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 1.4551915228366852e-11,
+              "end_parameter": 1000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      1.4551915228366852e-11,
+                      1000000
+                    ],
+                    "control_points": [
+                      [
+                        806974.9033300328,
+                        47294.70952443236,
+                        -589252.7828803845,
+                        1
+                      ],
+                      [
+                        769049.9710333543,
+                        1046190.2360448331,
+                        -561514.2427633635,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7576015,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2C92,5)0.0.0.1.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 1000000,
+            "start_vertex": [
+              769049.9710333543,
+              1046190.2360448331,
+              -561514.2427633635
+            ],
+            "end_vertex": [
+              -37204.597807544546,
+              999203.7795117934,
+              28185.547914609364
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -500000,
+              "end_parameter": 500000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        769049.9710333543,
+                        1046190.2360448331,
+                        -561514.2427633635,
+                        1
+                      ],
+                      [
+                        -37204.597807544546,
+                        999203.7795117934,
+                        28185.547914609364,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 3,
+            "cgm_tag": 7576016,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,2C92,2)0.21.14.S.11.2(E,2C92,1)0.0.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 1000000,
+            "start_vertex": [
+              720.3344891340239,
+              308.2529913926228,
+              447.00779758853605
+            ],
+            "end_vertex": [
+              -37204.597807544546,
+              999203.7795117934,
+              28185.547914609364
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -500000.00000000006,
+              "end_parameter": 500000.00000000006,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "Line",
+                  "definition_available": true,
+                  "root": [
+                    -18242.131659205268,
+                    499756.0162515931,
+                    14316.27785609891
+                  ],
+                  "direction": [
+                    -0.03792493229667855,
+                    0.9988955265204008,
+                    0.02773854011702091
+                  ]
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        720.33448913401,
+                        308.25299139262194,
+                        447.00779758845493,
+                        1
+                      ],
+                      [
+                        -37204.59780754453,
+                        999203.7795117934,
+                        28185.547914609357,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 2,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        720.33448913401,
+                        308.25299139262194,
+                        447.00779758845493,
+                        1
+                      ],
+                      [
+                        -37204.597807544546,
+                        999203.7795117934,
+                        28185.54791460936,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              1,
+              0
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 4,
+            "cgm_tag": 7576017,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2C92,6)0.0.0.1.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 999999.9999999997,
+            "start_vertex": [
+              -37204.597807544546,
+              999203.7795117934,
+              28185.547914609364
+            ],
+            "end_vertex": [
+              553147.220800198,
+              999203.7794462964,
+              835331.5881492936
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -3.637978807091713e-12,
+              "end_parameter": 999999.9999999998,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -3.637978807091713e-12,
+                      999999.9999999998
+                    ],
+                    "control_points": [
+                      [
+                        -37204.597807544546,
+                        999203.7795117934,
+                        28185.54791460936,
+                        1
+                      ],
+                      [
+                        553147.220800198,
+                        999203.7794462964,
+                        835331.5881492936,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              1
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 5,
+            "cgm_tag": 7576018,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2C92,7)0.0.0.1.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 999999.9999999999,
+            "start_vertex": [
+              553147.220800198,
+              999203.7794462964,
+              835331.5881492936
+            ],
+            "end_vertex": [
+              591072.1530968767,
+              308.2529258956113,
+              807593.0480322728
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -500000,
+              "end_parameter": 500000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        553147.220800198,
+                        999203.7794462964,
+                        835331.5881492936,
+                        1
+                      ],
+                      [
+                        591072.1530968767,
+                        308.2529258956113,
+                        807593.0480322728,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              1
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 6,
+            "cgm_tag": 7576019,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,2C92,3)0.21.14.S.11.2(E,2C92,2)0.0.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 999999.9999999999,
+            "start_vertex": [
+              720.3344891340239,
+              308.2529913926228,
+              447.00779758853605
+            ],
+            "end_vertex": [
+              591072.1530968767,
+              308.2529258956113,
+              807593.0480322728
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -500000,
+              "end_parameter": 500000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "Line",
+                  "definition_available": true,
+                  "root": [
+                    295896.24379300536,
+                    308.25295864411663,
+                    404020.0279149307
+                  ],
+                  "direction": [
+                    0.5903518186077427,
+                    -6.549701060976076e-11,
+                    0.8071460402346844
+                  ]
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        720.33448913401,
+                        308.25299139262194,
+                        447.00779758845493,
+                        1
+                      ],
+                      [
+                        591072.1530968767,
+                        308.2529258956077,
+                        807593.0480322728,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 2,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        720.33448913401,
+                        308.25299139262194,
+                        447.00779758845493,
+                        1
+                      ],
+                      [
+                        591072.153096877,
+                        308.2529258956305,
+                        807593.0480322726,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              2,
+              1
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 7,
+            "cgm_tag": 7576020,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2C92,8)0.0.0.1.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 1000000.0000000002,
+            "start_vertex": [
+              591072.1530968767,
+              308.2529258956113,
+              807593.0480322728
+            ],
+            "end_vertex": [
+              1397326.721937776,
+              47294.70945893537,
+              217893.25735429942
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 4.0745362639427185e-10,
+              "end_parameter": 1000000.0000000007,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      4.0745362639427185e-10,
+                      1000000.0000000007
+                    ],
+                    "control_points": [
+                      [
+                        591072.153096877,
+                        308.2529258956305,
+                        807593.0480322726,
+                        1
+                      ],
+                      [
+                        1397326.721937776,
+                        47294.70945893537,
+                        217893.25735429942,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              2
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 8,
+            "cgm_tag": 7576021,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2C92,9)0.0.0.1.",
+              "label_context_id": "bf54365f-ca57-248a-bf54-365fca57248a",
+              "initial_feature_id": "bf54365f-ca57-248a-bf54-365fca57248a"
+            },
+            "generated_by_verified": false,
+            "label": "Others",
+            "generated_by": "Others",
+            "generated_by_id": "d85ac4ca-a87b-8d06-d85a-c4caa87b8d06",
+            "length": 999999.9999999999,
+            "start_vertex": [
+              1397326.721937776,
+              47294.70945893537,
+              217893.25735429942
+            ],
+            "end_vertex": [
+              806974.903330033,
+              47294.70952443236,
+              -589252.7828803845
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -500000,
+              "end_parameter": 500000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -500000,
+                      500000
+                    ],
+                    "control_points": [
+                      [
+                        1397326.7219377765,
+                        47294.70945893537,
+                        217893.2573542999,
+                        1
+                      ],
+                      [
+                        806974.9033300332,
+                        47294.70952443234,
+                        -589252.782880384,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              2
+            ],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

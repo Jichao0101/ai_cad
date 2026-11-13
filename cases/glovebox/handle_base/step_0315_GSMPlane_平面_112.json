@@ -1,0 +1,1147 @@
+{
+  "STEP_NUMBER": 315,
+  "ORIGINAL_FEATURE_INDEX": 465,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "26007e27-1812-febc-2600-7e271812febc",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112",
+    "name": "平面.112",
+    "internal_name": "GSMPlane.112",
+    "type": "GSMPlane",
+    "body": "Part",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "59468a36-f211-7999-5946-8a36f2117999",
+              "name": "MFparameter.526",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112/MFparameter.526",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.526",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "59468a36-f211-7999-5946-8a36f2117999",
+              "owner_feature": "平面.112",
+              "owner_feature_id": "26007e27-1812-febc-2600-7e271812febc",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "311ab98f-f0ed-3f8f-311a-b98ff0ed3f8f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          9
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TypeObject",
+        "value_type": 26,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "f6c81050-c517-4c94-f6c8-1050c5174c94",
+              "name": "平面角度.2",
+              "full_path": "平面角度.2",
+              "in_feature_catalog": false
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面角度.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f6c81050-c517-4c94-f6c8-1050c5174c94",
+              "owner_feature": "平面.112",
+              "owner_feature_id": "26007e27-1812-febc-2600-7e271812febc",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "03653d34-7556-e801-0365-3d347556e801",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "54330208-8fb2-874c-5433-02088fb2874c",
+      "name": "06-Surport_Geometry_Base",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 465
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Part",
+    "definition_available": true,
+    "definition_source": "caa_native_interfaces",
+    "definition_sources": [
+      "gsm_features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112",
+    "gsm_category": "GSMPlane",
+    "id": "26007e27-1812-febc-2600-7e271812febc",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "59468a36-f211-7999-5946-8a36f2117999",
+              "name": "MFparameter.526",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112/MFparameter.526",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.526",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "59468a36-f211-7999-5946-8a36f2117999",
+              "owner_feature": "平面.112",
+              "owner_feature_id": "26007e27-1812-febc-2600-7e271812febc",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "311ab98f-f0ed-3f8f-311a-b98ff0ed3f8f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          9
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TypeObject",
+        "value_type": 26,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "f6c81050-c517-4c94-f6c8-1050c5174c94",
+              "name": "平面角度.2",
+              "full_path": "平面角度.2",
+              "in_feature_catalog": false
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面角度.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f6c81050-c517-4c94-f6c8-1050c5174c94",
+              "owner_feature": "平面.112",
+              "owner_feature_id": "26007e27-1812-febc-2600-7e271812febc",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "03653d34-7556-e801-0365-3d347556e801",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 1,
+    "internal_name": "GSMPlane.112",
+    "missing_reason": "",
+    "name": "平面.112",
+    "native_definition_available": true,
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_plane": {
+      "normal": [
+        0.3023622285573086,
+        0.9271838545667875,
+        -0.2211496836365184
+      ],
+      "origin_mm": [
+        731.6302502853796,
+        318.5758995014716,
+        431.3935744939372
+      ],
+      "source": "CAA SPA.GetPlane evaluated frame"
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 207,
+    "parameter_count": 0,
+    "params": [
+      {
+        "name": "MFparameter.526",
+        "kind": "reference",
+        "late_type": "MFparameter",
+        "id": "1bc04bff-3ad5-046a-1bc0-4bff3ad5046a"
+      }
+    ],
+    "parent": {
+      "id": "54330208-8fb2-874c-5433-02088fb2874c",
+      "name": "06-Surport_Geometry_Base",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 207,
+          "name": "平面.112",
+          "type": "GSMPlane",
+          "gsm_category": "GSMPlane",
+          "body": "Part",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112",
+          "id": "26007e27-1812-febc-2600-7e271812febc",
+          "parameter_count": 0,
+          "input_count": 1,
+          "definition_available": true,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "",
+          "params": [
+            {
+              "name": "MFparameter.526",
+              "kind": "reference",
+              "late_type": "MFparameter",
+              "id": "1bc04bff-3ad5-046a-1bc0-4bff3ad5046a"
+            }
+          ],
+          "selections": []
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "26007e27-1812-febc-2600-7e271812febc",
+          "name": "平面.112",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112",
+          "native_plane": {
+            "normal": [
+              0.3023622285573086,
+              0.9271838545667875,
+              -0.2211496836365184
+            ],
+            "origin_mm": [
+              731.6302502853796,
+              318.5758995014716,
+              431.3935744939372
+            ],
+            "source": "CAA SPA.GetPlane evaluated frame"
+          },
+          "native_definition_available": true,
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "selections": [],
+    "source_visibility": 1,
+    "type": "GSMPlane"
+  },
+  "DEPENDENCIES": [
+    "54330208-8fb2-874c-5433-02088fb2874c"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.112": {
+      "topology": {
+        "body": "06-Surport_Geometry_Base",
+        "result_feature": "平面.112",
+        "face_count": 1,
+        "edge_count": 0,
+        "vertex_count": 0,
+        "shell_count": 1,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {
+          "Plane": 1
+        },
+        "faces": [
+          {
+            "index": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.9531930983498872,
+                -0.2941118405436286,
+                0.07015085537740283
+              ],
+              "axis_v": [
+                0,
+                -0.23200932111170328,
+                -0.9727135626263707
+              ],
+              "origin": [
+                731.6302502853796,
+                318.5758995014716,
+                431.3935744939372
+              ],
+              "normal": [
+                0.30236222855730854,
+                0.9271838545667874,
+                -0.22114968363651838
+              ]
+            },
+            "bbox_min": [
+              -9531199.453343911,
+              -5260893.140706433,
+              -10428212.886567533
+            ],
+            "bbox_max": [
+              9532662.713844484,
+              5261530.292505436,
+              10429075.673716523
+            ]
+          }
+        ],
+        "shells": [
+          {
+            "index": 1,
+            "face_count": 1,
+            "face_start": 1,
+            "is_closed": false
+          }
+        ],
+        "loops": [],
+        "edges": [],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 214,
+        "body_name": "06-Surport_Geometry_Base",
+        "result_name": "平面.112",
+        "source_feature_id": "54330208-8fb2-874c-5433-02088fb2874c",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base",
+        "result_id": "3e4e0fb9-36fb-accd-3e4e-0fb936fbaccd",
+        "face_count": 1,
+        "edge_count": 4,
+        "faces": [
+          {
+            "id": 0,
+            "cgm_tag": 7493624,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.27.2(E,2FD6(E,2EE5,3)(E,5CC9))0.",
+              "label_context_id": "26007e27-1812-febc-2600-7e271812febc",
+              "initial_feature_id": "26007e27-1812-febc-2600-7e271812febc"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.9531930983498872,
+                -0.2941118405436286,
+                0.07015085537740283
+              ],
+              "axis_v": [
+                0,
+                -0.23200932111170328,
+                -0.9727135626263707
+              ],
+              "origin": [
+                731.6302502853796,
+                318.5758995014716,
+                431.3935744939372
+              ],
+              "normal": [
+                0.30236222855730854,
+                0.9271838545667874,
+                -0.22114968363651838
+              ]
+            },
+            "label": "06-Surport_Geometry_Base",
+            "generated_by": "06-Surport_Geometry_Base",
+            "generated_by_id": "54330208-8fb2-874c-5433-02088fb2874c",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 0,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          -10000000,
+                          -10000000
+                        ],
+                        [
+                          -7500000,
+                          -10000000
+                        ],
+                        [
+                          -5000000,
+                          -10000000
+                        ],
+                        [
+                          -2500000,
+                          -10000000
+                        ],
+                        [
+                          0,
+                          -10000000
+                        ],
+                        [
+                          2500000,
+                          -10000000
+                        ],
+                        [
+                          5000000,
+                          -10000000
+                        ],
+                        [
+                          7500000,
+                          -10000000
+                        ],
+                        [
+                          10000000,
+                          -10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            -10000000,
+                            -10000000,
+                            1
+                          ],
+                          [
+                            10000000,
+                            -10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 1,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          10000000,
+                          -10000000
+                        ],
+                        [
+                          10000000,
+                          -7500000
+                        ],
+                        [
+                          10000000,
+                          -5000000
+                        ],
+                        [
+                          10000000,
+                          -2500000
+                        ],
+                        [
+                          10000000,
+                          0
+                        ],
+                        [
+                          10000000,
+                          2500000
+                        ],
+                        [
+                          10000000,
+                          5000000
+                        ],
+                        [
+                          10000000,
+                          7500000
+                        ],
+                        [
+                          10000000,
+                          10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            10000000,
+                            -10000000,
+                            1
+                          ],
+                          [
+                            10000000,
+                            10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 2,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          10000000,
+                          10000000
+                        ],
+                        [
+                          7500000,
+                          10000000
+                        ],
+                        [
+                          5000000,
+                          10000000
+                        ],
+                        [
+                          2500000,
+                          10000000
+                        ],
+                        [
+                          0,
+                          10000000
+                        ],
+                        [
+                          -2500000,
+                          10000000
+                        ],
+                        [
+                          -5000000,
+                          10000000
+                        ],
+                        [
+                          -7500000,
+                          10000000
+                        ],
+                        [
+                          -10000000,
+                          10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            10000000,
+                            10000000,
+                            1
+                          ],
+                          [
+                            -10000000,
+                            10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 3,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          -10000000,
+                          10000000
+                        ],
+                        [
+                          -10000000,
+                          7500000
+                        ],
+                        [
+                          -10000000,
+                          5000000
+                        ],
+                        [
+                          -10000000,
+                          2500000
+                        ],
+                        [
+                          -10000000,
+                          0
+                        ],
+                        [
+                          -10000000,
+                          -2500000
+                        ],
+                        [
+                          -10000000,
+                          -5000000
+                        ],
+                        [
+                          -10000000,
+                          -7500000
+                        ],
+                        [
+                          -10000000,
+                          -10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            -10000000,
+                            10000000,
+                            1
+                          ],
+                          [
+                            -10000000,
+                            -10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              -9531199.453343911,
+              -5260893.140706433,
+              -10428212.886567533
+            ],
+            "bbox_max": [
+              9532662.713844484,
+              5261530.292505436,
+              10429075.673716523
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7493628,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.27.2(E,2FD6(E,2EE5,3)(E,5CC9))0.0.0.1.",
+              "label_context_id": "26007e27-1812-febc-2600-7e271812febc",
+              "initial_feature_id": "26007e27-1812-febc-2600-7e271812febc"
+            },
+            "generated_by_verified": false,
+            "label": "06-Surport_Geometry_Base",
+            "generated_by": "06-Surport_Geometry_Base",
+            "generated_by_id": "54330208-8fb2-874c-5433-02088fb2874c",
+            "length": 19999999.999999996,
+            "start_vertex": [
+              -9531199.353248585,
+              5261530.19245282,
+              9026058.466064174
+            ],
+            "end_vertex": [
+              9532662.613749158,
+              -620706.6184197511,
+              10429075.57361223
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        -9531199.353248585,
+                        5261530.19245282,
+                        9026058.466064174,
+                        1
+                      ],
+                      [
+                        9532662.613749158,
+                        -620706.6184197511,
+                        10429075.57361223,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7493634,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.27.2(E,2FD6(E,2EE5,3)(E,5CC9))0.0.0.1.",
+              "label_context_id": "26007e27-1812-febc-2600-7e271812febc",
+              "initial_feature_id": "26007e27-1812-febc-2600-7e271812febc"
+            },
+            "generated_by_verified": false,
+            "label": "06-Surport_Geometry_Base",
+            "generated_by": "06-Surport_Geometry_Base",
+            "generated_by_id": "54330208-8fb2-874c-5433-02088fb2874c",
+            "length": 20000000,
+            "start_vertex": [
+              9532662.613749158,
+              -620706.6184197511,
+              10429075.57361223
+            ],
+            "end_vertex": [
+              9532662.613749158,
+              -5260893.040653817,
+              -9025195.678915186
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        9532662.613749158,
+                        -620706.6184197511,
+                        10429075.57361223,
+                        1
+                      ],
+                      [
+                        9532662.613749158,
+                        -5260893.040653817,
+                        -9025195.678915186,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7493640,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.27.2(E,2FD6(E,2EE5,3)(E,5CC9))0.0.0.1.",
+              "label_context_id": "26007e27-1812-febc-2600-7e271812febc",
+              "initial_feature_id": "26007e27-1812-febc-2600-7e271812febc"
+            },
+            "generated_by_verified": false,
+            "label": "06-Surport_Geometry_Base",
+            "generated_by": "06-Surport_Geometry_Base",
+            "generated_by_id": "54330208-8fb2-874c-5433-02088fb2874c",
+            "length": 19999999.999999996,
+            "start_vertex": [
+              9532662.613749158,
+              -5260893.040653817,
+              -9025195.678915186
+            ],
+            "end_vertex": [
+              -9531199.353248585,
+              621343.7702187537,
+              -10428212.786463242
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        9532662.613749158,
+                        -5260893.040653817,
+                        -9025195.678915186,
+                        1
+                      ],
+                      [
+                        -9531199.353248585,
+                        621343.7702187537,
+                        -10428212.786463242,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 3,
+            "cgm_tag": 7493646,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.27.2(E,2FD6(E,2EE5,3)(E,5CC9))0.0.0.1.",
+              "label_context_id": "26007e27-1812-febc-2600-7e271812febc",
+              "initial_feature_id": "26007e27-1812-febc-2600-7e271812febc"
+            },
+            "generated_by_verified": false,
+            "label": "06-Surport_Geometry_Base",
+            "generated_by": "06-Surport_Geometry_Base",
+            "generated_by_id": "54330208-8fb2-874c-5433-02088fb2874c",
+            "length": 20000000,
+            "start_vertex": [
+              -9531199.353248585,
+              621343.7702187537,
+              -10428212.786463242
+            ],
+            "end_vertex": [
+              -9531199.353248585,
+              5261530.19245282,
+              9026058.466064174
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        -9531199.353248585,
+                        621343.7702187537,
+                        -10428212.786463242,
+                        1
+                      ],
+                      [
+                        -9531199.353248585,
+                        5261530.19245282,
+                        9026058.466064174,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

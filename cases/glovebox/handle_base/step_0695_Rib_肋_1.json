@@ -1,0 +1,1525 @@
+{
+  "STEP_NUMBER": 695,
+  "ORIGINAL_FEATURE_INDEX": 1235,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+    "full_path": "Handle_Base1/几何体.114/肋.1",
+    "name": "肋.1",
+    "internal_name": "Rib.1",
+    "type": "Rib",
+    "body": "几何体.114",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "6f1a473e-3655-1abe-6f1a-473e36551abe",
+              "name": "实体.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/实体.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6f1a473e-3655-1abe-6f1a-473e36551abe",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e0089ae6-5c3e-f999-e008-9ae65c3ef999",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "name": "SimpleLimit.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "04270ed6-40fb-6115-0427-0ed640fb6115",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "name": "SimpleLimit.2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "9682b79f-156c-8379-9682-b79f156c8379",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "88916598-e771-b96c-8891-6598e771b96c",
+              "name": "Profile.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "88916598-e771-b96c-8891-6598e771b96c",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ff6097fd-754b-aeef-ff60-97fd754baeef",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "name": "CenterCurve.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/CenterCurve.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CenterCurve.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80d8eee7-0178-4f27-80d8-eee701784f27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "name": "Axis1.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Axis1.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Axis1.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "447fa070-c2d1-a05d-447f-a070c2d1a05d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f82a1dc4-ac84-4f03-f82a-1dc4ac844f03",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b19c2beb-5024-9907-b19c-2beb50249907",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AnchorDirReversed",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Direction",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "name": "Axis1.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Axis1.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Axis1.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "447fa070-c2d1-a05d-447f-a070c2d1a05d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "EndLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "name": "SimpleLimit.2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "9682b79f-156c-8379-9682-b79f156c8379",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ExtendedCenterCurve",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "name": "CenterCurve.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/CenterCurve.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CenterCurve.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80d8eee7-0178-4f27-80d8-eee701784f27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ExtendedProfile",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "88916598-e771-b96c-8891-6598e771b96c",
+              "name": "Profile.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "88916598-e771-b96c-8891-6598e771b96c",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ff6097fd-754b-aeef-ff60-97fd754baeef",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MoveProfileToPath",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ProfileNormalReversed",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "StartLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "name": "SimpleLimit.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "04270ed6-40fb-6115-0427-0ed640fb6115",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SweepTolerance",
+        "value_type": 7,
+        "is_list": false,
+        "values": [
+          -1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f82a1dc4-ac84-4f03-f82a-1dc4ac844f03",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b19c2beb-5024-9907-b19c-2beb50249907",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TwistReduction",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "20aaf572-75a0-8cba-20aa-f57275a08cba",
+      "name": "几何体.114",
+      "full_path": "Handle_Base1/几何体.114",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 1235
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.114",
+    "definition_sources": [
+      "features"
+    ],
+    "definition_status": "specialized_record",
+    "extraction_errors": [],
+    "full_path": "Handle_Base1/几何体.114/肋.1",
+    "id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "6f1a473e-3655-1abe-6f1a-473e36551abe",
+              "name": "实体.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/实体.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6f1a473e-3655-1abe-6f1a-473e36551abe",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e0089ae6-5c3e-f999-e008-9ae65c3ef999",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "name": "SimpleLimit.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "04270ed6-40fb-6115-0427-0ed640fb6115",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "name": "SimpleLimit.2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "9682b79f-156c-8379-9682-b79f156c8379",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "88916598-e771-b96c-8891-6598e771b96c",
+              "name": "Profile.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "88916598-e771-b96c-8891-6598e771b96c",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ff6097fd-754b-aeef-ff60-97fd754baeef",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "name": "CenterCurve.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/CenterCurve.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CenterCurve.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80d8eee7-0178-4f27-80d8-eee701784f27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "name": "Axis1.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Axis1.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Axis1.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "447fa070-c2d1-a05d-447f-a070c2d1a05d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f82a1dc4-ac84-4f03-f82a-1dc4ac844f03",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b19c2beb-5024-9907-b19c-2beb50249907",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AnchorDirReversed",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Direction",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "name": "Axis1.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Axis1.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Axis1.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7ef2020-ce65-210a-f7ef-2020ce65210a",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "447fa070-c2d1-a05d-447f-a070c2d1a05d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "EndLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "name": "SimpleLimit.2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7c1a2faf-5637-7883-7c1a-2faf56377883",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "9682b79f-156c-8379-9682-b79f156c8379",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ExtendedCenterCurve",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "name": "CenterCurve.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/CenterCurve.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CenterCurve.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80d8eee7-0178-4f27-80d8-eee701784f27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ExtendedProfile",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "88916598-e771-b96c-8891-6598e771b96c",
+              "name": "Profile.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Profile.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "88916598-e771-b96c-8891-6598e771b96c",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ff6097fd-754b-aeef-ff60-97fd754baeef",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MoveProfileToPath",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ProfileNormalReversed",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "StartLimit",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "name": "SimpleLimit.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/SimpleLimit.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SimpleLimit.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "85cd37a4-ee12-2c1e-85cd-37a4ee122c1e",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "04270ed6-40fb-6115-0427-0ed640fb6115",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SweepTolerance",
+        "value_type": 7,
+        "is_list": false,
+        "values": [
+          -1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f94d7316-1dbb-5088-f94d-73161dbb5088",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f82a1dc4-ac84-4f03-f82a-1dc4ac844f03",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ThickThin2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "name": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.114\\肋.1\\厚薄 2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "cb4d696a-c521-59df-cb4d-696ac52159df",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b19c2beb-5024-9907-b19c-2beb50249907",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TwistReduction",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "Rib.1",
+    "kind": "rib",
+    "name": "肋.1",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parameter_extraction_complete": true,
+    "params": {
+      "profile_reference": {
+        "id": "88916598-e771-b96c-8891-6598e771b96c",
+        "name": "Profile.87",
+        "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+        "in_feature_catalog": true
+      },
+      "profile_elements_available": true,
+      "profile_elements": [
+        {
+          "id": "1d7fad37-79ce-b5c2-1d7f-ad3779ceb5c2",
+          "name": "草图.84",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/Others/草图.84",
+          "is_sketch": true
+        }
+      ],
+      "profile": {
+        "id": "88916598-e771-b96c-8891-6598e771b96c",
+        "name": "Profile.87",
+        "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+        "in_feature_catalog": true
+      },
+      "center_curve": {
+        "id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+        "name": "CenterCurve.1",
+        "full_path": "Handle_Base1/几何体.114/肋.1/CenterCurve.1",
+        "in_feature_catalog": true
+      },
+      "reference_surface": {
+        "id": "",
+        "name": "",
+        "full_path": "",
+        "in_feature_catalog": false
+      },
+      "start_limit": "None",
+      "end_limit": "None",
+      "has_pulling_direction": 0,
+      "thin_enabled": 0,
+      "thickness1": 1,
+      "thickness2": 0,
+      "neutral_fiber": 0,
+      "merge_end": 0,
+      "twist_reduction": 0,
+      "twist_reduction_offset": 0
+    },
+    "parent": {
+      "id": "20aaf572-75a0-8cba-20aa-f57275a08cba",
+      "name": "几何体.114",
+      "full_path": "Handle_Base1/几何体.114",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "features",
+        "feature": {
+          "id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+          "full_path": "Handle_Base1/几何体.114/肋.1",
+          "name": "肋.1",
+          "type": "Rib",
+          "kind": "rib",
+          "body": "几何体.114",
+          "params": {
+            "profile_reference": {
+              "id": "88916598-e771-b96c-8891-6598e771b96c",
+              "name": "Profile.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+              "in_feature_catalog": true
+            },
+            "profile_elements_available": true,
+            "profile_elements": [
+              {
+                "id": "1d7fad37-79ce-b5c2-1d7f-ad3779ceb5c2",
+                "name": "草图.84",
+                "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/Others/草图.84",
+                "is_sketch": true
+              }
+            ],
+            "profile": {
+              "id": "88916598-e771-b96c-8891-6598e771b96c",
+              "name": "Profile.87",
+              "full_path": "Handle_Base1/几何体.114/肋.1/Profile.87",
+              "in_feature_catalog": true
+            },
+            "center_curve": {
+              "id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "name": "CenterCurve.1",
+              "full_path": "Handle_Base1/几何体.114/肋.1/CenterCurve.1",
+              "in_feature_catalog": true
+            },
+            "reference_surface": {
+              "id": "",
+              "name": "",
+              "full_path": "",
+              "in_feature_catalog": false
+            },
+            "start_limit": "None",
+            "end_limit": "None",
+            "has_pulling_direction": 0,
+            "thin_enabled": 0,
+            "thickness1": 1,
+            "thickness2": 0,
+            "neutral_fiber": 0,
+            "merge_end": 0,
+            "twist_reduction": 0,
+            "twist_reduction_offset": 0
+          },
+          "selections": [
+            {
+              "role": "profile",
+              "label": "Profile.87",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "88916598-e771-b96c-8891-6598e771b96c",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "96fc5032-4582-9db2-96fc-503245829db2",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            {
+              "role": "center_curve",
+              "label": "CenterCurve.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+              "owner_feature": "肋.1",
+              "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "5d4279d2-bab5-9bde-5d42-79d2bab59bde",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            }
+          ],
+          "extraction_errors": [],
+          "parameter_extraction_complete": true,
+          "replay_verified": false
+        }
+      }
+    ],
+    "selections": [
+      {
+        "role": "profile",
+        "label": "Profile.87",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "88916598-e771-b96c-8891-6598e771b96c",
+        "owner_feature": "肋.1",
+        "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "96fc5032-4582-9db2-96fc-503245829db2",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      },
+      {
+        "role": "center_curve",
+        "label": "CenterCurve.1",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "47689952-fd8c-df72-4768-9952fd8cdf72",
+        "owner_feature": "肋.1",
+        "owner_feature_id": "f1666932-c468-f0e1-f166-6932c468f0e1",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "5d4279d2-bab5-9bde-5d42-79d2bab59bde",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      }
+    ],
+    "source_visibility": 0,
+    "type": "Rib"
+  },
+  "DEPENDENCIES": [
+    "1d7fad37-79ce-b5c2-1d7f-ad3779ceb5c2",
+    "20aaf572-75a0-8cba-20aa-f57275a08cba",
+    "be84d4a2-39c2-441c-be84-d4a239c2441c"
+  ],
+  "GEOMETRY": {}
+}

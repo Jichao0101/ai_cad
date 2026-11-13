@@ -1,0 +1,3260 @@
+{
+  "STEP_NUMBER": 875,
+  "ORIGINAL_FEATURE_INDEX": 1295,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "b166d68f-23c9-1805-b166-d68f23c91805",
+    "full_path": "Handle_Base1/Handle_Base/倒圆角.10",
+    "name": "倒圆角.10",
+    "internal_name": "EdgeFillet.10",
+    "type": "EdgeFillet",
+    "body": "Handle_Base",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "75d10737-646f-2cdc-75d1-0737646f2cdc",
+              "name": "实体.14",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/实体.14",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.14",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "75d10737-646f-2cdc-75d1-0737646f2cdc",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "5bdff417-c99b-d0a1-5bdf-f417c99bd0a1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "name": "CstEdgeRibbon.8",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.8",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.8",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f774aa38-34d0-2a57-f774-aa3834d02a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "name": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5a8436f-a752-62dd-f5a8-436fa75262dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "de9c6ed2-01ef-add9-de9c-6ed201efadd9",
+              "name": "MFparameter.4",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/MFparameter.4",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.4",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "de9c6ed2-01ef-add9-de9c-6ed201efadd9",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "70e3c7c8-769b-a785-70e3-c7c8769ba785",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "name": "CstEdgeRibbon.9",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6cfe97e8-a482-dbf1-6cfe-97e8a482dbf1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "44186285-f0d9-022e-4418-6285f0d9022e",
+              "name": "实体.15",
+              "full_path": "Handle_Base1/Handle_Base/移除.13/实体.15",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.15",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "44186285-f0d9-022e-4418-6285f0d9022e",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "35a651f8-e1ca-8323-35a6-51f8e1ca8323",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BitangencyType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BoundariesRelimitationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletVisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletWorkShop",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimSupportMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ChordalMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CliffEdgeMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicRatio",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "name": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5a8436f-a752-62dd-f5a8-436fa75262dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "RibbonList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "name": "CstEdgeRibbon.8",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.8",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.8",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f774aa38-34d0-2a57-f774-aa3834d02a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "name": "CstEdgeRibbon.9",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6cfe97e8-a482-dbf1-6cfe-97e8a482dbf1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimRibbonMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SetBackType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrackActivation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TransitionalCornerMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "0fd85d9a-ca95-2a0a-0fd8-5d9aca952a0a",
+      "name": "Handle_Base",
+      "full_path": "Handle_Base1/Handle_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+      "name": "移除.13",
+      "full_path": "Handle_Base1/Handle_Base/移除.13",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "9964934f-3388-5a04-9964-934f33885a04",
+      "name": "倒圆角.11",
+      "full_path": "Handle_Base1/Handle_Base/倒圆角.11",
+      "in_feature_catalog": true
+    },
+    "order": 1295
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Handle_Base",
+    "definition_sources": [
+      "features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Handle_Base/倒圆角.10",
+    "id": "b166d68f-23c9-1805-b166-d68f23c91805",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "75d10737-646f-2cdc-75d1-0737646f2cdc",
+              "name": "实体.14",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/实体.14",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.14",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "75d10737-646f-2cdc-75d1-0737646f2cdc",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "5bdff417-c99b-d0a1-5bdf-f417c99bd0a1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "name": "CstEdgeRibbon.8",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.8",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.8",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f774aa38-34d0-2a57-f774-aa3834d02a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "name": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5a8436f-a752-62dd-f5a8-436fa75262dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "de9c6ed2-01ef-add9-de9c-6ed201efadd9",
+              "name": "MFparameter.4",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/MFparameter.4",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.4",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "de9c6ed2-01ef-add9-de9c-6ed201efadd9",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "70e3c7c8-769b-a785-70e3-c7c8769ba785",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "name": "CstEdgeRibbon.9",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6cfe97e8-a482-dbf1-6cfe-97e8a482dbf1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "44186285-f0d9-022e-4418-6285f0d9022e",
+              "name": "实体.15",
+              "full_path": "Handle_Base1/Handle_Base/移除.13/实体.15",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.15",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "44186285-f0d9-022e-4418-6285f0d9022e",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "35a651f8-e1ca-8323-35a6-51f8e1ca8323",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BitangencyType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BoundariesRelimitationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletVisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletWorkShop",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimSupportMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ChordalMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CliffEdgeMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicRatio",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "name": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\Handle_Base\\倒圆角.10\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "efc25ee3-8b52-e239-efc2-5ee38b52e239",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5a8436f-a752-62dd-f5a8-436fa75262dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "RibbonList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "name": "CstEdgeRibbon.8",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.8",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.8",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "75b2aeb7-a762-4bb5-75b2-aeb7a7624bb5",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f774aa38-34d0-2a57-f774-aa3834d02a57",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "name": "CstEdgeRibbon.9",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.10/CstEdgeRibbon.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7c711e2-fc3d-6aa6-d7c7-11e2fc3d6aa6",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6cfe97e8-a482-dbf1-6cfe-97e8a482dbf1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimRibbonMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SetBackType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrackActivation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TransitionalCornerMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "EdgeFillet.10",
+    "kind": "fillet",
+    "name": "倒圆角.10",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_fillet_edges": [
+      {
+        "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.35;0:(Brp:(Sketch.29;1)));None:();Cf11:());Face:(Brp:(Pad.3;0:(Brp:(Sketch.6;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      },
+      {
+        "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.3;0:(Brp:(Sketch.6;4)));None:();Cf11:());Face:(Brp:(Pad.33;0:(Brp:(Sketch.29;1)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      }
+    ],
+    "native_result_geometry": {
+      "area_mm2": 6023.858411214004,
+      "cog_mm": [
+        719.5110000609591,
+        327.7180591229181,
+        440.16154849607176
+      ],
+      "volume_mm3": 6392.652305344286
+    },
+    "next_shape": {
+      "id": "9964934f-3388-5a04-9964-934f33885a04",
+      "name": "倒圆角.11",
+      "full_path": "Handle_Base1/Handle_Base/倒圆角.11",
+      "in_feature_catalog": true
+    },
+    "params": {
+      "fillet_type": "Constant",
+      "radius": 2,
+      "propagation": "Tangency",
+      "variation": "Cubic"
+    },
+    "parent": {
+      "id": "0fd85d9a-ca95-2a0a-0fd8-5d9aca952a0a",
+      "name": "Handle_Base",
+      "full_path": "Handle_Base1/Handle_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+      "name": "移除.13",
+      "full_path": "Handle_Base1/Handle_Base/移除.13",
+      "in_feature_catalog": true
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "features",
+        "feature": {
+          "id": "b166d68f-23c9-1805-b166-d68f23c91805",
+          "full_path": "Handle_Base1/Handle_Base/倒圆角.10",
+          "name": "倒圆角.10",
+          "kind": "fillet",
+          "type": "CATISpecObject",
+          "body": "Handle_Base",
+          "params": {
+            "fillet_type": "Constant",
+            "radius": 2,
+            "propagation": "Tangency",
+            "variation": "Cubic"
+          },
+          "selections": [
+            {
+              "role": "fillet_object",
+              "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "b656a25d-aa3e-d3d1-b656-a25daa3ed3d1",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "827800d4-27a2-1c91-8278-00d427a21c91",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+              "support_feature": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "brep_type": "REdge(Edge)",
+              "resolved_brep_count": 3,
+              "missing_reason": "",
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+                  "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+                    "name": "添加.54",
+                    "full_path": "Handle_Base1/Handle_Base/添加.54",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                    "name": "移除.13",
+                    "full_path": "Handle_Base1/Handle_Base/移除.13",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663353,
+                      "bbox_min": [
+                        717.7926828506778,
+                        345.7099634795288,
+                        448.5524666245351
+                      ],
+                      "bbox_max": [
+                        718.0426785745614,
+                        345.7119634934876,
+                        448.8935335205891
+                      ],
+                      "curve_points": [
+                        [
+                          717.7936828613667,
+                          345.71096348652196,
+                          448.5534666325325
+                        ],
+                        [
+                          717.8556817869932,
+                          345.7109634865151,
+                          448.6382333525473
+                        ],
+                        [
+                          717.9176807126195,
+                          345.7109634865082,
+                          448.72300007256206
+                        ],
+                        [
+                          717.9796796382459,
+                          345.7109634865013,
+                          448.8077667925768
+                        ],
+                        [
+                          718.0416785638722,
+                          345.71096348649445,
+                          448.89253351259157
+                        ]
+                      ],
+                      "length_mm": 0.42008120359542467,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        717.9176807126196,
+                        345.7109634865082,
+                        448.72300007256206
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663428,
+                      "bbox_min": [
+                        721.4210700367589,
+                        345.70944148370546,
+                        453.51068246018434
+                      ],
+                      "bbox_max": [
+                        721.5111875074971,
+                        345.7127393662004,
+                        453.6271692839154
+                      ],
+                      "curve_points": [
+                        [
+                          721.5097478992788,
+                          345.7113018230426,
+                          453.61921261638753
+                        ],
+                        [
+                          721.4871276886707,
+                          345.71115396167306,
+                          453.59482583301406
+                        ],
+                        [
+                          721.4653213084887,
+                          345.71104818239036,
+                          453.5696903623623
+                        ],
+                        [
+                          721.4443650766332,
+                          345.7109846586048,
+                          453.54384818901184
+                        ],
+                        [
+                          721.424289759678,
+                          345.7109634861193,
+                          453.5173371403414
+                        ]
+                      ],
+                      "length_mm": 0.1330711145194511,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        721.4661287721281,
+                        345.71109042495294,
+                        453.5689258720499
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663338,
+                      "bbox_min": [
+                        718.0406785531399,
+                        345.7099634791513,
+                        448.8915335045315
+                      ],
+                      "bbox_max": [
+                        721.4252897704031,
+                        345.7119634934625,
+                        453.51833714838745
+                      ],
+                      "curve_points": [
+                        [
+                          718.0416785638649,
+                          345.71096348649456,
+                          448.89253351257753
+                        ],
+                        [
+                          718.8873313628183,
+                          345.7109634864007,
+                          450.0487344195185
+                        ],
+                        [
+                          719.7329841617715,
+                          345.7109634863069,
+                          451.20493532645946
+                        ],
+                        [
+                          720.5786369607248,
+                          345.7109634862131,
+                          452.36113623340043
+                        ],
+                        [
+                          721.424289759678,
+                          345.7109634861193,
+                          453.5173371403414
+                        ]
+                      ],
+                      "length_mm": 5.729822606103754,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        719.7329841617715,
+                        345.7109634863069,
+                        451.20493532645946
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Z10G510904B14.I.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.31.14.S.21.2(E,3EFC,0(E,349D,1))0.0.",
+                  "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+                    "name": "添加.54",
+                    "full_path": "Handle_Base1/Handle_Base/添加.54",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                    "name": "移除.13",
+                    "full_path": "Handle_Base1/Handle_Base/移除.13",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663428,
+                      "bbox_min": [
+                        721.4210700367589,
+                        345.70944148370546,
+                        453.51068246018434
+                      ],
+                      "bbox_max": [
+                        721.5111875074971,
+                        345.7127393662004,
+                        453.6271692839154
+                      ],
+                      "curve_points": [
+                        [
+                          721.5097478992788,
+                          345.7113018230426,
+                          453.61921261638753
+                        ],
+                        [
+                          721.4871276886707,
+                          345.71115396167306,
+                          453.59482583301406
+                        ],
+                        [
+                          721.4653213084887,
+                          345.71104818239036,
+                          453.5696903623623
+                        ],
+                        [
+                          721.4443650766332,
+                          345.7109846586048,
+                          453.54384818901184
+                        ],
+                        [
+                          721.424289759678,
+                          345.7109634861193,
+                          453.5173371403414
+                        ]
+                      ],
+                      "length_mm": 0.1330711145194511,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        721.4661287721281,
+                        345.71109042495294,
+                        453.5689258720499
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663338,
+                      "bbox_min": [
+                        718.0406785531399,
+                        345.7099634791513,
+                        448.8915335045315
+                      ],
+                      "bbox_max": [
+                        721.4252897704031,
+                        345.7119634934625,
+                        453.51833714838745
+                      ],
+                      "curve_points": [
+                        [
+                          718.0416785638649,
+                          345.71096348649456,
+                          448.89253351257753
+                        ],
+                        [
+                          718.8873313628183,
+                          345.7109634864007,
+                          450.0487344195185
+                        ],
+                        [
+                          719.7329841617715,
+                          345.7109634863069,
+                          451.20493532645946
+                        ],
+                        [
+                          720.5786369607248,
+                          345.7109634862131,
+                          452.36113623340043
+                        ],
+                        [
+                          721.424289759678,
+                          345.7109634861193,
+                          453.5173371403414
+                        ]
+                      ],
+                      "length_mm": 5.729822606103754,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        719.7329841617715,
+                        345.7109634863069,
+                        451.20493532645946
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663353,
+                      "bbox_min": [
+                        717.7926828506778,
+                        345.7099634795288,
+                        448.5524666245351
+                      ],
+                      "bbox_max": [
+                        718.0426785745614,
+                        345.7119634934876,
+                        448.8935335205891
+                      ],
+                      "curve_points": [
+                        [
+                          717.7936828613667,
+                          345.71096348652196,
+                          448.5534666325325
+                        ],
+                        [
+                          717.8556817869932,
+                          345.7109634865151,
+                          448.6382333525473
+                        ],
+                        [
+                          717.9176807126195,
+                          345.7109634865082,
+                          448.72300007256206
+                        ],
+                        [
+                          717.9796796382459,
+                          345.7109634865013,
+                          448.8077667925768
+                        ],
+                        [
+                          718.0416785638722,
+                          345.71096348649445,
+                          448.89253351259157
+                        ]
+                      ],
+                      "length_mm": 0.42008120359542467,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        717.9176807126196,
+                        345.7109634865082,
+                        448.72300007256206
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+                  "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+                    "name": "添加.54",
+                    "full_path": "Handle_Base1/Handle_Base/添加.54",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                    "name": "移除.13",
+                    "full_path": "Handle_Base1/Handle_Base/移除.13",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663353,
+                      "bbox_min": [
+                        717.7926828506778,
+                        345.7099634795288,
+                        448.5524666245351
+                      ],
+                      "bbox_max": [
+                        718.0426785745614,
+                        345.7119634934876,
+                        448.8935335205891
+                      ],
+                      "curve_points": [
+                        [
+                          717.7936828613667,
+                          345.71096348652196,
+                          448.5534666325325
+                        ],
+                        [
+                          717.8556817869932,
+                          345.7109634865151,
+                          448.6382333525473
+                        ],
+                        [
+                          717.9176807126195,
+                          345.7109634865082,
+                          448.72300007256206
+                        ],
+                        [
+                          717.9796796382459,
+                          345.7109634865013,
+                          448.8077667925768
+                        ],
+                        [
+                          718.0416785638722,
+                          345.71096348649445,
+                          448.89253351259157
+                        ]
+                      ],
+                      "length_mm": 0.42008120359542467,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        717.9176807126196,
+                        345.7109634865082,
+                        448.72300007256206
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663428,
+                      "bbox_min": [
+                        721.4210700367589,
+                        345.70944148370546,
+                        453.51068246018434
+                      ],
+                      "bbox_max": [
+                        721.5111875074971,
+                        345.7127393662004,
+                        453.6271692839154
+                      ],
+                      "curve_points": [
+                        [
+                          721.5097478992788,
+                          345.7113018230426,
+                          453.61921261638753
+                        ],
+                        [
+                          721.4871276886707,
+                          345.71115396167306,
+                          453.59482583301406
+                        ],
+                        [
+                          721.4653213084887,
+                          345.71104818239036,
+                          453.5696903623623
+                        ],
+                        [
+                          721.4443650766332,
+                          345.7109846586048,
+                          453.54384818901184
+                        ],
+                        [
+                          721.424289759678,
+                          345.7109634861193,
+                          453.5173371403414
+                        ]
+                      ],
+                      "length_mm": 0.1330711145194511,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        721.4661287721281,
+                        345.71109042495294,
+                        453.5689258720499
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7663338,
+                      "bbox_min": [
+                        718.0406785531399,
+                        345.7099634791513,
+                        448.8915335045315
+                      ],
+                      "bbox_max": [
+                        721.4252897704031,
+                        345.7119634934625,
+                        453.51833714838745
+                      ],
+                      "curve_points": [
+                        [
+                          718.0416785638649,
+                          345.71096348649456,
+                          448.89253351257753
+                        ],
+                        [
+                          718.8873313628183,
+                          345.7109634864007,
+                          450.0487344195185
+                        ],
+                        [
+                          719.7329841617715,
+                          345.7109634863069,
+                          451.20493532645946
+                        ],
+                        [
+                          720.5786369607248,
+                          345.7109634862131,
+                          452.36113623340043
+                        ],
+                        [
+                          721.424289759678,
+                          345.7109634861193,
+                          453.5173371403414
+                        ]
+                      ],
+                      "length_mm": 5.729822606103754,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        719.7329841617715,
+                        345.7109634863069,
+                        451.20493532645946
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "fillet_object",
+              "label": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "62c1c908-014f-32d3-62c1-c908014f32d3",
+              "owner_feature": "倒圆角.10",
+              "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d3e3cafd-bd61-1fd5-d3e3-cafdbd611fd5",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+              "support_feature": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "brep_type": "REdge(Edge)",
+              "resolved_brep_count": 3,
+              "missing_reason": "",
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+                  "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+                    "name": "添加.54",
+                    "full_path": "Handle_Base1/Handle_Base/添加.54",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                    "name": "移除.13",
+                    "full_path": "Handle_Base1/Handle_Base/移除.13",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662784,
+                      "bbox_min": [
+                        707.3365754771573,
+                        345.7094414852649,
+                        434.2539551085065
+                      ],
+                      "bbox_max": [
+                        707.4266929508823,
+                        345.7127393677673,
+                        434.3704419362948
+                      ],
+                      "curve_points": [
+                        [
+                          707.4181223476023,
+                          345.7109634876732,
+                          434.36770092480094
+                        ],
+                        [
+                          707.3989395185799,
+                          345.7109846601633,
+                          434.3405371035362
+                        ],
+                        [
+                          707.3806610178542,
+                          345.711048183953,
+                          434.31273641844604
+                        ],
+                        [
+                          707.3633135738698,
+                          345.7111539632401,
+                          434.28433965095974
+                        ],
+                        [
+                          707.3469261951695,
+                          345.7113018246165,
+                          434.2553941326064
+                        ]
+                      ],
+                      "length_mm": 0.13307111997308355,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        707.3816342140199,
+                        345.7110904265161,
+                        434.31219852240065
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662748,
+                      "bbox_min": [
+                        710.7997342081034,
+                        345.70996348030525,
+                        438.9915054679656
+                      ],
+                      "bbox_max": [
+                        711.0497292532064,
+                        345.7119634942629,
+                        439.33257143597234
+                      ],
+                      "curve_points": [
+                        [
+                          710.8007342187216,
+                          345.71096348729776,
+                          438.9925054758669
+                        ],
+                        [
+                          710.8627329746882,
+                          345.7109634872909,
+                          439.0772719639179
+                        ],
+                        [
+                          710.9247317306548,
+                          345.710963487284,
+                          439.16203845196895
+                        ],
+                        [
+                          710.9867304866215,
+                          345.7109634872771,
+                          439.24680494002
+                        ],
+                        [
+                          711.048729242588,
+                          345.71096348727025,
+                          439.331571428071
+                        ]
+                      ],
+                      "length_mm": 0.4200800540451835,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        710.9247317306549,
+                        345.71096348728406,
+                        439.162038451969
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662725,
+                      "bbox_min": [
+                        707.4171223369839,
+                        345.70996348033043,
+                        434.3667009169007
+                      ],
+                      "bbox_max": [
+                        710.8017342293397,
+                        345.71196349464066,
+                        438.99350548376253
+                      ],
+                      "curve_points": [
+                        [
+                          707.4181223476023,
+                          345.7109634876732,
+                          434.36770092480094
+                        ],
+                        [
+                          708.2637753153821,
+                          345.71096348757936,
+                          435.52390206256626
+                        ],
+                        [
+                          709.1094282831617,
+                          345.71096348748557,
+                          436.6801032003316
+                        ],
+                        [
+                          709.9550812509415,
+                          345.7109634873917,
+                          437.8363043380969
+                        ],
+                        [
+                          710.8007342187212,
+                          345.7109634872979,
+                          438.9925054758623
+                        ]
+                      ],
+                      "length_mm": 5.729823750007635,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        709.1094282831618,
+                        345.7109634874855,
+                        436.6801032003316
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+                  "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+                    "name": "添加.54",
+                    "full_path": "Handle_Base1/Handle_Base/添加.54",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                    "name": "移除.13",
+                    "full_path": "Handle_Base1/Handle_Base/移除.13",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662784,
+                      "bbox_min": [
+                        707.3365754771573,
+                        345.7094414852649,
+                        434.2539551085065
+                      ],
+                      "bbox_max": [
+                        707.4266929508823,
+                        345.7127393677673,
+                        434.3704419362948
+                      ],
+                      "curve_points": [
+                        [
+                          707.4181223476023,
+                          345.7109634876732,
+                          434.36770092480094
+                        ],
+                        [
+                          707.3989395185799,
+                          345.7109846601633,
+                          434.3405371035362
+                        ],
+                        [
+                          707.3806610178542,
+                          345.711048183953,
+                          434.31273641844604
+                        ],
+                        [
+                          707.3633135738698,
+                          345.7111539632401,
+                          434.28433965095974
+                        ],
+                        [
+                          707.3469261951695,
+                          345.7113018246165,
+                          434.2553941326064
+                        ]
+                      ],
+                      "length_mm": 0.13307111997308355,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        707.3816342140199,
+                        345.7110904265161,
+                        434.31219852240065
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662748,
+                      "bbox_min": [
+                        710.7997342081034,
+                        345.70996348030525,
+                        438.9915054679656
+                      ],
+                      "bbox_max": [
+                        711.0497292532064,
+                        345.7119634942629,
+                        439.33257143597234
+                      ],
+                      "curve_points": [
+                        [
+                          710.8007342187216,
+                          345.71096348729776,
+                          438.9925054758669
+                        ],
+                        [
+                          710.8627329746882,
+                          345.7109634872909,
+                          439.0772719639179
+                        ],
+                        [
+                          710.9247317306548,
+                          345.710963487284,
+                          439.16203845196895
+                        ],
+                        [
+                          710.9867304866215,
+                          345.7109634872771,
+                          439.24680494002
+                        ],
+                        [
+                          711.048729242588,
+                          345.71096348727025,
+                          439.331571428071
+                        ]
+                      ],
+                      "length_mm": 0.4200800540451835,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        710.9247317306549,
+                        345.71096348728406,
+                        439.162038451969
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662725,
+                      "bbox_min": [
+                        707.4171223369839,
+                        345.70996348033043,
+                        434.3667009169007
+                      ],
+                      "bbox_max": [
+                        710.8017342293397,
+                        345.71196349464066,
+                        438.99350548376253
+                      ],
+                      "curve_points": [
+                        [
+                          707.4181223476023,
+                          345.7109634876732,
+                          434.36770092480094
+                        ],
+                        [
+                          708.2637753153821,
+                          345.71096348757936,
+                          435.52390206256626
+                        ],
+                        [
+                          709.1094282831617,
+                          345.71096348748557,
+                          436.6801032003316
+                        ],
+                        [
+                          709.9550812509415,
+                          345.7109634873917,
+                          437.8363043380969
+                        ],
+                        [
+                          710.8007342187212,
+                          345.7109634872979,
+                          438.9925054758623
+                        ]
+                      ],
+                      "length_mm": 5.729823750007635,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        709.1094282831618,
+                        345.7109634874855,
+                        436.6801032003316
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Z10G510904B14.I.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.31.14.S.21.2(E,3E60,0(E,349D,1))0.0.",
+                  "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+                    "name": "添加.54",
+                    "full_path": "Handle_Base1/Handle_Base/添加.54",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+                    "name": "移除.13",
+                    "full_path": "Handle_Base1/Handle_Base/移除.13",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662748,
+                      "bbox_min": [
+                        710.7997342081034,
+                        345.70996348030525,
+                        438.9915054679656
+                      ],
+                      "bbox_max": [
+                        711.0497292532064,
+                        345.7119634942629,
+                        439.33257143597234
+                      ],
+                      "curve_points": [
+                        [
+                          710.8007342187216,
+                          345.71096348729776,
+                          438.9925054758669
+                        ],
+                        [
+                          710.8627329746882,
+                          345.7109634872909,
+                          439.0772719639179
+                        ],
+                        [
+                          710.9247317306548,
+                          345.710963487284,
+                          439.16203845196895
+                        ],
+                        [
+                          710.9867304866215,
+                          345.7109634872771,
+                          439.24680494002
+                        ],
+                        [
+                          711.048729242588,
+                          345.71096348727025,
+                          439.331571428071
+                        ]
+                      ],
+                      "length_mm": 0.4200800540451835,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        710.9247317306549,
+                        345.71096348728406,
+                        439.162038451969
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662725,
+                      "bbox_min": [
+                        707.4171223369839,
+                        345.70996348033043,
+                        434.3667009169007
+                      ],
+                      "bbox_max": [
+                        710.8017342293397,
+                        345.71196349464066,
+                        438.99350548376253
+                      ],
+                      "curve_points": [
+                        [
+                          707.4181223476023,
+                          345.7109634876732,
+                          434.36770092480094
+                        ],
+                        [
+                          708.2637753153821,
+                          345.71096348757936,
+                          435.52390206256626
+                        ],
+                        [
+                          709.1094282831617,
+                          345.71096348748557,
+                          436.6801032003316
+                        ],
+                        [
+                          709.9550812509415,
+                          345.7109634873917,
+                          437.8363043380969
+                        ],
+                        [
+                          710.8007342187212,
+                          345.7109634872979,
+                          438.9925054758623
+                        ]
+                      ],
+                      "length_mm": 5.729823750007635,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        709.1094282831618,
+                        345.7109634874855,
+                        436.6801032003316
+                      ]
+                    },
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7662784,
+                      "bbox_min": [
+                        707.3365754771573,
+                        345.7094414852649,
+                        434.2539551085065
+                      ],
+                      "bbox_max": [
+                        707.4266929508823,
+                        345.7127393677673,
+                        434.3704419362948
+                      ],
+                      "curve_points": [
+                        [
+                          707.4181223476023,
+                          345.7109634876732,
+                          434.36770092480094
+                        ],
+                        [
+                          707.3989395185799,
+                          345.7109846601633,
+                          434.3405371035362
+                        ],
+                        [
+                          707.3806610178542,
+                          345.711048183953,
+                          434.31273641844604
+                        ],
+                        [
+                          707.3633135738698,
+                          345.7111539632401,
+                          434.28433965095974
+                        ],
+                        [
+                          707.3469261951695,
+                          345.7113018246165,
+                          434.2553941326064
+                        ]
+                      ],
+                      "length_mm": 0.13307111997308355,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        707.3816342140199,
+                        345.7110904265161,
+                        434.31219852240065
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "b166d68f-23c9-1805-b166-d68f23c91805",
+          "name": "倒圆角.10",
+          "full_path": "Handle_Base1/Handle_Base/倒圆角.10",
+          "native_result_geometry": {
+            "area_mm2": 6023.858411214004,
+            "cog_mm": [
+              719.5110000609591,
+              327.7180591229181,
+              440.16154849607176
+            ],
+            "volume_mm3": 6392.652305344286
+          },
+          "native_fillet_edges": [
+            {
+              "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.35;0:(Brp:(Sketch.29;1)));None:();Cf11:());Face:(Brp:(Pad.3;0:(Brp:(Sketch.6;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            },
+            {
+              "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.3;0:(Brp:(Sketch.6;4)));None:();Cf11:());Face:(Brp:(Pad.33;0:(Brp:(Sketch.29;1)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            }
+          ],
+          "selection_geometry": {
+            "827800d4-27a2-1c91-8278-00d427a21c91": {
+              "curve_measurement_unavailable": "Logical edge requires its resolved trimmed cells",
+              "native_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0."
+            },
+            "d3e3cafd-bd61-1fd5-d3e3-cafdbd611fd5": {
+              "curve_measurement_unavailable": "Logical edge requires its resolved trimmed cells",
+              "native_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0."
+            }
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "selection_geometry": {
+      "827800d4-27a2-1c91-8278-00d427a21c91": {
+        "curve_measurement_unavailable": "Logical edge requires its resolved trimmed cells",
+        "native_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0."
+      },
+      "d3e3cafd-bd61-1fd5-d3e3-cafdbd611fd5": {
+        "curve_measurement_unavailable": "Logical edge requires its resolved trimmed cells",
+        "native_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0."
+      }
+    },
+    "selections": [
+      {
+        "role": "fillet_object",
+        "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "b656a25d-aa3e-d3d1-b656-a25daa3ed3d1",
+        "owner_feature": "倒圆角.10",
+        "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "827800d4-27a2-1c91-8278-00d427a21c91",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+        "support_feature": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+        "brep_type": "REdge(Edge)",
+        "resolved_brep_count": 3,
+        "missing_reason": "",
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+            "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+              "name": "添加.54",
+              "full_path": "Handle_Base1/Handle_Base/添加.54",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "name": "移除.13",
+              "full_path": "Handle_Base1/Handle_Base/移除.13",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7663353,
+                "bbox_min": [
+                  717.7926828506778,
+                  345.7099634795288,
+                  448.5524666245351
+                ],
+                "bbox_max": [
+                  718.0426785745614,
+                  345.7119634934876,
+                  448.8935335205891
+                ],
+                "curve_points": [
+                  [
+                    717.7936828613667,
+                    345.71096348652196,
+                    448.5534666325325
+                  ],
+                  [
+                    717.8556817869932,
+                    345.7109634865151,
+                    448.6382333525473
+                  ],
+                  [
+                    717.9176807126195,
+                    345.7109634865082,
+                    448.72300007256206
+                  ],
+                  [
+                    717.9796796382459,
+                    345.7109634865013,
+                    448.8077667925768
+                  ],
+                  [
+                    718.0416785638722,
+                    345.71096348649445,
+                    448.89253351259157
+                  ]
+                ],
+                "length_mm": 0.42008120359542467,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  717.9176807126196,
+                  345.7109634865082,
+                  448.72300007256206
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7663428,
+                "bbox_min": [
+                  721.4210700367589,
+                  345.70944148370546,
+                  453.51068246018434
+                ],
+                "bbox_max": [
+                  721.5111875074971,
+                  345.7127393662004,
+                  453.6271692839154
+                ],
+                "curve_points": [
+                  [
+                    721.5097478992788,
+                    345.7113018230426,
+                    453.61921261638753
+                  ],
+                  [
+                    721.4871276886707,
+                    345.71115396167306,
+                    453.59482583301406
+                  ],
+                  [
+                    721.4653213084887,
+                    345.71104818239036,
+                    453.5696903623623
+                  ],
+                  [
+                    721.4443650766332,
+                    345.7109846586048,
+                    453.54384818901184
+                  ],
+                  [
+                    721.424289759678,
+                    345.7109634861193,
+                    453.5173371403414
+                  ]
+                ],
+                "length_mm": 0.1330711145194511,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  721.4661287721281,
+                  345.71109042495294,
+                  453.5689258720499
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7663338,
+                "bbox_min": [
+                  718.0406785531399,
+                  345.7099634791513,
+                  448.8915335045315
+                ],
+                "bbox_max": [
+                  721.4252897704031,
+                  345.7119634934625,
+                  453.51833714838745
+                ],
+                "curve_points": [
+                  [
+                    718.0416785638649,
+                    345.71096348649456,
+                    448.89253351257753
+                  ],
+                  [
+                    718.8873313628183,
+                    345.7109634864007,
+                    450.0487344195185
+                  ],
+                  [
+                    719.7329841617715,
+                    345.7109634863069,
+                    451.20493532645946
+                  ],
+                  [
+                    720.5786369607248,
+                    345.7109634862131,
+                    452.36113623340043
+                  ],
+                  [
+                    721.424289759678,
+                    345.7109634861193,
+                    453.5173371403414
+                  ]
+                ],
+                "length_mm": 5.729822606103754,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  719.7329841617715,
+                  345.7109634863069,
+                  451.20493532645946
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Z10G510904B14.I.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.31.14.S.21.2(E,3EFC,0(E,349D,1))0.0.",
+            "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+              "name": "添加.54",
+              "full_path": "Handle_Base1/Handle_Base/添加.54",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "name": "移除.13",
+              "full_path": "Handle_Base1/Handle_Base/移除.13",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7663428,
+                "bbox_min": [
+                  721.4210700367589,
+                  345.70944148370546,
+                  453.51068246018434
+                ],
+                "bbox_max": [
+                  721.5111875074971,
+                  345.7127393662004,
+                  453.6271692839154
+                ],
+                "curve_points": [
+                  [
+                    721.5097478992788,
+                    345.7113018230426,
+                    453.61921261638753
+                  ],
+                  [
+                    721.4871276886707,
+                    345.71115396167306,
+                    453.59482583301406
+                  ],
+                  [
+                    721.4653213084887,
+                    345.71104818239036,
+                    453.5696903623623
+                  ],
+                  [
+                    721.4443650766332,
+                    345.7109846586048,
+                    453.54384818901184
+                  ],
+                  [
+                    721.424289759678,
+                    345.7109634861193,
+                    453.5173371403414
+                  ]
+                ],
+                "length_mm": 0.1330711145194511,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  721.4661287721281,
+                  345.71109042495294,
+                  453.5689258720499
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7663338,
+                "bbox_min": [
+                  718.0406785531399,
+                  345.7099634791513,
+                  448.8915335045315
+                ],
+                "bbox_max": [
+                  721.4252897704031,
+                  345.7119634934625,
+                  453.51833714838745
+                ],
+                "curve_points": [
+                  [
+                    718.0416785638649,
+                    345.71096348649456,
+                    448.89253351257753
+                  ],
+                  [
+                    718.8873313628183,
+                    345.7109634864007,
+                    450.0487344195185
+                  ],
+                  [
+                    719.7329841617715,
+                    345.7109634863069,
+                    451.20493532645946
+                  ],
+                  [
+                    720.5786369607248,
+                    345.7109634862131,
+                    452.36113623340043
+                  ],
+                  [
+                    721.424289759678,
+                    345.7109634861193,
+                    453.5173371403414
+                  ]
+                ],
+                "length_mm": 5.729822606103754,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  719.7329841617715,
+                  345.7109634863069,
+                  451.20493532645946
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7663353,
+                "bbox_min": [
+                  717.7926828506778,
+                  345.7099634795288,
+                  448.5524666245351
+                ],
+                "bbox_max": [
+                  718.0426785745614,
+                  345.7119634934876,
+                  448.8935335205891
+                ],
+                "curve_points": [
+                  [
+                    717.7936828613667,
+                    345.71096348652196,
+                    448.5534666325325
+                  ],
+                  [
+                    717.8556817869932,
+                    345.7109634865151,
+                    448.6382333525473
+                  ],
+                  [
+                    717.9176807126195,
+                    345.7109634865082,
+                    448.72300007256206
+                  ],
+                  [
+                    717.9796796382459,
+                    345.7109634865013,
+                    448.8077667925768
+                  ],
+                  [
+                    718.0416785638722,
+                    345.71096348649445,
+                    448.89253351259157
+                  ]
+                ],
+                "length_mm": 0.42008120359542467,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  717.9176807126196,
+                  345.7109634865082,
+                  448.72300007256206
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D82,2)(E,3D93,2))0.0.",
+            "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+              "name": "添加.54",
+              "full_path": "Handle_Base1/Handle_Base/添加.54",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "name": "移除.13",
+              "full_path": "Handle_Base1/Handle_Base/移除.13",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7663353,
+                "bbox_min": [
+                  717.7926828506778,
+                  345.7099634795288,
+                  448.5524666245351
+                ],
+                "bbox_max": [
+                  718.0426785745614,
+                  345.7119634934876,
+                  448.8935335205891
+                ],
+                "curve_points": [
+                  [
+                    717.7936828613667,
+                    345.71096348652196,
+                    448.5534666325325
+                  ],
+                  [
+                    717.8556817869932,
+                    345.7109634865151,
+                    448.6382333525473
+                  ],
+                  [
+                    717.9176807126195,
+                    345.7109634865082,
+                    448.72300007256206
+                  ],
+                  [
+                    717.9796796382459,
+                    345.7109634865013,
+                    448.8077667925768
+                  ],
+                  [
+                    718.0416785638722,
+                    345.71096348649445,
+                    448.89253351259157
+                  ]
+                ],
+                "length_mm": 0.42008120359542467,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  717.9176807126196,
+                  345.7109634865082,
+                  448.72300007256206
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7663428,
+                "bbox_min": [
+                  721.4210700367589,
+                  345.70944148370546,
+                  453.51068246018434
+                ],
+                "bbox_max": [
+                  721.5111875074971,
+                  345.7127393662004,
+                  453.6271692839154
+                ],
+                "curve_points": [
+                  [
+                    721.5097478992788,
+                    345.7113018230426,
+                    453.61921261638753
+                  ],
+                  [
+                    721.4871276886707,
+                    345.71115396167306,
+                    453.59482583301406
+                  ],
+                  [
+                    721.4653213084887,
+                    345.71104818239036,
+                    453.5696903623623
+                  ],
+                  [
+                    721.4443650766332,
+                    345.7109846586048,
+                    453.54384818901184
+                  ],
+                  [
+                    721.424289759678,
+                    345.7109634861193,
+                    453.5173371403414
+                  ]
+                ],
+                "length_mm": 0.1330711145194511,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  721.4661287721281,
+                  345.71109042495294,
+                  453.5689258720499
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7663338,
+                "bbox_min": [
+                  718.0406785531399,
+                  345.7099634791513,
+                  448.8915335045315
+                ],
+                "bbox_max": [
+                  721.4252897704031,
+                  345.7119634934625,
+                  453.51833714838745
+                ],
+                "curve_points": [
+                  [
+                    718.0416785638649,
+                    345.71096348649456,
+                    448.89253351257753
+                  ],
+                  [
+                    718.8873313628183,
+                    345.7109634864007,
+                    450.0487344195185
+                  ],
+                  [
+                    719.7329841617715,
+                    345.7109634863069,
+                    451.20493532645946
+                  ],
+                  [
+                    720.5786369607248,
+                    345.7109634862131,
+                    452.36113623340043
+                  ],
+                  [
+                    721.424289759678,
+                    345.7109634861193,
+                    453.5173371403414
+                  ]
+                ],
+                "length_mm": 5.729822606103754,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  719.7329841617715,
+                  345.7109634863069,
+                  451.20493532645946
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "fillet_object",
+        "label": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "62c1c908-014f-32d3-62c1-c908014f32d3",
+        "owner_feature": "倒圆角.10",
+        "owner_feature_id": "b166d68f-23c9-1805-b166-d68f23c91805",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "d3e3cafd-bd61-1fd5-d3e3-cafdbd611fd5",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+        "support_feature": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+        "brep_type": "REdge(Edge)",
+        "resolved_brep_count": 3,
+        "missing_reason": "",
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+            "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+              "name": "添加.54",
+              "full_path": "Handle_Base1/Handle_Base/添加.54",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "name": "移除.13",
+              "full_path": "Handle_Base1/Handle_Base/移除.13",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7662784,
+                "bbox_min": [
+                  707.3365754771573,
+                  345.7094414852649,
+                  434.2539551085065
+                ],
+                "bbox_max": [
+                  707.4266929508823,
+                  345.7127393677673,
+                  434.3704419362948
+                ],
+                "curve_points": [
+                  [
+                    707.4181223476023,
+                    345.7109634876732,
+                    434.36770092480094
+                  ],
+                  [
+                    707.3989395185799,
+                    345.7109846601633,
+                    434.3405371035362
+                  ],
+                  [
+                    707.3806610178542,
+                    345.711048183953,
+                    434.31273641844604
+                  ],
+                  [
+                    707.3633135738698,
+                    345.7111539632401,
+                    434.28433965095974
+                  ],
+                  [
+                    707.3469261951695,
+                    345.7113018246165,
+                    434.2553941326064
+                  ]
+                ],
+                "length_mm": 0.13307111997308355,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  707.3816342140199,
+                  345.7110904265161,
+                  434.31219852240065
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7662748,
+                "bbox_min": [
+                  710.7997342081034,
+                  345.70996348030525,
+                  438.9915054679656
+                ],
+                "bbox_max": [
+                  711.0497292532064,
+                  345.7119634942629,
+                  439.33257143597234
+                ],
+                "curve_points": [
+                  [
+                    710.8007342187216,
+                    345.71096348729776,
+                    438.9925054758669
+                  ],
+                  [
+                    710.8627329746882,
+                    345.7109634872909,
+                    439.0772719639179
+                  ],
+                  [
+                    710.9247317306548,
+                    345.710963487284,
+                    439.16203845196895
+                  ],
+                  [
+                    710.9867304866215,
+                    345.7109634872771,
+                    439.24680494002
+                  ],
+                  [
+                    711.048729242588,
+                    345.71096348727025,
+                    439.331571428071
+                  ]
+                ],
+                "length_mm": 0.4200800540451835,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  710.9247317306549,
+                  345.71096348728406,
+                  439.162038451969
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7662725,
+                "bbox_min": [
+                  707.4171223369839,
+                  345.70996348033043,
+                  434.3667009169007
+                ],
+                "bbox_max": [
+                  710.8017342293397,
+                  345.71196349464066,
+                  438.99350548376253
+                ],
+                "curve_points": [
+                  [
+                    707.4181223476023,
+                    345.7109634876732,
+                    434.36770092480094
+                  ],
+                  [
+                    708.2637753153821,
+                    345.71096348757936,
+                    435.52390206256626
+                  ],
+                  [
+                    709.1094282831617,
+                    345.71096348748557,
+                    436.6801032003316
+                  ],
+                  [
+                    709.9550812509415,
+                    345.7109634873917,
+                    437.8363043380969
+                  ],
+                  [
+                    710.8007342187212,
+                    345.7109634872979,
+                    438.9925054758623
+                  ]
+                ],
+                "length_mm": 5.729823750007635,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  709.1094282831618,
+                  345.7109634874855,
+                  436.6801032003316
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Z10G510904B14.I.31.14.S.21.2(E,3E60,0(E,349D,1))0.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.0.",
+            "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+              "name": "添加.54",
+              "full_path": "Handle_Base1/Handle_Base/添加.54",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "name": "移除.13",
+              "full_path": "Handle_Base1/Handle_Base/移除.13",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7662784,
+                "bbox_min": [
+                  707.3365754771573,
+                  345.7094414852649,
+                  434.2539551085065
+                ],
+                "bbox_max": [
+                  707.4266929508823,
+                  345.7127393677673,
+                  434.3704419362948
+                ],
+                "curve_points": [
+                  [
+                    707.4181223476023,
+                    345.7109634876732,
+                    434.36770092480094
+                  ],
+                  [
+                    707.3989395185799,
+                    345.7109846601633,
+                    434.3405371035362
+                  ],
+                  [
+                    707.3806610178542,
+                    345.711048183953,
+                    434.31273641844604
+                  ],
+                  [
+                    707.3633135738698,
+                    345.7111539632401,
+                    434.28433965095974
+                  ],
+                  [
+                    707.3469261951695,
+                    345.7113018246165,
+                    434.2553941326064
+                  ]
+                ],
+                "length_mm": 0.13307111997308355,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  707.3816342140199,
+                  345.7110904265161,
+                  434.31219852240065
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7662748,
+                "bbox_min": [
+                  710.7997342081034,
+                  345.70996348030525,
+                  438.9915054679656
+                ],
+                "bbox_max": [
+                  711.0497292532064,
+                  345.7119634942629,
+                  439.33257143597234
+                ],
+                "curve_points": [
+                  [
+                    710.8007342187216,
+                    345.71096348729776,
+                    438.9925054758669
+                  ],
+                  [
+                    710.8627329746882,
+                    345.7109634872909,
+                    439.0772719639179
+                  ],
+                  [
+                    710.9247317306548,
+                    345.710963487284,
+                    439.16203845196895
+                  ],
+                  [
+                    710.9867304866215,
+                    345.7109634872771,
+                    439.24680494002
+                  ],
+                  [
+                    711.048729242588,
+                    345.71096348727025,
+                    439.331571428071
+                  ]
+                ],
+                "length_mm": 0.4200800540451835,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  710.9247317306549,
+                  345.71096348728406,
+                  439.162038451969
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7662725,
+                "bbox_min": [
+                  707.4171223369839,
+                  345.70996348033043,
+                  434.3667009169007
+                ],
+                "bbox_max": [
+                  710.8017342293397,
+                  345.71196349464066,
+                  438.99350548376253
+                ],
+                "curve_points": [
+                  [
+                    707.4181223476023,
+                    345.7109634876732,
+                    434.36770092480094
+                  ],
+                  [
+                    708.2637753153821,
+                    345.71096348757936,
+                    435.52390206256626
+                  ],
+                  [
+                    709.1094282831617,
+                    345.71096348748557,
+                    436.6801032003316
+                  ],
+                  [
+                    709.9550812509415,
+                    345.7109634873917,
+                    437.8363043380969
+                  ],
+                  [
+                    710.8007342187212,
+                    345.7109634872979,
+                    438.9925054758623
+                  ]
+                ],
+                "length_mm": 5.729823750007635,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  709.1094282831618,
+                  345.7109634874855,
+                  436.6801032003316
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Z10G510904B14.I.94.14.S.84.2(S(E,3A8E,0(E,320E,4))(E,3BE3,0(E,359E,2))(E,3CC7,0(E,323B,2))(E,3D4F,2)(E,3D60,2))0.31.14.S.21.2(E,3E60,0(E,349D,1))0.0.",
+            "label_context_id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "59fc14fd-d5d0-b48d-59fc-14fdd5d0b48d",
+              "name": "添加.54",
+              "full_path": "Handle_Base1/Handle_Base/添加.54",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db",
+              "name": "移除.13",
+              "full_path": "Handle_Base1/Handle_Base/移除.13",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7662748,
+                "bbox_min": [
+                  710.7997342081034,
+                  345.70996348030525,
+                  438.9915054679656
+                ],
+                "bbox_max": [
+                  711.0497292532064,
+                  345.7119634942629,
+                  439.33257143597234
+                ],
+                "curve_points": [
+                  [
+                    710.8007342187216,
+                    345.71096348729776,
+                    438.9925054758669
+                  ],
+                  [
+                    710.8627329746882,
+                    345.7109634872909,
+                    439.0772719639179
+                  ],
+                  [
+                    710.9247317306548,
+                    345.710963487284,
+                    439.16203845196895
+                  ],
+                  [
+                    710.9867304866215,
+                    345.7109634872771,
+                    439.24680494002
+                  ],
+                  [
+                    711.048729242588,
+                    345.71096348727025,
+                    439.331571428071
+                  ]
+                ],
+                "length_mm": 0.4200800540451835,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  710.9247317306549,
+                  345.71096348728406,
+                  439.162038451969
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7662725,
+                "bbox_min": [
+                  707.4171223369839,
+                  345.70996348033043,
+                  434.3667009169007
+                ],
+                "bbox_max": [
+                  710.8017342293397,
+                  345.71196349464066,
+                  438.99350548376253
+                ],
+                "curve_points": [
+                  [
+                    707.4181223476023,
+                    345.7109634876732,
+                    434.36770092480094
+                  ],
+                  [
+                    708.2637753153821,
+                    345.71096348757936,
+                    435.52390206256626
+                  ],
+                  [
+                    709.1094282831617,
+                    345.71096348748557,
+                    436.6801032003316
+                  ],
+                  [
+                    709.9550812509415,
+                    345.7109634873917,
+                    437.8363043380969
+                  ],
+                  [
+                    710.8007342187212,
+                    345.7109634872979,
+                    438.9925054758623
+                  ]
+                ],
+                "length_mm": 5.729823750007635,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  709.1094282831618,
+                  345.7109634874855,
+                  436.6801032003316
+                ]
+              },
+              {
+                "dimension": 1,
+                "cgm_tag": 7662784,
+                "bbox_min": [
+                  707.3365754771573,
+                  345.7094414852649,
+                  434.2539551085065
+                ],
+                "bbox_max": [
+                  707.4266929508823,
+                  345.7127393677673,
+                  434.3704419362948
+                ],
+                "curve_points": [
+                  [
+                    707.4181223476023,
+                    345.7109634876732,
+                    434.36770092480094
+                  ],
+                  [
+                    707.3989395185799,
+                    345.7109846601633,
+                    434.3405371035362
+                  ],
+                  [
+                    707.3806610178542,
+                    345.711048183953,
+                    434.31273641844604
+                  ],
+                  [
+                    707.3633135738698,
+                    345.7111539632401,
+                    434.28433965095974
+                  ],
+                  [
+                    707.3469261951695,
+                    345.7113018246165,
+                    434.2553941326064
+                  ]
+                ],
+                "length_mm": 0.13307111997308355,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  707.3816342140199,
+                  345.7110904265161,
+                  434.31219852240065
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "source_visibility": 0,
+    "type": "EdgeFillet"
+  },
+  "DEPENDENCIES": [
+    "0fd85d9a-ca95-2a0a-0fd8-5d9aca952a0a",
+    "ee8f3fc3-2cb6-62db-ee8f-3fc32cb662db"
+  ],
+  "GEOMETRY": {}
+}

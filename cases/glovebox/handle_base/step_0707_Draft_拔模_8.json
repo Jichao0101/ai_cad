@@ -1,0 +1,3067 @@
+{
+  "STEP_NUMBER": 707,
+  "ORIGINAL_FEATURE_INDEX": 1548,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+    "full_path": "Handle_Base1/几何体.13/拔模.8",
+    "name": "拔模.8",
+    "internal_name": "Draft.8",
+    "type": "Draft",
+    "body": "几何体.13",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "4565844c-85ea-b8b1-4565-844c85eab8b1",
+              "name": "实体.60",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/实体.60",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.60",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4565844c-85ea-b8b1-4565-844c85eab8b1",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "3bbfa972-3f88-f28d-3bbf-a9723f88f28d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "15488817-76d6-1e38-1548-881776d61e38",
+              "name": "PullDir.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "15488817-76d6-1e38-1548-881776d61e38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0b1faa48-25d1-9c41-0b1f-aa4825d19c41",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "name": "PullDir2.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir2.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir2.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c6d709e5-d8ab-bc0d-c6d7-09e5d8abbc0d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a54b64cb-2f56-e853-a54b-64cb2f56e853",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "63a8046e-e5be-675d-63a8-046ee5be675d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7dfbe5db-0e2e-5469-7dfb-e5db0e2e5469",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "name": "面.12",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.12",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "205649a3-4707-55b3-2056-49a3470755b3",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  714.3214754909491,
+                  311.0863784600158,
+                  432.370734553557
+                ],
+                "normal": [
+                  -0.7505908523570949,
+                  0.13060820095308914,
+                  -0.6477305537039667
+                ],
+                "area_native": 12.720905115117816,
+                "cog_mm": [
+                  712.6784075434696,
+                  306.6495833073569,
+                  433.3800893455374
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375742,
+                      "bbox_min": [
+                        710.1073252871886,
+                        301.6811206831279,
+                        431.2803281504869
+                      ],
+                      "bbox_max": [
+                        715.2494897997503,
+                        311.6180459315859,
+                        435.4798505405877
+                      ],
+                      "area_m2": 1.2720905115117816e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        712.6784075434696,
+                        306.6495833073569,
+                        433.38008934553733
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        714.3214754909491,
+                        311.0863784600158,
+                        432.370734553557
+                      ],
+                      "normal": [
+                        -0.7505908523570952,
+                        0.13060820095308923,
+                        -0.6477305537039668
+                      ],
+                      "bbox_center": [
+                        712.6784075434695,
+                        306.6495833073569,
+                        433.3800893455373
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "name": "面.13",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.13",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "695a9668-9f11-9385-695a-96689f119385",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.3934365800449,
+                  310.5014547282194,
+                  445.81354659304054
+                ],
+                "normal": [
+                  0.3898812840227633,
+                  0.13060820082657384,
+                  0.9115558579953328
+                ],
+                "area_native": 12.720905115150057,
+                "cog_mm": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.413667048983
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375751,
+                      "bbox_min": [
+                        720.1882213619391,
+                        301.6811206812375,
+                        445.5645915746642
+                      ],
+                      "bbox_max": [
+                        725.6970921802316,
+                        311.61804592973766,
+                        449.2627425233018
+                      ],
+                      "area_m2": 1.2720905115150056e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.413667048983
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        725.3934365800449,
+                        310.5014547282194,
+                        445.81354659304054
+                      ],
+                      "normal": [
+                        0.38988128402276323,
+                        0.13060820082657382,
+                        0.9115558579953327
+                      ],
+                      "bbox_center": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.41366704898303
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b5f89853-a598-d0a8-b5f8-9853a598d0a8",
+              "name": "MFparameter.25",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/MFparameter.25",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.25",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b5f89853-a598-d0a8-b5f8-9853a598d0a8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2efaa12b-4c23-6b47-2efa-a12b4c236b47",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "b783a697-e229-9f35-b783-a697e2299f35",
+              "name": "实体.61",
+              "full_path": "Handle_Base1/几何体.13/凸台.7/实体.61",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.61",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b783a697-e229-9f35-b783-a697e2299f35",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "988d1022-9e63-13eb-988d-10229e6313eb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Angle",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a54b64cb-2f56-e853-a54b-64cb2f56e853",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Angle2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "63a8046e-e5be-675d-63a8-046ee5be675d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BothSidesType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DraftFittedParameter",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7dfbe5db-0e2e-5469-7dfb-e5db0e2e5469",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DraftHealing",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DrivingMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Mode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Mode2",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MultiselMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Neutral",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "name": "平面.116",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.116",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.116",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1105ec7a-21ef-70d7-1105-ec7a21ef70d7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NeutralList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "name": "平面.116",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.116",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.116",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1105ec7a-21ef-70d7-1105-ec7a21ef70d7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NeutralPropagation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NeutralPropagation2",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "PartingEqualNeutral",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Propagation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "PullDir",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "15488817-76d6-1e38-1548-881776d61e38",
+              "name": "PullDir.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "15488817-76d6-1e38-1548-881776d61e38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0b1faa48-25d1-9c41-0b1f-aa4825d19c41",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "PullDir2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "name": "PullDir2.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir2.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir2.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c6d709e5-d8ab-bc0d-c6d7-09e5d8abbc0d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SupportToDraft",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "name": "面.12",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.12",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "205649a3-4707-55b3-2056-49a3470755b3",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  714.3214754909491,
+                  311.0863784600158,
+                  432.370734553557
+                ],
+                "normal": [
+                  -0.7505908523570949,
+                  0.13060820095308914,
+                  -0.6477305537039667
+                ],
+                "area_native": 12.720905115117816,
+                "cog_mm": [
+                  712.6784075434696,
+                  306.6495833073569,
+                  433.3800893455374
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375742,
+                      "bbox_min": [
+                        710.1073252871886,
+                        301.6811206831279,
+                        431.2803281504869
+                      ],
+                      "bbox_max": [
+                        715.2494897997503,
+                        311.6180459315859,
+                        435.4798505405877
+                      ],
+                      "area_m2": 1.2720905115117816e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        712.6784075434696,
+                        306.6495833073569,
+                        433.38008934553733
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        714.3214754909491,
+                        311.0863784600158,
+                        432.370734553557
+                      ],
+                      "normal": [
+                        -0.7505908523570952,
+                        0.13060820095308923,
+                        -0.6477305537039668
+                      ],
+                      "bbox_center": [
+                        712.6784075434695,
+                        306.6495833073569,
+                        433.3800893455373
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "name": "面.13",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.13",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "695a9668-9f11-9385-695a-96689f119385",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.3934365800449,
+                  310.5014547282194,
+                  445.81354659304054
+                ],
+                "normal": [
+                  0.3898812840227633,
+                  0.13060820082657384,
+                  0.9115558579953328
+                ],
+                "area_native": 12.720905115150057,
+                "cog_mm": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.413667048983
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375751,
+                      "bbox_min": [
+                        720.1882213619391,
+                        301.6811206812375,
+                        445.5645915746642
+                      ],
+                      "bbox_max": [
+                        725.6970921802316,
+                        311.61804592973766,
+                        449.2627425233018
+                      ],
+                      "area_m2": 1.2720905115150056e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.413667048983
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        725.3934365800449,
+                        310.5014547282194,
+                        445.81354659304054
+                      ],
+                      "normal": [
+                        0.38988128402276323,
+                        0.13060820082657382,
+                        0.9115558579953327
+                      ],
+                      "bbox_center": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.41366704898303
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Variation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "34070ce6-03b5-36be-3407-0ce603b536be",
+      "name": "几何体.13",
+      "full_path": "Handle_Base1/几何体.13",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+      "name": "凸台.7",
+      "full_path": "Handle_Base1/几何体.13/凸台.7",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "bfa8cad4-8293-9f42-bfa8-cad482939f42",
+      "name": "拔模.9",
+      "full_path": "Handle_Base1/几何体.13/拔模.9",
+      "in_feature_catalog": true
+    },
+    "order": 1548
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.13",
+    "definition_available": true,
+    "definition_source": "caa_native_interfaces",
+    "definition_sources": [
+      "features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/几何体.13/拔模.8",
+    "id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "4565844c-85ea-b8b1-4565-844c85eab8b1",
+              "name": "实体.60",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/实体.60",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.60",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4565844c-85ea-b8b1-4565-844c85eab8b1",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "3bbfa972-3f88-f28d-3bbf-a9723f88f28d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "15488817-76d6-1e38-1548-881776d61e38",
+              "name": "PullDir.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "15488817-76d6-1e38-1548-881776d61e38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0b1faa48-25d1-9c41-0b1f-aa4825d19c41",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "name": "PullDir2.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir2.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir2.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c6d709e5-d8ab-bc0d-c6d7-09e5d8abbc0d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a54b64cb-2f56-e853-a54b-64cb2f56e853",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "63a8046e-e5be-675d-63a8-046ee5be675d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7dfbe5db-0e2e-5469-7dfb-e5db0e2e5469",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "name": "面.12",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.12",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "205649a3-4707-55b3-2056-49a3470755b3",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  714.3214754909491,
+                  311.0863784600158,
+                  432.370734553557
+                ],
+                "normal": [
+                  -0.7505908523570949,
+                  0.13060820095308914,
+                  -0.6477305537039667
+                ],
+                "area_native": 12.720905115117816,
+                "cog_mm": [
+                  712.6784075434696,
+                  306.6495833073569,
+                  433.3800893455374
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375742,
+                      "bbox_min": [
+                        710.1073252871886,
+                        301.6811206831279,
+                        431.2803281504869
+                      ],
+                      "bbox_max": [
+                        715.2494897997503,
+                        311.6180459315859,
+                        435.4798505405877
+                      ],
+                      "area_m2": 1.2720905115117816e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        712.6784075434696,
+                        306.6495833073569,
+                        433.38008934553733
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        714.3214754909491,
+                        311.0863784600158,
+                        432.370734553557
+                      ],
+                      "normal": [
+                        -0.7505908523570952,
+                        0.13060820095308923,
+                        -0.6477305537039668
+                      ],
+                      "bbox_center": [
+                        712.6784075434695,
+                        306.6495833073569,
+                        433.3800893455373
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "name": "面.13",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.13",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "695a9668-9f11-9385-695a-96689f119385",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.3934365800449,
+                  310.5014547282194,
+                  445.81354659304054
+                ],
+                "normal": [
+                  0.3898812840227633,
+                  0.13060820082657384,
+                  0.9115558579953328
+                ],
+                "area_native": 12.720905115150057,
+                "cog_mm": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.413667048983
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375751,
+                      "bbox_min": [
+                        720.1882213619391,
+                        301.6811206812375,
+                        445.5645915746642
+                      ],
+                      "bbox_max": [
+                        725.6970921802316,
+                        311.61804592973766,
+                        449.2627425233018
+                      ],
+                      "area_m2": 1.2720905115150056e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.413667048983
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        725.3934365800449,
+                        310.5014547282194,
+                        445.81354659304054
+                      ],
+                      "normal": [
+                        0.38988128402276323,
+                        0.13060820082657382,
+                        0.9115558579953327
+                      ],
+                      "bbox_center": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.41366704898303
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b5f89853-a598-d0a8-b5f8-9853a598d0a8",
+              "name": "MFparameter.25",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/MFparameter.25",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.25",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b5f89853-a598-d0a8-b5f8-9853a598d0a8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2efaa12b-4c23-6b47-2efa-a12b4c236b47",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "b783a697-e229-9f35-b783-a697e2299f35",
+              "name": "实体.61",
+              "full_path": "Handle_Base1/几何体.13/凸台.7/实体.61",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.61",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b783a697-e229-9f35-b783-a697e2299f35",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "988d1022-9e63-13eb-988d-10229e6313eb",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Angle",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\角度",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "b6507c0c-364b-e139-b650-7c0c364be139",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a54b64cb-2f56-e853-a54b-64cb2f56e853",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Angle2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\Angle2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "68c1b0af-b3f2-ae16-68c1-b0afb3f2ae16",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "63a8046e-e5be-675d-63a8-046ee5be675d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BothSidesType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DraftFittedParameter",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "name": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.13\\拔模.8\\DraftFittedParameter",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5e0a57a0-9e6f-4490-5e0a-57a09e6f4490",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7dfbe5db-0e2e-5469-7dfb-e5db0e2e5469",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DraftHealing",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DrivingMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Mode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Mode2",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MultiselMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Neutral",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "name": "平面.116",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.116",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.116",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1105ec7a-21ef-70d7-1105-ec7a21ef70d7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NeutralList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "name": "平面.116",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.116",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.116",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "1105ec7a-21ef-70d7-1105-ec7a21ef70d7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NeutralPropagation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "NeutralPropagation2",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "PartingEqualNeutral",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Propagation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "PullDir",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "15488817-76d6-1e38-1548-881776d61e38",
+              "name": "PullDir.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "15488817-76d6-1e38-1548-881776d61e38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "0b1faa48-25d1-9c41-0b1f-aa4825d19c41",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "PullDir2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "name": "PullDir2.9",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/PullDir2.9",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "PullDir2.9",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "4ec9a91f-f589-6c38-4ec9-a91ff5896c38",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c6d709e5-d8ab-bc0d-c6d7-09e5d8abbc0d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SupportToDraft",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "name": "面.12",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.12",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "205649a3-4707-55b3-2056-49a3470755b3",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  714.3214754909491,
+                  311.0863784600158,
+                  432.370734553557
+                ],
+                "normal": [
+                  -0.7505908523570949,
+                  0.13060820095308914,
+                  -0.6477305537039667
+                ],
+                "area_native": 12.720905115117816,
+                "cog_mm": [
+                  712.6784075434696,
+                  306.6495833073569,
+                  433.3800893455374
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375742,
+                      "bbox_min": [
+                        710.1073252871886,
+                        301.6811206831279,
+                        431.2803281504869
+                      ],
+                      "bbox_max": [
+                        715.2494897997503,
+                        311.6180459315859,
+                        435.4798505405877
+                      ],
+                      "area_m2": 1.2720905115117816e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        712.6784075434696,
+                        306.6495833073569,
+                        433.38008934553733
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        714.3214754909491,
+                        311.0863784600158,
+                        432.370734553557
+                      ],
+                      "normal": [
+                        -0.7505908523570952,
+                        0.13060820095308923,
+                        -0.6477305537039668
+                      ],
+                      "bbox_center": [
+                        712.6784075434695,
+                        306.6495833073569,
+                        433.3800893455373
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "name": "面.13",
+              "full_path": "Handle_Base1/几何体.13/拔模.8/面.13",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "695a9668-9f11-9385-695a-96689f119385",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.3934365800449,
+                  310.5014547282194,
+                  445.81354659304054
+                ],
+                "normal": [
+                  0.3898812840227633,
+                  0.13060820082657384,
+                  0.9115558579953328
+                ],
+                "area_native": 12.720905115150057,
+                "cog_mm": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.413667048983
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375751,
+                      "bbox_min": [
+                        720.1882213619391,
+                        301.6811206812375,
+                        445.5645915746642
+                      ],
+                      "bbox_max": [
+                        725.6970921802316,
+                        311.61804592973766,
+                        449.2627425233018
+                      ],
+                      "area_m2": 1.2720905115150056e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.413667048983
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        725.3934365800449,
+                        310.5014547282194,
+                        445.81354659304054
+                      ],
+                      "normal": [
+                        0.38988128402276323,
+                        0.13060820082657382,
+                        0.9115558579953327
+                      ],
+                      "bbox_center": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.41366704898303
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Variation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "Draft.8",
+    "kind": "draft",
+    "name": "拔模.8",
+    "native_definition_available": true,
+    "native_draft_faces": [
+      {
+        "native_brep_name": "RSur:(Face:(Brp:(Pad.7;5:(Brp:(Sketch.27;4)));None:();Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      },
+      {
+        "native_brep_name": "RSur:(Face:(Brp:(Pad.7;5:(Brp:(Sketch.27;2)));None:();Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      }
+    ],
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_result_geometry": {
+      "area_mm2": 474.28990248172164,
+      "cog_mm": [
+        718.6473772674861,
+        306.2448797791324,
+        439.7848042877894
+      ],
+      "volume_mm3": 241.711722529752
+    },
+    "next_shape": {
+      "id": "bfa8cad4-8293-9f42-bfa8-cad482939f42",
+      "name": "拔模.9",
+      "full_path": "Handle_Base1/几何体.13/拔模.9",
+      "in_feature_catalog": true
+    },
+    "params": {
+      "angle": -10,
+      "mode": "Standard",
+      "pulling_direction": [
+        0.4073111858414165,
+        0.8633349368899381,
+        -0.2979100277494959
+      ],
+      "pulling_direction_ref": "相交.75",
+      "neutral": "平面.116",
+      "parting": ""
+    },
+    "parent": {
+      "id": "34070ce6-03b5-36be-3407-0ce603b536be",
+      "name": "几何体.13",
+      "full_path": "Handle_Base1/几何体.13",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+      "name": "凸台.7",
+      "full_path": "Handle_Base1/几何体.13/凸台.7",
+      "in_feature_catalog": true
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "features",
+        "feature": {
+          "id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+          "full_path": "Handle_Base1/几何体.13/拔模.8",
+          "name": "拔模.8",
+          "kind": "draft",
+          "type": "CATISpecObject",
+          "body": "几何体.13",
+          "params": {
+            "angle": -10,
+            "mode": "Standard",
+            "pulling_direction": [
+              0.4073111858414165,
+              0.8633349368899381,
+              -0.2979100277494959
+            ],
+            "pulling_direction_ref": "相交.75",
+            "neutral": "平面.116",
+            "parting": ""
+          },
+          "selections": [
+            {
+              "role": "face_to_draft",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "795bd910-0d4c-a418-795b-d9100d4ca418",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  714.3214754909491,
+                  311.0863784600158,
+                  432.370734553557
+                ],
+                "normal": [
+                  -0.7505908523570949,
+                  0.13060820095308914,
+                  -0.6477305537039667
+                ],
+                "area_native": 12.720905115117816,
+                "cog_mm": [
+                  712.6784075434696,
+                  306.6495833073569,
+                  433.3800893455374
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375742,
+                      "bbox_min": [
+                        710.1073252871886,
+                        301.6811206831279,
+                        431.2803281504869
+                      ],
+                      "bbox_max": [
+                        715.2494897997503,
+                        311.6180459315859,
+                        435.4798505405877
+                      ],
+                      "area_m2": 1.2720905115117816e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        712.6784075434696,
+                        306.6495833073569,
+                        433.38008934553733
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        714.3214754909491,
+                        311.0863784600158,
+                        432.370734553557
+                      ],
+                      "normal": [
+                        -0.7505908523570952,
+                        0.13060820095308923,
+                        -0.6477305537039668
+                      ],
+                      "bbox_center": [
+                        712.6784075434695,
+                        306.6495833073569,
+                        433.3800893455373
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "face_to_draft",
+              "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "30c456a9-74c3-ec1e-30c4-56a974c3ec1e",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.3934365800449,
+                  310.5014547282194,
+                  445.81354659304054
+                ],
+                "normal": [
+                  0.3898812840227633,
+                  0.13060820082657384,
+                  0.9115558579953328
+                ],
+                "area_native": 12.720905115150057,
+                "cog_mm": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.413667048983
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+                  "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+                    "name": "凸台.7",
+                    "full_path": "Handle_Base1/几何体.13/凸台.7",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7375751,
+                      "bbox_min": [
+                        720.1882213619391,
+                        301.6811206812375,
+                        445.5645915746642
+                      ],
+                      "bbox_max": [
+                        725.6970921802316,
+                        311.61804592973766,
+                        449.2627425233018
+                      ],
+                      "area_m2": 1.2720905115150056e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.413667048983
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        725.3934365800449,
+                        310.5014547282194,
+                        445.81354659304054
+                      ],
+                      "normal": [
+                        0.38988128402276323,
+                        0.13060820082657382,
+                        0.9115558579953327
+                      ],
+                      "bbox_center": [
+                        722.9426567710854,
+                        306.64958330548757,
+                        447.41366704898303
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "neutral_element",
+              "label": "平面.116",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e1ee23b4-a933-eda5-e1ee-23b4a933eda5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            {
+              "role": "pulling_direction_ref",
+              "label": "相交.75",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ac50adcd-f659-1bd4-ac50-adcdf6591bd4",
+              "owner_feature": "拔模.8",
+              "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8b049bb0-0d7a-e3a0-8b04-9bb00d7ae3a0",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            }
+          ]
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+          "name": "拔模.8",
+          "full_path": "Handle_Base1/几何体.13/拔模.8",
+          "native_result_geometry": {
+            "area_mm2": 474.28990248172164,
+            "cog_mm": [
+              718.6473772674861,
+              306.2448797791324,
+              439.7848042877894
+            ],
+            "volume_mm3": 241.711722529752
+          },
+          "native_draft_faces": [
+            {
+              "native_brep_name": "RSur:(Face:(Brp:(Pad.7;5:(Brp:(Sketch.27;4)));None:();Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            },
+            {
+              "native_brep_name": "RSur:(Face:(Brp:(Pad.7;5:(Brp:(Sketch.27;2)));None:();Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            }
+          ],
+          "selection_geometry": {
+            "205649a3-4707-55b3-2056-49a3470755b3": {
+              "area_m2": 1.2720905115117816e-05,
+              "cog_mm": [
+                712.6784075434696,
+                306.6495833073569,
+                433.3800893455374
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "normal": [
+                -0.7505908523570949,
+                0.13060820095308914,
+                -0.6477305537039667
+              ],
+              "origin": [
+                714.3214754909491,
+                311.0863784600158,
+                432.370734553557
+              ],
+              "surface_type": "Plane"
+            },
+            "30c456a9-74c3-ec1e-30c4-56a974c3ec1e": {
+              "area_m2": 1.2720905115150056e-05,
+              "cog_mm": [
+                722.9426567710854,
+                306.64958330548757,
+                447.413667048983
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "normal": [
+                0.3898812840227633,
+                0.13060820082657384,
+                0.9115558579953328
+              ],
+              "origin": [
+                725.3934365800449,
+                310.5014547282194,
+                445.81354659304054
+              ],
+              "surface_type": "Plane"
+            },
+            "695a9668-9f11-9385-695a-96689f119385": {
+              "area_m2": 1.2720905115150056e-05,
+              "cog_mm": [
+                722.9426567710854,
+                306.64958330548757,
+                447.413667048983
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+              "normal": [
+                0.3898812840227633,
+                0.13060820082657384,
+                0.9115558579953328
+              ],
+              "origin": [
+                725.3934365800449,
+                310.5014547282194,
+                445.81354659304054
+              ],
+              "surface_type": "Plane"
+            },
+            "795bd910-0d4c-a418-795b-d9100d4ca418": {
+              "area_m2": 1.2720905115117816e-05,
+              "cog_mm": [
+                712.6784075434696,
+                306.6495833073569,
+                433.3800893455374
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+              "normal": [
+                -0.7505908523570949,
+                0.13060820095308914,
+                -0.6477305537039667
+              ],
+              "origin": [
+                714.3214754909491,
+                311.0863784600158,
+                432.370734553557
+              ],
+              "surface_type": "Plane"
+            }
+          },
+          "native_definition_available": true,
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "selection_geometry": {
+      "205649a3-4707-55b3-2056-49a3470755b3": {
+        "area_m2": 1.2720905115117816e-05,
+        "cog_mm": [
+          712.6784075434696,
+          306.6495833073569,
+          433.3800893455374
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+        "normal": [
+          -0.7505908523570949,
+          0.13060820095308914,
+          -0.6477305537039667
+        ],
+        "origin": [
+          714.3214754909491,
+          311.0863784600158,
+          432.370734553557
+        ],
+        "surface_type": "Plane"
+      },
+      "30c456a9-74c3-ec1e-30c4-56a974c3ec1e": {
+        "area_m2": 1.2720905115150056e-05,
+        "cog_mm": [
+          722.9426567710854,
+          306.64958330548757,
+          447.413667048983
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+        "normal": [
+          0.3898812840227633,
+          0.13060820082657384,
+          0.9115558579953328
+        ],
+        "origin": [
+          725.3934365800449,
+          310.5014547282194,
+          445.81354659304054
+        ],
+        "surface_type": "Plane"
+      },
+      "695a9668-9f11-9385-695a-96689f119385": {
+        "area_m2": 1.2720905115150056e-05,
+        "cog_mm": [
+          722.9426567710854,
+          306.64958330548757,
+          447.413667048983
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+        "normal": [
+          0.3898812840227633,
+          0.13060820082657384,
+          0.9115558579953328
+        ],
+        "origin": [
+          725.3934365800449,
+          310.5014547282194,
+          445.81354659304054
+        ],
+        "surface_type": "Plane"
+      },
+      "795bd910-0d4c-a418-795b-d9100d4ca418": {
+        "area_m2": 1.2720905115117816e-05,
+        "cog_mm": [
+          712.6784075434696,
+          306.6495833073569,
+          433.3800893455374
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+        "normal": [
+          -0.7505908523570949,
+          0.13060820095308914,
+          -0.6477305537039667
+        ],
+        "origin": [
+          714.3214754909491,
+          311.0863784600158,
+          432.370734553557
+        ],
+        "surface_type": "Plane"
+      }
+    },
+    "selections": [
+      {
+        "role": "face_to_draft",
+        "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "a8f0f028-5329-72f8-a8f0-f028532972f8",
+        "owner_feature": "拔模.8",
+        "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "795bd910-0d4c-a418-795b-d9100d4ca418",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+        "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+        "brep_type": "RSur(Face)",
+        "resolved_brep_count": 1,
+        "missing_reason": "",
+        "caa_measurement": {
+          "geometry_name": 7,
+          "surface_type": "Plane",
+          "origin": [
+            714.3214754909491,
+            311.0863784600158,
+            432.370734553557
+          ],
+          "normal": [
+            -0.7505908523570949,
+            0.13060820095308914,
+            -0.6477305537039667
+          ],
+          "area_native": 12.720905115117816,
+          "cog_mm": [
+            712.6784075434696,
+            306.6495833073569,
+            433.3800893455374
+          ],
+          "available": true
+        },
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,4))0.",
+            "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+            "dimension": 2,
+            "initial_feature": {
+              "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "name": "凸台.7",
+              "full_path": "Handle_Base1/几何体.13/凸台.7",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "name": "凸台.7",
+              "full_path": "Handle_Base1/几何体.13/凸台.7",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 2,
+                "cgm_tag": 7375742,
+                "bbox_min": [
+                  710.1073252871886,
+                  301.6811206831279,
+                  431.2803281504869
+                ],
+                "bbox_max": [
+                  715.2494897997503,
+                  311.6180459315859,
+                  435.4798505405877
+                ],
+                "area_m2": 1.2720905115117816e-05,
+                "surface_measurement_source": "CAA resolved face",
+                "cog_mm": [
+                  712.6784075434696,
+                  306.6495833073569,
+                  433.38008934553733
+                ],
+                "surface_type": "Plane",
+                "origin": [
+                  714.3214754909491,
+                  311.0863784600158,
+                  432.370734553557
+                ],
+                "normal": [
+                  -0.7505908523570952,
+                  0.13060820095308923,
+                  -0.6477305537039668
+                ],
+                "bbox_center": [
+                  712.6784075434695,
+                  306.6495833073569,
+                  433.3800893455373
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "face_to_draft",
+        "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "210efee1-2ce1-311b-210e-fee12ce1311b",
+        "owner_feature": "拔模.8",
+        "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "30c456a9-74c3-ec1e-30c4-56a974c3ec1e",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+        "support_feature": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+        "brep_type": "RSur(Face)",
+        "resolved_brep_count": 1,
+        "missing_reason": "",
+        "caa_measurement": {
+          "geometry_name": 7,
+          "surface_type": "Plane",
+          "origin": [
+            725.3934365800449,
+            310.5014547282194,
+            445.81354659304054
+          ],
+          "normal": [
+            0.3898812840227633,
+            0.13060820082657384,
+            0.9115558579953328
+          ],
+          "area_native": 12.720905115150057,
+          "cog_mm": [
+            722.9426567710854,
+            306.64958330548757,
+            447.413667048983
+          ],
+          "available": true
+        },
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.S.21.2(E,3B1F,5(E,3477,2))0.",
+            "label_context_id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+            "dimension": 2,
+            "initial_feature": {
+              "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "name": "凸台.7",
+              "full_path": "Handle_Base1/几何体.13/凸台.7",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4",
+              "name": "凸台.7",
+              "full_path": "Handle_Base1/几何体.13/凸台.7",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 2,
+                "cgm_tag": 7375751,
+                "bbox_min": [
+                  720.1882213619391,
+                  301.6811206812375,
+                  445.5645915746642
+                ],
+                "bbox_max": [
+                  725.6970921802316,
+                  311.61804592973766,
+                  449.2627425233018
+                ],
+                "area_m2": 1.2720905115150056e-05,
+                "surface_measurement_source": "CAA resolved face",
+                "cog_mm": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.413667048983
+                ],
+                "surface_type": "Plane",
+                "origin": [
+                  725.3934365800449,
+                  310.5014547282194,
+                  445.81354659304054
+                ],
+                "normal": [
+                  0.38988128402276323,
+                  0.13060820082657382,
+                  0.9115558579953327
+                ],
+                "bbox_center": [
+                  722.9426567710854,
+                  306.64958330548757,
+                  447.41366704898303
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "neutral_element",
+        "label": "平面.116",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "60636db7-ba02-bd08-6063-6db7ba02bd08",
+        "owner_feature": "拔模.8",
+        "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "e1ee23b4-a933-eda5-e1ee-23b4a933eda5",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      },
+      {
+        "role": "pulling_direction_ref",
+        "label": "相交.75",
+        "label_is_generic_naming": 0,
+        "source_feature_id": "ac50adcd-f659-1bd4-ac50-adcdf6591bd4",
+        "owner_feature": "拔模.8",
+        "owner_feature_id": "67eb8eea-6008-d4f5-67eb-8eea6008d4f5",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "8b049bb0-0d7a-e3a0-8b04-9bb00d7ae3a0",
+        "reference_kind": "feature",
+        "valid": true,
+        "automation_brep_name": "",
+        "support_feature": "",
+        "brep_type": "Feature",
+        "resolved_brep_count": 0,
+        "missing_reason": "",
+        "resolved_breps": []
+      }
+    ],
+    "source_visibility": 0,
+    "type": "Draft"
+  },
+  "DEPENDENCIES": [
+    "34070ce6-03b5-36be-3407-0ce603b536be",
+    "60636db7-ba02-bd08-6063-6db7ba02bd08",
+    "a5c6a578-ee7b-e1d4-a5c6-a578ee7be1d4"
+  ],
+  "GEOMETRY": {}
+}

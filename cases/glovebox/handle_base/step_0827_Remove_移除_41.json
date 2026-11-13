@@ -1,0 +1,556 @@
+{
+  "STEP_NUMBER": 827,
+  "ORIGINAL_FEATURE_INDEX": 3601,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "551df309-645a-ff07-551d-f309645aff07",
+    "full_path": "Handle_Base1/几何体.111/移除.41",
+    "name": "移除.41",
+    "internal_name": "Remove.41",
+    "type": "Remove",
+    "body": "几何体.111",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "701e58fe-04f0-7f0b-701e-58fe04f07f0b",
+              "name": "实体.344",
+              "full_path": "Handle_Base1/几何体.111/移除.41/实体.344",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.344",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "701e58fe-04f0-7f0b-701e-58fe04f07f0b",
+              "owner_feature": "移除.41",
+              "owner_feature_id": "551df309-645a-ff07-551d-f309645aff07",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "74d79913-94d4-bab3-74d7-991394d4bab3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "a2c4a763-2ab8-46a6-a2c4-a7632ab846a6",
+              "name": "实体.345",
+              "full_path": "Handle_Base1/几何体.111/添加.49/实体.345",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.345",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a2c4a763-2ab8-46a6-a2c4-a7632ab846a6",
+              "owner_feature": "移除.41",
+              "owner_feature_id": "551df309-645a-ff07-551d-f309645aff07",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "87f08fc6-ba52-512b-87f0-8fc6ba52512b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "63755209-37d2-b1c1-6375-520937d2b1c1",
+              "name": "几何体.113",
+              "full_path": "Handle_Base1/几何体.113",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "几何体.113",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "63755209-37d2-b1c1-6375-520937d2b1c1",
+              "owner_feature": "移除.41",
+              "owner_feature_id": "551df309-645a-ff07-551d-f309645aff07",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2668312a-bb99-75f7-2668-312abb9975f7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "04e6f7e7-261d-dc0f-04e6-f7e7261ddc0f",
+      "name": "几何体.111",
+      "full_path": "Handle_Base1/几何体.111",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "2abb977f-c402-683c-2abb-977fc402683c",
+      "name": "添加.49",
+      "full_path": "Handle_Base1/几何体.111/添加.49",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 3601
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.111",
+    "definition_sources": [
+      "boolean_operations"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "实体.345",
+    "first_operand_id": "a2c4a763-2ab8-46a6-a2c4-a7632ab846a6",
+    "first_operand_inferred_from_result_body": false,
+    "first_operand_path": "Handle_Base1/几何体.111/添加.49/实体.345",
+    "full_path": "Handle_Base1/几何体.111/移除.41",
+    "id": "551df309-645a-ff07-551d-f309645aff07",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "701e58fe-04f0-7f0b-701e-58fe04f07f0b",
+              "name": "实体.344",
+              "full_path": "Handle_Base1/几何体.111/移除.41/实体.344",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.344",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "701e58fe-04f0-7f0b-701e-58fe04f07f0b",
+              "owner_feature": "移除.41",
+              "owner_feature_id": "551df309-645a-ff07-551d-f309645aff07",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "74d79913-94d4-bab3-74d7-991394d4bab3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "a2c4a763-2ab8-46a6-a2c4-a7632ab846a6",
+              "name": "实体.345",
+              "full_path": "Handle_Base1/几何体.111/添加.49/实体.345",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.345",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a2c4a763-2ab8-46a6-a2c4-a7632ab846a6",
+              "owner_feature": "移除.41",
+              "owner_feature_id": "551df309-645a-ff07-551d-f309645aff07",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "87f08fc6-ba52-512b-87f0-8fc6ba52512b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "63755209-37d2-b1c1-6375-520937d2b1c1",
+              "name": "几何体.113",
+              "full_path": "Handle_Base1/几何体.113",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "几何体.113",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "63755209-37d2-b1c1-6375-520937d2b1c1",
+              "owner_feature": "移除.41",
+              "owner_feature_id": "551df309-645a-ff07-551d-f309645aff07",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2668312a-bb99-75f7-2668-312abb9975f7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "interface_available": true,
+    "internal_name": "Remove.41",
+    "name": "移除.41",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "04e6f7e7-261d-dc0f-04e6-f7e7261ddc0f",
+      "name": "几何体.111",
+      "full_path": "Handle_Base1/几何体.111",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "2abb977f-c402-683c-2abb-977fc402683c",
+      "name": "添加.49",
+      "full_path": "Handle_Base1/几何体.111/添加.49",
+      "in_feature_catalog": true
+    },
+    "reconstruction_ready": true,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "移除.41",
+          "type": "Remove",
+          "id": "551df309-645a-ff07-551d-f309645aff07",
+          "full_path": "Handle_Base1/几何体.111/移除.41",
+          "body": "几何体.111",
+          "tool_body": "几何体.113",
+          "tool_body_path": "Handle_Base1/几何体.113",
+          "tool_body_id": "63755209-37d2-b1c1-6375-520937d2b1c1",
+          "first_operand": "实体.345",
+          "first_operand_path": "Handle_Base1/几何体.111/添加.49/实体.345",
+          "first_operand_id": "a2c4a763-2ab8-46a6-a2c4-a7632ab846a6",
+          "second_operand": "实体.350",
+          "second_operand_path": "Handle_Base1/几何体.113/拔模.52/实体.350",
+          "second_operand_id": "54bed845-881f-33ad-54be-d845881f33ad",
+          "interface_available": true,
+          "first_operand_inferred_from_result_body": false,
+          "reconstruction_ready": true,
+          "activity": "true"
+        }
+      }
+    ],
+    "second_operand": "实体.350",
+    "second_operand_id": "54bed845-881f-33ad-54be-d845881f33ad",
+    "second_operand_path": "Handle_Base1/几何体.113/拔模.52/实体.350",
+    "source_visibility": 0,
+    "tool_body": "几何体.113",
+    "tool_body_id": "63755209-37d2-b1c1-6375-520937d2b1c1",
+    "tool_body_path": "Handle_Base1/几何体.113",
+    "type": "Remove"
+  },
+  "DEPENDENCIES": [
+    "04e6f7e7-261d-dc0f-04e6-f7e7261ddc0f",
+    "2abb977f-c402-683c-2abb-977fc402683c",
+    "63755209-37d2-b1c1-6375-520937d2b1c1",
+    "d4037c99-f204-2daf-d403-7c99f2042daf"
+  ],
+  "GEOMETRY": {}
+}

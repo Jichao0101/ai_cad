@@ -1,0 +1,198 @@
+{
+  "STEP_NUMBER": 161,
+  "ORIGINAL_FEATURE_INDEX": 173,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "c91cdc7b-d4a4-f72e-c91c-dc7bd4a4f72e",
+    "full_path": "Handle_Base1/Construction/Definition Construction/ICD location",
+    "name": "ICD location",
+    "internal_name": "Open_body.79",
+    "type": "GSMTool",
+    "body": "Part",
+    "activity": "unknown",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "ICD location"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "1bb1b981-14b1-4476-1bb1-b98114b14476",
+      "name": "Definition Construction",
+      "full_path": "Handle_Base1/Construction/Definition Construction",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 173
+  },
+  "DEFINITION": {
+    "activity": "unknown",
+    "body": "Part",
+    "definition_available": false,
+    "definition_source": "child_spec_objects",
+    "definition_sources": [
+      "gsm_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Construction/Definition Construction/ICD location",
+    "gsm_category": "GSMTool",
+    "id": "c91cdc7b-d4a4-f72e-c91c-dc7bd4a4f72e",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "ICD location"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 0,
+    "internal_name": "Open_body.79",
+    "missing_reason": "No public feature-specific definition or child inputs were available",
+    "name": "ICD location",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 74,
+    "parameter_count": 0,
+    "params": [],
+    "parent": {
+      "id": "1bb1b981-14b1-4476-1bb1-b98114b14476",
+      "name": "Definition Construction",
+      "full_path": "Handle_Base1/Construction/Definition Construction",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 74,
+          "name": "ICD location",
+          "type": "GSMTool",
+          "gsm_category": "GSMTool",
+          "body": "Part",
+          "full_path": "Handle_Base1/Construction/Definition Construction/ICD location",
+          "id": "c91cdc7b-d4a4-f72e-c91c-dc7bd4a4f72e",
+          "parameter_count": 0,
+          "input_count": 0,
+          "definition_available": false,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "No public feature-specific definition or child inputs were available",
+          "params": [],
+          "selections": []
+        }
+      }
+    ],
+    "selections": [],
+    "source_visibility": 0,
+    "type": "GSMTool"
+  },
+  "DEPENDENCIES": [
+    "1bb1b981-14b1-4476-1bb1-b98114b14476"
+  ],
+  "GEOMETRY": {}
+}

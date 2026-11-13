@@ -1,0 +1,1414 @@
+{
+  "STEP_NUMBER": 585,
+  "ORIGINAL_FEATURE_INDEX": 2980,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "b141913f-ae83-54ab-b141-913fae8354ab",
+    "full_path": "Handle_Base1/几何体.50/倒圆角.35",
+    "name": "倒圆角.35",
+    "internal_name": "EdgeFillet.35",
+    "type": "EdgeFillet",
+    "body": "几何体.50",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ee409572-47ce-7208-ee40-957247ce7208",
+              "name": "实体.144",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/实体.144",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.144",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ee409572-47ce-7208-ee40-957247ce7208",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6ce3f650-2511-a9f7-6ce3-f6502511a9f7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "name": "CstEdgeRibbon.61",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/CstEdgeRibbon.61",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.61",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8890c39b-873c-575d-8890-c39b873c575d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "name": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2f712f90-33f3-0fd7-2f71-2f9033f30fd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0efed0ae-eaa0-659c-0efe-d0aeeaa0659c",
+              "name": "MFparameter.54",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/MFparameter.54",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.54",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0efed0ae-eaa0-659c-0efe-d0aeeaa0659c",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c0f7be4a-2706-78b7-c0f7-be4a270678b7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "6a1ddafc-7ce8-84ba-6a1d-dafc7ce884ba",
+              "name": "实体.145",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.34/实体.145",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.145",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6a1ddafc-7ce8-84ba-6a1d-dafc7ce884ba",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7dfd6828-42b7-38b3-7dfd-682842b738b3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BitangencyType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BoundariesRelimitationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletVisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletWorkShop",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimSupportMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ChordalMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CliffEdgeMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicRatio",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "name": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2f712f90-33f3-0fd7-2f71-2f9033f30fd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "RibbonList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "name": "CstEdgeRibbon.61",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/CstEdgeRibbon.61",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.61",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8890c39b-873c-575d-8890-c39b873c575d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimRibbonMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SetBackType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrackActivation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TransitionalCornerMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "4f3595a7-d6c2-29a5-4f35-95a7d6c229a5",
+      "name": "几何体.50",
+      "full_path": "Handle_Base1/几何体.50",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+      "name": "倒圆角.34",
+      "full_path": "Handle_Base1/几何体.50/倒圆角.34",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 2980
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.50",
+    "definition_sources": [
+      "features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/几何体.50/倒圆角.35",
+    "id": "b141913f-ae83-54ab-b141-913fae8354ab",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ee409572-47ce-7208-ee40-957247ce7208",
+              "name": "实体.144",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/实体.144",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.144",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ee409572-47ce-7208-ee40-957247ce7208",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6ce3f650-2511-a9f7-6ce3-f6502511a9f7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "name": "CstEdgeRibbon.61",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/CstEdgeRibbon.61",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.61",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8890c39b-873c-575d-8890-c39b873c575d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "name": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2f712f90-33f3-0fd7-2f71-2f9033f30fd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0efed0ae-eaa0-659c-0efe-d0aeeaa0659c",
+              "name": "MFparameter.54",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/MFparameter.54",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "MFparameter.54",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0efed0ae-eaa0-659c-0efe-d0aeeaa0659c",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c0f7be4a-2706-78b7-c0f7-be4a270678b7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "6a1ddafc-7ce8-84ba-6a1d-dafc7ce884ba",
+              "name": "实体.145",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.34/实体.145",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.145",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6a1ddafc-7ce8-84ba-6a1d-dafc7ce884ba",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7dfd6828-42b7-38b3-7dfd-682842b738b3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BitangencyType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "BoundariesRelimitationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletVisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FilletWorkShop",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimSupportMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ChordalMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CliffEdgeMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConicRatio",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "name": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Handle_Base1\\几何体.50\\倒圆角.35\\二次曲线曲率",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7d966eb9-86d5-e8cb-7d96-6eb986d5e8cb",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "2f712f90-33f3-0fd7-2f71-2f9033f30fd7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "RibbonList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "name": "CstEdgeRibbon.61",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.35/CstEdgeRibbon.61",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "CstEdgeRibbon.61",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "64b29e85-5ca3-749e-64b2-9e855ca3749e",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8890c39b-873c-575d-8890-c39b873c575d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrimRibbonMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SetBackType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TrackActivation",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "TransitionalCornerMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "EdgeFillet.35",
+    "kind": "fillet",
+    "name": "倒圆角.35",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_fillet_edges": [
+      {
+        "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.35;0:(Brp:(Sketch.29;5)));None:();Cf11:());Face:(Brp:(Pad.35;0:(Brp:(Sketch.29;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+      }
+    ],
+    "native_result_geometry": {
+      "area_mm2": 311.8139058417946,
+      "cog_mm": [
+        716.2475690719035,
+        344.50422793499257,
+        453.5760596984266
+      ],
+      "volume_mm3": 332.25273896199644
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "params": {
+      "fillet_type": "Constant",
+      "radius": 3,
+      "propagation": "Tangency",
+      "variation": "Cubic"
+    },
+    "parent": {
+      "id": "4f3595a7-d6c2-29a5-4f35-95a7d6c229a5",
+      "name": "几何体.50",
+      "full_path": "Handle_Base1/几何体.50",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+      "name": "倒圆角.34",
+      "full_path": "Handle_Base1/几何体.50/倒圆角.34",
+      "in_feature_catalog": true
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "features",
+        "feature": {
+          "id": "b141913f-ae83-54ab-b141-913fae8354ab",
+          "full_path": "Handle_Base1/几何体.50/倒圆角.35",
+          "name": "倒圆角.35",
+          "kind": "fillet",
+          "type": "CATISpecObject",
+          "body": "几何体.50",
+          "params": {
+            "fillet_type": "Constant",
+            "radius": 3,
+            "propagation": "Tangency",
+            "variation": "Cubic"
+          },
+          "selections": [
+            {
+              "role": "fillet_object",
+              "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "aed8d5a5-f02e-32d0-aed8-d5a5f02e32d0",
+              "owner_feature": "倒圆角.35",
+              "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6d676b9-c907-636b-a6d6-76b9c907636b",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0.",
+              "support_feature": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+              "brep_type": "REdge(Edge)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 10,
+                "curve_points": [
+                  [
+                    711.5370878644459,
+                    341.0311729309764,
+                    453.3045365266181
+                  ],
+                  [
+                    713.3081433203104,
+                    341.0311729307799,
+                    455.7259746473786
+                  ],
+                  [
+                    715.079198776175,
+                    341.0311729305834,
+                    458.1474127681392
+                  ]
+                ],
+                "length_mm": 6.000000000139992,
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0.",
+                  "label_context_id": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+                  "dimension": 1,
+                  "initial_feature": {
+                    "id": "e2702d22-fca5-75ac-e270-2d22fca575ac",
+                    "name": "凸台.35",
+                    "full_path": "Handle_Base1/几何体.50/凸台.35",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+                    "name": "倒圆角.34",
+                    "full_path": "Handle_Base1/几何体.50/倒圆角.34",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 1,
+                      "cgm_tag": 7626802,
+                      "bbox_min": [
+                        711.536087857285,
+                        341.030172927163,
+                        453.30353652202655
+                      ],
+                      "bbox_max": [
+                        715.0801987833358,
+                        341.0321729343968,
+                        458.14841277273075
+                      ],
+                      "curve_points": [
+                        [
+                          711.5370878644459,
+                          341.0311729309764,
+                          453.3045365266181
+                        ],
+                        [
+                          712.4226155923782,
+                          341.03117293087814,
+                          454.51525558699836
+                        ],
+                        [
+                          713.3081433203104,
+                          341.0311729307799,
+                          455.7259746473786
+                        ],
+                        [
+                          714.1936710482427,
+                          341.0311729306817,
+                          456.93669370775893
+                        ],
+                        [
+                          715.079198776175,
+                          341.0311729305834,
+                          458.1474127681392
+                        ]
+                      ],
+                      "length_mm": 6.000000000139992,
+                      "curve_measurement_source": "CAA resolved edge",
+                      "curve_type": "Other",
+                      "bbox_center": [
+                        713.3081433203104,
+                        341.0311729307799,
+                        455.7259746473786
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "b141913f-ae83-54ab-b141-913fae8354ab",
+          "name": "倒圆角.35",
+          "full_path": "Handle_Base1/几何体.50/倒圆角.35",
+          "native_result_geometry": {
+            "area_mm2": 311.8139058417946,
+            "cog_mm": [
+              716.2475690719035,
+              344.50422793499257,
+              453.5760596984266
+            ],
+            "volume_mm3": 332.25273896199644
+          },
+          "native_fillet_edges": [
+            {
+              "native_brep_name": "REdge:(Edge:(Face:(Brp:(Pad.35;0:(Brp:(Sketch.29;5)));None:();Cf11:());Face:(Brp:(Pad.35;0:(Brp:(Sketch.29;4)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());WithTemporaryBody;WithoutBuildError;WithSelectingFeatureSupport;MFBRepVersion_CXR15)"
+            }
+          ],
+          "selection_geometry": {
+            "a6d676b9-c907-636b-a6d6-76b9c907636b": {
+              "curve_points": [
+                [
+                  711.5370878644459,
+                  341.0311729309764,
+                  453.3045365266181
+                ],
+                [
+                  713.3081433203104,
+                  341.0311729307799,
+                  455.7259746473786
+                ],
+                [
+                  715.079198776175,
+                  341.0311729305834,
+                  458.1474127681392
+                ]
+              ],
+              "dimension": 1,
+              "edge_supports": [
+                {
+                  "area_m2": 5.284700873080863e-05,
+                  "cog_mm": [
+                    716.8022596373962,
+                    340.8845492611259,
+                    453.1703554416789
+                  ],
+                  "dimension": 2,
+                  "measurement_source": "CAA selection context",
+                  "normal": [
+                    0.027322598501797732,
+                    0.999426894958663,
+                    -0.019983924649467497
+                  ],
+                  "origin": [
+                    714.9925023424169,
+                    340.74028974584775,
+                    443.4813621745689
+                  ],
+                  "surface_type": "Plane"
+                },
+                {
+                  "area_m2": 5.167074605434455e-05,
+                  "cog_mm": [
+                    713.1447834185825,
+                    345.3338694727936,
+                    455.8454571332577
+                  ],
+                  "dimension": 2,
+                  "measurement_source": "CAA selection context",
+                  "normal": [
+                    0.8062545688408991,
+                    0.04698645653303971,
+                    -0.5896997906779735
+                  ],
+                  "origin": [
+                    708.0606086906618,
+                    341.0311729313621,
+                    448.55139389093387
+                  ],
+                  "surface_type": "Plane"
+                }
+              ],
+              "length_mm": 6.000000000139992,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0."
+            }
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "selection_geometry": {
+      "a6d676b9-c907-636b-a6d6-76b9c907636b": {
+        "curve_points": [
+          [
+            711.5370878644459,
+            341.0311729309764,
+            453.3045365266181
+          ],
+          [
+            713.3081433203104,
+            341.0311729307799,
+            455.7259746473786
+          ],
+          [
+            715.079198776175,
+            341.0311729305834,
+            458.1474127681392
+          ]
+        ],
+        "dimension": 1,
+        "edge_supports": [
+          {
+            "area_m2": 5.284700873080863e-05,
+            "cog_mm": [
+              716.8022596373962,
+              340.8845492611259,
+              453.1703554416789
+            ],
+            "dimension": 2,
+            "measurement_source": "CAA selection context",
+            "normal": [
+              0.027322598501797732,
+              0.999426894958663,
+              -0.019983924649467497
+            ],
+            "origin": [
+              714.9925023424169,
+              340.74028974584775,
+              443.4813621745689
+            ],
+            "surface_type": "Plane"
+          },
+          {
+            "area_m2": 5.167074605434455e-05,
+            "cog_mm": [
+              713.1447834185825,
+              345.3338694727936,
+              455.8454571332577
+            ],
+            "dimension": 2,
+            "measurement_source": "CAA selection context",
+            "normal": [
+              0.8062545688408991,
+              0.04698645653303971,
+              -0.5896997906779735
+            ],
+            "origin": [
+              708.0606086906618,
+              341.0311729313621,
+              448.55139389093387
+            ],
+            "surface_type": "Plane"
+          }
+        ],
+        "length_mm": 6.000000000139992,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0."
+      }
+    },
+    "selections": [
+      {
+        "role": "fillet_object",
+        "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0.",
+        "label_is_generic_naming": 1,
+        "source_feature_id": "aed8d5a5-f02e-32d0-aed8-d5a5f02e32d0",
+        "owner_feature": "倒圆角.35",
+        "owner_feature_id": "b141913f-ae83-54ab-b141-913fae8354ab",
+        "owner_id_strategy": "feature_catalog_path_and_type",
+        "selection_id": "a6d676b9-c907-636b-a6d6-76b9c907636b",
+        "reference_kind": "brep",
+        "valid": true,
+        "automation_brep_name": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0.",
+        "support_feature": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+        "brep_type": "REdge(Edge)",
+        "resolved_brep_count": 1,
+        "missing_reason": "",
+        "caa_measurement": {
+          "geometry_name": 10,
+          "curve_points": [
+            [
+              711.5370878644459,
+              341.0311729309764,
+              453.3045365266181
+            ],
+            [
+              713.3081433203104,
+              341.0311729307799,
+              455.7259746473786
+            ],
+            [
+              715.079198776175,
+              341.0311729305834,
+              458.1474127681392
+            ]
+          ],
+          "length_mm": 6.000000000139992,
+          "available": true
+        },
+        "resolved_breps": [
+          {
+            "label": "Z10G510904B14.I.31.14.S.21.2(E,3EFC,0(E,349D,5))0.31.14.S.21.2(E,3EFC,0(E,349D,4))0.0.",
+            "label_context_id": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+            "dimension": 1,
+            "initial_feature": {
+              "id": "e2702d22-fca5-75ac-e270-2d22fca575ac",
+              "name": "凸台.35",
+              "full_path": "Handle_Base1/几何体.50/凸台.35",
+              "in_feature_catalog": true
+            },
+            "selecting_feature": {
+              "id": "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2",
+              "name": "倒圆角.34",
+              "full_path": "Handle_Base1/几何体.50/倒圆角.34",
+              "in_feature_catalog": true
+            },
+            "cells": [
+              {
+                "dimension": 1,
+                "cgm_tag": 7626802,
+                "bbox_min": [
+                  711.536087857285,
+                  341.030172927163,
+                  453.30353652202655
+                ],
+                "bbox_max": [
+                  715.0801987833358,
+                  341.0321729343968,
+                  458.14841277273075
+                ],
+                "curve_points": [
+                  [
+                    711.5370878644459,
+                    341.0311729309764,
+                    453.3045365266181
+                  ],
+                  [
+                    712.4226155923782,
+                    341.03117293087814,
+                    454.51525558699836
+                  ],
+                  [
+                    713.3081433203104,
+                    341.0311729307799,
+                    455.7259746473786
+                  ],
+                  [
+                    714.1936710482427,
+                    341.0311729306817,
+                    456.93669370775893
+                  ],
+                  [
+                    715.079198776175,
+                    341.0311729305834,
+                    458.1474127681392
+                  ]
+                ],
+                "length_mm": 6.000000000139992,
+                "curve_measurement_source": "CAA resolved edge",
+                "curve_type": "Other",
+                "bbox_center": [
+                  713.3081433203104,
+                  341.0311729307799,
+                  455.7259746473786
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "source_visibility": 0,
+    "type": "EdgeFillet"
+  },
+  "DEPENDENCIES": [
+    "4f3595a7-d6c2-29a5-4f35-95a7d6c229a5",
+    "a8dd6e0d-b63b-2ed2-a8dd-6e0db63b2ed2"
+  ],
+  "GEOMETRY": {}
+}

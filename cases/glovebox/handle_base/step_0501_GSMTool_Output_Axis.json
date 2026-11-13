@@ -1,0 +1,1352 @@
+{
+  "STEP_NUMBER": 501,
+  "ORIGINAL_FEATURE_INDEX": 874,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+    "name": "Output_Axis",
+    "internal_name": "Open_body.43",
+    "type": "GSMTool",
+    "body": "Part",
+    "activity": "unknown",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "f962a071-9919-be26-f962-a0719919be26",
+              "name": "点.25",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/点.25",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.25",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f962a071-9919-be26-f962-a0719919be26",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4e8fba8a-5f0b-572b-4e8f-ba8a5f0b572b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "name": "草图.1",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/草图.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "草图.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "eb86c5ec-b994-c1f5-eb86-c5ecb994c1f5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "name": "平面.30",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/平面.30",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.30",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a2613859-867d-d773-a261-3859867dd773",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3d06ddb7-4850-676d-3d06-ddb74850676d",
+              "name": "相交.7",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/相交.7",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "相交.7",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3d06ddb7-4850-676d-3d06-ddb74850676d",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "726f2483-6fb1-c2d5-726f-24836fb1c2d5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "Output_Axis"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "08b66806-4eb8-1ad2-08b6-68064eb81ad2",
+      "name": "08-Axis_ForStandardParts",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 874
+  },
+  "DEFINITION": {
+    "activity": "unknown",
+    "body": "Part",
+    "definition_available": true,
+    "definition_source": "child_spec_objects",
+    "definition_sources": [
+      "gsm_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+    "gsm_category": "GSMTool",
+    "id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "f962a071-9919-be26-f962-a0719919be26",
+              "name": "点.25",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/点.25",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.25",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f962a071-9919-be26-f962-a0719919be26",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4e8fba8a-5f0b-572b-4e8f-ba8a5f0b572b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "name": "草图.1",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/草图.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "草图.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5bf2e461-4a4d-4fbd-5bf2-e4614a4d4fbd",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "eb86c5ec-b994-c1f5-eb86-c5ecb994c1f5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "name": "平面.30",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/平面.30",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.30",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a2613859-867d-d773-a261-3859867dd773",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3d06ddb7-4850-676d-3d06-ddb74850676d",
+              "name": "相交.7",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/相交.7",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "相交.7",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3d06ddb7-4850-676d-3d06-ddb74850676d",
+              "owner_feature": "Output_Axis",
+              "owner_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "726f2483-6fb1-c2d5-726f-24836fb1c2d5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "Output_Axis"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 3,
+    "internal_name": "Open_body.43",
+    "missing_reason": "",
+    "name": "Output_Axis",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 419,
+    "parameter_count": 1,
+    "params": [
+      {
+        "name": "GSMPoint.25",
+        "kind": "parameter",
+        "value": "点.25"
+      },
+      {
+        "name": "草图.1",
+        "kind": "reference",
+        "late_type": "PRTSketch",
+        "id": "7ea4859b-a655-1732-7ea4-859ba6551732"
+      },
+      {
+        "name": "平面.30",
+        "kind": "reference",
+        "late_type": "GSMPlane",
+        "id": "f37dbbd7-bf2c-69b6-f37d-bbd7bf2c69b6"
+      },
+      {
+        "name": "相交.7",
+        "kind": "reference",
+        "late_type": "GSMIntersect",
+        "id": "6f9f38fe-2169-2b58-6f9f-38fe21692b58"
+      }
+    ],
+    "parent": {
+      "id": "08b66806-4eb8-1ad2-08b6-68064eb81ad2",
+      "name": "08-Axis_ForStandardParts",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 419,
+          "name": "Output_Axis",
+          "type": "GSMTool",
+          "gsm_category": "GSMTool",
+          "body": "Part",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+          "id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+          "parameter_count": 1,
+          "input_count": 3,
+          "definition_available": true,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "",
+          "params": [
+            {
+              "name": "GSMPoint.25",
+              "kind": "parameter",
+              "value": "点.25"
+            },
+            {
+              "name": "草图.1",
+              "kind": "reference",
+              "late_type": "PRTSketch",
+              "id": "7ea4859b-a655-1732-7ea4-859ba6551732"
+            },
+            {
+              "name": "平面.30",
+              "kind": "reference",
+              "late_type": "GSMPlane",
+              "id": "f37dbbd7-bf2c-69b6-f37d-bbd7bf2c69b6"
+            },
+            {
+              "name": "相交.7",
+              "kind": "reference",
+              "late_type": "GSMIntersect",
+              "id": "6f9f38fe-2169-2b58-6f9f-38fe21692b58"
+            }
+          ],
+          "selections": []
+        }
+      }
+    ],
+    "selections": [],
+    "source_visibility": 0,
+    "type": "GSMTool"
+  },
+  "DEPENDENCIES": [
+    "08b66806-4eb8-1ad2-08b6-68064eb81ad2"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/点.25": {
+      "topology": {
+        "body": "Output_Axis",
+        "result_feature": "点.25",
+        "face_count": 0,
+        "edge_count": 0,
+        "vertex_count": 1,
+        "shell_count": 0,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [],
+        "edges": [],
+        "vertices": [
+          {
+            "index": 1,
+            "point": [
+              726.0358575807301,
+              345.1656871499034,
+              435.4041809430793
+            ]
+          }
+        ]
+      },
+      "adjacency": {
+        "index": 424,
+        "body_name": "Output_Axis",
+        "result_name": "点.25",
+        "source_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+        "result_id": "61ed4760-47a1-8ecf-61ed-476047a18ecf",
+        "face_count": 0,
+        "edge_count": 0,
+        "faces": [],
+        "edges": []
+      }
+    },
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/草图.1": {
+      "topology": {
+        "body": "Output_Axis",
+        "result_feature": "草图.1",
+        "face_count": 0,
+        "edge_count": 0,
+        "vertex_count": 1,
+        "shell_count": 0,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [],
+        "edges": [],
+        "vertices": [
+          {
+            "index": 1,
+            "point": [
+              720.33448913401,
+              308.25299139262194,
+              447.00779758845493
+            ]
+          }
+        ]
+      },
+      "adjacency": {
+        "index": 425,
+        "body_name": "Output_Axis",
+        "result_name": "草图.1",
+        "source_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+        "result_id": "785f5760-a266-8889-785f-5760a2668889",
+        "face_count": 0,
+        "edge_count": 0,
+        "faces": [],
+        "edges": []
+      }
+    },
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/平面.30": {
+      "topology": {
+        "body": "Output_Axis",
+        "result_feature": "平面.30",
+        "face_count": 1,
+        "edge_count": 0,
+        "vertex_count": 0,
+        "shell_count": 1,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {
+          "Plane": 1
+        },
+        "faces": [
+          {
+            "index": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                -0.9132894381785318,
+                0.3850323481505382,
+                -0.13286268471329463
+              ],
+              "axis_v": [
+                -2.7755575615628914e-17,
+                -0.3261945395357333,
+                -0.9453026617846109
+              ],
+              "origin": [
+                719.5468548824523,
+                296.71014416046006,
+                440.15027935380033
+              ],
+              "normal": [
+                -0.40731118584141723,
+                -0.863334936889938,
+                0.29791002774949477
+              ]
+            },
+            "bbox_min": [
+              -9132174.935021773,
+              -7111972.266789681,
+              -10781213.414807523
+            ],
+            "bbox_max": [
+              9133614.028731536,
+              7112565.687078002,
+              10782093.715366231
+            ]
+          }
+        ],
+        "shells": [
+          {
+            "index": 1,
+            "face_count": 1,
+            "face_start": 1,
+            "is_closed": false
+          }
+        ],
+        "loops": [],
+        "edges": [],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 426,
+        "body_name": "Output_Axis",
+        "result_name": "平面.30",
+        "source_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+        "result_id": "2654b630-6253-d460-2654-b6306253d460",
+        "face_count": 1,
+        "edge_count": 4,
+        "faces": [
+          {
+            "id": 0,
+            "cgm_tag": 7501956,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.9.2(E,2D52)0.",
+              "label_context_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "initial_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                -0.9132894381785318,
+                0.3850323481505382,
+                -0.13286268471329463
+              ],
+              "axis_v": [
+                -2.7755575615628914e-17,
+                -0.3261945395357333,
+                -0.9453026617846109
+              ],
+              "origin": [
+                719.5468548824523,
+                296.71014416046006,
+                440.15027935380033
+              ],
+              "normal": [
+                -0.40731118584141723,
+                -0.863334936889938,
+                0.29791002774949477
+              ]
+            },
+            "label": "Output_Axis",
+            "generated_by": "Output_Axis",
+            "generated_by_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 0,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          -10000000,
+                          -10000000
+                        ],
+                        [
+                          -7500000,
+                          -10000000
+                        ],
+                        [
+                          -5000000,
+                          -10000000
+                        ],
+                        [
+                          -2500000,
+                          -10000000
+                        ],
+                        [
+                          0,
+                          -10000000
+                        ],
+                        [
+                          2500000,
+                          -10000000
+                        ],
+                        [
+                          5000000,
+                          -10000000
+                        ],
+                        [
+                          7500000,
+                          -10000000
+                        ],
+                        [
+                          10000000,
+                          -10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            -10000000,
+                            -10000000,
+                            1
+                          ],
+                          [
+                            10000000,
+                            -10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 1,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          10000000,
+                          -10000000
+                        ],
+                        [
+                          10000000,
+                          -7500000
+                        ],
+                        [
+                          10000000,
+                          -5000000
+                        ],
+                        [
+                          10000000,
+                          -2500000
+                        ],
+                        [
+                          10000000,
+                          0
+                        ],
+                        [
+                          10000000,
+                          2500000
+                        ],
+                        [
+                          10000000,
+                          5000000
+                        ],
+                        [
+                          10000000,
+                          7500000
+                        ],
+                        [
+                          10000000,
+                          10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            10000000,
+                            -10000000,
+                            1
+                          ],
+                          [
+                            10000000,
+                            10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 2,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          10000000,
+                          10000000
+                        ],
+                        [
+                          7500000,
+                          10000000
+                        ],
+                        [
+                          5000000,
+                          10000000
+                        ],
+                        [
+                          2500000,
+                          10000000
+                        ],
+                        [
+                          0,
+                          10000000
+                        ],
+                        [
+                          -2500000,
+                          10000000
+                        ],
+                        [
+                          -5000000,
+                          10000000
+                        ],
+                        [
+                          -7500000,
+                          10000000
+                        ],
+                        [
+                          -10000000,
+                          10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            10000000,
+                            10000000,
+                            1
+                          ],
+                          [
+                            -10000000,
+                            10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 3,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          -10000000,
+                          10000000
+                        ],
+                        [
+                          -10000000,
+                          7500000
+                        ],
+                        [
+                          -10000000,
+                          5000000
+                        ],
+                        [
+                          -10000000,
+                          2500000
+                        ],
+                        [
+                          -10000000,
+                          0
+                        ],
+                        [
+                          -10000000,
+                          -2500000
+                        ],
+                        [
+                          -10000000,
+                          -5000000
+                        ],
+                        [
+                          -10000000,
+                          -7500000
+                        ],
+                        [
+                          -10000000,
+                          -10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            -10000000,
+                            10000000,
+                            1
+                          ],
+                          [
+                            -10000000,
+                            -10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              -9132174.935021773,
+              -7111972.266789681,
+              -10781213.414807523
+            ],
+            "bbox_max": [
+              9133614.028731536,
+              7112565.687078002,
+              10782093.715366231
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7501960,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2D52,1)0.0.0.1.",
+              "label_context_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "initial_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d"
+            },
+            "generated_by_verified": false,
+            "label": "Output_Axis",
+            "generated_by": "Output_Axis",
+            "generated_by_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+            "length": 19999999.999999996,
+            "start_vertex": [
+              9133613.9286402,
+              -588081.3760038889,
+              10782093.615258409
+            ],
+            "end_vertex": [
+              -9132174.834930437,
+              7112565.587006876,
+              8124839.920992516
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        9133613.9286402,
+                        -588081.3760038889,
+                        10782093.615258409,
+                        1
+                      ],
+                      [
+                        -9132174.834930437,
+                        7112565.587006876,
+                        8124839.920992516,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7501966,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2D52,2)0.0.0.1.",
+              "label_context_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "initial_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d"
+            },
+            "generated_by_verified": false,
+            "label": "Output_Axis",
+            "generated_by": "Output_Axis",
+            "generated_by_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+            "length": 19999999.999999996,
+            "start_vertex": [
+              -9132174.834930437,
+              7112565.587006876,
+              8124839.920992516
+            ],
+            "end_vertex": [
+              -9132174.834930437,
+              588674.7962922095,
+              -10781213.314699702
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        -9132174.834930437,
+                        7112565.587006876,
+                        8124839.920992516,
+                        1
+                      ],
+                      [
+                        -9132174.834930437,
+                        588674.7962922095,
+                        -10781213.314699702,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7501972,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2D52,3)0.0.0.1.",
+              "label_context_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "initial_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d"
+            },
+            "generated_by_verified": false,
+            "label": "Output_Axis",
+            "generated_by": "Output_Axis",
+            "generated_by_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+            "length": 19999999.999999996,
+            "start_vertex": [
+              -9132174.834930437,
+              588674.7962922095,
+              -10781213.314699702
+            ],
+            "end_vertex": [
+              9133613.9286402,
+              -7111972.166718556,
+              -8123959.620433809
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        -9132174.834930437,
+                        588674.7962922095,
+                        -10781213.314699702,
+                        1
+                      ],
+                      [
+                        9133613.9286402,
+                        -7111972.166718556,
+                        -8123959.620433809,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 3,
+            "cgm_tag": 7501978,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.11.2(E,2D52,4)0.0.0.1.",
+              "label_context_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d",
+              "initial_feature_id": "dfd651bc-5109-c17d-dfd6-51bc5109c17d"
+            },
+            "generated_by_verified": false,
+            "label": "Output_Axis",
+            "generated_by": "Output_Axis",
+            "generated_by_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+            "length": 19999999.999999996,
+            "start_vertex": [
+              9133613.9286402,
+              -7111972.166718556,
+              -8123959.620433809
+            ],
+            "end_vertex": [
+              9133613.9286402,
+              -588081.3760038889,
+              10782093.615258409
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        9133613.9286402,
+                        -7111972.166718556,
+                        -8123959.620433809,
+                        1
+                      ],
+                      [
+                        9133613.9286402,
+                        -588081.3760038889,
+                        10782093.615258409,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    },
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis/相交.7": {
+      "topology": {
+        "body": "Output_Axis",
+        "result_feature": "相交.7",
+        "face_count": 0,
+        "edge_count": 0,
+        "vertex_count": 1,
+        "shell_count": 0,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [],
+        "edges": [],
+        "vertices": [
+          {
+            "index": 1,
+            "point": [
+              716.2565443560622,
+              298.7397713997726,
+              441.53347489570444
+            ]
+          }
+        ]
+      },
+      "adjacency": {
+        "index": 427,
+        "body_name": "Output_Axis",
+        "result_name": "相交.7",
+        "source_feature_id": "c21fba16-7c0c-e1ee-c21f-ba167c0ce1ee",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/08-Axis_ForStandardParts/Output_Axis",
+        "result_id": "ab19863a-1138-ac4f-ab19-863a1138ac4f",
+        "face_count": 0,
+        "edge_count": 0,
+        "faces": [],
+        "edges": []
+      }
+    }
+  }
+}

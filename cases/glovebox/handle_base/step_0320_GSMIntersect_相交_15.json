@@ -1,0 +1,910 @@
+{
+  "STEP_NUMBER": 320,
+  "ORIGINAL_FEATURE_INDEX": 472,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "36d92953-c910-92be-36d9-2953c91092be",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.15",
+    "name": "相交.15",
+    "internal_name": "GSMIntersect.15",
+    "type": "GSMIntersect",
+    "body": "Part",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0fe56995-ad49-1554-0fe5-6995ad491554",
+              "name": "BottomPlane_HandleBase",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/BottomPlane_HandleBase",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "BottomPlane_HandleBase",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0fe56995-ad49-1554-0fe5-6995ad491554",
+              "owner_feature": "相交.15",
+              "owner_feature_id": "36d92953-c910-92be-36d9-2953c91092be",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4f42ec12-bcd7-7d51-4f42-ec12bcd77d51",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0e18e363-df21-9298-0e18-e363df219298",
+              "name": "平面.68",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.68",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.68",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0e18e363-df21-9298-0e18-e363df219298",
+              "owner_feature": "相交.15",
+              "owner_feature_id": "36d92953-c910-92be-36d9-2953c91092be",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "00523337-3f0d-6c27-0052-33373f0d6c27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "strGSMIntersectSolutionPoint",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntersectSolid",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtrapolateMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntIntersectMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtendMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "54330208-8fb2-874c-5433-02088fb2874c",
+      "name": "06-Surport_Geometry_Base",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 472
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Top Limint",
+    "definition_available": true,
+    "definition_source": "caa_native_interfaces",
+    "definition_sources": [
+      "boolean_operations",
+      "gsm_features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "",
+    "first_operand_id": "",
+    "first_operand_inferred_from_result_body": true,
+    "first_operand_path": "",
+    "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.15",
+    "gsm_category": "GSMIntersect",
+    "id": "36d92953-c910-92be-36d9-2953c91092be",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0fe56995-ad49-1554-0fe5-6995ad491554",
+              "name": "BottomPlane_HandleBase",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/BottomPlane_HandleBase",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "BottomPlane_HandleBase",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0fe56995-ad49-1554-0fe5-6995ad491554",
+              "owner_feature": "相交.15",
+              "owner_feature_id": "36d92953-c910-92be-36d9-2953c91092be",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4f42ec12-bcd7-7d51-4f42-ec12bcd77d51",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0e18e363-df21-9298-0e18-e363df219298",
+              "name": "平面.68",
+              "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.68",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "平面.68",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0e18e363-df21-9298-0e18-e363df219298",
+              "owner_feature": "相交.15",
+              "owner_feature_id": "36d92953-c910-92be-36d9-2953c91092be",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "00523337-3f0d-6c27-0052-33373f0d6c27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "strGSMIntersectSolutionPoint",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntersectSolid",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtrapolateMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntIntersectMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtendMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 0,
+    "interface_available": false,
+    "internal_name": "GSMIntersect.15",
+    "missing_reason": "No public feature-specific definition or child inputs were available",
+    "name": "相交.15",
+    "native_definition_available": true,
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_intersection_inputs": [
+      {
+        "feature": {
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/BottomPlane_HandleBase",
+          "id": "0fe56995-ad49-1554-0fe5-6995ad491554",
+          "name": "BottomPlane_HandleBase"
+        }
+      },
+      {
+        "feature": {
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.68",
+          "id": "0e18e363-df21-9298-0e18-e363df219298",
+          "name": "平面.68"
+        }
+      }
+    ],
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 212,
+    "parameter_count": 0,
+    "params": [],
+    "parent": {
+      "id": "54330208-8fb2-874c-5433-02088fb2874c",
+      "name": "06-Surport_Geometry_Base",
+      "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "reconstruction_ready": false,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "相交.15",
+          "type": "GSMIntersect",
+          "id": "36d92953-c910-92be-36d9-2953c91092be",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.15",
+          "body": "Top Limint",
+          "tool_body": "",
+          "tool_body_path": "",
+          "tool_body_id": "",
+          "first_operand": "",
+          "first_operand_path": "",
+          "first_operand_id": "",
+          "second_operand": "",
+          "second_operand_path": "",
+          "second_operand_id": "",
+          "interface_available": false,
+          "first_operand_inferred_from_result_body": true,
+          "reconstruction_ready": false,
+          "activity": "true"
+        }
+      },
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 212,
+          "name": "相交.15",
+          "type": "GSMIntersect",
+          "gsm_category": "GSMIntersect",
+          "body": "Top Limint",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.15",
+          "id": "36d92953-c910-92be-36d9-2953c91092be",
+          "parameter_count": 0,
+          "input_count": 0,
+          "definition_available": false,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "No public feature-specific definition or child inputs were available",
+          "params": [],
+          "selections": []
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "36d92953-c910-92be-36d9-2953c91092be",
+          "name": "相交.15",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.15",
+          "native_intersection_inputs": [
+            {
+              "feature": {
+                "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/BottomPlane_HandleBase",
+                "id": "0fe56995-ad49-1554-0fe5-6995ad491554",
+                "name": "BottomPlane_HandleBase"
+              }
+            },
+            {
+              "feature": {
+                "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.68",
+                "id": "0e18e363-df21-9298-0e18-e363df219298",
+                "name": "平面.68"
+              }
+            }
+          ],
+          "native_definition_available": true,
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "second_operand": "",
+    "second_operand_id": "",
+    "second_operand_path": "",
+    "selections": [],
+    "source_visibility": 1,
+    "tool_body": "",
+    "tool_body_id": "",
+    "tool_body_path": "",
+    "type": "GSMIntersect"
+  },
+  "DEPENDENCIES": [
+    "0e18e363-df21-9298-0e18-e363df219298",
+    "0fe56995-ad49-1554-0fe5-6995ad491554",
+    "54330208-8fb2-874c-5433-02088fb2874c"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.15": {
+      "topology": {
+        "body": "06-Surport_Geometry_Base",
+        "result_feature": "相交.15",
+        "face_count": 0,
+        "edge_count": 1,
+        "vertex_count": 0,
+        "shell_count": 0,
+        "loop_count": 1,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [
+          {
+            "index": 1,
+            "edge_count": 1,
+            "edge_start": 1
+          }
+        ],
+        "edges": [
+          {
+            "index": 1,
+            "length": 20000000,
+            "start": [
+              5904234.0678375615,
+              306.69760938573387,
+              8071903.233300135
+            ],
+            "end": [
+              -5902802.304317285,
+              306.69891932663967,
+              -8071017.5713935625
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              },
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          }
+        ],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 219,
+        "body_name": "06-Surport_Geometry_Base",
+        "result_name": "相交.15",
+        "source_feature_id": "54330208-8fb2-874c-5433-02088fb2874c",
+        "source_feature_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base",
+        "result_id": "0e38ab39-2fd3-0e10-0e38-ab392fd30e10",
+        "face_count": 0,
+        "edge_count": 1,
+        "faces": [],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7520558,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.25.2(E,2FE5(E,2ED5)(E,2F23))0.",
+              "label_context_id": "36d92953-c910-92be-36d9-2953c91092be",
+              "initial_feature_id": "36d92953-c910-92be-36d9-2953c91092be"
+            },
+            "generated_by_verified": false,
+            "label": "06-Surport_Geometry_Base",
+            "generated_by": "06-Surport_Geometry_Base",
+            "generated_by_id": "54330208-8fb2-874c-5433-02088fb2874c",
+            "length": 20000000,
+            "start_vertex": [
+              5904234.0678375615,
+              306.69760938573387,
+              8071903.233300135
+            ],
+            "end_vertex": [
+              -5902802.304317285,
+              306.69891932663967,
+              -8071017.5713935625
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        5904234.0678375615,
+                        306.697609385708,
+                        8071903.233300135,
+                        1
+                      ],
+                      [
+                        -5902802.304317285,
+                        306.6989193266138,
+                        -8071017.5713935625,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000.000000004,
+                      10000000.000000004
+                    ],
+                    "control_points": [
+                      [
+                        5904234.067837567,
+                        306.69760938524576,
+                        8071903.233300134,
+                        1
+                      ],
+                      [
+                        -5902802.304317291,
+                        306.6989193255964,
+                        -8071017.571393562,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

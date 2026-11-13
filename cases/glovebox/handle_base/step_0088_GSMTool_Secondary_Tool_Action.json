@@ -1,0 +1,198 @@
+{
+  "STEP_NUMBER": 88,
+  "ORIGINAL_FEATURE_INDEX": 132,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "70f6a443-ca98-e76d-70f6-a443ca98e76d",
+    "full_path": "Handle_Base1/Manufacturing/Secondary_Tool_Action",
+    "name": "Secondary_Tool_Action",
+    "internal_name": "Open_body.7",
+    "type": "GSMTool",
+    "body": "Part",
+    "activity": "unknown",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "Secondary_Tool_Action"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "aa9a74c9-ebf1-347a-aa9a-74c9ebf1347a",
+      "name": "Manufacturing",
+      "full_path": "Handle_Base1/Manufacturing",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 132
+  },
+  "DEFINITION": {
+    "activity": "unknown",
+    "body": "Part",
+    "definition_available": false,
+    "definition_source": "child_spec_objects",
+    "definition_sources": [
+      "gsm_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Manufacturing/Secondary_Tool_Action",
+    "gsm_category": "GSMTool",
+    "id": "70f6a443-ca98-e76d-70f6-a443ca98e76d",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "Secondary_Tool_Action"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 0,
+    "internal_name": "Open_body.7",
+    "missing_reason": "No public feature-specific definition or child inputs were available",
+    "name": "Secondary_Tool_Action",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 50,
+    "parameter_count": 0,
+    "params": [],
+    "parent": {
+      "id": "aa9a74c9-ebf1-347a-aa9a-74c9ebf1347a",
+      "name": "Manufacturing",
+      "full_path": "Handle_Base1/Manufacturing",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 50,
+          "name": "Secondary_Tool_Action",
+          "type": "GSMTool",
+          "gsm_category": "GSMTool",
+          "body": "Part",
+          "full_path": "Handle_Base1/Manufacturing/Secondary_Tool_Action",
+          "id": "70f6a443-ca98-e76d-70f6-a443ca98e76d",
+          "parameter_count": 0,
+          "input_count": 0,
+          "definition_available": false,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "No public feature-specific definition or child inputs were available",
+          "params": [],
+          "selections": []
+        }
+      }
+    ],
+    "selections": [],
+    "source_visibility": 0,
+    "type": "GSMTool"
+  },
+  "DEPENDENCIES": [
+    "aa9a74c9-ebf1-347a-aa9a-74c9ebf1347a"
+  ],
+  "GEOMETRY": {}
+}

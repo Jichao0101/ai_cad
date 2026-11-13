@@ -1,0 +1,1036 @@
+{
+  "STEP_NUMBER": 97,
+  "ORIGINAL_FEATURE_INDEX": 3746,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+    "full_path": "Handle_Base1/Semi-Model Outputs/07-DMU",
+    "name": "07-DMU",
+    "internal_name": "Open_body.56",
+    "type": "GSMTool",
+    "body": "Part",
+    "activity": "unknown",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "1376f298-86be-1952-1376-f29886be1952",
+              "name": "旋转.2",
+              "full_path": "Handle_Base1/Semi-Model Outputs/07-DMU/旋转.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "旋转.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1376f298-86be-1952-1376-f29886be1952",
+              "owner_feature": "07-DMU",
+              "owner_feature_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "37f1c722-f2b2-5035-37f1-c722f2b25035",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "07-DMU"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "e5c4e98c-8b8e-330a-e5c4-e98c8b8e330a",
+      "name": "Semi-Model Outputs",
+      "full_path": "Handle_Base1/Semi-Model Outputs",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 3746
+  },
+  "DEFINITION": {
+    "activity": "unknown",
+    "body": "Part",
+    "definition_available": true,
+    "definition_source": "child_spec_objects",
+    "definition_sources": [
+      "gsm_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Semi-Model Outputs/07-DMU",
+    "gsm_category": "GSMTool",
+    "id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "1376f298-86be-1952-1376-f29886be1952",
+              "name": "旋转.2",
+              "full_path": "Handle_Base1/Semi-Model Outputs/07-DMU/旋转.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "旋转.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1376f298-86be-1952-1376-f29886be1952",
+              "owner_feature": "07-DMU",
+              "owner_feature_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "37f1c722-f2b2-5035-37f1-c722f2b25035",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "07-DMU"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_PrivateTool",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_Type",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 1,
+    "internal_name": "Open_body.56",
+    "missing_reason": "",
+    "name": "07-DMU",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 475,
+    "parameter_count": 0,
+    "params": [
+      {
+        "name": "旋转.2",
+        "kind": "reference",
+        "late_type": "GSMRotate",
+        "id": "d47b4efe-adfe-840e-d47b-4efeadfe840e"
+      }
+    ],
+    "parent": {
+      "id": "e5c4e98c-8b8e-330a-e5c4-e98c8b8e330a",
+      "name": "Semi-Model Outputs",
+      "full_path": "Handle_Base1/Semi-Model Outputs",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 475,
+          "name": "07-DMU",
+          "type": "GSMTool",
+          "gsm_category": "GSMTool",
+          "body": "Part",
+          "full_path": "Handle_Base1/Semi-Model Outputs/07-DMU",
+          "id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+          "parameter_count": 0,
+          "input_count": 1,
+          "definition_available": true,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "",
+          "params": [
+            {
+              "name": "旋转.2",
+              "kind": "reference",
+              "late_type": "GSMRotate",
+              "id": "d47b4efe-adfe-840e-d47b-4efeadfe840e"
+            }
+          ],
+          "selections": []
+        }
+      }
+    ],
+    "selections": [],
+    "source_visibility": 0,
+    "type": "GSMTool"
+  },
+  "DEPENDENCIES": [
+    "e5c4e98c-8b8e-330a-e5c4-e98c8b8e330a"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Semi-Model Outputs/07-DMU/旋转.2": {
+      "topology": {
+        "body": "07-DMU",
+        "result_feature": "旋转.2",
+        "face_count": 1,
+        "edge_count": 0,
+        "vertex_count": 0,
+        "shell_count": 1,
+        "loop_count": 0,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {
+          "Plane": 1
+        },
+        "faces": [
+          {
+            "index": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.2668648925484852,
+                0.9437612410072327,
+                -0.19518670317819697
+              ],
+              "axis_v": [
+                0.5903518186077421,
+                -6.549691344837072e-11,
+                0.8071460402346851
+              ],
+              "origin": [
+                735.7751312005582,
+                345.2459314950343,
+                428.28081341390964
+              ],
+              "normal": [
+                0.7617531485931759,
+                -0.33062776648746267,
+                -0.5571511649775982
+              ]
+            },
+            "bbox_min": [
+              -8571431.4365168,
+              -9437267.26489018,
+              -10022899.253415642
+            ],
+            "bbox_max": [
+              8572902.986779204,
+              9437957.75675317,
+              10023755.815042472
+            ]
+          }
+        ],
+        "shells": [
+          {
+            "index": 1,
+            "face_count": 1,
+            "face_start": 1,
+            "is_closed": false
+          }
+        ],
+        "loops": [],
+        "edges": [],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 629,
+        "body_name": "07-DMU",
+        "result_name": "旋转.2",
+        "source_feature_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+        "source_feature_path": "Handle_Base1/Semi-Model Outputs/07-DMU",
+        "result_id": "bdaa77bd-4c96-3cc0-bdaa-77bd4c963cc0",
+        "face_count": 1,
+        "edge_count": 4,
+        "faces": [
+          {
+            "id": 0,
+            "cgm_tag": 7427124,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.17.2(E,3938(E,2FE1))0.",
+              "label_context_id": "1376f298-86be-1952-1376-f29886be1952",
+              "initial_feature_id": "1376f298-86be-1952-1376-f29886be1952"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.2668648925484852,
+                0.9437612410072327,
+                -0.19518670317819697
+              ],
+              "axis_v": [
+                0.5903518186077421,
+                -6.549691344837072e-11,
+                0.8071460402346851
+              ],
+              "origin": [
+                735.7751312005582,
+                345.2459314950343,
+                428.28081341390964
+              ],
+              "normal": [
+                0.7617531485931759,
+                -0.33062776648746267,
+                -0.5571511649775982
+              ]
+            },
+            "label": "07-DMU",
+            "generated_by": "07-DMU",
+            "generated_by_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 0,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          -10000000,
+                          -10000000
+                        ],
+                        [
+                          -7500000,
+                          -10000000
+                        ],
+                        [
+                          -5000000,
+                          -10000000
+                        ],
+                        [
+                          -2500000,
+                          -10000000
+                        ],
+                        [
+                          0,
+                          -10000000
+                        ],
+                        [
+                          2500000,
+                          -10000000
+                        ],
+                        [
+                          5000000,
+                          -10000000
+                        ],
+                        [
+                          7500000,
+                          -10000000
+                        ],
+                        [
+                          10000000,
+                          -10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            -10000000,
+                            -10000000,
+                            1
+                          ],
+                          [
+                            10000000,
+                            -10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 1,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          10000000,
+                          -10000000
+                        ],
+                        [
+                          10000000,
+                          -7500000
+                        ],
+                        [
+                          10000000,
+                          -5000000
+                        ],
+                        [
+                          10000000,
+                          -2500000
+                        ],
+                        [
+                          10000000,
+                          0
+                        ],
+                        [
+                          10000000,
+                          2500000
+                        ],
+                        [
+                          10000000,
+                          5000000
+                        ],
+                        [
+                          10000000,
+                          7500000
+                        ],
+                        [
+                          10000000,
+                          10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            10000000,
+                            -10000000,
+                            1
+                          ],
+                          [
+                            10000000,
+                            10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 2,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          10000000,
+                          10000000
+                        ],
+                        [
+                          7500000,
+                          10000000
+                        ],
+                        [
+                          5000000,
+                          10000000
+                        ],
+                        [
+                          2500000,
+                          10000000
+                        ],
+                        [
+                          0,
+                          10000000
+                        ],
+                        [
+                          -2500000,
+                          10000000
+                        ],
+                        [
+                          -5000000,
+                          10000000
+                        ],
+                        [
+                          -7500000,
+                          10000000
+                        ],
+                        [
+                          -10000000,
+                          10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            10000000,
+                            10000000,
+                            1
+                          ],
+                          [
+                            -10000000,
+                            10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 3,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": -10000000,
+                      "end_parameter": 10000000,
+                      "uv_samples": [
+                        [
+                          -10000000,
+                          10000000
+                        ],
+                        [
+                          -10000000,
+                          7500000
+                        ],
+                        [
+                          -10000000,
+                          5000000
+                        ],
+                        [
+                          -10000000,
+                          2500000
+                        ],
+                        [
+                          -10000000,
+                          0
+                        ],
+                        [
+                          -10000000,
+                          -2500000
+                        ],
+                        [
+                          -10000000,
+                          -5000000
+                        ],
+                        [
+                          -10000000,
+                          -7500000
+                        ],
+                        [
+                          -10000000,
+                          -10000000
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          -10000000,
+                          10000000
+                        ],
+                        "control_points_uvw": [
+                          [
+                            -10000000,
+                            10000000,
+                            1
+                          ],
+                          [
+                            -10000000,
+                            -10000000,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              -8571431.4365168,
+              -9437267.26489018,
+              -10022899.253415642
+            ],
+            "bbox_max": [
+              8572902.986779204,
+              9437957.75675317,
+              10023755.815042472
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7427127,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.19.2(E,3938(E,2FE1,1))0.0.0.1.",
+              "label_context_id": "1376f298-86be-1952-1376-f29886be1952",
+              "initial_feature_id": "1376f298-86be-1952-1376-f29886be1952"
+            },
+            "generated_by_verified": false,
+            "label": "07-DMU",
+            "generated_by": "07-DMU",
+            "generated_by_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+            "length": 20000000,
+            "start_vertex": [
+              -8571431.336431073,
+              -9437267.163485862,
+              -6119165.089751465
+            ],
+            "end_vertex": [
+              -3234133.4854613687,
+              9437957.656658791,
+              -10022899.153315406
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        -8571431.336431073,
+                        -9437267.163485862,
+                        -6119165.089751465,
+                        1
+                      ],
+                      [
+                        -3234133.4854613687,
+                        9437957.656658791,
+                        -10022899.153315406,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7427142,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.19.2(E,3938(E,2FE1,2))0.0.0.1.",
+              "label_context_id": "1376f298-86be-1952-1376-f29886be1952",
+              "initial_feature_id": "1376f298-86be-1952-1376-f29886be1952"
+            },
+            "generated_by_verified": false,
+            "label": "07-DMU",
+            "generated_by": "07-DMU",
+            "generated_by_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+            "length": 20000000,
+            "start_vertex": [
+              -3234133.4854613687,
+              9437957.656658791,
+              -10022899.153315406
+            ],
+            "end_vertex": [
+              8572902.886693474,
+              9437957.655348852,
+              6120021.6513782935
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        -3234133.4854613687,
+                        9437957.656658791,
+                        -10022899.153315406,
+                        1
+                      ],
+                      [
+                        8572902.886693474,
+                        9437957.655348852,
+                        6120021.6513782935,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7427149,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.19.2(E,3938(E,2FE1,3))0.0.0.1.",
+              "label_context_id": "1376f298-86be-1952-1376-f29886be1952",
+              "initial_feature_id": "1376f298-86be-1952-1376-f29886be1952"
+            },
+            "generated_by_verified": false,
+            "label": "07-DMU",
+            "generated_by": "07-DMU",
+            "generated_by_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+            "length": 20000000,
+            "start_vertex": [
+              8572902.886693474,
+              9437957.655348852,
+              6120021.6513782935
+            ],
+            "end_vertex": [
+              3235605.0357237696,
+              -9437267.164795801,
+              10023755.714942234
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        8572902.886693474,
+                        9437957.655348852,
+                        6120021.6513782935,
+                        1
+                      ],
+                      [
+                        3235605.0357237696,
+                        -9437267.164795801,
+                        10023755.714942234,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          },
+          {
+            "id": 3,
+            "cgm_tag": 7427154,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.B.19.2(E,3938(E,2FE1,4))0.0.0.1.",
+              "label_context_id": "1376f298-86be-1952-1376-f29886be1952",
+              "initial_feature_id": "1376f298-86be-1952-1376-f29886be1952"
+            },
+            "generated_by_verified": false,
+            "label": "07-DMU",
+            "generated_by": "07-DMU",
+            "generated_by_id": "443e9ac7-d8c8-316f-443e-9ac7d8c8316f",
+            "length": 20000000,
+            "start_vertex": [
+              3235605.0357237696,
+              -9437267.164795801,
+              10023755.714942234
+            ],
+            "end_vertex": [
+              -8571431.336431073,
+              -9437267.163485862,
+              -6119165.089751465
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": -10000000,
+              "end_parameter": 10000000,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      -10000000,
+                      10000000
+                    ],
+                    "control_points": [
+                      [
+                        3235605.0357237696,
+                        -9437267.164795801,
+                        10023755.714942234,
+                        1
+                      ],
+                      [
+                        -8571431.336431073,
+                        -9437267.163485862,
+                        -6119165.089751465,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0
+            ],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

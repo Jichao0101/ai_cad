@@ -1,0 +1,1885 @@
+{
+  "STEP_NUMBER": 600,
+  "ORIGINAL_FEATURE_INDEX": 3580,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+    "full_path": "Handle_Base1/几何体.66/草图.28",
+    "name": "草图.28",
+    "internal_name": "Sketch.28",
+    "type": "PRTSketch",
+    "body": "几何体.66",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "bloc_children",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "name": "点.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "354b0957-fd6d-d1c9-354b-0957fd6dd1c9",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e09fac30-ba4c-39dd-e09f-ac30ba4c39dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "65fce922-cab8-b15e-65fc-e922cab8b15e",
+              "name": "标记.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/投影.2/标记.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "标记.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "65fce922-cab8-b15e-65fc-e922cab8b15e",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ac7b58c2-d5ff-93dd-ac7b-58c2d5ff93dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6779ecb4-4394-aab3-6779-ecb44394aab3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/几何体.66/草图.28/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "33795802-8271-a711-3379-58028271a711",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e09fac30-ba4c-39dd-e09f-ac30ba4c39dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "name": "点.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "354b0957-fd6d-d1c9-354b-0957fd6dd1c9",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e1d99458-a561-af25-e1d9-9458a561af25",
+              "name": "半径.729",
+              "full_path": "Handle_Base1/几何体.66/草图.28/半径.729",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "半径.729",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e1d99458-a561-af25-e1d9-9458a561af25",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "76679578-bad6-0b89-7667-9578bad60b89",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e1628742-ccaf-3652-e162-8742ccaf3652",
+              "name": "投影.2",
+              "full_path": "Handle_Base1/几何体.66/草图.28/投影.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "投影.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e1628742-ccaf-3652-e162-8742ccaf3652",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b104c89b-8b08-983b-b104-c89b8b08983b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "65a5b7a3-38b0-c9db-65a5-b7a338b0c9db",
+              "name": "相合.961",
+              "full_path": "Handle_Base1/几何体.66/草图.28/相合.961",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "相合.961",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "65a5b7a3-38b0-c9db-65a5-b7a338b0c9db",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "31e8c032-f988-6eed-31e8-c032f9886eed",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolveManager",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6779ecb4-4394-aab3-6779-ecb44394aab3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AbsoluteAxis",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/几何体.66/草图.28/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "33795802-8271-a711-3379-58028271a711",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DefaultEltType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "LastReportName",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Geometries",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "7dea846c-1e62-95a3-7dea-846c1e6295a3",
+              "name": "原点",
+              "full_path": "Handle_Base1/几何体.66/草图.28/绝对轴/原点",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "原点",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7dea846c-1e62-95a3-7dea-846c1e6295a3",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b108c461-b2c5-ef33-b108-c461b2c5ef33",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Version",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1806
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolvingMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "HasADatum",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "InEdition",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConstructionGeomResultActive",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ShellResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "965d04e3-a10c-aeee-965d-04e3a10caeee",
+      "name": "几何体.66",
+      "full_path": "Handle_Base1/几何体.66",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 3580
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.66",
+    "definition_sources": [
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/几何体.66/草图.28",
+    "id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "bloc_children",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "name": "点.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "354b0957-fd6d-d1c9-354b-0957fd6dd1c9",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e09fac30-ba4c-39dd-e09f-ac30ba4c39dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "65fce922-cab8-b15e-65fc-e922cab8b15e",
+              "name": "标记.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/投影.2/标记.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "标记.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "65fce922-cab8-b15e-65fc-e922cab8b15e",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "ac7b58c2-d5ff-93dd-ac7b-58c2d5ff93dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6779ecb4-4394-aab3-6779-ecb44394aab3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/几何体.66/草图.28/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "33795802-8271-a711-3379-58028271a711",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "f7e4ddea-317a-9929-f7e4-ddea317a9929",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e09fac30-ba4c-39dd-e09f-ac30ba4c39dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "name": "点.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "646fd2b6-a38d-2678-646f-d2b6a38d2678",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "354b0957-fd6d-d1c9-354b-0957fd6dd1c9",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e1d99458-a561-af25-e1d9-9458a561af25",
+              "name": "半径.729",
+              "full_path": "Handle_Base1/几何体.66/草图.28/半径.729",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "半径.729",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e1d99458-a561-af25-e1d9-9458a561af25",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "76679578-bad6-0b89-7667-9578bad60b89",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "e1628742-ccaf-3652-e162-8742ccaf3652",
+              "name": "投影.2",
+              "full_path": "Handle_Base1/几何体.66/草图.28/投影.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "投影.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e1628742-ccaf-3652-e162-8742ccaf3652",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b104c89b-8b08-983b-b104-c89b8b08983b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "65a5b7a3-38b0-c9db-65a5-b7a338b0c9db",
+              "name": "相合.961",
+              "full_path": "Handle_Base1/几何体.66/草图.28/相合.961",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "相合.961",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "65a5b7a3-38b0-c9db-65a5-b7a338b0c9db",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "31e8c032-f988-6eed-31e8-c032f9886eed",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolveManager",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/几何体.66/草图.28/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "d7f6f2f2-4859-0e2e-d7f6-f2f248590e2e",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "6779ecb4-4394-aab3-6779-ecb44394aab3",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AbsoluteAxis",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/几何体.66/草图.28/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0486c063-713c-87c7-0486-c063713c87c7",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "33795802-8271-a711-3379-58028271a711",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DefaultEltType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "LastReportName",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Geometries",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "7dea846c-1e62-95a3-7dea-846c1e6295a3",
+              "name": "原点",
+              "full_path": "Handle_Base1/几何体.66/草图.28/绝对轴/原点",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "原点",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "7dea846c-1e62-95a3-7dea-846c1e6295a3",
+              "owner_feature": "草图.28",
+              "owner_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b108c461-b2c5-ef33-b108-c461b2c5ef33",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Version",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1806
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolvingMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "HasADatum",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "InEdition",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConstructionGeomResultActive",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ShellResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "Sketch.28",
+    "name": "草图.28",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_source_topology": {
+      "dimension_0_cell_count": 2,
+      "dimension_1_cell_count": 2,
+      "dimension_2_cell_count": 0,
+      "geometry_interface_available": true,
+      "request_result_count": 0,
+      "source_updated": false,
+      "stored_body_available": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "965d04e3-a10c-aeee-965d-04e3a10caeee",
+      "name": "几何体.66",
+      "full_path": "Handle_Base1/几何体.66",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+          "name": "草图.28",
+          "full_path": "Handle_Base1/几何体.66/草图.28",
+          "native_source_topology": {
+            "dimension_0_cell_count": 2,
+            "dimension_1_cell_count": 2,
+            "dimension_2_cell_count": 0,
+            "geometry_interface_available": true,
+            "request_result_count": 0,
+            "source_updated": false,
+            "stored_body_available": true
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "source_visibility": 1,
+    "type": "PRTSketch",
+    "support": "SketchSupport.1",
+    "positioning": {
+      "available": true,
+      "support_mode": 1,
+      "origin_mode": 4,
+      "orientation_mode": 0,
+      "orientation_direction": 1,
+      "h_sense": 1,
+      "v_sense": 1,
+      "normal_sense": 1,
+      "support_references": [
+        {
+          "id": "71017d84-ba04-93da-7101-7d84ba0493da",
+          "name": "平面.183",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/平面.183",
+          "in_feature_catalog": true
+        }
+      ],
+      "origin_references": [
+        {
+          "id": "ac50adcd-f659-1bd4-ac50-adcdf6591bd4",
+          "name": "相交.75",
+          "full_path": "Handle_Base1/Construction/Definition Construction/TRIM SURFACE/06-Surport_Geometry_Base/相交.75",
+          "in_feature_catalog": true
+        }
+      ],
+      "orientation_references": []
+    },
+    "axis": {
+      "root": [
+        721.3889725172648,
+        309.6184427858541,
+        437.77958384366354
+      ],
+      "h": [
+        0.9044001735529174,
+        -0.42668527754945207,
+        0
+      ],
+      "v": [
+        0.12711382287505832,
+        0.26942988079979785,
+        0.9545939531372984
+      ]
+    },
+    "profile_count": 1,
+    "profile_closed": false,
+    "geometries": [
+      {
+        "kind": "unknown",
+        "type": "CATI2DWFGeometry"
+      },
+      {
+        "kind": "circle",
+        "center": [
+          1.2107184810261629e-08,
+          -1.396981075263426e-08
+        ],
+        "radius": 2.3000000000000007
+      },
+      {
+        "kind": "point",
+        "xy": [
+          1.2107184810261629e-08,
+          -1.396981075263426e-08
+        ]
+      },
+      {
+        "kind": "unknown",
+        "type": "CATI2DWFGeometry"
+      }
+    ],
+    "geometry_report_names": [
+      null,
+      [
+        1
+      ],
+      null,
+      null
+    ],
+    "profile_geometry_indices": [
+      1
+    ],
+    "geometry_ids": [
+      "ac5d2e53-9b6c-60b5-ac5d-2e539b6c60b5",
+      "46a38406-5cc2-c958-46a3-84065cc2c958",
+      "88b1ed91-cddd-21c7-88b1-ed91cddd21c7",
+      "05c15215-307e-dfba-05c1-5215307edfba"
+    ],
+    "discretizations": [
+      {
+        "kind": "discretized_points",
+        "index": 1,
+        "count": 31,
+        "sag": 0.013010764773832478,
+        "points": [
+          [
+            -1.7598294246622945,
+            -1.4808782511924465
+          ],
+          [
+            -1.407317104683149,
+            -1.8191917391018664
+          ],
+          [
+            -0.9912970187949626,
+            -2.0754108640244664
+          ],
+          [
+            -0.530542836352588,
+            -2.23797326804328
+          ],
+          [
+            -0.045846934860036825,
+            -2.2995430245381683
+          ],
+          [
+            0.44091789419752475,
+            -2.2573416853286172
+          ],
+          [
+            0.9077854951841546,
+            -2.113273663243542
+          ],
+          [
+            1.3336876113720468,
+            -1.873840291999699
+          ],
+          [
+            1.6994046286654714,
+            -1.5498464415942972
+          ],
+          [
+            1.988432895935538,
+            -1.1559129287302867
+          ],
+          [
+            2.1877294825450164,
+            -0.7098167256481182
+          ],
+          [
+            2.288300764514023,
+            -0.2316887416504994
+          ],
+          [
+            2.285608278296384,
+            0.256894621099896
+          ],
+          [
+            2.1797735272706795,
+            0.7338851422990534
+          ],
+          [
+            1.9755724986774483,
+            1.177757749879182
+          ],
+          [
+            1.6822201384358166,
+            1.5684818783626686
+          ],
+          [
+            1.3129545098087254,
+            1.8884253848652315
+          ],
+          [
+            0.8844394015196353,
+            2.123150231880851
+          ],
+          [
+            0.4160123437250601,
+            2.2620640302035304
+          ],
+          [
+            -0.0711880334986984,
+            2.2988980399166175
+          ],
+          [
+            -0.5551759196059048,
+            2.2319900587783845
+          ],
+          [
+            -1.014110473604154,
+            2.0643594321466603
+          ],
+          [
+            -1.4272814320601663,
+            1.80357079948209
+          ],
+          [
+            -1.776043697719755,
+            1.4613927261189552
+          ],
+          [
+            -2.0446587337164512,
+            1.0532666251709641
+          ],
+          [
+            -2.2210047939120203,
+            0.5976099354450072
+          ],
+          [
+            -2.2971239389221783,
+            0.11498500073748635
+          ],
+          [
+            -2.269581152726139,
+            -0.37282884364075125
+          ],
+          [
+            -2.139619354064356,
+            -0.8438181033135281
+          ],
+          [
+            -1.9131033074508546,
+            -1.2767285241457205
+          ],
+          [
+            -1.7598294246622948,
+            -1.480878251192446
+          ]
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "id": "6d682414-463a-44b6-6d68-2414463a44b6",
+        "name": "半径.729",
+        "kind": "Radius",
+        "type": "ConstraintDYS",
+        "scope": "internal",
+        "geometry_indices": [
+          1
+        ],
+        "geometry_ids": [
+          "46a38406-5cc2-c958-46a3-84065cc2c958"
+        ],
+        "participants_resolved": true,
+        "external_elements": [],
+        "value": "CstAttr_Dimension_x2"
+      },
+      {
+        "id": "1d4fce9d-2b98-8a20-1d4f-ce9d2b988a20",
+        "name": "相合.961",
+        "kind": "On",
+        "type": "ConstraintDYS",
+        "scope": "external",
+        "geometry_indices": [
+          2
+        ],
+        "geometry_ids": [
+          "88b1ed91-cddd-21c7-88b1-ed91cddd21c7"
+        ],
+        "participants_resolved": true,
+        "external_elements": [],
+        "value": ""
+      }
+    ],
+    "intersected_geometries": []
+  },
+  "DEPENDENCIES": [
+    "71017d84-ba04-93da-7101-7d84ba0493da",
+    "965d04e3-a10c-aeee-965d-04e3a10caeee"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/几何体.66/草图.28": {
+      "topology": {
+        "body": "几何体.66",
+        "result_feature": "草图.28",
+        "face_count": 0,
+        "edge_count": 2,
+        "vertex_count": 0,
+        "shell_count": 0,
+        "loop_count": 1,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [
+          {
+            "index": 1,
+            "edge_count": 2,
+            "edge_start": 1
+          }
+        ],
+        "edges": [
+          {
+            "index": 1,
+            "length": 7.225663103256524,
+            "start": [
+              719.6091423844551,
+              309.97034324165804,
+              436.36594641974267
+            ],
+            "end": [
+              723.1688026684225,
+              309.2665423121905,
+              439.1932212409134
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "length": 7.225663103256526,
+            "start": [
+              723.1688026684225,
+              309.2665423121905,
+              439.1932212409134
+            ],
+            "end": [
+              719.6091423844551,
+              309.97034324165804,
+              436.36594641974267
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          }
+        ],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 620,
+        "body_name": "几何体.66",
+        "result_name": "草图.28",
+        "source_feature_id": "965d04e3-a10c-aeee-965d-04e3a10caeee",
+        "source_feature_path": "Handle_Base1/几何体.66",
+        "result_id": "0c0c9d6a-26ee-dbae-0c0c-9d6a26eedbae",
+        "face_count": 0,
+        "edge_count": 2,
+        "faces": [],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7486382,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.11.2(E,348E,1)0.",
+              "label_context_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "initial_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8"
+            },
+            "generated_by_verified": false,
+            "label": "Rename to TcPLM Part Description",
+            "generated_by": "Rename to TcPLM Part Description",
+            "generated_by_id": "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+            "length": 7.225663103256524,
+            "start_vertex": [
+              719.6091423844551,
+              309.97034324165804,
+              436.36594641974267
+            ],
+            "end_vertex": [
+              723.1688026684225,
+              309.2665423121905,
+              439.1932212409134
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 8.834588003588292,
+              "end_parameter": 16.060251106844817,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 1.1415862430976584e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      8.834588003588292,
+                      10.641003779402425,
+                      12.447419555216555,
+                      14.253835331030686,
+                      16.060251106844817,
+                      17.866666882658947,
+                      19.673082658473078,
+                      21.47949843428721,
+                      23.285914210101343
+                    ],
+                    "control_points": [
+                      [
+                        719.6091423844553,
+                        309.970343241658,
+                        436.36594641974267,
+                        1
+                      ],
+                      [
+                        719.7843816616288,
+                        309.7966100927598,
+                        436.10206480440354,
+                        1
+                      ],
+                      [
+                        720.0145153744327,
+                        309.6120234489373,
+                        435.881783320341,
+                        1
+                      ],
+                      [
+                        720.2905778454184,
+                        309.42551498921375,
+                        435.71872759089797,
+                        1
+                      ],
+                      [
+                        720.9048104756816,
+                        309.0687534923027,
+                        435.5246393158537,
+                        1
+                      ],
+                      [
+                        721.5769870673595,
+                        308.7777781813326,
+                        435.6004202255734,
+                        1
+                      ],
+                      [
+                        721.9110221323964,
+                        308.65708841537764,
+                        435.70736703505116,
+                        1
+                      ],
+                      [
+                        722.5389885654903,
+                        308.47831077586517,
+                        436.0478482574251,
+                        1
+                      ],
+                      [
+                        723.0293223921344,
+                        308.43598283241704,
+                        436.5955816158384,
+                        1
+                      ],
+                      [
+                        723.2256568404391,
+                        308.45181018829027,
+                        436.9098829737025,
+                        1
+                      ],
+                      [
+                        723.4995028565662,
+                        308.55574192275105,
+                        437.58548441115727,
+                        1
+                      ],
+                      [
+                        723.5207630126248,
+                        308.78685648203157,
+                        438.2843154454728,
+                        1
+                      ],
+                      [
+                        723.4643867871358,
+                        308.92992950931733,
+                        438.6218578789565,
+                        1
+                      ],
+                      [
+                        723.223697104056,
+                        309.2556888172672,
+                        439.2368213721917,
+                        1
+                      ],
+                      [
+                        722.7634296784425,
+                        309.6248621049103,
+                        439.67738434031344,
+                        1
+                      ],
+                      [
+                        722.4873672074616,
+                        309.8113705646353,
+                        439.8404400697595,
+                        1
+                      ],
+                      [
+                        721.8731345771948,
+                        310.1681320615456,
+                        440.0345283448015,
+                        1
+                      ],
+                      [
+                        721.2009579855185,
+                        310.4591073725158,
+                        439.95874743508296,
+                        1
+                      ],
+                      [
+                        720.8669229204814,
+                        310.5797971384709,
+                        439.85180062560465,
+                        1
+                      ],
+                      [
+                        720.2389564873876,
+                        310.7585747779834,
+                        439.5113194032315,
+                        1
+                      ],
+                      [
+                        719.748622660742,
+                        310.8009027214311,
+                        438.9635860448171,
+                        1
+                      ],
+                      [
+                        719.5522882124397,
+                        310.78507536555855,
+                        438.6492846869539,
+                        1
+                      ],
+                      [
+                        719.2784421963106,
+                        310.68114363109714,
+                        437.97368324949883,
+                        1
+                      ],
+                      [
+                        719.2571820402535,
+                        310.4500290718172,
+                        437.27485221518316,
+                        1
+                      ],
+                      [
+                        719.313558265741,
+                        310.30695604453064,
+                        436.9373097816995,
+                        1
+                      ],
+                      [
+                        719.433903107282,
+                        310.1440763905568,
+                        436.6298280350823,
+                        1
+                      ],
+                      [
+                        719.609142384455,
+                        309.9703432416581,
+                        436.3659464197427,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7486383,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.11.2(E,348E,1)0.",
+              "label_context_id": "55a4315e-48c3-9af8-55a4-315e48c39af8",
+              "initial_feature_id": "55a4315e-48c3-9af8-55a4-315e48c39af8"
+            },
+            "generated_by_verified": false,
+            "label": "Rename to TcPLM Part Description",
+            "generated_by": "Rename to TcPLM Part Description",
+            "generated_by_id": "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+            "length": 7.225663103256526,
+            "start_vertex": [
+              723.1688026684225,
+              309.2665423121905,
+              439.1932212409134
+            ],
+            "end_vertex": [
+              719.6091423844551,
+              309.97034324165804,
+              436.36594641974267
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 16.060251106844817,
+              "end_parameter": 23.285914210101343,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 1.1415862430976584e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      8.834588003588292,
+                      10.641003779402425,
+                      12.447419555216555,
+                      14.253835331030686,
+                      16.060251106844817,
+                      17.866666882658947,
+                      19.673082658473078,
+                      21.47949843428721,
+                      23.285914210101343
+                    ],
+                    "control_points": [
+                      [
+                        719.6091423844553,
+                        309.970343241658,
+                        436.36594641974267,
+                        1
+                      ],
+                      [
+                        719.7843816616288,
+                        309.7966100927598,
+                        436.10206480440354,
+                        1
+                      ],
+                      [
+                        720.0145153744327,
+                        309.6120234489373,
+                        435.881783320341,
+                        1
+                      ],
+                      [
+                        720.2905778454184,
+                        309.42551498921375,
+                        435.71872759089797,
+                        1
+                      ],
+                      [
+                        720.9048104756816,
+                        309.0687534923027,
+                        435.5246393158537,
+                        1
+                      ],
+                      [
+                        721.5769870673595,
+                        308.7777781813326,
+                        435.6004202255734,
+                        1
+                      ],
+                      [
+                        721.9110221323964,
+                        308.65708841537764,
+                        435.70736703505116,
+                        1
+                      ],
+                      [
+                        722.5389885654903,
+                        308.47831077586517,
+                        436.0478482574251,
+                        1
+                      ],
+                      [
+                        723.0293223921344,
+                        308.43598283241704,
+                        436.5955816158384,
+                        1
+                      ],
+                      [
+                        723.2256568404391,
+                        308.45181018829027,
+                        436.9098829737025,
+                        1
+                      ],
+                      [
+                        723.4995028565662,
+                        308.55574192275105,
+                        437.58548441115727,
+                        1
+                      ],
+                      [
+                        723.5207630126248,
+                        308.78685648203157,
+                        438.2843154454728,
+                        1
+                      ],
+                      [
+                        723.4643867871358,
+                        308.92992950931733,
+                        438.6218578789565,
+                        1
+                      ],
+                      [
+                        723.223697104056,
+                        309.2556888172672,
+                        439.2368213721917,
+                        1
+                      ],
+                      [
+                        722.7634296784425,
+                        309.6248621049103,
+                        439.67738434031344,
+                        1
+                      ],
+                      [
+                        722.4873672074616,
+                        309.8113705646353,
+                        439.8404400697595,
+                        1
+                      ],
+                      [
+                        721.8731345771948,
+                        310.1681320615456,
+                        440.0345283448015,
+                        1
+                      ],
+                      [
+                        721.2009579855185,
+                        310.4591073725158,
+                        439.95874743508296,
+                        1
+                      ],
+                      [
+                        720.8669229204814,
+                        310.5797971384709,
+                        439.85180062560465,
+                        1
+                      ],
+                      [
+                        720.2389564873876,
+                        310.7585747779834,
+                        439.5113194032315,
+                        1
+                      ],
+                      [
+                        719.748622660742,
+                        310.8009027214311,
+                        438.9635860448171,
+                        1
+                      ],
+                      [
+                        719.5522882124397,
+                        310.78507536555855,
+                        438.6492846869539,
+                        1
+                      ],
+                      [
+                        719.2784421963106,
+                        310.68114363109714,
+                        437.97368324949883,
+                        1
+                      ],
+                      [
+                        719.2571820402535,
+                        310.4500290718172,
+                        437.27485221518316,
+                        1
+                      ],
+                      [
+                        719.313558265741,
+                        310.30695604453064,
+                        436.9373097816995,
+                        1
+                      ],
+                      [
+                        719.433903107282,
+                        310.1440763905568,
+                        436.6298280350823,
+                        1
+                      ],
+                      [
+                        719.609142384455,
+                        309.9703432416581,
+                        436.3659464197427,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

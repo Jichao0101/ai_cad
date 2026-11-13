@@ -1,0 +1,4123 @@
+{
+  "STEP_NUMBER": 879,
+  "ORIGINAL_FEATURE_INDEX": 14,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "380b7180-25ae-be0d-380b-718025aebe0d",
+    "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2",
+    "name": "修剪.2",
+    "internal_name": "Trim.2",
+    "type": "Trim",
+    "body": "Rename to TcPLM Part Description",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ed917861-abfc-c8c3-ed91-7861abfcc8c3",
+              "name": "实体.1",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/实体.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ed917861-abfc-c8c3-ed91-7861abfcc8c3",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a2f06558-5a9e-77dd-a2f0-65585a9e77dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "name": "面.144",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.144",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "96c57ddd-e80e-a359-96c5-7ddde80ea359",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  723.5133570134412,
+                  343.675087788641,
+                  433.53235462259266
+                ],
+                "normal": [
+                  0.5761908227390068,
+                  -0.0008200268019488317,
+                  0.8173147884061507
+                ],
+                "area_native": 122.25178771341288,
+                "cog_mm": [
+                  716.365160890665,
+                  336.6151144631494,
+                  438.5646086525912
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "0f176617-b655-e2fc-0f17-6617b655e2fc",
+                    "name": "拔模.55",
+                    "full_path": "Handle_Base1/几何体.120/拔模.55",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780306,
+                      "bbox_min": [
+                        708.9342041015625,
+                        332.43743896484375,
+                        433.1002197265625
+                      ],
+                      "bbox_max": [
+                        724.06982421875,
+                        340.7274475097656,
+                        443.8359680175781
+                      ],
+                      "area_m2": 0.00012225178771341287,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.365160890665,
+                        336.6151144631494,
+                        438.56460865259123
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        716.5020141601562,
+                        336.5824432373047,
+                        438.4680938720703
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "name": "面.145",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.145",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "3cb68e61-dd7e-e365-3cb6-8e61dd7ee365",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "name": "面.146",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.146",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "242fc24d-36e5-2083-242f-c24d36e52083",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 76.39532234309527,
+                "cog_mm": [
+                  721.4739985428358,
+                  340.0598460856211,
+                  445.2975109403532
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777886,
+                      "bbox_min": [
+                        712.6723022460938,
+                        339.3721923828125,
+                        438.19049072265625
+                      ],
+                      "bbox_max": [
+                        729.9507446289062,
+                        340.7236633300781,
+                        452.5854187011719
+                      ],
+                      "area_m2": 7.639532234309527e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.4739985428358,
+                        340.0598460856211,
+                        445.2975109403532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3115234375,
+                        340.0479278564453,
+                        445.38795471191406
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "name": "面.147",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.147",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e925de27-edd8-49bb-e925-de27edd849bb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "name": "面.148",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.148",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8f11679e-2bc0-fcb1-8f11-679e2bc0fcb1",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  727.0554679250038,
+                  343.6750877882479,
+                  438.3752308638861
+                ],
+                "normal": [
+                  0.6043329875936632,
+                  0.0008200266709758944,
+                  0.7967314275603647
+                ],
+                "area_native": 122.25178771967245,
+                "cog_mm": [
+                  720.094043374505,
+                  336.61511446270936,
+                  443.66284437730553
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "75297eda-4f94-2472-7529-7eda4f942472",
+                    "name": "拔模.57",
+                    "full_path": "Handle_Base1/几何体.120/拔模.57",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780300,
+                      "bbox_min": [
+                        712.8446655273438,
+                        332.43743896484375,
+                        437.9408264160156
+                      ],
+                      "bbox_max": [
+                        727.6102905273438,
+                        340.7274475097656,
+                        449.1824951171875
+                      ],
+                      "area_m2": 0.00012225178771967246,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        720.094043374505,
+                        336.6151144627094,
+                        443.66284437730553
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        720.2274780273438,
+                        336.5824432373047,
+                        443.56166076660156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "name": "面.149",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.149",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7d9a7daa-ba88-57cb-7d9a-7daaba8857cb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "name": "面.150",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.150",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "18da8e01-7e3d-dd3b-18da-8e017e3ddd3b",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 75.14557008648367,
+                "cog_mm": [
+                  715.2485250788347,
+                  340.0600441699876,
+                  436.7806656452533
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777890,
+                      "bbox_min": [
+                        706.4920654296875,
+                        339.3721923828125,
+                        429.7406311035156
+                      ],
+                      "bbox_max": [
+                        723.7291870117188,
+                        340.7236633300781,
+                        444.0791320800781
+                      ],
+                      "area_m2": 7.514557008648368e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        715.2485250788349,
+                        340.0600441699876,
+                        436.7806656452532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        715.1106262207031,
+                        340.0479278564453,
+                        436.9098815917969
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "name": "面.151",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.151",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "336b8ecf-0e5b-b591-336b-8ecf0e5bb591",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "e8d3c5e6-51f6-a476-e8d3-c5e651f6a476",
+              "name": "实体.1",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50/实体.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e8d3c5e6-51f6-a476-e8d3-c5e651f6a476",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b2f772ab-99cc-6567-b2f7-72ab99cc6567",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          6
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+              "name": "几何体.123",
+              "full_path": "Handle_Base1/几何体.123",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "几何体.123",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4670fc2c-af9a-ce81-4670-fc2caf9ace81",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AdjacentForKeepFacesList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "name": "面.145",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.145",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "3cb68e61-dd7e-e365-3cb6-8e61dd7ee365",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "name": "面.147",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.147",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e925de27-edd8-49bb-e925-de27edd849bb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "name": "面.149",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.149",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7d9a7daa-ba88-57cb-7d9a-7daaba8857cb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "name": "面.151",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.151",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "336b8ecf-0e5b-b591-336b-8ecf0e5bb591",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "KeepByAdjacentFacesList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "name": "面.144",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.144",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "96c57ddd-e80e-a359-96c5-7ddde80ea359",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  723.5133570134412,
+                  343.675087788641,
+                  433.53235462259266
+                ],
+                "normal": [
+                  0.5761908227390068,
+                  -0.0008200268019488317,
+                  0.8173147884061507
+                ],
+                "area_native": 122.25178771341288,
+                "cog_mm": [
+                  716.365160890665,
+                  336.6151144631494,
+                  438.5646086525912
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "0f176617-b655-e2fc-0f17-6617b655e2fc",
+                    "name": "拔模.55",
+                    "full_path": "Handle_Base1/几何体.120/拔模.55",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780306,
+                      "bbox_min": [
+                        708.9342041015625,
+                        332.43743896484375,
+                        433.1002197265625
+                      ],
+                      "bbox_max": [
+                        724.06982421875,
+                        340.7274475097656,
+                        443.8359680175781
+                      ],
+                      "area_m2": 0.00012225178771341287,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.365160890665,
+                        336.6151144631494,
+                        438.56460865259123
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        716.5020141601562,
+                        336.5824432373047,
+                        438.4680938720703
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "name": "面.146",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.146",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "242fc24d-36e5-2083-242f-c24d36e52083",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 76.39532234309527,
+                "cog_mm": [
+                  721.4739985428358,
+                  340.0598460856211,
+                  445.2975109403532
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777886,
+                      "bbox_min": [
+                        712.6723022460938,
+                        339.3721923828125,
+                        438.19049072265625
+                      ],
+                      "bbox_max": [
+                        729.9507446289062,
+                        340.7236633300781,
+                        452.5854187011719
+                      ],
+                      "area_m2": 7.639532234309527e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.4739985428358,
+                        340.0598460856211,
+                        445.2975109403532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3115234375,
+                        340.0479278564453,
+                        445.38795471191406
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "name": "面.148",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.148",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8f11679e-2bc0-fcb1-8f11-679e2bc0fcb1",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  727.0554679250038,
+                  343.6750877882479,
+                  438.3752308638861
+                ],
+                "normal": [
+                  0.6043329875936632,
+                  0.0008200266709758944,
+                  0.7967314275603647
+                ],
+                "area_native": 122.25178771967245,
+                "cog_mm": [
+                  720.094043374505,
+                  336.61511446270936,
+                  443.66284437730553
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "75297eda-4f94-2472-7529-7eda4f942472",
+                    "name": "拔模.57",
+                    "full_path": "Handle_Base1/几何体.120/拔模.57",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780300,
+                      "bbox_min": [
+                        712.8446655273438,
+                        332.43743896484375,
+                        437.9408264160156
+                      ],
+                      "bbox_max": [
+                        727.6102905273438,
+                        340.7274475097656,
+                        449.1824951171875
+                      ],
+                      "area_m2": 0.00012225178771967246,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        720.094043374505,
+                        336.6151144627094,
+                        443.66284437730553
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        720.2274780273438,
+                        336.5824432373047,
+                        443.56166076660156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "name": "面.150",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.150",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "18da8e01-7e3d-dd3b-18da-8e017e3ddd3b",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 75.14557008648367,
+                "cog_mm": [
+                  715.2485250788347,
+                  340.0600441699876,
+                  436.7806656452533
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777890,
+                      "bbox_min": [
+                        706.4920654296875,
+                        339.3721923828125,
+                        429.7406311035156
+                      ],
+                      "bbox_max": [
+                        723.7291870117188,
+                        340.7236633300781,
+                        444.0791320800781
+                      ],
+                      "area_m2": 7.514557008648368e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        715.2485250788349,
+                        340.0600441699876,
+                        436.7806656452532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        715.1106262207031,
+                        340.0479278564453,
+                        436.9098815917969
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+      "name": "Rename to TcPLM Part Description",
+      "full_path": "Handle_Base1/Rename to TcPLM Part Description",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+      "name": "添加.50",
+      "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 14
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Rename to TcPLM Part Description",
+    "definition_sources": [
+      "boolean_operations",
+      "native_features"
+    ],
+    "definition_status": "partial_specialized_record",
+    "first_operand": "实体.1",
+    "first_operand_id": "e8d3c5e6-51f6-a476-e8d3-c5e651f6a476",
+    "first_operand_inferred_from_result_body": false,
+    "first_operand_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50/实体.1",
+    "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2",
+    "id": "380b7180-25ae-be0d-380b-718025aebe0d",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ed917861-abfc-c8c3-ed91-7861abfcc8c3",
+              "name": "实体.1",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/实体.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ed917861-abfc-c8c3-ed91-7861abfcc8c3",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a2f06558-5a9e-77dd-a2f0-65585a9e77dd",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "name": "面.144",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.144",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "96c57ddd-e80e-a359-96c5-7ddde80ea359",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  723.5133570134412,
+                  343.675087788641,
+                  433.53235462259266
+                ],
+                "normal": [
+                  0.5761908227390068,
+                  -0.0008200268019488317,
+                  0.8173147884061507
+                ],
+                "area_native": 122.25178771341288,
+                "cog_mm": [
+                  716.365160890665,
+                  336.6151144631494,
+                  438.5646086525912
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "0f176617-b655-e2fc-0f17-6617b655e2fc",
+                    "name": "拔模.55",
+                    "full_path": "Handle_Base1/几何体.120/拔模.55",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780306,
+                      "bbox_min": [
+                        708.9342041015625,
+                        332.43743896484375,
+                        433.1002197265625
+                      ],
+                      "bbox_max": [
+                        724.06982421875,
+                        340.7274475097656,
+                        443.8359680175781
+                      ],
+                      "area_m2": 0.00012225178771341287,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.365160890665,
+                        336.6151144631494,
+                        438.56460865259123
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        716.5020141601562,
+                        336.5824432373047,
+                        438.4680938720703
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "name": "面.145",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.145",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "3cb68e61-dd7e-e365-3cb6-8e61dd7ee365",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "name": "面.146",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.146",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "242fc24d-36e5-2083-242f-c24d36e52083",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 76.39532234309527,
+                "cog_mm": [
+                  721.4739985428358,
+                  340.0598460856211,
+                  445.2975109403532
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777886,
+                      "bbox_min": [
+                        712.6723022460938,
+                        339.3721923828125,
+                        438.19049072265625
+                      ],
+                      "bbox_max": [
+                        729.9507446289062,
+                        340.7236633300781,
+                        452.5854187011719
+                      ],
+                      "area_m2": 7.639532234309527e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.4739985428358,
+                        340.0598460856211,
+                        445.2975109403532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3115234375,
+                        340.0479278564453,
+                        445.38795471191406
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "name": "面.147",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.147",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e925de27-edd8-49bb-e925-de27edd849bb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "name": "面.148",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.148",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8f11679e-2bc0-fcb1-8f11-679e2bc0fcb1",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  727.0554679250038,
+                  343.6750877882479,
+                  438.3752308638861
+                ],
+                "normal": [
+                  0.6043329875936632,
+                  0.0008200266709758944,
+                  0.7967314275603647
+                ],
+                "area_native": 122.25178771967245,
+                "cog_mm": [
+                  720.094043374505,
+                  336.61511446270936,
+                  443.66284437730553
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "75297eda-4f94-2472-7529-7eda4f942472",
+                    "name": "拔模.57",
+                    "full_path": "Handle_Base1/几何体.120/拔模.57",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780300,
+                      "bbox_min": [
+                        712.8446655273438,
+                        332.43743896484375,
+                        437.9408264160156
+                      ],
+                      "bbox_max": [
+                        727.6102905273438,
+                        340.7274475097656,
+                        449.1824951171875
+                      ],
+                      "area_m2": 0.00012225178771967246,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        720.094043374505,
+                        336.6151144627094,
+                        443.66284437730553
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        720.2274780273438,
+                        336.5824432373047,
+                        443.56166076660156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "name": "面.149",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.149",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7d9a7daa-ba88-57cb-7d9a-7daaba8857cb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "name": "面.150",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.150",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "18da8e01-7e3d-dd3b-18da-8e017e3ddd3b",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 75.14557008648367,
+                "cog_mm": [
+                  715.2485250788347,
+                  340.0600441699876,
+                  436.7806656452533
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777890,
+                      "bbox_min": [
+                        706.4920654296875,
+                        339.3721923828125,
+                        429.7406311035156
+                      ],
+                      "bbox_max": [
+                        723.7291870117188,
+                        340.7236633300781,
+                        444.0791320800781
+                      ],
+                      "area_m2": 7.514557008648368e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        715.2485250788349,
+                        340.0600441699876,
+                        436.7806656452532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        715.1106262207031,
+                        340.0479278564453,
+                        436.9098815917969
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "name": "面.151",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.151",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "336b8ecf-0e5b-b591-336b-8ecf0e5bb591",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "e8d3c5e6-51f6-a476-e8d3-c5e651f6a476",
+              "name": "实体.1",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50/实体.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e8d3c5e6-51f6-a476-e8d3-c5e651f6a476",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b2f772ab-99cc-6567-b2f7-72ab99cc6567",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          6
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+              "name": "几何体.123",
+              "full_path": "Handle_Base1/几何体.123",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "几何体.123",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4670fc2c-af9a-ce81-4670-fc2caf9ace81",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AdjacentForKeepFacesList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "name": "面.145",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.145",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "868b7675-90c1-7fac-868b-767590c17fac",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "3cb68e61-dd7e-e365-3cb6-8e61dd7ee365",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "name": "面.147",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.147",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2bf6a32f-5c20-92ea-2bf6-a32f5c2092ea",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "e925de27-edd8-49bb-e925-de27edd849bb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 6,
+                "surface_type": "Cone",
+                "origin": [
+                  726.0564934023504,
+                  345.16568714911693,
+                  435.43239483375595
+                ],
+                "axis": [
+                  -7.871770033531038,
+                  -0.4587466475387849,
+                  5.757463362610001
+                ],
+                "angle_native": 139.99999999999892,
+                "area_native": 161.74731758957785,
+                "cog_mm": [
+                  721.5512372316184,
+                  340.4341693532143,
+                  438.72756824822204
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "332ad071-101b-4908-332a-d071101b4908",
+                    "name": "拔模.25",
+                    "full_path": "Handle_Base1/几何体.57/拔模.25",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7668424,
+                      "bbox_min": [
+                        713.4617309570312,
+                        338.4393310546875,
+                        431.108642578125
+                      ],
+                      "bbox_max": [
+                        729.2789306640625,
+                        343.38665771484375,
+                        446.82183837890625
+                      ],
+                      "area_m2": 0.00016174731758957783,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.5512372316185,
+                        340.4341693532143,
+                        438.72756824822204
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3703308105469,
+                        340.9129943847656,
+                        438.9652404785156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "name": "面.149",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.149",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "2a5fb121-6c2a-4128-2a5f-b1216c2a4128",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "7d9a7daa-ba88-57cb-7d9a-7daaba8857cb",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "name": "面.151",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.151",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "6401cd41-a0a4-4bb1-6401-cd41a0a44bb1",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "336b8ecf-0e5b-b591-336b-8ecf0e5bb591",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "support_feature": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  717.4821185516575,
+                  317.7536365121477,
+                  441.66044082327903
+                ],
+                "normal": [
+                  0.8062545688408994,
+                  0.04698645653303975,
+                  -0.589699790677973
+                ],
+                "area_native": 261.5649902446817,
+                "cog_mm": [
+                  716.9306682654881,
+                  330.2112456592571,
+                  441.8990869958029
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+                  "label_context_id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "d8bfaed2-99dc-30f1-d8bf-aed299dc30f1",
+                    "name": "凸台.40",
+                    "full_path": "Handle_Base1/Inside Boundary/凸台.40",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+                    "name": "添加.50",
+                    "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7666588,
+                      "bbox_min": [
+                        710.4301086729364,
+                        310.2075252301827,
+                        433.1651091584183
+                      ],
+                      "bbox_max": [
+                        723.895260586616,
+                        343.2137756045993,
+                        450.70965867954305
+                      ],
+                      "area_m2": 0.0002615649902446817,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.9306682654881,
+                        330.2112456592571,
+                        441.8990869958029
+                      ],
+                      "surface_type": "Plane",
+                      "origin": [
+                        717.4821185516575,
+                        317.7536365121477,
+                        441.66044082327903
+                      ],
+                      "normal": [
+                        0.8062545688408992,
+                        0.04698645653303973,
+                        -0.589699790677973
+                      ],
+                      "bbox_center": [
+                        717.1626846297762,
+                        326.710650417391,
+                        441.9373839189807
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "KeepByAdjacentFacesList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "name": "面.144",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.144",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "b918bfe0-0232-50ef-b918-bfe0023250ef",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "96c57ddd-e80e-a359-96c5-7ddde80ea359",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  723.5133570134412,
+                  343.675087788641,
+                  433.53235462259266
+                ],
+                "normal": [
+                  0.5761908227390068,
+                  -0.0008200268019488317,
+                  0.8173147884061507
+                ],
+                "area_native": 122.25178771341288,
+                "cog_mm": [
+                  716.365160890665,
+                  336.6151144631494,
+                  438.5646086525912
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "0f176617-b655-e2fc-0f17-6617b655e2fc",
+                    "name": "拔模.55",
+                    "full_path": "Handle_Base1/几何体.120/拔模.55",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780306,
+                      "bbox_min": [
+                        708.9342041015625,
+                        332.43743896484375,
+                        433.1002197265625
+                      ],
+                      "bbox_max": [
+                        724.06982421875,
+                        340.7274475097656,
+                        443.8359680175781
+                      ],
+                      "area_m2": 0.00012225178771341287,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        716.365160890665,
+                        336.6151144631494,
+                        438.56460865259123
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        716.5020141601562,
+                        336.5824432373047,
+                        438.4680938720703
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "name": "面.146",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.146",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "a685b4cd-994b-e2ad-a685-b4cd994be2ad",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "242fc24d-36e5-2083-242f-c24d36e52083",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 76.39532234309527,
+                "cog_mm": [
+                  721.4739985428358,
+                  340.0598460856211,
+                  445.2975109403532
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777886,
+                      "bbox_min": [
+                        712.6723022460938,
+                        339.3721923828125,
+                        438.19049072265625
+                      ],
+                      "bbox_max": [
+                        729.9507446289062,
+                        340.7236633300781,
+                        452.5854187011719
+                      ],
+                      "area_m2": 7.639532234309527e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        721.4739985428358,
+                        340.0598460856211,
+                        445.2975109403532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        721.3115234375,
+                        340.0479278564453,
+                        445.38795471191406
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "name": "面.148",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.148",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f55c0d4d-1412-480b-f55c-0d4d1412480b",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8f11679e-2bc0-fcb1-8f11-679e2bc0fcb1",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  727.0554679250038,
+                  343.6750877882479,
+                  438.3752308638861
+                ],
+                "normal": [
+                  0.6043329875936632,
+                  0.0008200266709758944,
+                  0.7967314275603647
+                ],
+                "area_native": 122.25178771967245,
+                "cog_mm": [
+                  720.094043374505,
+                  336.61511446270936,
+                  443.66284437730553
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "75297eda-4f94-2472-7529-7eda4f942472",
+                    "name": "拔模.57",
+                    "full_path": "Handle_Base1/几何体.120/拔模.57",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7780300,
+                      "bbox_min": [
+                        712.8446655273438,
+                        332.43743896484375,
+                        437.9408264160156
+                      ],
+                      "bbox_max": [
+                        727.6102905273438,
+                        340.7274475097656,
+                        449.1824951171875
+                      ],
+                      "area_m2": 0.00012225178771967246,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        720.094043374505,
+                        336.6151144627094,
+                        443.66284437730553
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        720.2274780273438,
+                        336.5824432373047,
+                        443.56166076660156
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "name": "面.150",
+              "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2/面.150",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "label_is_generic_naming": 1,
+              "source_feature_id": "f259d6e5-716f-c87e-f259-d6e5716fc87e",
+              "owner_feature": "修剪.2",
+              "owner_feature_id": "380b7180-25ae-be0d-380b-718025aebe0d",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "18da8e01-7e3d-dd3b-18da-8e017e3ddd3b",
+              "reference_kind": "brep",
+              "valid": true,
+              "automation_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "support_feature": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+              "brep_type": "RSur(Face)",
+              "resolved_brep_count": 1,
+              "missing_reason": "",
+              "caa_measurement": {
+                "geometry_name": 7,
+                "surface_type": "Plane",
+                "origin": [
+                  725.4209010286979,
+                  340.62367082407667,
+                  435.8972711937733
+                ],
+                "normal": [
+                  -0.05199023857312406,
+                  0.9979233631569908,
+                  0.038025995825899994
+                ],
+                "area_native": 75.14557008648367,
+                "cog_mm": [
+                  715.2485250788347,
+                  340.0600441699876,
+                  436.7806656452533
+                ],
+                "available": true
+              },
+              "resolved_breps": [
+                {
+                  "label": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+                  "label_context_id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                  "dimension": 2,
+                  "initial_feature": {
+                    "id": "ffa90b0d-e83d-6706-ffa9-0b0de83d6706",
+                    "name": "拔模.56",
+                    "full_path": "Handle_Base1/几何体.121/拔模.56",
+                    "in_feature_catalog": true
+                  },
+                  "selecting_feature": {
+                    "id": "f8c9907f-0f70-ddee-f8c9-907f0f70ddee",
+                    "name": "修剪.1",
+                    "full_path": "Handle_Base1/几何体.123/修剪.1",
+                    "in_feature_catalog": true
+                  },
+                  "cells": [
+                    {
+                      "dimension": 2,
+                      "cgm_tag": 7777890,
+                      "bbox_min": [
+                        706.4920654296875,
+                        339.3721923828125,
+                        429.7406311035156
+                      ],
+                      "bbox_max": [
+                        723.7291870117188,
+                        340.7236633300781,
+                        444.0791320800781
+                      ],
+                      "area_m2": 7.514557008648368e-05,
+                      "surface_measurement_source": "CAA resolved face",
+                      "cog_mm": [
+                        715.2485250788349,
+                        340.0600441699876,
+                        436.7806656452532
+                      ],
+                      "surface_type": "Other",
+                      "bbox_center": [
+                        715.1106262207031,
+                        340.0479278564453,
+                        436.9098815917969
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "interface_available": true,
+    "internal_name": "Trim.2",
+    "name": "修剪.2",
+    "native_export_complete": false,
+    "native_export_errors": [
+      {
+        "field": "native_trim_references",
+        "reason": "Trim face did not expose an Automation RSur reference"
+      }
+    ],
+    "native_result_geometry": {
+      "area_mm2": 6613.617993058253,
+      "cog_mm": [
+        719.5926736987512,
+        328.33090415288336,
+        440.10401038763433
+      ],
+      "volume_mm3": 6789.960900782326
+    },
+    "native_trim_references": null,
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+      "name": "Rename to TcPLM Part Description",
+      "full_path": "Handle_Base1/Rename to TcPLM Part Description",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+      "name": "添加.50",
+      "full_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50",
+      "in_feature_catalog": true
+    },
+    "reconstruction_ready": false,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "修剪.2",
+          "type": "Trim",
+          "id": "380b7180-25ae-be0d-380b-718025aebe0d",
+          "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2",
+          "body": "Rename to TcPLM Part Description",
+          "tool_body": "几何体.123",
+          "tool_body_path": "Handle_Base1/几何体.123",
+          "tool_body_id": "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+          "first_operand": "实体.1",
+          "first_operand_path": "Handle_Base1/Rename to TcPLM Part Description/添加.50/实体.1",
+          "first_operand_id": "e8d3c5e6-51f6-a476-e8d3-c5e651f6a476",
+          "second_operand": "实体.1",
+          "second_operand_path": "Handle_Base1/几何体.123/修剪.1/实体.1",
+          "second_operand_id": "b0c0d17d-16e2-4134-b0c0-d17d16e24134",
+          "interface_available": true,
+          "first_operand_inferred_from_result_body": false,
+          "reconstruction_ready": false,
+          "trim_selection_storage": "feature_catalog.input_attributes",
+          "trim_keep_remove_roles_decoded": false,
+          "activity": "true"
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "380b7180-25ae-be0d-380b-718025aebe0d",
+          "name": "修剪.2",
+          "full_path": "Handle_Base1/Rename to TcPLM Part Description/修剪.2",
+          "native_result_geometry": {
+            "area_mm2": 6613.617993058253,
+            "cog_mm": [
+              719.5926736987512,
+              328.33090415288336,
+              440.10401038763433
+            ],
+            "volume_mm3": 6789.960900782326
+          },
+          "native_trim_references": null,
+          "selection_geometry": {
+            "18da8e01-7e3d-dd3b-18da-8e017e3ddd3b": {
+              "area_m2": 7.514557008648368e-05,
+              "cog_mm": [
+                715.2485250788347,
+                340.0600441699876,
+                436.7806656452533
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+              "normal": [
+                -0.05199023857312406,
+                0.9979233631569908,
+                0.038025995825899994
+              ],
+              "origin": [
+                725.4209010286979,
+                340.62367082407667,
+                435.8972711937733
+              ],
+              "surface_type": "Plane"
+            },
+            "242fc24d-36e5-2083-242f-c24d36e52083": {
+              "area_m2": 7.639532234309527e-05,
+              "cog_mm": [
+                721.4739985428358,
+                340.0598460856211,
+                445.2975109403532
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+              "normal": [
+                -0.05199023857312406,
+                0.9979233631569908,
+                0.038025995825899994
+              ],
+              "origin": [
+                725.4209010286979,
+                340.62367082407667,
+                435.8972711937733
+              ],
+              "surface_type": "Plane"
+            },
+            "336b8ecf-0e5b-b591-336b-8ecf0e5bb591": {
+              "area_m2": 0.0002615649902446817,
+              "cog_mm": [
+                716.9306682654881,
+                330.2112456592571,
+                441.8990869958029
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "normal": [
+                0.8062545688408994,
+                0.04698645653303975,
+                -0.589699790677973
+              ],
+              "origin": [
+                717.4821185516575,
+                317.7536365121477,
+                441.66044082327903
+              ],
+              "surface_type": "Plane"
+            },
+            "3cb68e61-dd7e-e365-3cb6-8e61dd7ee365": {
+              "angle": 139.99999999999892,
+              "area_m2": 0.00016174731758957783,
+              "axis": [
+                -7.871770033531038,
+                -0.4587466475387849,
+                5.757463362610001
+              ],
+              "cog_mm": [
+                721.5512372316184,
+                340.4341693532143,
+                438.72756824822204
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "origin": [
+                726.0564934023504,
+                345.16568714911693,
+                435.43239483375595
+              ],
+              "surface_type": "Cone"
+            },
+            "7d9a7daa-ba88-57cb-7d9a-7daaba8857cb": {
+              "area_m2": 0.0002615649902446817,
+              "cog_mm": [
+                716.9306682654881,
+                330.2112456592571,
+                441.8990869958029
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+              "normal": [
+                0.8062545688408994,
+                0.04698645653303975,
+                -0.589699790677973
+              ],
+              "origin": [
+                717.4821185516575,
+                317.7536365121477,
+                441.66044082327903
+              ],
+              "surface_type": "Plane"
+            },
+            "8f11679e-2bc0-fcb1-8f11-679e2bc0fcb1": {
+              "area_m2": 0.00012225178771967246,
+              "cog_mm": [
+                720.094043374505,
+                336.61511446270936,
+                443.66284437730553
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+              "normal": [
+                0.6043329875936632,
+                0.0008200266709758944,
+                0.7967314275603647
+              ],
+              "origin": [
+                727.0554679250038,
+                343.6750877882479,
+                438.3752308638861
+              ],
+              "surface_type": "Plane"
+            },
+            "96c57ddd-e80e-a359-96c5-7ddde80ea359": {
+              "area_m2": 0.00012225178771341287,
+              "cog_mm": [
+                716.365160890665,
+                336.6151144631494,
+                438.5646086525912
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+              "normal": [
+                0.5761908227390068,
+                -0.0008200268019488317,
+                0.8173147884061507
+              ],
+              "origin": [
+                723.5133570134412,
+                343.675087788641,
+                433.53235462259266
+              ],
+              "surface_type": "Plane"
+            },
+            "e925de27-edd8-49bb-e925-de27edd849bb": {
+              "angle": 139.99999999999892,
+              "area_m2": 0.00016174731758957783,
+              "axis": [
+                -7.871770033531038,
+                -0.4587466475387849,
+                5.757463362610001
+              ],
+              "cog_mm": [
+                721.5512372316184,
+                340.4341693532143,
+                438.72756824822204
+              ],
+              "dimension": 2,
+              "measurement_source": "CAA selection context",
+              "native_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+              "origin": [
+                726.0564934023504,
+                345.16568714911693,
+                435.43239483375595
+              ],
+              "surface_type": "Cone"
+            }
+          },
+          "native_export_complete": false,
+          "native_export_errors": [
+            {
+              "field": "native_trim_references",
+              "reason": "Trim face did not expose an Automation RSur reference"
+            }
+          ]
+        }
+      }
+    ],
+    "second_operand": "实体.1",
+    "second_operand_id": "b0c0d17d-16e2-4134-b0c0-d17d16e24134",
+    "second_operand_path": "Handle_Base1/几何体.123/修剪.1/实体.1",
+    "selection_geometry": {
+      "18da8e01-7e3d-dd3b-18da-8e017e3ddd3b": {
+        "area_m2": 7.514557008648368e-05,
+        "cog_mm": [
+          715.2485250788347,
+          340.0600441699876,
+          436.7806656452533
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,4(E,5D45,4))21.2(E,5E4D,4(E,5DF5,6))",
+        "normal": [
+          -0.05199023857312406,
+          0.9979233631569908,
+          0.038025995825899994
+        ],
+        "origin": [
+          725.4209010286979,
+          340.62367082407667,
+          435.8972711937733
+        ],
+        "surface_type": "Plane"
+      },
+      "242fc24d-36e5-2083-242f-c24d36e52083": {
+        "area_m2": 7.639532234309527e-05,
+        "cog_mm": [
+          721.4739985428358,
+          340.0598460856211,
+          445.2975109403532
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,5E4D,4(E,5DF5,1))1.21.2(E,5DBB,3(E,5D45,1))21.2(E,5E4D,4(E,5DF5,4))",
+        "normal": [
+          -0.05199023857312406,
+          0.9979233631569908,
+          0.038025995825899994
+        ],
+        "origin": [
+          725.4209010286979,
+          340.62367082407667,
+          435.8972711937733
+        ],
+        "surface_type": "Plane"
+      },
+      "336b8ecf-0e5b-b591-336b-8ecf0e5bb591": {
+        "area_m2": 0.0002615649902446817,
+        "cog_mm": [
+          716.9306682654881,
+          330.2112456592571,
+          441.8990869958029
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+        "normal": [
+          0.8062545688408994,
+          0.04698645653303975,
+          -0.589699790677973
+        ],
+        "origin": [
+          717.4821185516575,
+          317.7536365121477,
+          441.66044082327903
+        ],
+        "surface_type": "Plane"
+      },
+      "3cb68e61-dd7e-e365-3cb6-8e61dd7ee365": {
+        "angle": 139.99999999999892,
+        "area_m2": 0.00016174731758957783,
+        "axis": [
+          -7.871770033531038,
+          -0.4587466475387849,
+          5.757463362610001
+        ],
+        "cog_mm": [
+          721.5512372316184,
+          340.4341693532143,
+          438.72756824822204
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+        "origin": [
+          726.0564934023504,
+          345.16568714911693,
+          435.43239483375595
+        ],
+        "surface_type": "Cone"
+      },
+      "7d9a7daa-ba88-57cb-7d9a-7daaba8857cb": {
+        "area_m2": 0.0002615649902446817,
+        "cog_mm": [
+          716.9306682654881,
+          330.2112456592571,
+          441.8990869958029
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.11.2(E,3FF9,2)0.",
+        "normal": [
+          0.8062545688408994,
+          0.04698645653303975,
+          -0.589699790677973
+        ],
+        "origin": [
+          717.4821185516575,
+          317.7536365121477,
+          441.66044082327903
+        ],
+        "surface_type": "Plane"
+      },
+      "8f11679e-2bc0-fcb1-8f11-679e2bc0fcb1": {
+        "area_m2": 0.00012225178771967246,
+        "cog_mm": [
+          720.094043374505,
+          336.61511446270936,
+          443.66284437730553
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,5DBB,3(E,5D45,1))1.21.2(E,5DBB,5(E,5D45,2))39.2(E,5DE0(E,5DBB,5(E,5D45,2))(E,5DBB,1))21.2(E,5E4D,4(E,5DF5,1))",
+        "normal": [
+          0.6043329875936632,
+          0.0008200266709758944,
+          0.7967314275603647
+        ],
+        "origin": [
+          727.0554679250038,
+          343.6750877882479,
+          438.3752308638861
+        ],
+        "surface_type": "Plane"
+      },
+      "96c57ddd-e80e-a359-96c5-7ddde80ea359": {
+        "area_m2": 0.00012225178771341287,
+        "cog_mm": [
+          716.365160890665,
+          336.6151144631494,
+          438.5646086525912
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.21.2(E,5DBB,4(E,5D45,4))1.21.2(E,5DBB,5(E,5D45,5))21.2(E,5E4D,4(E,5DF5,1))39.2(E,5DE0(E,5DBB,5(E,5D45,5))(E,5DBB,1))",
+        "normal": [
+          0.5761908227390068,
+          -0.0008200268019488317,
+          0.8173147884061507
+        ],
+        "origin": [
+          723.5133570134412,
+          343.675087788641,
+          433.53235462259266
+        ],
+        "surface_type": "Plane"
+      },
+      "e925de27-edd8-49bb-e925-de27edd849bb": {
+        "angle": 139.99999999999892,
+        "area_m2": 0.00016174731758957783,
+        "axis": [
+          -7.871770033531038,
+          -0.4587466475387849,
+          5.757463362610001
+        ],
+        "cog_mm": [
+          721.5512372316184,
+          340.4341693532143,
+          438.72756824822204
+        ],
+        "dimension": 2,
+        "measurement_source": "CAA selection context",
+        "native_brep_name": "Z10G510904B14.S.69.2(E,409D(E,408C,0(E,3558,3))(E,408C,0(E,3558,2))(E,408C,0(E,3558,1)))0.",
+        "origin": [
+          726.0564934023504,
+          345.16568714911693,
+          435.43239483375595
+        ],
+        "surface_type": "Cone"
+      }
+    },
+    "source_visibility": 0,
+    "tool_body": "几何体.123",
+    "tool_body_id": "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+    "tool_body_path": "Handle_Base1/几何体.123",
+    "trim_keep_remove_roles_decoded": false,
+    "trim_selection_storage": "feature_catalog.input_attributes",
+    "type": "Trim"
+  },
+  "DEPENDENCIES": [
+    "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+    "bba5c88f-55fe-54ac-bba5-c88f55fe54ac",
+    "d9e3c538-8c6f-ef8f-d9e3-c5388c6fef8f",
+    "f8c9907f-0f70-ddee-f8c9-907f0f70ddee"
+  ],
+  "GEOMETRY": {}
+}

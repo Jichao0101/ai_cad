@@ -1,0 +1,556 @@
+{
+  "STEP_NUMBER": 870,
+  "ORIGINAL_FEATURE_INDEX": 1273,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+    "full_path": "Handle_Base1/Handle_Base/移除.9",
+    "name": "移除.9",
+    "internal_name": "Remove.9",
+    "type": "Remove",
+    "body": "Handle_Base",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "64ceff03-7f64-c030-64ce-ff037f64c030",
+              "name": "实体.21",
+              "full_path": "Handle_Base1/Handle_Base/移除.9/实体.21",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.21",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "64ceff03-7f64-c030-64ce-ff037f64c030",
+              "owner_feature": "移除.9",
+              "owner_feature_id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80805c02-99d9-ae77-8080-5c0299d9ae77",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "959a9fa7-df34-a783-959a-9fa7df34a783",
+              "name": "实体.22",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.7/实体.22",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.22",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "959a9fa7-df34-a783-959a-9fa7df34a783",
+              "owner_feature": "移除.9",
+              "owner_feature_id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "08332a4d-2b37-a87f-0833-2a4d2b37a87f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "41c53d26-8051-2b02-41c5-3d2680512b02",
+              "name": "Inside Boundary",
+              "full_path": "Handle_Base1/Inside Boundary",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Inside Boundary",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "41c53d26-8051-2b02-41c5-3d2680512b02",
+              "owner_feature": "移除.9",
+              "owner_feature_id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "15bad97b-2a51-7e27-15ba-d97b2a517e27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "0fd85d9a-ca95-2a0a-0fd8-5d9aca952a0a",
+      "name": "Handle_Base",
+      "full_path": "Handle_Base1/Handle_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "989c4f96-d53c-f603-989c-4f96d53cf603",
+      "name": "倒圆角.7",
+      "full_path": "Handle_Base1/Handle_Base/倒圆角.7",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "0095aff7-56aa-173d-0095-aff756aa173d",
+      "name": "倒圆角.9",
+      "full_path": "Handle_Base1/Handle_Base/倒圆角.9",
+      "in_feature_catalog": true
+    },
+    "order": 1273
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Handle_Base",
+    "definition_sources": [
+      "boolean_operations"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "实体.22",
+    "first_operand_id": "959a9fa7-df34-a783-959a-9fa7df34a783",
+    "first_operand_inferred_from_result_body": false,
+    "first_operand_path": "Handle_Base1/Handle_Base/倒圆角.7/实体.22",
+    "full_path": "Handle_Base1/Handle_Base/移除.9",
+    "id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "64ceff03-7f64-c030-64ce-ff037f64c030",
+              "name": "实体.21",
+              "full_path": "Handle_Base1/Handle_Base/移除.9/实体.21",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.21",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "64ceff03-7f64-c030-64ce-ff037f64c030",
+              "owner_feature": "移除.9",
+              "owner_feature_id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "80805c02-99d9-ae77-8080-5c0299d9ae77",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "959a9fa7-df34-a783-959a-9fa7df34a783",
+              "name": "实体.22",
+              "full_path": "Handle_Base1/Handle_Base/倒圆角.7/实体.22",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.22",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "959a9fa7-df34-a783-959a-9fa7df34a783",
+              "owner_feature": "移除.9",
+              "owner_feature_id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "08332a4d-2b37-a87f-0833-2a4d2b37a87f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "41c53d26-8051-2b02-41c5-3d2680512b02",
+              "name": "Inside Boundary",
+              "full_path": "Handle_Base1/Inside Boundary",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "Inside Boundary",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "41c53d26-8051-2b02-41c5-3d2680512b02",
+              "owner_feature": "移除.9",
+              "owner_feature_id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "15bad97b-2a51-7e27-15ba-d97b2a517e27",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "interface_available": true,
+    "internal_name": "Remove.9",
+    "name": "移除.9",
+    "next_shape": {
+      "id": "0095aff7-56aa-173d-0095-aff756aa173d",
+      "name": "倒圆角.9",
+      "full_path": "Handle_Base1/Handle_Base/倒圆角.9",
+      "in_feature_catalog": true
+    },
+    "parent": {
+      "id": "0fd85d9a-ca95-2a0a-0fd8-5d9aca952a0a",
+      "name": "Handle_Base",
+      "full_path": "Handle_Base1/Handle_Base",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "989c4f96-d53c-f603-989c-4f96d53cf603",
+      "name": "倒圆角.7",
+      "full_path": "Handle_Base1/Handle_Base/倒圆角.7",
+      "in_feature_catalog": true
+    },
+    "reconstruction_ready": true,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "移除.9",
+          "type": "Remove",
+          "id": "e3775f85-b9ea-1d04-e377-5f85b9ea1d04",
+          "full_path": "Handle_Base1/Handle_Base/移除.9",
+          "body": "Handle_Base",
+          "tool_body": "Inside Boundary",
+          "tool_body_path": "Handle_Base1/Inside Boundary",
+          "tool_body_id": "41c53d26-8051-2b02-41c5-3d2680512b02",
+          "first_operand": "实体.22",
+          "first_operand_path": "Handle_Base1/Handle_Base/倒圆角.7/实体.22",
+          "first_operand_id": "959a9fa7-df34-a783-959a-9fa7df34a783",
+          "second_operand": "实体.1",
+          "second_operand_path": "Handle_Base1/Inside Boundary/倒圆角.91/实体.1",
+          "second_operand_id": "ee04e015-a4f5-9757-ee04-e015a4f59757",
+          "interface_available": true,
+          "first_operand_inferred_from_result_body": false,
+          "reconstruction_ready": true,
+          "activity": "true"
+        }
+      }
+    ],
+    "second_operand": "实体.1",
+    "second_operand_id": "ee04e015-a4f5-9757-ee04-e015a4f59757",
+    "second_operand_path": "Handle_Base1/Inside Boundary/倒圆角.91/实体.1",
+    "source_visibility": 0,
+    "tool_body": "Inside Boundary",
+    "tool_body_id": "41c53d26-8051-2b02-41c5-3d2680512b02",
+    "tool_body_path": "Handle_Base1/Inside Boundary",
+    "type": "Remove"
+  },
+  "DEPENDENCIES": [
+    "0fd85d9a-ca95-2a0a-0fd8-5d9aca952a0a",
+    "336c1929-c9aa-65e4-336c-1929c9aa65e4",
+    "41c53d26-8051-2b02-41c5-3d2680512b02",
+    "989c4f96-d53c-f603-989c-4f96d53cf603"
+  ],
+  "GEOMETRY": {}
+}

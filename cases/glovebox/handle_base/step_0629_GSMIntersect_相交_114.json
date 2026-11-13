@@ -1,0 +1,1581 @@
+{
+  "STEP_NUMBER": 629,
+  "ORIGINAL_FEATURE_INDEX": 3897,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+    "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/相交.114",
+    "name": "相交.114",
+    "internal_name": "GSMIntersect.114",
+    "type": "GSMIntersect",
+    "body": "Part",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+              "name": "拉伸.12",
+              "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/拉伸.12",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "拉伸.12",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+              "owner_feature": "相交.114",
+              "owner_feature_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5740f66-16e7-e11b-f574-0f6616e7e11b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b",
+              "name": "LimitPlane_ForScrew",
+              "full_path": "Handle_Base1/Semi-Model Outputs/10-Output_Geometry_ForHandleBottomFace/LimitPlane_ForScrew",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "LimitPlane_ForScrew",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b",
+              "owner_feature": "相交.114",
+              "owner_feature_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8fd04758-f306-2db1-8fd0-4758f3062db1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "strGSMIntersectSolutionPoint",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntersectSolid",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtrapolateMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntIntersectMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtendMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "3027e9b1-7f41-0067-3027-e9b17f410067",
+      "name": "几何图形集.91",
+      "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 3897
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Part",
+    "definition_available": true,
+    "definition_source": "caa_native_interfaces",
+    "definition_sources": [
+      "boolean_operations",
+      "gsm_features",
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "",
+    "first_operand_id": "",
+    "first_operand_inferred_from_result_body": true,
+    "first_operand_path": "",
+    "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/相交.114",
+    "gsm_category": "GSMIntersect",
+    "id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          268435457
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity2",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect1",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+              "name": "拉伸.12",
+              "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/拉伸.12",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "拉伸.12",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+              "owner_feature": "相交.114",
+              "owner_feature_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f5740f66-16e7-e11b-f574-0f6616e7e11b",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToIntersect2",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b",
+              "name": "LimitPlane_ForScrew",
+              "full_path": "Handle_Base1/Semi-Model Outputs/10-Output_Geometry_ForHandleBottomFace/LimitPlane_ForScrew",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "LimitPlane_ForScrew",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b",
+              "owner_feature": "相交.114",
+              "owner_feature_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8fd04758-f306-2db1-8fd0-4758f3062db1",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "strGSMIntersectSolutionPoint",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntersectSolid",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtrapolateMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntIntersectMode",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "IntExtendMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "input_count": 0,
+    "interface_available": false,
+    "internal_name": "GSMIntersect.114",
+    "missing_reason": "No public feature-specific definition or child inputs were available",
+    "name": "相交.114",
+    "native_definition_available": true,
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_intersection_inputs": [
+      {
+        "feature": {
+          "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/拉伸.12",
+          "id": "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+          "name": "拉伸.12"
+        }
+      },
+      {
+        "feature": {
+          "full_path": "Handle_Base1/Semi-Model Outputs/10-Output_Geometry_ForHandleBottomFace/LimitPlane_ForScrew",
+          "id": "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b",
+          "name": "LimitPlane_ForScrew"
+        }
+      }
+    ],
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 519,
+    "parameter_count": 0,
+    "params": [],
+    "parent": {
+      "id": "3027e9b1-7f41-0067-3027-e9b17f410067",
+      "name": "几何图形集.91",
+      "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "reconstruction_ready": false,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "相交.114",
+          "type": "GSMIntersect",
+          "id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+          "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/相交.114",
+          "body": "Part",
+          "tool_body": "",
+          "tool_body_path": "",
+          "tool_body_id": "",
+          "first_operand": "",
+          "first_operand_path": "",
+          "first_operand_id": "",
+          "second_operand": "",
+          "second_operand_path": "",
+          "second_operand_id": "",
+          "interface_available": false,
+          "first_operand_inferred_from_result_body": true,
+          "reconstruction_ready": false,
+          "activity": "true"
+        }
+      },
+      {
+        "source": "gsm_features",
+        "feature": {
+          "order": 519,
+          "name": "相交.114",
+          "type": "GSMIntersect",
+          "gsm_category": "GSMIntersect",
+          "body": "Part",
+          "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/相交.114",
+          "id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+          "parameter_count": 0,
+          "input_count": 0,
+          "definition_available": false,
+          "definition_source": "child_spec_objects",
+          "missing_reason": "No public feature-specific definition or child inputs were available",
+          "params": [],
+          "selections": []
+        }
+      },
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+          "name": "相交.114",
+          "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/相交.114",
+          "native_intersection_inputs": [
+            {
+              "feature": {
+                "full_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/拉伸.12",
+                "id": "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+                "name": "拉伸.12"
+              }
+            },
+            {
+              "feature": {
+                "full_path": "Handle_Base1/Semi-Model Outputs/10-Output_Geometry_ForHandleBottomFace/LimitPlane_ForScrew",
+                "id": "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b",
+                "name": "LimitPlane_ForScrew"
+              }
+            }
+          ],
+          "native_definition_available": true,
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "second_operand": "",
+    "second_operand_id": "",
+    "second_operand_path": "",
+    "selections": [],
+    "source_visibility": 1,
+    "tool_body": "",
+    "tool_body_id": "",
+    "tool_body_path": "",
+    "type": "GSMIntersect"
+  },
+  "DEPENDENCIES": [
+    "1ca52626-ba9a-58fe-1ca5-2626ba9a58fe",
+    "3027e9b1-7f41-0067-3027-e9b17f410067",
+    "3d205e0a-8ab2-be2b-3d20-5e0a8ab2be2b"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91/相交.114": {
+      "topology": {
+        "body": "几何图形集.91",
+        "result_feature": "相交.114",
+        "face_count": 0,
+        "edge_count": 2,
+        "vertex_count": 0,
+        "shell_count": 0,
+        "loop_count": 1,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [
+          {
+            "index": 1,
+            "edge_count": 2,
+            "edge_start": 1
+          }
+        ],
+        "edges": [
+          {
+            "index": 1,
+            "length": 5.497787143782008,
+            "start": [
+              718.8676376926835,
+              300.2736593116161,
+              441.15680595978984
+            ],
+            "end": [
+              715.6820069648369,
+              301.5225581542849,
+              440.42059366256865
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              },
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "length": 5.497787143782012,
+            "start": [
+              715.6820069648369,
+              301.5225581542849,
+              440.42059366256865
+            ],
+            "end": [
+              718.8676376926835,
+              300.2736593116161,
+              441.15680595978984
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              },
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          }
+        ],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 679,
+        "body_name": "几何图形集.91",
+        "result_name": "相交.114",
+        "source_feature_id": "3027e9b1-7f41-0067-3027-e9b17f410067",
+        "source_feature_path": "Handle_Base1/3D PMI OUTPUTS  handle base/几何图形集.91",
+        "result_id": "14862207-0ffa-3a43-1486-22070ffa3a43",
+        "face_count": 0,
+        "edge_count": 2,
+        "faces": [],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7511077,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.65.2(E,5BF0(E,5B8C,0(E,3322,1)(E,31FC(E,31FB(E,3118)(E,3113))#7))#4)0.",
+              "label_context_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+              "initial_feature_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1"
+            },
+            "generated_by_verified": false,
+            "label": "几何图形集.91",
+            "generated_by": "几何图形集.91",
+            "generated_by_id": "3027e9b1-7f41-0067-3027-e9b17f410067",
+            "length": 5.497787143782008,
+            "start_vertex": [
+              718.8676376926835,
+              300.2736593116161,
+              441.15680595978984
+            ],
+            "end_vertex": [
+              715.6820069648369,
+              301.5225581542849,
+              440.42059366256865
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 6.872233929727725,
+              "end_parameter": 12.370021073509733,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 8.68598247376739e-06,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      6.872233929727725,
+                      8.246680715673229,
+                      9.62112750161873,
+                      10.995574287564231,
+                      12.370021073509733
+                    ],
+                    "control_points": [
+                      [
+                        718.8676376926836,
+                        300.2736593116161,
+                        441.15680595978995,
+                        1
+                      ],
+                      [
+                        718.8883359430148,
+                        300.17557102591155,
+                        440.90084809345905,
+                        1
+                      ],
+                      [
+                        718.8599077635771,
+                        300.09674233007235,
+                        440.6335369081777,
+                        1
+                      ],
+                      [
+                        718.7812392214772,
+                        300.0422410655525,
+                        440.3680358656854,
+                        1
+                      ],
+                      [
+                        718.5318991148147,
+                        299.98776671920734,
+                        439.86926574368374,
+                        1
+                      ],
+                      [
+                        718.1321134937466,
+                        300.04224106562464,
+                        439.48053244105387,
+                        1
+                      ],
+                      [
+                        717.9029250955356,
+                        300.0967423301787,
+                        439.32512259193993,
+                        1
+                      ],
+                      [
+                        717.4106555748505,
+                        300.2543997219173,
+                        439.1089642156568,
+                        1
+                      ],
+                      [
+                        716.9021296863709,
+                        300.48909547309955,
+                        439.09383467749643,
+                        1
+                      ],
+                      [
+                        716.6566768873807,
+                        300.6206731651185,
+                        439.13955300364455,
+                        1
+                      ],
+                      [
+                        716.2098427615483,
+                        300.8981087330686,
+                        439.3326290182863,
+                        1
+                      ],
+                      [
+                        715.8904641743098,
+                        301.17554430100455,
+                        439.6999659228573,
+                        1
+                      ],
+                      [
+                        715.7725298952658,
+                        301.30712199300984,
+                        439.92003124885804,
+                        1
+                      ],
+                      [
+                        715.7027052151691,
+                        301.4244698685802,
+                        440.1646357962381,
+                        1
+                      ],
+                      [
+                        715.6820069648371,
+                        301.5225581542849,
+                        440.42059366256865,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 8.685982381240871e-06,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      10.851130603535292,
+                      12.225577389480799,
+                      13.600024175426306,
+                      14.97447096137181,
+                      16.348917747317316,
+                      17.72336453326282,
+                      19.097811319208326,
+                      20.47225810515383,
+                      21.846704891099336
+                    ],
+                    "control_points": [
+                      [
+                        718.8676376926836,
+                        300.2736593116161,
+                        441.15680595979006,
+                        1
+                      ],
+                      [
+                        718.8883359430133,
+                        300.1755710259103,
+                        440.90084809345836,
+                        1
+                      ],
+                      [
+                        718.8599077635778,
+                        300.09674233007354,
+                        440.633536908178,
+                        1
+                      ],
+                      [
+                        718.7812392214772,
+                        300.04224106555193,
+                        440.36803586568556,
+                        1
+                      ],
+                      [
+                        718.5318991148141,
+                        299.9877667192079,
+                        439.8692657436834,
+                        1
+                      ],
+                      [
+                        718.1321134937466,
+                        300.04224106562407,
+                        439.4805324410539,
+                        1
+                      ],
+                      [
+                        717.9029250955354,
+                        300.0967423301789,
+                        439.3251225919403,
+                        1
+                      ],
+                      [
+                        717.4106555748505,
+                        300.2543997219171,
+                        439.1089642156564,
+                        1
+                      ],
+                      [
+                        716.9021296863709,
+                        300.4890954730995,
+                        439.09383467749706,
+                        1
+                      ],
+                      [
+                        716.6566768873805,
+                        300.6206731651185,
+                        439.13955300364415,
+                        1
+                      ],
+                      [
+                        716.2098427615488,
+                        300.8981087330685,
+                        439.33262901828647,
+                        1
+                      ],
+                      [
+                        715.8904641743089,
+                        301.1755443010046,
+                        439.6999659228574,
+                        1
+                      ],
+                      [
+                        715.7725298952677,
+                        301.3071219930097,
+                        439.9200312488584,
+                        1
+                      ],
+                      [
+                        715.6328805350676,
+                        301.54181774415065,
+                        440.4092403436172,
+                        1
+                      ],
+                      [
+                        715.6897368939437,
+                        301.6994751358285,
+                        440.9438627141818,
+                        1
+                      ],
+                      [
+                        715.7684054360424,
+                        301.75397640034873,
+                        441.2093637566726,
+                        1
+                      ],
+                      [
+                        716.0177455427063,
+                        301.8084507466931,
+                        441.7081338786754,
+                        1
+                      ],
+                      [
+                        716.4175311637733,
+                        301.75397640027677,
+                        442.0968671813047,
+                        1
+                      ],
+                      [
+                        716.6467195619842,
+                        301.699475135722,
+                        442.2522770304184,
+                        1
+                      ],
+                      [
+                        717.1389890826694,
+                        301.54181774398376,
+                        442.4684354067019,
+                        1
+                      ],
+                      [
+                        717.6475149711503,
+                        301.3071219928016,
+                        442.4835649448623,
+                        1
+                      ],
+                      [
+                        717.8929677701393,
+                        301.17554430078263,
+                        442.4378466187141,
+                        1
+                      ],
+                      [
+                        718.3398018959712,
+                        300.89810873283176,
+                        442.24477060407224,
+                        1
+                      ],
+                      [
+                        718.6591804832126,
+                        300.62067316489737,
+                        441.8774336995023,
+                        1
+                      ],
+                      [
+                        718.7771147622511,
+                        300.4890954728903,
+                        441.6573683734995,
+                        1
+                      ],
+                      [
+                        718.8469394423531,
+                        300.3717475973211,
+                        441.4127638261213,
+                        1
+                      ],
+                      [
+                        718.8676376926834,
+                        300.2736593116161,
+                        441.1568059597902,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7511092,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.65.2(E,5BF0(E,5B8C,0(E,3322,1)(E,31FC(E,31FB(E,3118)(E,3113))#7))#4)0.",
+              "label_context_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1",
+              "initial_feature_id": "1e0eea27-c5e1-61c1-1e0e-ea27c5e161c1"
+            },
+            "generated_by_verified": false,
+            "label": "几何图形集.91",
+            "generated_by": "几何图形集.91",
+            "generated_by_id": "3027e9b1-7f41-0067-3027-e9b17f410067",
+            "length": 5.497787143782012,
+            "start_vertex": [
+              715.6820069648369,
+              301.5225581542849,
+              440.42059366256865
+            ],
+            "end_vertex": [
+              718.8676376926835,
+              300.2736593116161,
+              441.15680595978984
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 12.370021073509733,
+              "end_parameter": 17.867808217291746,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 8.685982324200004e-06,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      12.370021073509733,
+                      13.744467859455236,
+                      15.11891464540074,
+                      16.493361431346244,
+                      17.867808217291746
+                    ],
+                    "control_points": [
+                      [
+                        715.6820069648369,
+                        301.5225581542849,
+                        440.4205936625686,
+                        1
+                      ],
+                      [
+                        715.6613087145059,
+                        301.62064643998986,
+                        440.67655152889927,
+                        1
+                      ],
+                      [
+                        715.6897368939424,
+                        301.6994751358277,
+                        440.9438627141811,
+                        1
+                      ],
+                      [
+                        715.7684054360433,
+                        301.753976400349,
+                        441.20936375667264,
+                        1
+                      ],
+                      [
+                        716.017745542706,
+                        301.80845074669327,
+                        441.70813387867565,
+                        1
+                      ],
+                      [
+                        716.4175311637728,
+                        301.75397640027654,
+                        442.0968671813034,
+                        1
+                      ],
+                      [
+                        716.646719561985,
+                        301.69947513572237,
+                        442.2522770304191,
+                        1
+                      ],
+                      [
+                        717.1389890826687,
+                        301.5418177439834,
+                        442.46843540670153,
+                        1
+                      ],
+                      [
+                        717.6475149711506,
+                        301.30712199280197,
+                        442.48356494486234,
+                        1
+                      ],
+                      [
+                        717.8929677701386,
+                        301.17554430078235,
+                        442.43784661871433,
+                        1
+                      ],
+                      [
+                        718.339801895972,
+                        300.8981087328324,
+                        442.2447706040722,
+                        1
+                      ],
+                      [
+                        718.6591804832113,
+                        300.62067316489697,
+                        441.87743369950175,
+                        1
+                      ],
+                      [
+                        718.7771147622527,
+                        300.48909547289065,
+                        441.6573683735001,
+                        1
+                      ],
+                      [
+                        718.8469394423526,
+                        300.37174759732125,
+                        441.4127638261209,
+                        1
+                      ],
+                      [
+                        718.8676376926834,
+                        300.27365931161614,
+                        441.15680595979006,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 8.685982381240871e-06,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      10.851130603535292,
+                      12.225577389480799,
+                      13.600024175426306,
+                      14.97447096137181,
+                      16.348917747317316,
+                      17.72336453326282,
+                      19.097811319208326,
+                      20.47225810515383,
+                      21.846704891099336
+                    ],
+                    "control_points": [
+                      [
+                        718.8676376926836,
+                        300.2736593116161,
+                        441.15680595979006,
+                        1
+                      ],
+                      [
+                        718.8883359430133,
+                        300.1755710259103,
+                        440.90084809345836,
+                        1
+                      ],
+                      [
+                        718.8599077635778,
+                        300.09674233007354,
+                        440.633536908178,
+                        1
+                      ],
+                      [
+                        718.7812392214772,
+                        300.04224106555193,
+                        440.36803586568556,
+                        1
+                      ],
+                      [
+                        718.5318991148141,
+                        299.9877667192079,
+                        439.8692657436834,
+                        1
+                      ],
+                      [
+                        718.1321134937466,
+                        300.04224106562407,
+                        439.4805324410539,
+                        1
+                      ],
+                      [
+                        717.9029250955354,
+                        300.0967423301789,
+                        439.3251225919403,
+                        1
+                      ],
+                      [
+                        717.4106555748505,
+                        300.2543997219171,
+                        439.1089642156564,
+                        1
+                      ],
+                      [
+                        716.9021296863709,
+                        300.4890954730995,
+                        439.09383467749706,
+                        1
+                      ],
+                      [
+                        716.6566768873805,
+                        300.6206731651185,
+                        439.13955300364415,
+                        1
+                      ],
+                      [
+                        716.2098427615488,
+                        300.8981087330685,
+                        439.33262901828647,
+                        1
+                      ],
+                      [
+                        715.8904641743089,
+                        301.1755443010046,
+                        439.6999659228574,
+                        1
+                      ],
+                      [
+                        715.7725298952677,
+                        301.3071219930097,
+                        439.9200312488584,
+                        1
+                      ],
+                      [
+                        715.6328805350676,
+                        301.54181774415065,
+                        440.4092403436172,
+                        1
+                      ],
+                      [
+                        715.6897368939437,
+                        301.6994751358285,
+                        440.9438627141818,
+                        1
+                      ],
+                      [
+                        715.7684054360424,
+                        301.75397640034873,
+                        441.2093637566726,
+                        1
+                      ],
+                      [
+                        716.0177455427063,
+                        301.8084507466931,
+                        441.7081338786754,
+                        1
+                      ],
+                      [
+                        716.4175311637733,
+                        301.75397640027677,
+                        442.0968671813047,
+                        1
+                      ],
+                      [
+                        716.6467195619842,
+                        301.699475135722,
+                        442.2522770304184,
+                        1
+                      ],
+                      [
+                        717.1389890826694,
+                        301.54181774398376,
+                        442.4684354067019,
+                        1
+                      ],
+                      [
+                        717.6475149711503,
+                        301.3071219928016,
+                        442.4835649448623,
+                        1
+                      ],
+                      [
+                        717.8929677701393,
+                        301.17554430078263,
+                        442.4378466187141,
+                        1
+                      ],
+                      [
+                        718.3398018959712,
+                        300.89810873283176,
+                        442.24477060407224,
+                        1
+                      ],
+                      [
+                        718.6591804832126,
+                        300.62067316489737,
+                        441.8774336995023,
+                        1
+                      ],
+                      [
+                        718.7771147622511,
+                        300.4890954728903,
+                        441.6573683734995,
+                        1
+                      ],
+                      [
+                        718.8469394423531,
+                        300.3717475973211,
+                        441.4127638261213,
+                        1
+                      ],
+                      [
+                        718.8676376926834,
+                        300.2736593116161,
+                        441.1568059597902,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

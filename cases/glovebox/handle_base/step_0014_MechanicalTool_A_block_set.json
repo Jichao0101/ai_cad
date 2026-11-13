@@ -1,0 +1,5639 @@
+{
+  "STEP_NUMBER": 14,
+  "ORIGINAL_FEATURE_INDEX": 1438,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+    "full_path": "Handle_Base1/A block set",
+    "name": "A block set",
+    "internal_name": "MechanicalTool.10",
+    "type": "MechanicalTool",
+    "body": "A block set",
+    "activity": "unknown",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "002a49a4-10d2-f055-002a-49a410d2f055",
+              "name": "凸台.4",
+              "full_path": "Handle_Base1/A block set/凸台.4",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "凸台.4",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "002a49a4-10d2-f055-002a-49a410d2f055",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4996aea3-a4df-e9c9-4996-aea3a4dfe9c9",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3262b216-4175-716e-3262-b2164175716e",
+              "name": "拔模.5",
+              "full_path": "Handle_Base1/A block set/拔模.5",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "拔模.5",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3262b216-4175-716e-3262-b2164175716e",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "bba360c9-60ec-ed35-bba3-60c960eced35",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5682e92a-0776-d2bb-5682-e92a0776d2bb",
+              "name": "草图.7",
+              "full_path": "Handle_Base1/A block set/草图.7",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "草图.7",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5682e92a-0776-d2bb-5682-e92a0776d2bb",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c817115b-9726-bae7-c817-115b9726bae7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "A block set"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_BooleanOperation",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0d04382a-f499-73eb-0d04-382af49973eb",
+              "name": "装配.2",
+              "full_path": "Handle_Base1/Main Base Body/装配.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "装配.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0d04382a-f499-73eb-0d04-382af49973eb",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "33802e41-3eef-0691-3380-2e413eef0691",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "ecbd6ee9-670b-dfd6-ecbd-6ee9670bdfd6",
+      "name": "Handle_Base1",
+      "full_path": "Handle_Base1",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 1438
+  },
+  "DEFINITION": {
+    "activity": "unknown",
+    "body": "A block set",
+    "definition_sources": [
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/A block set",
+    "id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "002a49a4-10d2-f055-002a-49a410d2f055",
+              "name": "凸台.4",
+              "full_path": "Handle_Base1/A block set/凸台.4",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "凸台.4",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "002a49a4-10d2-f055-002a-49a410d2f055",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4996aea3-a4df-e9c9-4996-aea3a4dfe9c9",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "3262b216-4175-716e-3262-b2164175716e",
+              "name": "拔模.5",
+              "full_path": "Handle_Base1/A block set/拔模.5",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "拔模.5",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "3262b216-4175-716e-3262-b2164175716e",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "bba360c9-60ec-ed35-bba3-60c960eced35",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "5682e92a-0776-d2bb-5682-e92a0776d2bb",
+              "name": "草图.7",
+              "full_path": "Handle_Base1/A block set/草图.7",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "草图.7",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "5682e92a-0776-d2bb-5682-e92a0776d2bb",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "c817115b-9726-bae7-c817-115b9726bae7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "MMAlias",
+        "value_type": 18,
+        "is_list": false,
+        "values": [
+          "A block set"
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuOnOff",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "VisuGraph",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_BooleanOperation",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "0d04382a-f499-73eb-0d04-382af49973eb",
+              "name": "装配.2",
+              "full_path": "Handle_Base1/Main Base Body/装配.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "装配.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "0d04382a-f499-73eb-0d04-382af49973eb",
+              "owner_feature": "A block set",
+              "owner_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "33802e41-3eef-0691-3380-2e413eef0691",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "MechanicalTool.10",
+    "name": "A block set",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "ecbd6ee9-670b-dfd6-ecbd-6ee9670bdfd6",
+      "name": "Handle_Base1",
+      "full_path": "Handle_Base1",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+          "name": "A block set",
+          "full_path": "Handle_Base1/A block set",
+          "source_shape_order": [
+            "002a49a4-10d2-f055-002a-49a410d2f055",
+            "3262b216-4175-716e-3262-b2164175716e"
+          ],
+          "source_in_boolean_operation": 1,
+          "source_geometry": {
+            "area_mm2": 749.3489376749571,
+            "cog_mm": [
+              720.0147696786994,
+              344.8135909572719,
+              439.85134547449644
+            ],
+            "has_solid": true,
+            "volume_mm3": 1561.619987607834
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "source_geometry": {
+      "area_mm2": 749.3489376749571,
+      "cog_mm": [
+        720.0147696786994,
+        344.8135909572719,
+        439.85134547449644
+      ],
+      "has_solid": true,
+      "volume_mm3": 1561.619987607834
+    },
+    "source_in_boolean_operation": 1,
+    "source_shape_order": [
+      "002a49a4-10d2-f055-002a-49a410d2f055",
+      "3262b216-4175-716e-3262-b2164175716e"
+    ],
+    "source_visibility": 0,
+    "type": "MechanicalTool"
+  },
+  "DEPENDENCIES": [],
+  "GEOMETRY": {
+    "Handle_Base1/A block set/实体.52": {
+      "topology": {
+        "body": "A block set",
+        "result_feature": "实体.52",
+        "face_count": 4,
+        "edge_count": 0,
+        "vertex_count": 0,
+        "shell_count": 1,
+        "loop_count": 0,
+        "lump_count": 1,
+        "volume_count": 1,
+        "face_types": {
+          "NURBSConverted": 2,
+          "Plane": 2
+        },
+        "faces": [
+          {
+            "index": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.5887009471174258,
+                0.034307987243357464,
+                0.8076225336593547
+              ],
+              "axis_v": [
+                -0.058178733968879126,
+                0.9983061829487878,
+                3.469446951953614e-18
+              ],
+              "origin": [
+                727.0554252125023,
+                318.31154436740974,
+                434.6584625993144
+              ],
+              "normal": [
+                -0.8062545688408993,
+                -0.046986456533039726,
+                0.5896997906779725
+              ]
+            },
+            "bbox_min": [
+              722.398655148996,
+              339.3863092103225,
+              430.8904708941886
+            ],
+            "bbox_max": [
+              729.7143316556057,
+              350.9450650895497,
+              439.9743187733189
+            ]
+          },
+          {
+            "index": 2,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                -0.03792493229667855,
+                0.9988955265204009,
+                0.02773854011702093
+              ],
+              "axis_v": [
+                0.5903518186077423,
+                -6.54970522262488e-11,
+                0.8071460402346851
+              ],
+              "origin": [
+                715.4664821295553,
+                317.6361703708151,
+                443.13469029997395
+              ],
+              "normal": [
+                0.806254568840899,
+                0.04698645653303973,
+                -0.589699790677973
+              ]
+            },
+            "bbox_min": [
+              710.3691089793007,
+              338.02611112240396,
+              438.4893557505536
+            ],
+            "bbox_max": [
+              718.5008255749999,
+              350.8367055677406,
+              449.2294054615183
+            ]
+          },
+          {
+            "index": 3,
+            "surface": {
+              "surface_type": "NURBSConverted",
+              "definition_available": true,
+              "representation": "nurbs_conversion",
+              "exact": false,
+              "requested_deviation_mm": 0.0001,
+              "max_deviation_mm": 6.640948898324025e-06,
+              "same_parameterization_requested": true,
+              "source_uv_bounds": [
+                [
+                  34.45690711526539,
+                  0
+                ],
+                [
+                  51.735666710125706,
+                  14.393527269297211
+                ]
+              ],
+              "nurbs": {
+                "surface_type": "Spline",
+                "u_degree": 5,
+                "u_ctrl_count": 15,
+                "v_degree": 1,
+                "v_ctrl_count": 2,
+                "u_multiplicities": [
+                  6,
+                  3,
+                  3,
+                  3,
+                  6
+                ],
+                "v_multiplicities": [
+                  2,
+                  2
+                ],
+                "u_periodic": false,
+                "v_periodic": false,
+                "control_point_order": "u_major_v_minor_xyzw",
+                "u_knots": [
+                  34.45690711526539,
+                  38.776597013980464,
+                  43.09628691269555,
+                  47.41597681141063,
+                  51.735666710125706
+                ],
+                "v_knots": [
+                  0,
+                  14.393527269297211
+                ],
+                "rational": 0,
+                "definition_available": true,
+                "ctrl_points": [
+                  [
+                    725.7885479657846,
+                    350.6586933342784,
+                    435.5037271702915,
+                    1
+                  ],
+                  [
+                    714.1629061495726,
+                    350.73566045385644,
+                    443.98972479435724,
+                    1
+                  ],
+                  [
+                    726.297890652199,
+                    350.6744791062488,
+                    436.2013729758681,
+                    1
+                  ],
+                  [
+                    714.7420101711015,
+                    350.75360829972686,
+                    444.7829225812073,
+                    1
+                  ],
+                  [
+                    726.815503664578,
+                    350.5208850255662,
+                    436.8968302594035,
+                    1
+                  ],
+                  [
+                    715.3305172510292,
+                    350.5789774427837,
+                    445.5736320984716,
+                    1
+                  ],
+                  [
+                    727.3151741577361,
+                    350.1968437068107,
+                    437.55417501484163,
+                    1
+                  ],
+                  [
+                    715.8986243422769,
+                    350.2105543048099,
+                    446.3210090640365,
+                    1
+                  ],
+                  [
+                    728.2247340420832,
+                    349.24285103780966,
+                    438.72173872810464,
+                    1
+                  ],
+                  [
+                    716.9327606927067,
+                    349.12589950193717,
+                    447.6484863397024,
+                    1
+                  ],
+                  [
+                    728.8748578486106,
+                    347.80101426687634,
+                    439.49572321270995,
+                    1
+                  ],
+                  [
+                    717.6719277032355,
+                    347.4865837824685,
+                    448.52847841496146,
+                    1
+                  ],
+                  [
+                    729.1149053502725,
+                    346.98876244943926,
+                    439.75920399173674,
+                    1
+                  ],
+                  [
+                    717.9448529405622,
+                    346.56308314818386,
+                    448.82804643232936,
+                    1
+                  ],
+                  [
+                    729.3990564144965,
+                    345.26928132909273,
+                    440.01069766902066,
+                    1
+                  ],
+                  [
+                    718.2679223168445,
+                    344.60809594939775,
+                    449.11398555306056,
+                    1
+                  ],
+                  [
+                    729.2832604332565,
+                    343.5374048744685,
+                    439.71438456285,
+                    1
+                  ],
+                  [
+                    718.1362665177106,
+                    342.6390157085008,
+                    448.77708837952287,
+                    1
+                  ],
+                  [
+                    729.1230603030097,
+                    342.7127484068458,
+                    439.4296468456835,
+                    1
+                  ],
+                  [
+                    717.9541248238177,
+                    341.70141144025865,
+                    448.4533520002832,
+                    1
+                  ],
+                  [
+                    728.6153507074533,
+                    341.2350275552092,
+                    438.61774890168994,
+                    1
+                  ],
+                  [
+                    717.3768775669167,
+                    340.0212968323432,
+                    447.5302537071723,
+                    1
+                  ],
+                  [
+                    727.8014666537866,
+                    340.2276211556577,
+                    437.4247144036272,
+                    1
+                  ],
+                  [
+                    716.4515211396858,
+                    338.87591256973406,
+                    446.17381707996884,
+                    1
+                  ],
+                  [
+                    727.3348700247848,
+                    339.8736328623794,
+                    436.7585647361121,
+                    1
+                  ],
+                  [
+                    715.9210178233647,
+                    338.4734408160809,
+                    445.41642925113047,
+                    1
+                  ],
+                  [
+                    726.8337815252331,
+                    339.6884667375648,
+                    436.05870830279423,
+                    1
+                  ],
+                  [
+                    715.3512985106659,
+                    338.2629136986977,
+                    444.6207180613218,
+                    1
+                  ],
+                  [
+                    726.3244388388174,
+                    339.6726809655938,
+                    435.3610624972159,
+                    1
+                  ],
+                  [
+                    714.7721944891356,
+                    338.24496585282657,
+                    443.82752027447,
+                    1
+                  ]
+                ]
+              }
+            },
+            "bbox_min": [
+              714.0629272460938,
+              338.14495849609375,
+              435.26104736328125
+            ],
+            "bbox_max": [
+              729.4100952148438,
+              350.8367004394531,
+              449.0589294433594
+            ]
+          },
+          {
+            "index": 4,
+            "surface": {
+              "surface_type": "NURBSConverted",
+              "definition_available": true,
+              "representation": "nurbs_conversion",
+              "exact": false,
+              "requested_deviation_mm": 0.0001,
+              "max_deviation_mm": 6.6409489534663436e-06,
+              "same_parameterization_requested": true,
+              "source_uv_bounds": [
+                [
+                  17.178147520404703,
+                  0
+                ],
+                [
+                  34.45690711526539,
+                  14.393527269311605
+                ]
+              ],
+              "nurbs": {
+                "surface_type": "Spline",
+                "u_degree": 5,
+                "u_ctrl_count": 15,
+                "v_degree": 1,
+                "v_ctrl_count": 2,
+                "u_multiplicities": [
+                  6,
+                  3,
+                  3,
+                  3,
+                  6
+                ],
+                "v_multiplicities": [
+                  2,
+                  2
+                ],
+                "u_periodic": false,
+                "v_periodic": false,
+                "control_point_order": "u_major_v_minor_xyzw",
+                "u_knots": [
+                  17.178147520404703,
+                  21.497837419119875,
+                  25.817527317835044,
+                  30.13721721655022,
+                  34.45690711526539
+                ],
+                "v_knots": [
+                  0,
+                  14.393527269311605
+                ],
+                "rational": 0,
+                "definition_available": true,
+                "ctrl_points": [
+                  [
+                    726.3244388388175,
+                    339.6726809655938,
+                    435.3610624972161,
+                    1
+                  ],
+                  [
+                    714.7721944891241,
+                    338.2449658528252,
+                    443.8275202744783,
+                    1
+                  ],
+                  [
+                    725.8150961524028,
+                    339.65689519362377,
+                    434.66341669163927,
+                    1
+                  ],
+                  [
+                    714.193090467595,
+                    338.2270180069552,
+                    443.034322487628,
+                    1
+                  ],
+                  [
+                    725.2974831400243,
+                    339.81048927430544,
+                    433.9679594081044,
+                    1
+                  ],
+                  [
+                    713.6045833876676,
+                    338.40164886389744,
+                    442.24361297036415,
+                    1
+                  ],
+                  [
+                    724.7978126468657,
+                    340.1345305930616,
+                    433.31061465266555,
+                    1
+                  ],
+                  [
+                    713.0364762964193,
+                    338.77007200187194,
+                    441.49623600479845,
+                    1
+                  ],
+                  [
+                    723.8882527625191,
+                    341.0885232620628,
+                    432.1430509394034,
+                    1
+                  ],
+                  [
+                    712.0023399459901,
+                    339.854726804745,
+                    440.16875872913334,
+                    1
+                  ],
+                  [
+                    723.2381289559906,
+                    342.5303600329952,
+                    431.36906645479655,
+                    1
+                  ],
+                  [
+                    711.2631729354601,
+                    341.49404252421294,
+                    439.2887666538724,
+                    1
+                  ],
+                  [
+                    722.99808145433,
+                    343.34261185043306,
+                    431.1055856757713,
+                    1
+                  ],
+                  [
+                    710.9902476981346,
+                    342.4175431584986,
+                    438.9891986365064,
+                    1
+                  ],
+                  [
+                    722.713930390105,
+                    345.06209297077925,
+                    430.85409199848624,
+                    1
+                  ],
+                  [
+                    710.6671783218512,
+                    344.3725303572845,
+                    438.7032595157738,
+                    1
+                  ],
+                  [
+                    722.8297263713455,
+                    346.7939694254035,
+                    431.1504051046575,
+                    1
+                  ],
+                  [
+                    710.7988341209857,
+                    346.3416105981816,
+                    439.04015668931225,
+                    1
+                  ],
+                  [
+                    722.9899265015922,
+                    347.6186258930261,
+                    431.43514282182355,
+                    1
+                  ],
+                  [
+                    710.9809758148784,
+                    347.27921486642373,
+                    439.36389306855153,
+                    1
+                  ],
+                  [
+                    723.4976360971484,
+                    349.09634674466304,
+                    432.2470407658173,
+                    1
+                  ],
+                  [
+                    711.5582230717796,
+                    348.95932947433977,
+                    440.28699136166273,
+                    1
+                  ],
+                  [
+                    724.3115201508156,
+                    350.1037531442148,
+                    433.4400752638805,
+                    1
+                  ],
+                  [
+                    712.4835794990108,
+                    350.10471373694935,
+                    441.64342798886696,
+                    1
+                  ],
+                  [
+                    724.7781167798163,
+                    350.45774143749253,
+                    434.10622493139414,
+                    1
+                  ],
+                  [
+                    713.0140828153309,
+                    350.5071854906018,
+                    442.40081581770363,
+                    1
+                  ],
+                  [
+                    725.2792052793692,
+                    350.6429075623076,
+                    434.80608136471363,
+                    1
+                  ],
+                  [
+                    713.5838021280312,
+                    350.71771260798556,
+                    443.1965270075143,
+                    1
+                  ],
+                  [
+                    725.7885479657845,
+                    350.6586933342784,
+                    435.50372717029137,
+                    1
+                  ],
+                  [
+                    714.1629061495611,
+                    350.73566045385644,
+                    443.98972479436566,
+                    1
+                  ]
+                ]
+              }
+            },
+            "bbox_min": [
+              710.6682739257812,
+              338.1439208984375,
+              430.8904724121094
+            ],
+            "bbox_max": [
+              726.4244384765625,
+              350.8356628417969,
+              444.0897216796875
+            ]
+          }
+        ],
+        "shells": [
+          {
+            "index": 1,
+            "face_count": 4,
+            "face_start": 1,
+            "is_closed": true
+          }
+        ],
+        "loops": [],
+        "edges": [],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 519,
+        "body_name": "A block set",
+        "result_name": "实体.52",
+        "source_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+        "source_feature_path": "Handle_Base1/A block set",
+        "result_id": "37525745-dc34-dc54-3752-5745dc34dc54",
+        "face_count": 4,
+        "edge_count": 6,
+        "faces": [
+          {
+            "id": 0,
+            "cgm_tag": 7368377,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.11.2(E,3ACB,1)0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "002a49a4-10d2-f055-002a-49a410d2f055"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                0.5887009471174258,
+                0.034307987243357464,
+                0.8076225336593547
+              ],
+              "axis_v": [
+                -0.058178733968879126,
+                0.9983061829487878,
+                3.469446951953614e-18
+              ],
+              "origin": [
+                727.0554252125023,
+                318.31154436740974,
+                434.6584625993144
+              ],
+              "normal": [
+                -0.8062545688408993,
+                -0.046986456533039726,
+                0.5896997906779725
+              ]
+            },
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 0,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": 8.551052144503263,
+                      "end_parameter": 25.829811739363745,
+                      "uv_samples": [
+                        [
+                          1.0466084535147904,
+                          32.36606412869847
+                        ],
+                        [
+                          -1.0646022644974016,
+                          31.981255621412355
+                        ],
+                        [
+                          -2.8678467953157853,
+                          30.817813553579626
+                        ],
+                        [
+                          -4.088597505575644,
+                          29.052861433399205
+                        ],
+                        [
+                          -4.541006165772657,
+                          26.955097221837747
+                        ],
+                        [
+                          -4.156197658486549,
+                          24.843886503825555
+                        ],
+                        [
+                          -2.9927555906538243,
+                          23.04064197300717
+                        ],
+                        [
+                          -1.2278034704734004,
+                          21.819891262747305
+                        ],
+                        [
+                          0.8699607410880554,
+                          21.36748260255029
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": false,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 2.72988013030212e-05,
+                        "degree": 5,
+                        "multiplicities": [
+                          6,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          6
+                        ],
+                        "rational": false,
+                        "knots": [
+                          8.551052144503243,
+                          12.870742043218366,
+                          17.19043194193349,
+                          21.510121840648615,
+                          25.82981173936374,
+                          30.149501638078867,
+                          34.46919153679399,
+                          38.78888143550912,
+                          43.108571334224244
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1.0466084535148092,
+                            32.36606412869847,
+                            1
+                          ],
+                          [
+                            0.1827818804534203,
+                            32.37993800758924,
+                            1
+                          ],
+                          [
+                            -0.6837688223579788,
+                            32.224199935486105,
+                            1
+                          ],
+                          [
+                            -1.5085834023648204,
+                            31.8979681697139,
+                            1
+                          ],
+                          [
+                            -2.985854305414901,
+                            30.939673564916927,
+                            1
+                          ],
+                          [
+                            -3.991095168068472,
+                            29.49393891477082,
+                            1
+                          ],
+                          [
+                            -4.343646456996908,
+                            28.68002623821053,
+                            1
+                          ],
+                          [
+                            -4.710618116766737,
+                            26.95782135158775,
+                            1
+                          ],
+                          [
+                            -4.399141972560244,
+                            25.22471994596497,
+                            1
+                          ],
+                          [
+                            -4.072910206788119,
+                            24.399905365958137,
+                            1
+                          ],
+                          [
+                            -3.114615601991089,
+                            22.922634462908043,
+                            1
+                          ],
+                          [
+                            -1.6688809518450187,
+                            21.917393600254474,
+                            1
+                          ],
+                          [
+                            -0.8549682752847098,
+                            21.564842311326053,
+                            1
+                          ],
+                          [
+                            0.8672366113380326,
+                            21.197870651556187,
+                            1
+                          ],
+                          [
+                            2.6003380169608423,
+                            21.509346795762713,
+                            1
+                          ],
+                          [
+                            3.4251525969676804,
+                            21.835578561534838,
+                            1
+                          ],
+                          [
+                            4.902423500017765,
+                            22.79387316633184,
+                            1
+                          ],
+                          [
+                            5.907664362671337,
+                            24.23960781647793,
+                            1
+                          ],
+                          [
+                            6.260215651599773,
+                            25.05352049303822,
+                            1
+                          ],
+                          [
+                            6.6271873113696085,
+                            26.775725379660997,
+                            1
+                          ],
+                          [
+                            6.315711167163107,
+                            28.50882678528377,
+                            1
+                          ],
+                          [
+                            5.989479401390981,
+                            29.33364136529063,
+                            1
+                          ],
+                          [
+                            5.031184796593952,
+                            30.810912268340726,
+                            1
+                          ],
+                          [
+                            3.5854501464478785,
+                            31.81615313099425,
+                            1
+                          ],
+                          [
+                            2.7715374698875754,
+                            32.16870441992276,
+                            1
+                          ],
+                          [
+                            1.910435026576202,
+                            32.35219024980762,
+                            1
+                          ],
+                          [
+                            1.046608453514813,
+                            32.36606412869846,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 1,
+                    "side": 1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": 1,
+                      "start_parameter": 25.829811739363745,
+                      "end_parameter": 43.10857133422405,
+                      "uv_samples": [
+                        [
+                          0.8699607410880554,
+                          21.36748260255029
+                        ],
+                        [
+                          2.9811714591002247,
+                          21.752291109836385
+                        ],
+                        [
+                          4.784415989918605,
+                          22.91573317766909
+                        ],
+                        [
+                          6.0051667001784725,
+                          24.680685297849475
+                        ],
+                        [
+                          6.45757536037552,
+                          26.778449509410905
+                        ],
+                        [
+                          6.07276685308946,
+                          28.889660227423082
+                        ],
+                        [
+                          4.90932478525679,
+                          30.692904758241482
+                        ],
+                        [
+                          3.144372665076426,
+                          31.913655468501382
+                        ],
+                        [
+                          1.0466084535150042,
+                          32.36606412869847
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": false,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 2.72988013030212e-05,
+                        "degree": 5,
+                        "multiplicities": [
+                          6,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          6
+                        ],
+                        "rational": false,
+                        "knots": [
+                          8.551052144503243,
+                          12.870742043218366,
+                          17.19043194193349,
+                          21.510121840648615,
+                          25.82981173936374,
+                          30.149501638078867,
+                          34.46919153679399,
+                          38.78888143550912,
+                          43.108571334224244
+                        ],
+                        "control_points_uvw": [
+                          [
+                            1.0466084535148092,
+                            32.36606412869847,
+                            1
+                          ],
+                          [
+                            0.1827818804534203,
+                            32.37993800758924,
+                            1
+                          ],
+                          [
+                            -0.6837688223579788,
+                            32.224199935486105,
+                            1
+                          ],
+                          [
+                            -1.5085834023648204,
+                            31.8979681697139,
+                            1
+                          ],
+                          [
+                            -2.985854305414901,
+                            30.939673564916927,
+                            1
+                          ],
+                          [
+                            -3.991095168068472,
+                            29.49393891477082,
+                            1
+                          ],
+                          [
+                            -4.343646456996908,
+                            28.68002623821053,
+                            1
+                          ],
+                          [
+                            -4.710618116766737,
+                            26.95782135158775,
+                            1
+                          ],
+                          [
+                            -4.399141972560244,
+                            25.22471994596497,
+                            1
+                          ],
+                          [
+                            -4.072910206788119,
+                            24.399905365958137,
+                            1
+                          ],
+                          [
+                            -3.114615601991089,
+                            22.922634462908043,
+                            1
+                          ],
+                          [
+                            -1.6688809518450187,
+                            21.917393600254474,
+                            1
+                          ],
+                          [
+                            -0.8549682752847098,
+                            21.564842311326053,
+                            1
+                          ],
+                          [
+                            0.8672366113380326,
+                            21.197870651556187,
+                            1
+                          ],
+                          [
+                            2.6003380169608423,
+                            21.509346795762713,
+                            1
+                          ],
+                          [
+                            3.4251525969676804,
+                            21.835578561534838,
+                            1
+                          ],
+                          [
+                            4.902423500017765,
+                            22.79387316633184,
+                            1
+                          ],
+                          [
+                            5.907664362671337,
+                            24.23960781647793,
+                            1
+                          ],
+                          [
+                            6.260215651599773,
+                            25.05352049303822,
+                            1
+                          ],
+                          [
+                            6.6271873113696085,
+                            26.775725379660997,
+                            1
+                          ],
+                          [
+                            6.315711167163107,
+                            28.50882678528377,
+                            1
+                          ],
+                          [
+                            5.989479401390981,
+                            29.33364136529063,
+                            1
+                          ],
+                          [
+                            5.031184796593952,
+                            30.810912268340726,
+                            1
+                          ],
+                          [
+                            3.5854501464478785,
+                            31.81615313099425,
+                            1
+                          ],
+                          [
+                            2.7715374698875754,
+                            32.16870441992276,
+                            1
+                          ],
+                          [
+                            1.910435026576202,
+                            32.35219024980762,
+                            1
+                          ],
+                          [
+                            1.046608453514813,
+                            32.36606412869846,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              722.398655148996,
+              339.3863092103225,
+              430.8904708941886
+            ],
+            "bbox_max": [
+              729.7143316556057,
+              350.9450650895497,
+              439.9743187733189
+            ]
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7368389,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.11.2(E,3ACB,2)0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "002a49a4-10d2-f055-002a-49a410d2f055"
+            },
+            "generated_by_verified": false,
+            "surface_type": "Plane",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "Plane",
+              "definition_available": true,
+              "axis_u": [
+                -0.03792493229667855,
+                0.9988955265204009,
+                0.02773854011702093
+              ],
+              "axis_v": [
+                0.5903518186077423,
+                -6.54970522262488e-11,
+                0.8071460402346851
+              ],
+              "origin": [
+                715.4664821295553,
+                317.6361703708151,
+                443.13469029997395
+              ],
+              "normal": [
+                0.806254568840899,
+                0.04698645653303973,
+                -0.589699790677973
+              ]
+            },
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 2,
+                    "side": -1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 0,
+                      "end_parameter": 26.1626496460688,
+                      "uv_samples": [
+                        [
+                          20.631582517754346,
+                          0.14934099796180456
+                        ],
+                        [
+                          21.063733389577227,
+                          -2.251999771683238
+                        ],
+                        [
+                          22.381942106224624,
+                          -4.305172352943923
+                        ],
+                        [
+                          24.385523318938404,
+                          -5.697599799119022
+                        ],
+                        [
+                          26.769449918301607,
+                          -6.217297631594698
+                        ],
+                        [
+                          29.17079065156883,
+                          -5.78514655825269
+                        ],
+                        [
+                          31.223963121843315,
+                          -4.466937669656856
+                        ],
+                        [
+                          32.616390400000284,
+                          -2.4633563403024645
+                        ],
+                        [
+                          33.13608801346459,
+                          -0.07943074623855195
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 5,
+                        "multiplicities": [
+                          6,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          6
+                        ],
+                        "rational": false,
+                        "knots": [
+                          0,
+                          3.2708046124774426,
+                          6.541609224646081,
+                          9.812413836893683,
+                          13.08321844929979,
+                          16.3540230619261,
+                          19.624827674767378,
+                          22.895632287155625,
+                          26.1626496460688
+                        ],
+                        "control_points_uvw": [
+                          [
+                            20.631582517754346,
+                            0.14934099796180433,
+                            1
+                          ],
+                          [
+                            20.622597436371876,
+                            -0.34177734324385445,
+                            1
+                          ],
+                          [
+                            20.66183442415426,
+                            -0.833777624590317,
+                            1
+                          ],
+                          [
+                            20.74941585168127,
+                            -1.3203642662713966,
+                            1
+                          ],
+                          [
+                            21.018975519617342,
+                            -2.2699721502637393,
+                            1
+                          ],
+                          [
+                            21.468086721337656,
+                            -3.149013901614271,
+                            1
+                          ],
+                          [
+                            21.735233713932224,
+                            -3.565030188364535,
+                            1
+                          ],
+                          [
+                            22.34771760186359,
+                            -4.339162628499792,
+                            1
+                          ],
+                          [
+                            23.09907337199468,
+                            -4.979381168339836,
+                            1
+                          ],
+                          [
+                            23.505103593534383,
+                            -5.261474283536778,
+                            1
+                          ],
+                          [
+                            24.36723992213663,
+                            -5.742242937697878,
+                            1
+                          ],
+                          [
+                            25.30642045148782,
+                            -6.046142930160337,
+                            1
+                          ],
+                          [
+                            25.78950180806492,
+                            -6.151354475536718,
+                            1
+                          ],
+                          [
+                            26.770000610388127,
+                            -6.265545747856982,
+                            1
+                          ],
+                          [
+                            27.753983297348814,
+                            -6.186847946051827,
+                            1
+                          ],
+                          [
+                            28.24055000441451,
+                            -6.099155838101613,
+                            1
+                          ],
+                          [
+                            29.19009654786392,
+                            -5.82938017206538,
+                            1
+                          ],
+                          [
+                            30.069036118321225,
+                            -5.380069028354558,
+                            1
+                          ],
+                          [
+                            30.484991626679246,
+                            -5.112827412657585,
+                            1
+                          ],
+                          [
+                            31.258984726643284,
+                            -4.50016745044277,
+                            1
+                          ],
+                          [
+                            31.89903234089118,
+                            -3.7486660706705326,
+                            1
+                          ],
+                          [
+                            32.181033090013074,
+                            -3.342571692652825,
+                            1
+                          ],
+                          [
+                            32.66132739700477,
+                            -2.480825222693758,
+                            1
+                          ],
+                          [
+                            32.96494027842221,
+                            -1.5421639226872088,
+                            1
+                          ],
+                          [
+                            33.07002820737905,
+                            -1.0596496234923403,
+                            1
+                          ],
+                          [
+                            33.12711333587738,
+                            -0.5699804231830945,
+                            1
+                          ],
+                          [
+                            33.13608801346459,
+                            -0.07943074623855062,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 3,
+                    "side": -1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 39.17624423031311,
+                      "end_parameter": 58.821562471462585,
+                      "uv_samples": [
+                        [
+                          33.1360880134646,
+                          -0.07943074623851172
+                        ],
+                        [
+                          32.70393718958962,
+                          2.321909901383095
+                        ],
+                        [
+                          31.385728607144,
+                          4.375082415728216
+                        ],
+                        [
+                          29.382147573214525,
+                          5.767509893543006
+                        ],
+                        [
+                          26.998221137709656,
+                          6.287207873716687
+                        ],
+                        [
+                          24.596880490088044,
+                          5.855057049841735
+                        ],
+                        [
+                          22.543707975742908,
+                          4.536848467396139
+                        ],
+                        [
+                          21.151280497928095,
+                          2.5332674334666816
+                        ],
+                        [
+                          20.63158251775439,
+                          0.14934099796181843
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": false,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 3.6670058202120464e-06,
+                        "degree": 5,
+                        "multiplicities": [
+                          6,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          6
+                        ],
+                        "rational": false,
+                        "knots": [
+                          35.24718058208321,
+                          38.68511127428437,
+                          42.12304196648553,
+                          45.56097265868669,
+                          48.99890335088784,
+                          52.436834043089,
+                          55.87476473529016,
+                          59.31269542749132,
+                          62.75062611969248
+                        ],
+                        "control_points_uvw": [
+                          [
+                            31.8747796630607,
+                            -3.732566947378098,
+                            1
+                          ],
+                          [
+                            32.28904035142407,
+                            -3.1837839485053196,
+                            1
+                          ],
+                          [
+                            32.627873736889434,
+                            -2.578063022466093,
+                            1
+                          ],
+                          [
+                            32.88082351525526,
+                            -1.9292174064388463,
+                            1
+                          ],
+                          [
+                            33.20190212590015,
+                            -0.5787611357003175,
+                            1
+                          ],
+                          [
+                            33.14673140389572,
+                            0.8082427593281656,
+                            1
+                          ],
+                          [
+                            33.023385641398505,
+                            1.4936404881594576,
+                            1
+                          ],
+                          [
+                            32.59153869757676,
+                            2.812856858017903,
+                            1
+                          ],
+                          [
+                            31.819790379691632,
+                            3.9666454639731183,
+                            1
+                          ],
+                          [
+                            31.356501498909655,
+                            4.486595112263159,
+                            1
+                          ],
+                          [
+                            30.299002789952922,
+                            5.3857725663540545,
+                            1
+                          ],
+                          [
+                            29.038126286754057,
+                            5.966301684548647,
+                            1
+                          ],
+                          [
+                            28.37143463434466,
+                            6.1675638628651,
+                            1
+                          ],
+                          [
+                            26.99994983214802,
+                            6.381697117485774,
+                            1
+                          ],
+                          [
+                            25.621550252197924,
+                            6.217873397030105,
+                            1
+                          ],
+                          [
+                            24.94794297281205,
+                            6.041132182336077,
+                            1
+                          ],
+                          [
+                            23.666675627460787,
+                            5.507111955072072,
+                            1
+                          ],
+                          [
+                            22.57699444187099,
+                            4.647217469008651,
+                            1
+                          ],
+                          [
+                            22.094996851469087,
+                            4.144561974002468,
+                            1
+                          ],
+                          [
+                            21.281561653821985,
+                            3.019774530696217,
+                            1
+                          ],
+                          [
+                            20.801749343422443,
+                            1.7172370993032837,
+                            1
+                          ],
+                          [
+                            20.653415613411187,
+                            1.0368097862461936,
+                            1
+                          ],
+                          [
+                            20.54754791753597,
+                            -0.34724788753792757,
+                            1
+                          ],
+                          [
+                            20.819014608729418,
+                            -1.7085448606349714,
+                            1
+                          ],
+                          [
+                            21.048061607259168,
+                            -2.3662086777007834,
+                            1
+                          ],
+                          [
+                            21.36451215647196,
+                            -2.9839181184985017,
+                            1
+                          ],
+                          [
+                            21.758422210776097,
+                            -3.5474867184872205,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              710.3691089793007,
+              338.02611112240396,
+              438.4893557505536
+            ],
+            "bbox_max": [
+              718.5008255749999,
+              350.8367055677406,
+              449.2294054615183
+            ]
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7368366,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.21.2(E,3ACB,0(E,3228,1))0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "surface_type": "NURBSConverted",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "NURBSConverted",
+              "definition_available": true,
+              "representation": "nurbs_conversion",
+              "exact": false,
+              "requested_deviation_mm": 0.0001,
+              "max_deviation_mm": 6.640948898324025e-06,
+              "same_parameterization_requested": true,
+              "source_uv_bounds": [
+                [
+                  34.45690711526539,
+                  0
+                ],
+                [
+                  51.735666710125706,
+                  14.393527269297211
+                ]
+              ],
+              "nurbs": {
+                "surface_type": "Spline",
+                "u_degree": 5,
+                "u_ctrl_count": 15,
+                "v_degree": 1,
+                "v_ctrl_count": 2,
+                "u_multiplicities": [
+                  6,
+                  3,
+                  3,
+                  3,
+                  6
+                ],
+                "v_multiplicities": [
+                  2,
+                  2
+                ],
+                "u_periodic": false,
+                "v_periodic": false,
+                "control_point_order": "u_major_v_minor_xyzw",
+                "u_knots": [
+                  34.45690711526539,
+                  38.776597013980464,
+                  43.09628691269555,
+                  47.41597681141063,
+                  51.735666710125706
+                ],
+                "v_knots": [
+                  0,
+                  14.393527269297211
+                ],
+                "rational": 0,
+                "definition_available": true,
+                "ctrl_points": [
+                  [
+                    725.7885479657846,
+                    350.6586933342784,
+                    435.5037271702915,
+                    1
+                  ],
+                  [
+                    714.1629061495726,
+                    350.73566045385644,
+                    443.98972479435724,
+                    1
+                  ],
+                  [
+                    726.297890652199,
+                    350.6744791062488,
+                    436.2013729758681,
+                    1
+                  ],
+                  [
+                    714.7420101711015,
+                    350.75360829972686,
+                    444.7829225812073,
+                    1
+                  ],
+                  [
+                    726.815503664578,
+                    350.5208850255662,
+                    436.8968302594035,
+                    1
+                  ],
+                  [
+                    715.3305172510292,
+                    350.5789774427837,
+                    445.5736320984716,
+                    1
+                  ],
+                  [
+                    727.3151741577361,
+                    350.1968437068107,
+                    437.55417501484163,
+                    1
+                  ],
+                  [
+                    715.8986243422769,
+                    350.2105543048099,
+                    446.3210090640365,
+                    1
+                  ],
+                  [
+                    728.2247340420832,
+                    349.24285103780966,
+                    438.72173872810464,
+                    1
+                  ],
+                  [
+                    716.9327606927067,
+                    349.12589950193717,
+                    447.6484863397024,
+                    1
+                  ],
+                  [
+                    728.8748578486106,
+                    347.80101426687634,
+                    439.49572321270995,
+                    1
+                  ],
+                  [
+                    717.6719277032355,
+                    347.4865837824685,
+                    448.52847841496146,
+                    1
+                  ],
+                  [
+                    729.1149053502725,
+                    346.98876244943926,
+                    439.75920399173674,
+                    1
+                  ],
+                  [
+                    717.9448529405622,
+                    346.56308314818386,
+                    448.82804643232936,
+                    1
+                  ],
+                  [
+                    729.3990564144965,
+                    345.26928132909273,
+                    440.01069766902066,
+                    1
+                  ],
+                  [
+                    718.2679223168445,
+                    344.60809594939775,
+                    449.11398555306056,
+                    1
+                  ],
+                  [
+                    729.2832604332565,
+                    343.5374048744685,
+                    439.71438456285,
+                    1
+                  ],
+                  [
+                    718.1362665177106,
+                    342.6390157085008,
+                    448.77708837952287,
+                    1
+                  ],
+                  [
+                    729.1230603030097,
+                    342.7127484068458,
+                    439.4296468456835,
+                    1
+                  ],
+                  [
+                    717.9541248238177,
+                    341.70141144025865,
+                    448.4533520002832,
+                    1
+                  ],
+                  [
+                    728.6153507074533,
+                    341.2350275552092,
+                    438.61774890168994,
+                    1
+                  ],
+                  [
+                    717.3768775669167,
+                    340.0212968323432,
+                    447.5302537071723,
+                    1
+                  ],
+                  [
+                    727.8014666537866,
+                    340.2276211556577,
+                    437.4247144036272,
+                    1
+                  ],
+                  [
+                    716.4515211396858,
+                    338.87591256973406,
+                    446.17381707996884,
+                    1
+                  ],
+                  [
+                    727.3348700247848,
+                    339.8736328623794,
+                    436.7585647361121,
+                    1
+                  ],
+                  [
+                    715.9210178233647,
+                    338.4734408160809,
+                    445.41642925113047,
+                    1
+                  ],
+                  [
+                    726.8337815252331,
+                    339.6884667375648,
+                    436.05870830279423,
+                    1
+                  ],
+                  [
+                    715.3512985106659,
+                    338.2629136986977,
+                    444.6207180613218,
+                    1
+                  ],
+                  [
+                    726.3244388388174,
+                    339.6726809655938,
+                    435.3610624972159,
+                    1
+                  ],
+                  [
+                    714.7721944891356,
+                    338.24496585282657,
+                    443.82752027447,
+                    1
+                  ]
+                ]
+              }
+            },
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 4,
+                    "side": 1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 0,
+                      "end_parameter": 14.393527269297211,
+                      "uv_samples": [
+                        [
+                          34.45690711526539,
+                          0
+                        ],
+                        [
+                          34.45690711526539,
+                          1.7991909086621514
+                        ],
+                        [
+                          34.45690711526539,
+                          3.5983818173243027
+                        ],
+                        [
+                          34.45690711526539,
+                          5.397572725986454
+                        ],
+                        [
+                          34.45690711526539,
+                          7.1967636346486055
+                        ],
+                        [
+                          34.45690711526539,
+                          8.995954543310758
+                        ],
+                        [
+                          34.45690711526539,
+                          10.795145451972909
+                        ],
+                        [
+                          34.45690711526539,
+                          12.59433636063506
+                        ],
+                        [
+                          34.45690711526539,
+                          14.393527269297211
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          0,
+                          30.969232494546734
+                        ],
+                        "control_points_uvw": [
+                          [
+                            34.45690711526539,
+                            0,
+                            1
+                          ],
+                          [
+                            34.45690711526539,
+                            30.969232494546734,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 1,
+                    "side": -1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 34.45690711526539,
+                      "end_parameter": 51.735666710125706,
+                      "uv_samples": [
+                        [
+                          34.45690711526539,
+                          0
+                        ],
+                        [
+                          36.61675206462293,
+                          0
+                        ],
+                        [
+                          38.77659701398047,
+                          0
+                        ],
+                        [
+                          40.936441963338005,
+                          0
+                        ],
+                        [
+                          43.09628691269555,
+                          0
+                        ],
+                        [
+                          45.25613186205308,
+                          0
+                        ],
+                        [
+                          47.41597681141062,
+                          0
+                        ],
+                        [
+                          49.575821760768164,
+                          0
+                        ],
+                        [
+                          51.735666710125706,
+                          0
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          34.45690711526539,
+                          51.735666710125706
+                        ],
+                        "control_points_uvw": [
+                          [
+                            34.45690711526539,
+                            0,
+                            1
+                          ],
+                          [
+                            51.735666710125706,
+                            0,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 5,
+                    "side": -1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 0,
+                      "end_parameter": 14.393527269297211,
+                      "uv_samples": [
+                        [
+                          51.735666710125706,
+                          0
+                        ],
+                        [
+                          51.735666710125706,
+                          1.7991909086621514
+                        ],
+                        [
+                          51.735666710125706,
+                          3.5983818173243027
+                        ],
+                        [
+                          51.735666710125706,
+                          5.397572725986454
+                        ],
+                        [
+                          51.735666710125706,
+                          7.1967636346486055
+                        ],
+                        [
+                          51.735666710125706,
+                          8.995954543310758
+                        ],
+                        [
+                          51.735666710125706,
+                          10.795145451972909
+                        ],
+                        [
+                          51.735666710125706,
+                          12.59433636063506
+                        ],
+                        [
+                          51.735666710125706,
+                          14.393527269297211
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          0,
+                          30.969232494546734
+                        ],
+                        "control_points_uvw": [
+                          [
+                            51.735666710125706,
+                            0,
+                            1
+                          ],
+                          [
+                            51.735666710125706,
+                            30.969232494546734,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 3,
+                    "side": 1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 34.45690711526539,
+                      "end_parameter": 51.735666710125706,
+                      "uv_samples": [
+                        [
+                          34.45690711526539,
+                          14.393527269297211
+                        ],
+                        [
+                          36.61675206462293,
+                          14.393527269297211
+                        ],
+                        [
+                          38.77659701398047,
+                          14.393527269297211
+                        ],
+                        [
+                          40.936441963338005,
+                          14.393527269297211
+                        ],
+                        [
+                          43.09628691269555,
+                          14.393527269297211
+                        ],
+                        [
+                          45.25613186205308,
+                          14.393527269297211
+                        ],
+                        [
+                          47.41597681141062,
+                          14.393527269297211
+                        ],
+                        [
+                          49.575821760768164,
+                          14.393527269297211
+                        ],
+                        [
+                          51.735666710125706,
+                          14.393527269297211
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          31.001155196293322,
+                          55.19141862909777
+                        ],
+                        "control_points_uvw": [
+                          [
+                            31.001155196293322,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            55.19141862909777,
+                            14.393527269297211,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              714.0629272460938,
+              338.14495849609375,
+              435.26104736328125
+            ],
+            "bbox_max": [
+              729.4100952148438,
+              350.8367004394531,
+              449.0589294433594
+            ]
+          },
+          {
+            "id": 3,
+            "cgm_tag": 7368370,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.21.2(E,3ACB,0(E,3228,1))0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "surface_type": "NURBSConverted",
+            "orientation": 1,
+            "surface": {
+              "surface_type": "NURBSConverted",
+              "definition_available": true,
+              "representation": "nurbs_conversion",
+              "exact": false,
+              "requested_deviation_mm": 0.0001,
+              "max_deviation_mm": 6.640948954887132e-06,
+              "same_parameterization_requested": true,
+              "source_uv_bounds": [
+                [
+                  17.178147520387526,
+                  0
+                ],
+                [
+                  34.45690711529984,
+                  14.393527269311605
+                ]
+              ],
+              "nurbs": {
+                "surface_type": "Spline",
+                "u_degree": 5,
+                "u_ctrl_count": 15,
+                "v_degree": 1,
+                "v_ctrl_count": 2,
+                "u_multiplicities": [
+                  6,
+                  3,
+                  3,
+                  3,
+                  6
+                ],
+                "v_multiplicities": [
+                  2,
+                  2
+                ],
+                "u_periodic": false,
+                "v_periodic": false,
+                "control_point_order": "u_major_v_minor_xyzw",
+                "u_knots": [
+                  17.178147520387526,
+                  21.497837419115605,
+                  25.817527317843684,
+                  30.137217216571763,
+                  34.45690711529984
+                ],
+                "v_knots": [
+                  0,
+                  14.393527269311605
+                ],
+                "rational": 0,
+                "definition_available": true,
+                "ctrl_points": [
+                  [
+                    726.3244388388277,
+                    339.67268096559417,
+                    435.3610624972301,
+                    1
+                  ],
+                  [
+                    714.7721944891356,
+                    338.24496585282554,
+                    443.8275202744942,
+                    1
+                  ],
+                  [
+                    725.8150961524117,
+                    339.6568951936214,
+                    434.66341669165126,
+                    1
+                  ],
+                  [
+                    714.193090467605,
+                    338.2270180069524,
+                    443.0343224876417,
+                    1
+                  ],
+                  [
+                    725.2974831400311,
+                    339.81048927430106,
+                    433.9679594081133,
+                    1
+                  ],
+                  [
+                    713.6045833876752,
+                    338.4016488638923,
+                    442.2436129703744,
+                    1
+                  ],
+                  [
+                    724.7978126468709,
+                    340.13453059305726,
+                    433.3106146526723,
+                    1
+                  ],
+                  [
+                    713.0364762964251,
+                    338.770072001867,
+                    441.49623600480606,
+                    1
+                  ],
+                  [
+                    723.8882527625209,
+                    341.0885232620585,
+                    432.14305093940544,
+                    1
+                  ],
+                  [
+                    712.0023399459919,
+                    339.8547268047401,
+                    440.1687587291357,
+                    1
+                  ],
+                  [
+                    723.2381289559899,
+                    342.5303600329957,
+                    431.36906645479553,
+                    1
+                  ],
+                  [
+                    711.263172935459,
+                    341.4940425242135,
+                    439.2887666538713,
+                    1
+                  ],
+                  [
+                    722.998081454329,
+                    343.3426118504362,
+                    431.1055856757703,
+                    1
+                  ],
+                  [
+                    710.9902476981334,
+                    342.41754315850204,
+                    438.9891986365053,
+                    1
+                  ],
+                  [
+                    722.7139303901035,
+                    345.0620929707879,
+                    430.8540919984849,
+                    1
+                  ],
+                  [
+                    710.6671783218494,
+                    344.3725303572943,
+                    438.7032595157723,
+                    1
+                  ],
+                  [
+                    722.8297263713475,
+                    346.7939694254177,
+                    431.1504051046614,
+                    1
+                  ],
+                  [
+                    710.798834120988,
+                    346.34161059819775,
+                    439.0401566893167,
+                    1
+                  ],
+                  [
+                    722.9899265015952,
+                    347.61862589304087,
+                    431.43514282182883,
+                    1
+                  ],
+                  [
+                    710.9809758148816,
+                    347.27921486644055,
+                    439.36389306855756,
+                    1
+                  ],
+                  [
+                    723.4976360971568,
+                    349.09634674468026,
+                    432.24704076583015,
+                    1
+                  ],
+                  [
+                    711.558223071789,
+                    348.9593294743593,
+                    440.2869913616774,
+                    1
+                  ],
+                  [
+                    724.3115201508288,
+                    350.1037531442277,
+                    433.44007526389964,
+                    1
+                  ],
+                  [
+                    712.4835794990257,
+                    350.104713736964,
+                    441.64342798888873,
+                    1
+                  ],
+                  [
+                    724.7781167798329,
+                    350.4577414375033,
+                    434.1062249314175,
+                    1
+                  ],
+                  [
+                    713.0140828153495,
+                    350.50718549061406,
+                    442.40081581773023,
+                    1
+                  ],
+                  [
+                    725.2792052793875,
+                    350.6429075623132,
+                    434.80608136473904,
+                    1
+                  ],
+                  [
+                    713.5838021280518,
+                    350.717712607992,
+                    443.1965270075433,
+                    1
+                  ],
+                  [
+                    725.7885479658048,
+                    350.658693334279,
+                    435.50372717031917,
+                    1
+                  ],
+                  [
+                    714.162906149584,
+                    350.7356604538572,
+                    443.98972479439726,
+                    1
+                  ]
+                ]
+              }
+            },
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "loops": [
+              {
+                "index": 0,
+                "edges": [
+                  {
+                    "edge_id": 5,
+                    "side": 1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 0,
+                      "end_parameter": 14.393527269297211,
+                      "uv_samples": [
+                        [
+                          17.178147520404703,
+                          0
+                        ],
+                        [
+                          17.178147520404703,
+                          1.7991909086621514
+                        ],
+                        [
+                          17.178147520404703,
+                          3.5983818173243027
+                        ],
+                        [
+                          17.178147520404703,
+                          5.397572725986454
+                        ],
+                        [
+                          17.178147520404703,
+                          7.1967636346486055
+                        ],
+                        [
+                          17.178147520404703,
+                          8.995954543310758
+                        ],
+                        [
+                          17.178147520404703,
+                          10.795145451972909
+                        ],
+                        [
+                          17.178147520404703,
+                          12.59433636063506
+                        ],
+                        [
+                          17.178147520404703,
+                          14.393527269297211
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          0,
+                          30.969232494546734
+                        ],
+                        "control_points_uvw": [
+                          [
+                            17.178147520404703,
+                            0,
+                            1
+                          ],
+                          [
+                            17.178147520404703,
+                            30.969232494546734,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 0,
+                    "side": -1,
+                    "orientation": 1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 17.178147520404703,
+                      "end_parameter": 34.45690711526539,
+                      "uv_samples": [
+                        [
+                          17.178147520404703,
+                          0
+                        ],
+                        [
+                          19.337992469762288,
+                          0
+                        ],
+                        [
+                          21.497837419119875,
+                          0
+                        ],
+                        [
+                          23.65768236847746,
+                          0
+                        ],
+                        [
+                          25.817527317835044,
+                          0
+                        ],
+                        [
+                          27.977372267192628,
+                          0
+                        ],
+                        [
+                          30.13721721655022,
+                          0
+                        ],
+                        [
+                          32.2970621659078,
+                          0
+                        ],
+                        [
+                          34.45690711526539,
+                          0
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          17.178147520404703,
+                          34.45690711526539
+                        ],
+                        "control_points_uvw": [
+                          [
+                            17.178147520404703,
+                            0,
+                            1
+                          ],
+                          [
+                            34.45690711526539,
+                            0,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 4,
+                    "side": -1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 0,
+                      "end_parameter": 14.393527269297211,
+                      "uv_samples": [
+                        [
+                          34.45690711526539,
+                          0
+                        ],
+                        [
+                          34.45690711526539,
+                          1.7991909086621514
+                        ],
+                        [
+                          34.45690711526539,
+                          3.5983818173243027
+                        ],
+                        [
+                          34.45690711526539,
+                          5.397572725986454
+                        ],
+                        [
+                          34.45690711526539,
+                          7.1967636346486055
+                        ],
+                        [
+                          34.45690711526539,
+                          8.995954543310758
+                        ],
+                        [
+                          34.45690711526539,
+                          10.795145451972909
+                        ],
+                        [
+                          34.45690711526539,
+                          12.59433636063506
+                        ],
+                        [
+                          34.45690711526539,
+                          14.393527269297211
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 1,
+                        "multiplicities": [
+                          2,
+                          2
+                        ],
+                        "rational": false,
+                        "knots": [
+                          0,
+                          30.969232494546734
+                        ],
+                        "control_points_uvw": [
+                          [
+                            34.45690711526539,
+                            0,
+                            1
+                          ],
+                          [
+                            34.45690711526539,
+                            30.969232494546734,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "edge_id": 2,
+                    "side": 1,
+                    "orientation": -1,
+                    "pcurve": {
+                      "available": true,
+                      "orientation": -1,
+                      "start_parameter": 0,
+                      "end_parameter": 26.1626496460688,
+                      "uv_samples": [
+                        [
+                          17.178147520404703,
+                          14.393527269297211
+                        ],
+                        [
+                          19.337992585074502,
+                          14.393527269297211
+                        ],
+                        [
+                          21.497837649948245,
+                          14.393527269297211
+                        ],
+                        [
+                          23.65768271476983,
+                          14.393527269297211
+                        ],
+                        [
+                          25.817527779486724,
+                          14.393527269297211
+                        ],
+                        [
+                          27.977372844058184,
+                          14.393527269297211
+                        ],
+                        [
+                          30.13721790848765,
+                          14.393527269297211
+                        ],
+                        [
+                          32.2970629732163,
+                          14.393527269297211
+                        ],
+                        [
+                          34.45690711526539,
+                          14.393527269297211
+                        ]
+                      ],
+                      "definition": {
+                        "definition_available": true,
+                        "representation": "NURBS_UV",
+                        "exact": true,
+                        "same_parameterization_requested": true,
+                        "max_deviation_mm": 0,
+                        "degree": 5,
+                        "multiplicities": [
+                          6,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          3,
+                          6
+                        ],
+                        "rational": false,
+                        "knots": [
+                          0,
+                          3.2708046124774426,
+                          6.541609224646081,
+                          9.812413836893683,
+                          13.08321844929979,
+                          16.3540230619261,
+                          19.624827674767378,
+                          22.895632287155625,
+                          26.1626496460688
+                        ],
+                        "control_points_uvw": [
+                          [
+                            17.178147520404703,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            17.61017594049313,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            18.04220436058096,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            18.474248397564843,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            19.338305237699718,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            20.202362077836966,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            20.634406114982223,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            21.498462955087923,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            22.362519795193627,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            22.79456383229835,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            23.658620672434235,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            24.52267751257249,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            24.95472154959169,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            25.81877838977997,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            26.68283522996587,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            27.11487926687051,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            27.978936107115082,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            28.84299294735965,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            29.275036984150706,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            30.139093824362647,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            31.00315066457696,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            31.435194701606786,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            32.298751297528746,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            33.162307893453075,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            33.59385076357297,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            34.025378939418886,
+                            14.393527269297211,
+                            1
+                          ],
+                          [
+                            34.45690711526539,
+                            14.393527269297211,
+                            1
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "bbox_min": [
+              710.6682739257812,
+              338.1439208984375,
+              430.8904724121094
+            ],
+            "bbox_max": [
+              726.4244384765625,
+              350.8356628417969,
+              444.0897216796875
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7368120,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,3ACB,1)0.31.14.S.21.2(E,3ACB,0(E,3228,1))0.0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "length": 17.27875959486048,
+            "start_vertex": [
+              725.7885479657845,
+              350.6586933342784,
+              435.5037271702914
+            ],
+            "end_vertex": [
+              726.3244388388174,
+              339.6726809655938,
+              435.36106249721604
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 8.551052144503263,
+              "end_parameter": 25.829811739363745,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 2.729880142019483e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      8.551052144503243,
+                      12.870742043218366,
+                      17.19043194193349,
+                      21.510121840648615,
+                      25.82981173936374,
+                      30.149501638078867,
+                      34.46919153679399,
+                      38.78888143550912,
+                      43.108571334224244
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657843,
+                        350.6586933342784,
+                        435.5037271702913,
+                        1
+                      ],
+                      [
+                        725.2792052793669,
+                        350.64290756230685,
+                        434.80608136471244,
+                        1
+                      ],
+                      [
+                        724.7781267037661,
+                        350.45770367154876,
+                        434.10623549056504,
+                        1
+                      ],
+                      [
+                        724.31153733043,
+                        350.1037267546152,
+                        433.44009664965995,
+                        1
+                      ],
+                      [
+                        723.4976189175329,
+                        349.09637313426254,
+                        432.2470193800376,
+                        1
+                      ],
+                      [
+                        722.9899436812083,
+                        347.61859950342625,
+                        431.43516420760335,
+                        1
+                      ],
+                      [
+                        722.8297488125914,
+                        346.79397012091243,
+                        431.15043584239413,
+                        1
+                      ],
+                      [
+                        722.713907948859,
+                        345.06209227527,
+                        430.8540612607494,
+                        1
+                      ],
+                      [
+                        722.9981038955756,
+                        343.3426125459419,
+                        431.1056164135081,
+                        1
+                      ],
+                      [
+                        723.2381435130908,
+                        342.53038740619314,
+                        431.3690885387413,
+                        1
+                      ],
+                      [
+                        723.8882382054188,
+                        341.0884958888648,
+                        432.14302885545914,
+                        1
+                      ],
+                      [
+                        724.7978272039651,
+                        340.13455796625914,
+                        433.31063673660947,
+                        1
+                      ],
+                      [
+                        725.2974893551747,
+                        339.8105275404406,
+                        433.96797095463063,
+                        1
+                      ],
+                      [
+                        726.3327029496287,
+                        339.50326284680517,
+                        435.35886242864524,
+                        1
+                      ],
+                      [
+                        727.3348601008371,
+                        339.8736706283241,
+                        436.75855417694316,
+                        1
+                      ],
+                      [
+                        727.8014494741717,
+                        340.2276475452569,
+                        437.42469301784746,
+                        1
+                      ],
+                      [
+                        728.6153678870679,
+                        341.2350011656096,
+                        438.61777028746974,
+                        1
+                      ],
+                      [
+                        729.1230431233944,
+                        342.7127747964459,
+                        439.4296254599042,
+                        1
+                      ],
+                      [
+                        729.2832379920097,
+                        343.5374041789598,
+                        439.7143538251134,
+                        1
+                      ],
+                      [
+                        729.3990788557429,
+                        345.269282024602,
+                        440.0107284067578,
+                        1
+                      ],
+                      [
+                        729.1148829090253,
+                        346.9887617539304,
+                        439.7591732539995,
+                        1
+                      ],
+                      [
+                        728.8748432915112,
+                        347.80098689367895,
+                        439.4957011287661,
+                        1
+                      ],
+                      [
+                        728.2247485991824,
+                        349.2428784110075,
+                        438.7217608120483,
+                        1
+                      ],
+                      [
+                        727.3151596006369,
+                        350.19681633361296,
+                        437.5541529308979,
+                        1
+                      ],
+                      [
+                        726.815497449427,
+                        350.52084675943166,
+                        436.89681871287655,
+                        1
+                      ],
+                      [
+                        726.2978906522,
+                        350.6744791062495,
+                        436.2013729758699,
+                        1
+                      ],
+                      [
+                        725.7885479657843,
+                        350.6586933342783,
+                        435.50372717029126,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 2.729880133837759e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      17.178147520404703,
+                      21.497837419119875,
+                      25.817527317835047,
+                      30.137217216550216,
+                      34.45690711526539
+                    ],
+                    "control_points": [
+                      [
+                        726.3244388388174,
+                        339.6726809655938,
+                        435.3610624972161,
+                        1
+                      ],
+                      [
+                        725.8150961524021,
+                        339.6568951936231,
+                        434.6634166916381,
+                        1
+                      ],
+                      [
+                        725.297489355175,
+                        339.81052754043986,
+                        433.9679709546304,
+                        1
+                      ],
+                      [
+                        724.7978272039647,
+                        340.1345579662596,
+                        433.31063673660964,
+                        1
+                      ],
+                      [
+                        723.8882382054198,
+                        341.08849588886443,
+                        432.1430288554592,
+                        1
+                      ],
+                      [
+                        723.2381435130899,
+                        342.5303874061933,
+                        431.3690885387415,
+                        1
+                      ],
+                      [
+                        722.9981038955762,
+                        343.34261254594173,
+                        431.10561641350796,
+                        1
+                      ],
+                      [
+                        722.7139079488586,
+                        345.06209227527034,
+                        430.8540612607497,
+                        1
+                      ],
+                      [
+                        722.8297488125911,
+                        346.7939701209122,
+                        431.1504358423937,
+                        1
+                      ],
+                      [
+                        722.9899436812083,
+                        347.61859950342625,
+                        431.4351642076036,
+                        1
+                      ],
+                      [
+                        723.4976189175333,
+                        349.09637313426316,
+                        432.24701938003756,
+                        1
+                      ],
+                      [
+                        724.3115373304296,
+                        350.1037267546142,
+                        433.4400966496597,
+                        1
+                      ],
+                      [
+                        724.7781267037666,
+                        350.4577036715493,
+                        434.10623549056487,
+                        1
+                      ],
+                      [
+                        725.2792052793679,
+                        350.6429075623073,
+                        434.806081364713,
+                        1
+                      ],
+                      [
+                        725.7885479657845,
+                        350.6586933342784,
+                        435.50372717029137,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0,
+              3
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7368161,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.21.14.S.11.2(E,3ACB,1)0.31.14.S.21.2(E,3ACB,0(E,3228,1))0.0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "length": 17.278759594860308,
+            "start_vertex": [
+              726.3244388388174,
+              339.6726809655938,
+              435.36106249721604
+            ],
+            "end_vertex": [
+              725.7885479657845,
+              350.6586933342784,
+              435.5037271702914
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 25.829811739363745,
+              "end_parameter": 43.10857133422405,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 2.729880142019483e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      8.551052144503243,
+                      12.870742043218366,
+                      17.19043194193349,
+                      21.510121840648615,
+                      25.82981173936374,
+                      30.149501638078867,
+                      34.46919153679399,
+                      38.78888143550912,
+                      43.108571334224244
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657843,
+                        350.6586933342784,
+                        435.5037271702913,
+                        1
+                      ],
+                      [
+                        725.2792052793669,
+                        350.64290756230685,
+                        434.80608136471244,
+                        1
+                      ],
+                      [
+                        724.7781267037661,
+                        350.45770367154876,
+                        434.10623549056504,
+                        1
+                      ],
+                      [
+                        724.31153733043,
+                        350.1037267546152,
+                        433.44009664965995,
+                        1
+                      ],
+                      [
+                        723.4976189175329,
+                        349.09637313426254,
+                        432.2470193800376,
+                        1
+                      ],
+                      [
+                        722.9899436812083,
+                        347.61859950342625,
+                        431.43516420760335,
+                        1
+                      ],
+                      [
+                        722.8297488125914,
+                        346.79397012091243,
+                        431.15043584239413,
+                        1
+                      ],
+                      [
+                        722.713907948859,
+                        345.06209227527,
+                        430.8540612607494,
+                        1
+                      ],
+                      [
+                        722.9981038955756,
+                        343.3426125459419,
+                        431.1056164135081,
+                        1
+                      ],
+                      [
+                        723.2381435130908,
+                        342.53038740619314,
+                        431.3690885387413,
+                        1
+                      ],
+                      [
+                        723.8882382054188,
+                        341.0884958888648,
+                        432.14302885545914,
+                        1
+                      ],
+                      [
+                        724.7978272039651,
+                        340.13455796625914,
+                        433.31063673660947,
+                        1
+                      ],
+                      [
+                        725.2974893551747,
+                        339.8105275404406,
+                        433.96797095463063,
+                        1
+                      ],
+                      [
+                        726.3327029496287,
+                        339.50326284680517,
+                        435.35886242864524,
+                        1
+                      ],
+                      [
+                        727.3348601008371,
+                        339.8736706283241,
+                        436.75855417694316,
+                        1
+                      ],
+                      [
+                        727.8014494741717,
+                        340.2276475452569,
+                        437.42469301784746,
+                        1
+                      ],
+                      [
+                        728.6153678870679,
+                        341.2350011656096,
+                        438.61777028746974,
+                        1
+                      ],
+                      [
+                        729.1230431233944,
+                        342.7127747964459,
+                        439.4296254599042,
+                        1
+                      ],
+                      [
+                        729.2832379920097,
+                        343.5374041789598,
+                        439.7143538251134,
+                        1
+                      ],
+                      [
+                        729.3990788557429,
+                        345.269282024602,
+                        440.0107284067578,
+                        1
+                      ],
+                      [
+                        729.1148829090253,
+                        346.9887617539304,
+                        439.7591732539995,
+                        1
+                      ],
+                      [
+                        728.8748432915112,
+                        347.80098689367895,
+                        439.4957011287661,
+                        1
+                      ],
+                      [
+                        728.2247485991824,
+                        349.2428784110075,
+                        438.7217608120483,
+                        1
+                      ],
+                      [
+                        727.3151596006369,
+                        350.19681633361296,
+                        437.5541529308979,
+                        1
+                      ],
+                      [
+                        726.815497449427,
+                        350.52084675943166,
+                        436.89681871287655,
+                        1
+                      ],
+                      [
+                        726.2978906522,
+                        350.6744791062495,
+                        436.2013729758699,
+                        1
+                      ],
+                      [
+                        725.7885479657843,
+                        350.6586933342783,
+                        435.50372717029126,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 2.7298801358634434e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      34.45690711526539,
+                      38.776597013980464,
+                      43.09628691269555,
+                      47.41597681141063,
+                      51.735666710125706
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657845,
+                        350.6586933342784,
+                        435.5037271702914,
+                        1
+                      ],
+                      [
+                        726.297890652199,
+                        350.6744791062486,
+                        436.2013729758692,
+                        1
+                      ],
+                      [
+                        726.8154974494284,
+                        350.5208467594333,
+                        436.89681871287763,
+                        1
+                      ],
+                      [
+                        727.3151596006367,
+                        350.1968163336121,
+                        437.55415293089766,
+                        1
+                      ],
+                      [
+                        728.2247485991828,
+                        349.2428784110079,
+                        438.72176081204833,
+                        1
+                      ],
+                      [
+                        728.8748432915115,
+                        347.8009868936785,
+                        439.4957011287661,
+                        1
+                      ],
+                      [
+                        729.1148829090259,
+                        346.9887617539304,
+                        439.7591732539995,
+                        1
+                      ],
+                      [
+                        729.3990788557433,
+                        345.269282024602,
+                        440.0107284067578,
+                        1
+                      ],
+                      [
+                        729.28323799201,
+                        343.5374041789596,
+                        439.71435382511334,
+                        1
+                      ],
+                      [
+                        729.1230431233943,
+                        342.7127747964463,
+                        439.42962545990434,
+                        1
+                      ],
+                      [
+                        728.6153678870684,
+                        341.23500116560894,
+                        438.6177702874693,
+                        1
+                      ],
+                      [
+                        727.8014494741717,
+                        340.22764754525804,
+                        437.42469301784814,
+                        1
+                      ],
+                      [
+                        727.3348601008374,
+                        339.873670628323,
+                        436.75855417694214,
+                        1
+                      ],
+                      [
+                        726.8337815252329,
+                        339.68846673756497,
+                        436.05870830279446,
+                        1
+                      ],
+                      [
+                        726.3244388388175,
+                        339.6726809655938,
+                        435.3610624972161,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              0,
+              2
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 2,
+            "cgm_tag": 7368358,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.31.14.S.21.2(E,3ACB,0(E,3228,1))0.21.14.S.11.2(E,3ACB,2)0.0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "length": 19.64537773195659,
+            "start_vertex": [
+              714.1629061495726,
+              350.7356604538564,
+              443.9897247943573
+            ],
+            "end_vertex": [
+              714.7721944891356,
+              338.2449658528267,
+              443.82752027446986
+            ],
+            "curve": {
+              "available": true,
+              "orientation": -1,
+              "start_parameter": 26.1626496460688,
+              "end_parameter": 0,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      3.2708046124774426,
+                      6.541609224646081,
+                      9.812413836893683,
+                      13.08321844929979,
+                      16.3540230619261,
+                      19.624827674767378,
+                      22.895632287155625,
+                      26.1626496460688
+                    ],
+                    "control_points": [
+                      [
+                        714.7721944891356,
+                        338.2449658528266,
+                        443.82752027446986,
+                        1
+                      ],
+                      [
+                        714.4826026418563,
+                        338.23599069526045,
+                        443.4308668170387,
+                        1
+                      ],
+                      [
+                        714.1906613209027,
+                        338.2751843468626,
+                        443.03483911491526,
+                        1
+                      ],
+                      [
+                        713.9000824923667,
+                        338.36266904305745,
+                        442.64452201479224,
+                        1
+                      ],
+                      [
+                        713.3292567189311,
+                        338.6319309895514,
+                        441.8855269631152,
+                        1
+                      ],
+                      [
+                        712.7932803104703,
+                        339.0805461599175,
+                        441.18846958339753,
+                        1
+                      ],
+                      [
+                        712.5375528074095,
+                        339.34739809577087,
+                        440.86009395244514,
+                        1
+                      ],
+                      [
+                        712.0573139035498,
+                        339.95920551154205,
+                        440.25224542766915,
+                        1
+                      ],
+                      [
+                        711.6508646075358,
+                        340.7097314291932,
+                        439.7563370805244,
+                        1
+                      ],
+                      [
+                        711.4689317553002,
+                        341.11531320113977,
+                        439.53990942520466,
+                        1
+                      ],
+                      [
+                        711.1524126440938,
+                        341.97649732306274,
+                        439.1757733128668,
+                        1
+                      ],
+                      [
+                        710.9373863728788,
+                        342.91464055244666,
+                        438.9565331341139,
+                        1
+                      ],
+                      [
+                        710.8569537179854,
+                        343.39718835848385,
+                        438.88501202346555,
+                        1
+                      ],
+                      [
+                        710.7523553420068,
+                        344.37660422589056,
+                        438.8200405955459,
+                        1
+                      ],
+                      [
+                        710.7614972556389,
+                        345.35950013006396,
+                        438.91085545788474,
+                        1
+                      ],
+                      [
+                        710.7948134416216,
+                        345.8455294370999,
+                        438.99513244570016,
+                        1
+                      ],
+                      [
+                        710.9180645083094,
+                        346.79402723155675,
+                        439.2392198411814,
+                        1
+                      ],
+                      [
+                        711.1499824354172,
+                        347.67199603653887,
+                        439.6262600521965,
+                        1
+                      ],
+                      [
+                        711.2919739247588,
+                        348.08749213305174,
+                        439.8535010626477,
+                        1
+                      ],
+                      [
+                        711.6243052117262,
+                        348.86063037812335,
+                        440.36947656381335,
+                        1
+                      ],
+                      [
+                        712.043681655524,
+                        349.4999710767064,
+                        440.9938019131521,
+                        1
+                      ],
+                      [
+                        712.272725350795,
+                        349.78166036345306,
+                        441.3294016714232,
+                        1
+                      ],
+                      [
+                        712.763243817439,
+                        350.2614241980638,
+                        442.0382795852393,
+                        1
+                      ],
+                      [
+                        713.3058697249824,
+                        350.56470174704424,
+                        442.8043381147524,
+                        1
+                      ],
+                      [
+                        713.5867374664255,
+                        350.6696736091389,
+                        443.19671260643736,
+                        1
+                      ],
+                      [
+                        713.8736496197108,
+                        350.72669568859465,
+                        443.59353062061876,
+                        1
+                      ],
+                      [
+                        714.1629061495726,
+                        350.7356604538564,
+                        443.98972479435724,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 3.380667606318087e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      6.541609224646081,
+                      13.08321844929979,
+                      19.624827674767378,
+                      26.1626496460688
+                    ],
+                    "control_points": [
+                      [
+                        714.7721944891356,
+                        338.2449658528266,
+                        443.8275202744699,
+                        1
+                      ],
+                      [
+                        714.1930107946033,
+                        338.2270155376945,
+                        443.03421335964396,
+                        1
+                      ],
+                      [
+                        713.604428522505,
+                        338.4017404380616,
+                        442.243408530722,
+                        1
+                      ],
+                      [
+                        713.0362385905584,
+                        338.7702711085362,
+                        441.4959268710039,
+                        1
+                      ],
+                      [
+                        712.0019722203791,
+                        339.85516583200354,
+                        440.16829094512343,
+                        1
+                      ],
+                      [
+                        711.2628621907471,
+                        341.4949377754752,
+                        439.2884131270813,
+                        1
+                      ],
+                      [
+                        710.9899871100835,
+                        342.4186436571554,
+                        438.9889300391781,
+                        1
+                      ],
+                      [
+                        710.6670501810637,
+                        344.3739930415983,
+                        438.7032008626123,
+                        1
+                      ],
+                      [
+                        710.7990741854098,
+                        346.34326720033295,
+                        439.04061690804417,
+                        1
+                      ],
+                      [
+                        710.9814043701444,
+                        347.28090533402775,
+                        439.3646136957527,
+                        1
+                      ],
+                      [
+                        711.5588536958949,
+                        348.960491367774,
+                        440.2879461471726,
+                        1
+                      ],
+                      [
+                        712.4842838711113,
+                        350.1052003469424,
+                        441.644429799108,
+                        1
+                      ],
+                      [
+                        713.0145970934485,
+                        350.5073284260878,
+                        442.40153034246106,
+                        1
+                      ],
+                      [
+                        713.5840577724402,
+                        350.7177205310291,
+                        443.1968771631985,
+                        1
+                      ],
+                      [
+                        714.1629061495727,
+                        350.7356604538565,
+                        443.98972479435724,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              3,
+              1
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 3,
+            "cgm_tag": 7368339,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.I.31.14.S.21.2(E,3ACB,0(E,3228,1))0.21.14.S.11.2(E,3ACB,2)0.0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "length": 19.64531824114948,
+            "start_vertex": [
+              714.7721944891356,
+              338.2449658528267,
+              443.82752027446986
+            ],
+            "end_vertex": [
+              714.1629061495726,
+              350.7356604538564,
+              443.9897247943573
+            ],
+            "curve": {
+              "available": true,
+              "orientation": -1,
+              "start_parameter": 58.821562471462585,
+              "end_parameter": 39.17624423031311,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 3.66700592110903e-06,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      35.24718058208321,
+                      38.68511127428437,
+                      42.12304196648553,
+                      45.56097265868669,
+                      48.99890335088784,
+                      52.436834043089,
+                      55.87476473529016,
+                      59.31269542749132,
+                      62.75062611969248
+                    ],
+                    "control_points": [
+                      [
+                        712.0541055834022,
+                        349.4757451853144,
+                        441.00612352289187,
+                        1
+                      ],
+                      [
+                        712.3623698162467,
+                        349.88954833369706,
+                        441.46056253410245,
+                        1
+                      ],
+                      [
+                        712.7071080333027,
+                        350.22800748663633,
+                        441.95886652449974,
+                        1
+                      ],
+                      [
+                        713.0805621194987,
+                        350.48067788863625,
+                        442.48959615177307,
+                        1
+                      ],
+                      [
+                        713.8656295503099,
+                        350.80140187638307,
+                        443.5885178351329,
+                        1
+                      ],
+                      [
+                        714.6865421680523,
+                        350.7462920888867,
+                        444.70650218150905,
+                        1
+                      ],
+                      [
+                        715.0958458434286,
+                        350.6230825584681,
+                        445.25629681293987,
+                        1
+                      ],
+                      [
+                        715.8910253926197,
+                        350.191712578057,
+                        446.30911827830795,
+                        1
+                      ],
+                      [
+                        716.6014350971396,
+                        349.42081663564613,
+                        447.21898701119727,
+                        1
+                      ],
+                      [
+                        716.9259585170297,
+                        348.95803944511226,
+                        447.6258113537299,
+                        1
+                      ],
+                      [
+                        717.4968951292445,
+                        347.90170871537566,
+                        448.3222454049067,
+                        1
+                      ],
+                      [
+                        717.8874302059436,
+                        346.64222481679707,
+                        448.7558423104306,
+                        1
+                      ],
+                      [
+                        718.0315299347101,
+                        345.9762695076243,
+                        448.8997972275626,
+                        1
+                      ],
+                      [
+                        718.2099573592687,
+                        344.6062994740048,
+                        449.034591049906,
+                        1
+                      ],
+                      [
+                        718.165519438714,
+                        343.22942229984596,
+                        448.8641265905986,
+                        1
+                      ],
+                      [
+                        718.0867264516618,
+                        342.5565590018474,
+                        448.70278573646885,
+                        1
+                      ],
+                      [
+                        717.8200586166499,
+                        341.2767067823342,
+                        448.2362129389688,
+                        1
+                      ],
+                      [
+                        717.35374442818,
+                        340.1882291207719,
+                        447.5119263442412,
+                        1
+                      ],
+                      [
+                        717.0752805685531,
+                        339.7067638839583,
+                        447.09284004234706,
+                        1
+                      ],
+                      [
+                        716.4421097306479,
+                        338.8942271039882,
+                        446.1624088065146,
+                        1
+                      ],
+                      [
+                        715.6913512386085,
+                        338.4149447336462,
+                        445.0977615834874,
+                        1
+                      ],
+                      [
+                        715.2952852835816,
+                        338.2667748343499,
+                        444.5444428109651,
+                        1
+                      ],
+                      [
+                        714.4822193440043,
+                        338.1610240666284,
+                        443.424369524785,
+                        1
+                      ],
+                      [
+                        713.6682798443875,
+                        338.43219093014966,
+                        442.3331341530706,
+                        1
+                      ],
+                      [
+                        713.2713402220368,
+                        338.66098495238725,
+                        441.80865683667696,
+                        1
+                      ],
+                      [
+                        712.8946729646372,
+                        338.977085990401,
+                        441.3188529837763,
+                        1
+                      ],
+                      [
+                        712.5470302045832,
+                        339.3705609815338,
+                        440.87489730973857,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 3.6670059347381866e-06,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      31.001155196293322,
+                      34.02493812539388,
+                      37.048721054494436,
+                      40.07250398359499,
+                      43.09628691269555,
+                      46.1200698417961,
+                      49.14385277089666,
+                      52.16763569999721,
+                      55.19141862909777
+                    ],
+                    "control_points": [
+                      [
+                        712.0541055834022,
+                        349.47574518531445,
+                        441.00612352289187,
+                        1
+                      ],
+                      [
+                        712.3623698162496,
+                        349.8895483336982,
+                        441.4605625341038,
+                        1
+                      ],
+                      [
+                        712.7071080332983,
+                        350.2280074866344,
+                        441.9588665244976,
+                        1
+                      ],
+                      [
+                        713.080562119501,
+                        350.4806778886374,
+                        442.4895961517744,
+                        1
+                      ],
+                      [
+                        713.8656295503074,
+                        350.8014018763825,
+                        443.5885178351313,
+                        1
+                      ],
+                      [
+                        714.6865421680535,
+                        350.74629208888723,
+                        444.70650218150985,
+                        1
+                      ],
+                      [
+                        715.0958458434285,
+                        350.623082558468,
+                        445.2562968129394,
+                        1
+                      ],
+                      [
+                        715.8910253926192,
+                        350.1917125780568,
+                        446.30911827830823,
+                        1
+                      ],
+                      [
+                        716.6014350971403,
+                        349.4208166356464,
+                        447.2189870111972,
+                        1
+                      ],
+                      [
+                        716.9259585170286,
+                        348.95803944511215,
+                        447.62581135373017,
+                        1
+                      ],
+                      [
+                        717.4968951292446,
+                        347.90170871537543,
+                        448.322245404906,
+                        1
+                      ],
+                      [
+                        717.8874302059438,
+                        346.64222481679735,
+                        448.75584231043126,
+                        1
+                      ],
+                      [
+                        718.0315299347102,
+                        345.9762695076242,
+                        448.8997972275624,
+                        1
+                      ],
+                      [
+                        718.2099573592683,
+                        344.6062994740047,
+                        449.0345910499059,
+                        1
+                      ],
+                      [
+                        718.1655194387153,
+                        343.22942229984653,
+                        448.8641265905987,
+                        1
+                      ],
+                      [
+                        718.0867264516612,
+                        342.5565590018469,
+                        448.70278573646897,
+                        1
+                      ],
+                      [
+                        717.8200586166505,
+                        341.2767067823351,
+                        448.23621293896855,
+                        1
+                      ],
+                      [
+                        717.3537444281789,
+                        340.1882291207711,
+                        447.511926344241,
+                        1
+                      ],
+                      [
+                        717.0752805685535,
+                        339.70676388395907,
+                        447.0928400423475,
+                        1
+                      ],
+                      [
+                        716.442109730648,
+                        338.8942271039874,
+                        446.16240880651384,
+                        1
+                      ],
+                      [
+                        715.6913512386087,
+                        338.4149447336468,
+                        445.0977615834881,
+                        1
+                      ],
+                      [
+                        715.295285283582,
+                        338.26677483434946,
+                        444.54444281096477,
+                        1
+                      ],
+                      [
+                        714.4822193440041,
+                        338.16102406662867,
+                        443.4243695247855,
+                        1
+                      ],
+                      [
+                        713.6682798443873,
+                        338.4321909301495,
+                        442.33313415306986,
+                        1
+                      ],
+                      [
+                        713.2713402220365,
+                        338.6609849523872,
+                        441.8086568366781,
+                        1
+                      ],
+                      [
+                        712.8946729646374,
+                        338.977085990401,
+                        441.3188529837759,
+                        1
+                      ],
+                      [
+                        712.5470302045832,
+                        339.37056098153386,
+                        440.8748973097386,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              2,
+              1
+            ],
+            "convexity": "convex"
+          },
+          {
+            "id": 4,
+            "cgm_tag": 7368362,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.21.2(E,3ACB,0(E,3228,1))0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "length": 14.39352726929721,
+            "start_vertex": [
+              714.1629061495726,
+              350.7356604538564,
+              443.9897247943573
+            ],
+            "end_vertex": [
+              725.7885479657845,
+              350.6586933342784,
+              435.5037271702914
+            ],
+            "curve": {
+              "available": true,
+              "orientation": -1,
+              "start_parameter": 14.393527269297211,
+              "end_parameter": 0,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      30.969232494546734
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657843,
+                        350.6586933342784,
+                        435.5037271702914,
+                        1
+                      ],
+                      [
+                        700.7747207385568,
+                        350.82429642628284,
+                        453.7622699479506,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      30.969232494546734
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657846,
+                        350.6586933342784,
+                        435.5037271702914,
+                        1
+                      ],
+                      [
+                        700.7747207385569,
+                        350.8242964262829,
+                        453.7622699479505,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              2,
+              3
+            ],
+            "convexity": "smooth"
+          },
+          {
+            "id": 5,
+            "cgm_tag": 7368364,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.S.21.2(E,3ACB,0(E,3228,1))0.",
+              "label_context_id": "3262b216-4175-716e-3262-b2164175716e",
+              "initial_feature_id": "3262b216-4175-716e-3262-b2164175716e"
+            },
+            "generated_by_verified": false,
+            "label": "A block set",
+            "generated_by": "A block set",
+            "generated_by_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+            "length": 14.39352726929721,
+            "start_vertex": [
+              714.7721944891356,
+              338.2449658528267,
+              443.82752027446986
+            ],
+            "end_vertex": [
+              726.3244388388174,
+              339.6726809655938,
+              435.36106249721604
+            ],
+            "curve": {
+              "available": true,
+              "orientation": -1,
+              "start_parameter": 14.393527269297211,
+              "end_parameter": 0,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      30.969232494546734
+                    ],
+                    "control_points": [
+                      [
+                        726.3244388388175,
+                        339.6726809655938,
+                        435.3610624972161,
+                        1
+                      ],
+                      [
+                        701.4685342085286,
+                        336.60079730316585,
+                        453.5775631786253,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": true,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 0,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 1,
+                    "multiplicities": [
+                      2,
+                      2
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      30.969232494546734
+                    ],
+                    "control_points": [
+                      [
+                        726.3244388388175,
+                        339.6726809655938,
+                        435.3610624972161,
+                        1
+                      ],
+                      [
+                        701.4685342085286,
+                        336.6007973031659,
+                        453.57756317862544,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [
+              3,
+              2
+            ],
+            "convexity": "smooth"
+          }
+        ]
+      }
+    },
+    "Handle_Base1/A block set/草图.7": {
+      "topology": {
+        "body": "A block set",
+        "result_feature": "草图.7",
+        "face_count": 0,
+        "edge_count": 2,
+        "vertex_count": 0,
+        "shell_count": 0,
+        "loop_count": 1,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [
+          {
+            "index": 1,
+            "edge_count": 2,
+            "edge_start": 1
+          }
+        ],
+        "edges": [
+          {
+            "index": 1,
+            "length": 17.278759594860503,
+            "start": [
+              725.7885479657843,
+              350.6586933342783,
+              435.50372717029137
+            ],
+            "end": [
+              726.3244388388174,
+              339.6726809655938,
+              435.3610624972161
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "length": 17.2787595948605,
+            "start": [
+              726.3244388388174,
+              339.6726809655938,
+              435.3610624972161
+            ],
+            "end": [
+              725.7885479657843,
+              350.6586933342783,
+              435.50372717029137
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          }
+        ],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 520,
+        "body_name": "A block set",
+        "result_name": "草图.7",
+        "source_feature_id": "694283ae-7ee5-6026-6942-83ae7ee56026",
+        "source_feature_path": "Handle_Base1/A block set",
+        "result_id": "a96d940b-1343-acab-a96d-940b1343acab",
+        "face_count": 0,
+        "edge_count": 2,
+        "faces": [],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7367918,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.11.2(E,3228,1)0.",
+              "label_context_id": "5682e92a-0776-d2bb-5682-e92a0776d2bb",
+              "initial_feature_id": "5682e92a-0776-d2bb-5682-e92a0776d2bb"
+            },
+            "generated_by_verified": false,
+            "label": "Rename to TcPLM Part Description",
+            "generated_by": "Rename to TcPLM Part Description",
+            "generated_by_id": "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+            "length": 17.278759594860503,
+            "start_vertex": [
+              725.7885479657843,
+              350.6586933342783,
+              435.50372717029137
+            ],
+            "end_vertex": [
+              726.3244388388174,
+              339.6726809655938,
+              435.3610624972161
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 8.551052144503243,
+              "end_parameter": 25.829811739363745,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 2.729880142019483e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      8.551052144503243,
+                      12.870742043218366,
+                      17.19043194193349,
+                      21.510121840648615,
+                      25.82981173936374,
+                      30.149501638078867,
+                      34.46919153679399,
+                      38.78888143550912,
+                      43.108571334224244
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657843,
+                        350.6586933342784,
+                        435.5037271702913,
+                        1
+                      ],
+                      [
+                        725.2792052793669,
+                        350.64290756230685,
+                        434.80608136471244,
+                        1
+                      ],
+                      [
+                        724.7781267037661,
+                        350.45770367154876,
+                        434.10623549056504,
+                        1
+                      ],
+                      [
+                        724.31153733043,
+                        350.1037267546152,
+                        433.44009664965995,
+                        1
+                      ],
+                      [
+                        723.4976189175329,
+                        349.09637313426254,
+                        432.2470193800376,
+                        1
+                      ],
+                      [
+                        722.9899436812083,
+                        347.61859950342625,
+                        431.43516420760335,
+                        1
+                      ],
+                      [
+                        722.8297488125914,
+                        346.79397012091243,
+                        431.15043584239413,
+                        1
+                      ],
+                      [
+                        722.713907948859,
+                        345.06209227527,
+                        430.8540612607494,
+                        1
+                      ],
+                      [
+                        722.9981038955756,
+                        343.3426125459419,
+                        431.1056164135081,
+                        1
+                      ],
+                      [
+                        723.2381435130908,
+                        342.53038740619314,
+                        431.3690885387413,
+                        1
+                      ],
+                      [
+                        723.8882382054188,
+                        341.0884958888648,
+                        432.14302885545914,
+                        1
+                      ],
+                      [
+                        724.7978272039651,
+                        340.13455796625914,
+                        433.31063673660947,
+                        1
+                      ],
+                      [
+                        725.2974893551747,
+                        339.8105275404406,
+                        433.96797095463063,
+                        1
+                      ],
+                      [
+                        726.3327029496287,
+                        339.50326284680517,
+                        435.35886242864524,
+                        1
+                      ],
+                      [
+                        727.3348601008371,
+                        339.8736706283241,
+                        436.75855417694316,
+                        1
+                      ],
+                      [
+                        727.8014494741717,
+                        340.2276475452569,
+                        437.42469301784746,
+                        1
+                      ],
+                      [
+                        728.6153678870679,
+                        341.2350011656096,
+                        438.61777028746974,
+                        1
+                      ],
+                      [
+                        729.1230431233944,
+                        342.7127747964459,
+                        439.4296254599042,
+                        1
+                      ],
+                      [
+                        729.2832379920097,
+                        343.5374041789598,
+                        439.7143538251134,
+                        1
+                      ],
+                      [
+                        729.3990788557429,
+                        345.269282024602,
+                        440.0107284067578,
+                        1
+                      ],
+                      [
+                        729.1148829090253,
+                        346.9887617539304,
+                        439.7591732539995,
+                        1
+                      ],
+                      [
+                        728.8748432915112,
+                        347.80098689367895,
+                        439.4957011287661,
+                        1
+                      ],
+                      [
+                        728.2247485991824,
+                        349.2428784110075,
+                        438.7217608120483,
+                        1
+                      ],
+                      [
+                        727.3151596006369,
+                        350.19681633361296,
+                        437.5541529308979,
+                        1
+                      ],
+                      [
+                        726.815497449427,
+                        350.52084675943166,
+                        436.89681871287655,
+                        1
+                      ],
+                      [
+                        726.2978906522,
+                        350.6744791062495,
+                        436.2013729758699,
+                        1
+                      ],
+                      [
+                        725.7885479657843,
+                        350.6586933342783,
+                        435.50372717029126,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7367919,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.11.2(E,3228,1)0.",
+              "label_context_id": "5682e92a-0776-d2bb-5682-e92a0776d2bb",
+              "initial_feature_id": "5682e92a-0776-d2bb-5682-e92a0776d2bb"
+            },
+            "generated_by_verified": false,
+            "label": "Rename to TcPLM Part Description",
+            "generated_by": "Rename to TcPLM Part Description",
+            "generated_by_id": "0b7a9be0-2f6c-1f10-0b7a-9be02f6c1f10",
+            "length": 17.2787595948605,
+            "start_vertex": [
+              726.3244388388174,
+              339.6726809655938,
+              435.3610624972161
+            ],
+            "end_vertex": [
+              725.7885479657843,
+              350.6586933342783,
+              435.50372717029137
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 25.829811739363745,
+              "end_parameter": 43.108571334224244,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 2.729880142019483e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      8.551052144503243,
+                      12.870742043218366,
+                      17.19043194193349,
+                      21.510121840648615,
+                      25.82981173936374,
+                      30.149501638078867,
+                      34.46919153679399,
+                      38.78888143550912,
+                      43.108571334224244
+                    ],
+                    "control_points": [
+                      [
+                        725.7885479657843,
+                        350.6586933342784,
+                        435.5037271702913,
+                        1
+                      ],
+                      [
+                        725.2792052793669,
+                        350.64290756230685,
+                        434.80608136471244,
+                        1
+                      ],
+                      [
+                        724.7781267037661,
+                        350.45770367154876,
+                        434.10623549056504,
+                        1
+                      ],
+                      [
+                        724.31153733043,
+                        350.1037267546152,
+                        433.44009664965995,
+                        1
+                      ],
+                      [
+                        723.4976189175329,
+                        349.09637313426254,
+                        432.2470193800376,
+                        1
+                      ],
+                      [
+                        722.9899436812083,
+                        347.61859950342625,
+                        431.43516420760335,
+                        1
+                      ],
+                      [
+                        722.8297488125914,
+                        346.79397012091243,
+                        431.15043584239413,
+                        1
+                      ],
+                      [
+                        722.713907948859,
+                        345.06209227527,
+                        430.8540612607494,
+                        1
+                      ],
+                      [
+                        722.9981038955756,
+                        343.3426125459419,
+                        431.1056164135081,
+                        1
+                      ],
+                      [
+                        723.2381435130908,
+                        342.53038740619314,
+                        431.3690885387413,
+                        1
+                      ],
+                      [
+                        723.8882382054188,
+                        341.0884958888648,
+                        432.14302885545914,
+                        1
+                      ],
+                      [
+                        724.7978272039651,
+                        340.13455796625914,
+                        433.31063673660947,
+                        1
+                      ],
+                      [
+                        725.2974893551747,
+                        339.8105275404406,
+                        433.96797095463063,
+                        1
+                      ],
+                      [
+                        726.3327029496287,
+                        339.50326284680517,
+                        435.35886242864524,
+                        1
+                      ],
+                      [
+                        727.3348601008371,
+                        339.8736706283241,
+                        436.75855417694316,
+                        1
+                      ],
+                      [
+                        727.8014494741717,
+                        340.2276475452569,
+                        437.42469301784746,
+                        1
+                      ],
+                      [
+                        728.6153678870679,
+                        341.2350011656096,
+                        438.61777028746974,
+                        1
+                      ],
+                      [
+                        729.1230431233944,
+                        342.7127747964459,
+                        439.4296254599042,
+                        1
+                      ],
+                      [
+                        729.2832379920097,
+                        343.5374041789598,
+                        439.7143538251134,
+                        1
+                      ],
+                      [
+                        729.3990788557429,
+                        345.269282024602,
+                        440.0107284067578,
+                        1
+                      ],
+                      [
+                        729.1148829090253,
+                        346.9887617539304,
+                        439.7591732539995,
+                        1
+                      ],
+                      [
+                        728.8748432915112,
+                        347.80098689367895,
+                        439.4957011287661,
+                        1
+                      ],
+                      [
+                        728.2247485991824,
+                        349.2428784110075,
+                        438.7217608120483,
+                        1
+                      ],
+                      [
+                        727.3151596006369,
+                        350.19681633361296,
+                        437.5541529308979,
+                        1
+                      ],
+                      [
+                        726.815497449427,
+                        350.52084675943166,
+                        436.89681871287655,
+                        1
+                      ],
+                      [
+                        726.2978906522,
+                        350.6744791062495,
+                        436.2013729758699,
+                        1
+                      ],
+                      [
+                        725.7885479657843,
+                        350.6586933342783,
+                        435.50372717029126,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1885 @@
+{
+  "STEP_NUMBER": 175,
+  "ORIGINAL_FEATURE_INDEX": 36,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+    "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77",
+    "name": "草图.77",
+    "internal_name": "Sketch.77",
+    "type": "PRTSketch",
+    "body": "Handle_Screw_Matching_Part",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "bloc_children",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "name": "点.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6b275dc-8a35-2965-a6b2-75dc8a352965",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "469857b2-493b-a5e0-4698-57b2493ba5e0",
+              "name": "标记.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/投影.2/标记.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "标记.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "469857b2-493b-a5e0-4698-57b2493ba5e0",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "9aad6153-d8e0-5c15-9aad-6153d8e05c15",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "dac3bb14-b0e0-30d5-dac3-bb14b0e030d5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "89479b04-1bfc-438d-8947-9b041bfc438d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0a911fd-1145-4fa5-d0a9-11fd11454fa5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "dac3bb14-b0e0-30d5-dac3-bb14b0e030d5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "name": "点.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6b275dc-8a35-2965-a6b2-75dc8a352965",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "8e9186bf-0a0b-d614-8e91-86bf0a0bd614",
+              "name": "投影.2",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/投影.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "投影.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "8e9186bf-0a0b-d614-8e91-86bf0a0bd614",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "85910cc1-35d9-d05f-8591-0cc135d9d05f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "329557e8-025d-77e8-3295-57e8025d77e8",
+              "name": "相合.997",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/相合.997",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "相合.997",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "329557e8-025d-77e8-3295-57e8025d77e8",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "99c44098-9734-dddf-99c4-40989734dddf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a97c003f-158f-098d-a97c-003f158f098d",
+              "name": "半径.998",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/半径.998",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "半径.998",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a97c003f-158f-098d-a97c-003f158f098d",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "992b1c75-17ba-542f-992b-1c7517ba542f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolveManager",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "89479b04-1bfc-438d-8947-9b041bfc438d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AbsoluteAxis",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0a911fd-1145-4fa5-d0a9-11fd11454fa5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DefaultEltType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "LastReportName",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Geometries",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "a3fd99eb-5aa7-3085-a3fd-99eb5aa73085",
+              "name": "原点",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴/原点",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "原点",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a3fd99eb-5aa7-3085-a3fd-99eb5aa73085",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8db416a7-5fd2-069f-8db4-16a75fd2069f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Version",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1806
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolvingMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "HasADatum",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "InEdition",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConstructionGeomResultActive",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ShellResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "ec91fc94-f339-272c-ec91-fc94f339272c",
+      "name": "Output_Geometry",
+      "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 36
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Handle_Screw_Matching_Part",
+    "definition_sources": [
+      "native_features"
+    ],
+    "definition_status": "specialized_record",
+    "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77",
+    "id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "bloc_children",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "name": "点.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6b275dc-8a35-2965-a6b2-75dc8a352965",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "469857b2-493b-a5e0-4698-57b2493ba5e0",
+              "name": "标记.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/投影.2/标记.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "标记.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "469857b2-493b-a5e0-4698-57b2493ba5e0",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "9aad6153-d8e0-5c15-9aad-6153d8e05c15",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "dac3bb14-b0e0-30d5-dac3-bb14b0e030d5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "89479b04-1bfc-438d-8947-9b041bfc438d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0a911fd-1145-4fa5-d0a9-11fd11454fa5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "name": "圆.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/圆.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "圆.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "660bacd4-21f0-aeef-660b-acd421f0aeef",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "dac3bb14-b0e0-30d5-dac3-bb14b0e030d5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "name": "点.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/点.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "点.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ca4191fe-00b6-035a-ca41-91fe00b6035a",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "a6b275dc-8a35-2965-a6b2-75dc8a352965",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "8e9186bf-0a0b-d614-8e91-86bf0a0bd614",
+              "name": "投影.2",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/投影.2",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "投影.2",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "8e9186bf-0a0b-d614-8e91-86bf0a0bd614",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "85910cc1-35d9-d05f-8591-0cc135d9d05f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "329557e8-025d-77e8-3295-57e8025d77e8",
+              "name": "相合.997",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/相合.997",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "相合.997",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "329557e8-025d-77e8-3295-57e8025d77e8",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "99c44098-9734-dddf-99c4-40989734dddf",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          },
+          {
+            "feature": {
+              "id": "a97c003f-158f-098d-a97c-003f158f098d",
+              "name": "半径.998",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/半径.998",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "半径.998",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a97c003f-158f-098d-a97c-003f158f098d",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "992b1c75-17ba-542f-992b-1c7517ba542f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolveManager",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "name": "SolveManager.1",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/SolveManager.1",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "SolveManager.1",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "ffe908c7-f38f-b0dc-ffe9-08c7f38fb0dc",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "89479b04-1bfc-438d-8947-9b041bfc438d",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "AbsoluteAxis",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "name": "绝对轴",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "绝对轴",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6a4cf13a-8ef6-e51d-6a4c-f13a8ef6e51d",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "d0a911fd-1145-4fa5-d0a9-11fd11454fa5",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "DefaultEltType",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "LastReportName",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Geometries",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "a3fd99eb-5aa7-3085-a3fd-99eb5aa73085",
+              "name": "原点",
+              "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴/原点",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "原点",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a3fd99eb-5aa7-3085-a3fd-99eb5aa73085",
+              "owner_feature": "草图.77",
+              "owner_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "8db416a7-5fd2-069f-8db4-16a75fd2069f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Version",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1806
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SolvingMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "HasADatum",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Activity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "InEdition",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          false
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ConstructionGeomResultActive",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          1
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ShellResultMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "internal_name": "Sketch.77",
+    "name": "草图.77",
+    "native_export_complete": true,
+    "native_export_errors": [],
+    "native_source_topology": {
+      "dimension_0_cell_count": 2,
+      "dimension_1_cell_count": 2,
+      "dimension_2_cell_count": 0,
+      "geometry_interface_available": true,
+      "request_result_count": 0,
+      "source_updated": false,
+      "stored_body_available": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "ec91fc94-f339-272c-ec91-fc94f339272c",
+      "name": "Output_Geometry",
+      "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "native_features",
+        "feature": {
+          "id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+          "name": "草图.77",
+          "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77",
+          "native_source_topology": {
+            "dimension_0_cell_count": 2,
+            "dimension_1_cell_count": 2,
+            "dimension_2_cell_count": 0,
+            "geometry_interface_available": true,
+            "request_result_count": 0,
+            "source_updated": false,
+            "stored_body_available": true
+          },
+          "native_export_complete": true,
+          "native_export_errors": []
+        }
+      }
+    ],
+    "source_visibility": 1,
+    "type": "PRTSketch",
+    "support": "SketchSupport.1",
+    "positioning": {
+      "available": true,
+      "support_mode": 1,
+      "origin_mode": 4,
+      "orientation_mode": 0,
+      "orientation_direction": 1,
+      "h_sense": 1,
+      "v_sense": 1,
+      "normal_sense": 1,
+      "support_references": [
+        {
+          "id": "9ac0c5f1-65e2-48aa-9ac0-c5f165e248aa",
+          "name": "Support",
+          "full_path": "Handle_Base1/Handle_Screw_Matching_Part/KBE/Support",
+          "in_feature_catalog": true
+        }
+      ],
+      "origin_references": [
+        {
+          "id": "31eca6e8-6adf-591b-31ec-a6e86adf591b",
+          "name": "边线.1",
+          "full_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77/绝对轴/边线.1",
+          "in_feature_catalog": true
+        }
+      ],
+      "orientation_references": []
+    },
+    "axis": {
+      "root": [
+        716.2565443560622,
+        298.7397713997726,
+        441.53347489570456
+      ],
+      "h": [
+        -0.9044001735529172,
+        0.4266852775494525,
+        0
+      ],
+      "v": [
+        0.12711382287505826,
+        0.26942988079979746,
+        0.9545939531372988
+      ]
+    },
+    "profile_count": 1,
+    "profile_closed": false,
+    "geometries": [
+      {
+        "kind": "unknown",
+        "type": "CATI2DWFGeometry"
+      },
+      {
+        "kind": "circle",
+        "center": [
+          -5.587859508437987e-09,
+          1.30384755214763e-08
+        ],
+        "radius": 6.500000000000001
+      },
+      {
+        "kind": "point",
+        "xy": [
+          -5.587859508437987e-09,
+          1.30384755214763e-08
+        ]
+      },
+      {
+        "kind": "unknown",
+        "type": "CATI2DWFGeometry"
+      }
+    ],
+    "geometry_report_names": [
+      null,
+      [
+        1
+      ],
+      null,
+      null
+    ],
+    "profile_geometry_indices": [
+      1
+    ],
+    "geometry_ids": [
+      "e0ec520b-04cb-6dd9-e0ec-520b04cb6dd9",
+      "d9743d38-be98-99bc-d974-3d38be9899bc",
+      "110a5786-2c91-c4bb-110a-57862c91c4bb",
+      "4ab00566-9e53-3f2e-4ab0-05669e533f2e"
+    ],
+    "discretizations": [
+      {
+        "kind": "discretized_points",
+        "index": 1,
+        "count": 31,
+        "sag": 0.03676955262170048,
+        "points": [
+          [
+            6.499999994412141,
+            1.30384755214763e-08
+          ],
+          [
+            6.35333778392534,
+            1.372989063374837
+          ],
+          [
+            5.91996955369105,
+            2.684019464758428
+          ],
+          [
+            5.219451839894171,
+            3.873928565902381
+          ],
+          [
+            4.283396789116427,
+            4.8890195363291165
+          ],
+          [
+            3.154045602245325,
+            5.6834845343254115
+          ],
+          [
+            1.8823623228139157,
+            6.2214718698111025
+          ],
+          [
+            0.5257339910685104,
+            6.47870387760581
+          ],
+          [
+            -0.8546190514700284,
+            6.443572491595338
+          ],
+          [
+            -2.196405842195275,
+            6.117663080004232
+          ],
+          [
+            -3.439075791344227,
+            5.515682902747075
+          ],
+          [
+            -4.526551138409898,
+            4.664797419351798
+          ],
+          [
+            -5.4097575639305795,
+            3.603404397777133
+          ],
+          [
+            -6.048838758157654,
+            2.3794011447121286
+          ],
+          [
+            -6.41495501012931,
+            1.0480230517683382
+          ],
+          [
+            -6.491584652519606,
+            -0.33064900286813426
+          ],
+          [
+            -6.275269632177228,
+            -1.6943999142528683
+          ],
+          [
+            -5.775771561115993,
+            -2.981687921395995
+          ],
+          [
+            -5.015631205869974,
+            -4.134421792094204
+          ],
+          [
+            -4.029151294063974,
+            -5.100582296323
+          ],
+          [
+            -2.8608485409183877,
+            -5.836569669394618
+          ],
+          [
+            -1.563444750831416,
+            -6.309171131301348
+          ],
+          [
+            -0.19548764926401585,
+            -6.497059674325486
+          ],
+          [
+            1.1812911907478154,
+            -6.391756483376246
+          ],
+          [
+            2.5047620990417427,
+            -5.998013558070833
+          ],
+          [
+            3.715201023640731,
+            -5.333599270036583
+          ],
+          [
+            4.757984688132179,
+            -4.428496532554146
+          ],
+          [
+            5.586055567194906,
+            -3.323549766607161
+          ],
+          [
+            6.162045443732575,
+            -2.068621721476869
+          ],
+          [
+            6.4599617182033295,
+            -0.7203433267327123
+          ],
+          [
+            6.499999994412141,
+            1.3038473929435462e-08
+          ]
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "id": "69454ad3-f005-0f34-6945-4ad3f0050f34",
+        "name": "半径.998",
+        "kind": "Radius",
+        "type": "ConstraintDYS",
+        "scope": "internal",
+        "geometry_indices": [
+          1
+        ],
+        "geometry_ids": [
+          "d9743d38-be98-99bc-d974-3d38be9899bc"
+        ],
+        "participants_resolved": true,
+        "external_elements": [],
+        "value": "CstAttr_Dimension_x1"
+      },
+      {
+        "id": "81011b3c-4e65-1be5-8101-1b3c4e651be5",
+        "name": "相合.997",
+        "kind": "On",
+        "type": "ConstraintDYS",
+        "scope": "external",
+        "geometry_indices": [
+          2
+        ],
+        "geometry_ids": [
+          "110a5786-2c91-c4bb-110a-57862c91c4bb"
+        ],
+        "participants_resolved": true,
+        "external_elements": [],
+        "value": ""
+      }
+    ],
+    "intersected_geometries": []
+  },
+  "DEPENDENCIES": [
+    "9ac0c5f1-65e2-48aa-9ac0-c5f165e248aa",
+    "ec91fc94-f339-272c-ec91-fc94f339272c"
+  ],
+  "GEOMETRY": {
+    "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry/草图.77": {
+      "topology": {
+        "body": "Output_Geometry",
+        "result_feature": "草图.77",
+        "face_count": 0,
+        "edge_count": 2,
+        "vertex_count": 0,
+        "shell_count": 0,
+        "loop_count": 1,
+        "lump_count": 0,
+        "volume_count": 0,
+        "face_types": {},
+        "faces": [],
+        "shells": [],
+        "loops": [
+          {
+            "index": 1,
+            "edge_count": 2,
+            "edge_start": 1
+          }
+        ],
+        "edges": [
+          {
+            "index": 1,
+            "length": 20.420352248333657,
+            "start": [
+              710.3779432346793,
+              301.5132257049728,
+              441.533474908151
+            ],
+            "end": [
+              722.1351454908672,
+              295.9663170968299,
+              441.533474908151
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "length": 20.420352248333657,
+            "start": [
+              722.1351454908672,
+              295.9663170968299,
+              441.533474908151
+            ],
+            "end": [
+              710.3779432346793,
+              301.5132257049728,
+              441.533474908151
+            ],
+            "sub_curves": [
+              {
+                "type": "OtherCurve"
+              }
+            ]
+          }
+        ],
+        "vertices": []
+      },
+      "adjacency": {
+        "index": 36,
+        "body_name": "Output_Geometry",
+        "result_name": "草图.77",
+        "source_feature_id": "ec91fc94-f339-272c-ec91-fc94f339272c",
+        "source_feature_path": "Handle_Base1/Handle_Screw_Matching_Part/Output_Geometry",
+        "result_id": "bdb44a88-a9ca-5710-bdb4-4a88a9ca5710",
+        "face_count": 0,
+        "edge_count": 2,
+        "faces": [],
+        "edges": [
+          {
+            "id": 0,
+            "cgm_tag": 7492560,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.11.2(E,5221,1)0.",
+              "label_context_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "initial_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06"
+            },
+            "generated_by_verified": false,
+            "label": "Output_Geometry",
+            "generated_by": "Output_Geometry",
+            "generated_by_id": "ec91fc94-f339-272c-ec91-fc94f339272c",
+            "length": 20.420352248333657,
+            "start_vertex": [
+              710.3779432346793,
+              301.5132257049728,
+              441.533474908151
+            ],
+            "end_vertex": [
+              722.1351454908672,
+              295.9663170968299,
+              441.533474908151
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 0,
+              "end_parameter": 20.420352248333657,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 3.22622197827774e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      5.105088062083414,
+                      10.210176124166829,
+                      15.315264186250243,
+                      20.420352248333657,
+                      25.52544031041707,
+                      30.630528372500486,
+                      35.7356164345839,
+                      40.840704496667314
+                    ],
+                    "control_points": [
+                      [
+                        710.3779432346793,
+                        301.5132257049728,
+                        441.533474908151,
+                        1
+                      ],
+                      [
+                        710.5077286866155,
+                        301.7883183585804,
+                        442.5081321470099,
+                        1
+                      ],
+                      [
+                        710.8188249746995,
+                        301.97787070967155,
+                        443.48278938587214,
+                        1
+                      ],
+                      [
+                        711.304730959836,
+                        302.0676386305761,
+                        444.4072789957856,
+                        1
+                      ],
+                      [
+                        712.5737987434253,
+                        302.03793178637244,
+                        446.0562954827155,
+                        1
+                      ],
+                      [
+                        714.2836133177176,
+                        301.6135048731273,
+                        447.16402596750714,
+                        1
+                      ],
+                      [
+                        715.2104838858238,
+                        301.3083576765468,
+                        447.5469621022079,
+                        1
+                      ],
+                      [
+                        717.1082675253577,
+                        300.54507994232694,
+                        447.92970910487924,
+                        1
+                      ],
+                      [
+                        718.9041179093049,
+                        299.5657449431993,
+                        447.5469621022076,
+                        1
+                      ],
+                      [
+                        719.7290048521452,
+                        299.0444337183696,
+                        447.16402596750754,
+                        1
+                      ],
+                      [
+                        721.1438084300371,
+                        297.9947028389824,
+                        446.05629548271503,
+                        1
+                      ],
+                      [
+                        721.9737098247132,
+                        297.03414091435445,
+                        444.4072789957862,
+                        1
+                      ],
+                      [
+                        722.2134055585979,
+                        296.60204270656357,
+                        443.4827893858709,
+                        1
+                      ],
+                      [
+                        722.3164563270107,
+                        295.880776794312,
+                        441.5334749081506,
+                        1
+                      ],
+                      [
+                        721.6942637508497,
+                        295.5016720921319,
+                        439.58416043043195,
+                        1
+                      ],
+                      [
+                        721.2083577657093,
+                        295.41190417122607,
+                        438.65967082051526,
+                        1
+                      ],
+                      [
+                        719.9392899821225,
+                        295.44161101543057,
+                        437.0106543335877,
+                        1
+                      ],
+                      [
+                        718.229475407828,
+                        295.86603792867515,
+                        435.9029238487938,
+                        1
+                      ],
+                      [
+                        717.3026048397231,
+                        296.17118512525593,
+                        435.5199877140948,
+                        1
+                      ],
+                      [
+                        715.4048212001884,
+                        296.9344628594756,
+                        435.1372407114226,
+                        1
+                      ],
+                      [
+                        713.6089708162419,
+                        297.91379785860335,
+                        435.5199877140943,
+                        1
+                      ],
+                      [
+                        712.7840838734008,
+                        298.4351090834333,
+                        435.90292384879444,
+                        1
+                      ],
+                      [
+                        711.3692802955106,
+                        299.48483996282016,
+                        437.01065433358724,
+                        1
+                      ],
+                      [
+                        710.5393789008323,
+                        300.44540188744793,
+                        438.6596708205151,
+                        1
+                      ],
+                      [
+                        710.2996831669499,
+                        300.8775000952396,
+                        439.5841604304317,
+                        1
+                      ],
+                      [
+                        710.2481577827422,
+                        301.2381330513645,
+                        440.55881766929116,
+                        1
+                      ],
+                      [
+                        710.3779432346794,
+                        301.51322570497274,
+                        441.5334749081509,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          },
+          {
+            "id": 1,
+            "cgm_tag": 7492561,
+            "brep_reference": {
+              "available": true,
+              "label": "Z10G510904B14.W.11.2(E,5221,1)0.",
+              "label_context_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06",
+              "initial_feature_id": "e0d71d25-bb71-fe06-e0d7-1d25bb71fe06"
+            },
+            "generated_by_verified": false,
+            "label": "Output_Geometry",
+            "generated_by": "Output_Geometry",
+            "generated_by_id": "ec91fc94-f339-272c-ec91-fc94f339272c",
+            "length": 20.420352248333657,
+            "start_vertex": [
+              722.1351454908672,
+              295.9663170968299,
+              441.533474908151
+            ],
+            "end_vertex": [
+              710.3779432346793,
+              301.5132257049728,
+              441.533474908151
+            ],
+            "curve": {
+              "available": true,
+              "orientation": 1,
+              "start_parameter": 20.420352248333657,
+              "end_parameter": 40.840704496667314,
+              "sub_curves": [
+                {
+                  "index": 0,
+                  "curve_type": "NURBSConverted",
+                  "definition_available": true,
+                  "representation": "nurbs_conversion",
+                  "exact": false,
+                  "requested_deviation_mm": 0.0001,
+                  "max_deviation_mm": 3.22622197827774e-05,
+                  "same_parameterization_requested": true,
+                  "nurbs": {
+                    "curve_type": "NURBS",
+                    "definition_available": true,
+                    "degree": 5,
+                    "multiplicities": [
+                      6,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      6
+                    ],
+                    "periodic": false,
+                    "rational": false,
+                    "knots": [
+                      0,
+                      5.105088062083414,
+                      10.210176124166829,
+                      15.315264186250243,
+                      20.420352248333657,
+                      25.52544031041707,
+                      30.630528372500486,
+                      35.7356164345839,
+                      40.840704496667314
+                    ],
+                    "control_points": [
+                      [
+                        710.3779432346793,
+                        301.5132257049728,
+                        441.533474908151,
+                        1
+                      ],
+                      [
+                        710.5077286866155,
+                        301.7883183585804,
+                        442.5081321470099,
+                        1
+                      ],
+                      [
+                        710.8188249746995,
+                        301.97787070967155,
+                        443.48278938587214,
+                        1
+                      ],
+                      [
+                        711.304730959836,
+                        302.0676386305761,
+                        444.4072789957856,
+                        1
+                      ],
+                      [
+                        712.5737987434253,
+                        302.03793178637244,
+                        446.0562954827155,
+                        1
+                      ],
+                      [
+                        714.2836133177176,
+                        301.6135048731273,
+                        447.16402596750714,
+                        1
+                      ],
+                      [
+                        715.2104838858238,
+                        301.3083576765468,
+                        447.5469621022079,
+                        1
+                      ],
+                      [
+                        717.1082675253577,
+                        300.54507994232694,
+                        447.92970910487924,
+                        1
+                      ],
+                      [
+                        718.9041179093049,
+                        299.5657449431993,
+                        447.5469621022076,
+                        1
+                      ],
+                      [
+                        719.7290048521452,
+                        299.0444337183696,
+                        447.16402596750754,
+                        1
+                      ],
+                      [
+                        721.1438084300371,
+                        297.9947028389824,
+                        446.05629548271503,
+                        1
+                      ],
+                      [
+                        721.9737098247132,
+                        297.03414091435445,
+                        444.4072789957862,
+                        1
+                      ],
+                      [
+                        722.2134055585979,
+                        296.60204270656357,
+                        443.4827893858709,
+                        1
+                      ],
+                      [
+                        722.3164563270107,
+                        295.880776794312,
+                        441.5334749081506,
+                        1
+                      ],
+                      [
+                        721.6942637508497,
+                        295.5016720921319,
+                        439.58416043043195,
+                        1
+                      ],
+                      [
+                        721.2083577657093,
+                        295.41190417122607,
+                        438.65967082051526,
+                        1
+                      ],
+                      [
+                        719.9392899821225,
+                        295.44161101543057,
+                        437.0106543335877,
+                        1
+                      ],
+                      [
+                        718.229475407828,
+                        295.86603792867515,
+                        435.9029238487938,
+                        1
+                      ],
+                      [
+                        717.3026048397231,
+                        296.17118512525593,
+                        435.5199877140948,
+                        1
+                      ],
+                      [
+                        715.4048212001884,
+                        296.9344628594756,
+                        435.1372407114226,
+                        1
+                      ],
+                      [
+                        713.6089708162419,
+                        297.91379785860335,
+                        435.5199877140943,
+                        1
+                      ],
+                      [
+                        712.7840838734008,
+                        298.4351090834333,
+                        435.90292384879444,
+                        1
+                      ],
+                      [
+                        711.3692802955106,
+                        299.48483996282016,
+                        437.01065433358724,
+                        1
+                      ],
+                      [
+                        710.5393789008323,
+                        300.44540188744793,
+                        438.6596708205151,
+                        1
+                      ],
+                      [
+                        710.2996831669499,
+                        300.8775000952396,
+                        439.5841604304317,
+                        1
+                      ],
+                      [
+                        710.2481577827422,
+                        301.2381330513645,
+                        440.55881766929116,
+                        1
+                      ],
+                      [
+                        710.3779432346794,
+                        301.51322570497274,
+                        441.5334749081509,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjacent_faces": [],
+            "convexity": "unknown"
+          }
+        ]
+      }
+    }
+  }
+}

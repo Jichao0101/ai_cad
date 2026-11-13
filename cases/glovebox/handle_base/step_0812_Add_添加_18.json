@@ -1,0 +1,574 @@
+{
+  "STEP_NUMBER": 812,
+  "ORIGINAL_FEATURE_INDEX": 2334,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+    "full_path": "Handle_Base1/Top Limint/添加.18",
+    "name": "添加.18",
+    "internal_name": "Add.18",
+    "type": "Add",
+    "body": "Top Limint",
+    "activity": "true",
+    "source_visibility": 1,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "a21f1c24-9bdb-dc3f-a21f-1c249bdbdc3f",
+              "name": "实体.103",
+              "full_path": "Handle_Base1/Top Limint/添加.18/实体.103",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.103",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a21f1c24-9bdb-dc3f-a21f-1c249bdbdc3f",
+              "owner_feature": "添加.18",
+              "owner_feature_id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b67b5482-93aa-a40f-b67b-548293aaa40f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "2a768748-7951-dc94-2a76-87487951dc94",
+              "name": "实体.104",
+              "full_path": "Handle_Base1/Top Limint/凸台.22/实体.104",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.104",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "2a768748-7951-dc94-2a76-87487951dc94",
+              "owner_feature": "添加.18",
+              "owner_feature_id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "655aa016-a5ec-6005-655a-a016a5ec6005",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "6e675644-c29c-eb35-6e67-5644c29ceb35",
+              "name": "几何体.32",
+              "full_path": "Handle_Base1/几何体.32",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "几何体.32",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6e675644-c29c-eb35-6e67-5644c29ceb35",
+              "owner_feature": "添加.18",
+              "owner_feature_id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f44a8faf-923a-54b7-f44a-8faf923a54b7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CreateContext",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "6b14ad9f-342e-dbdc-6b14-ad9f342edbdc",
+      "name": "Top Limint",
+      "full_path": "Handle_Base1/Top Limint",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "7ee407ce-c97a-7083-7ee4-07cec97a7083",
+      "name": "凸台.22",
+      "full_path": "Handle_Base1/Top Limint/凸台.22",
+      "in_feature_catalog": true
+    },
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "order": 2334
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "Top Limint",
+    "definition_sources": [
+      "boolean_operations"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "实体.104",
+    "first_operand_id": "2a768748-7951-dc94-2a76-87487951dc94",
+    "first_operand_inferred_from_result_body": false,
+    "first_operand_path": "Handle_Base1/Top Limint/凸台.22/实体.104",
+    "full_path": "Handle_Base1/Top Limint/添加.18",
+    "id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "a21f1c24-9bdb-dc3f-a21f-1c249bdbdc3f",
+              "name": "实体.103",
+              "full_path": "Handle_Base1/Top Limint/添加.18/实体.103",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.103",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "a21f1c24-9bdb-dc3f-a21f-1c249bdbdc3f",
+              "owner_feature": "添加.18",
+              "owner_feature_id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "b67b5482-93aa-a40f-b67b-548293aaa40f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ResultIN",
+        "value_type": 23,
+        "is_list": false,
+        "values": [
+          {
+            "feature": {
+              "id": "2a768748-7951-dc94-2a76-87487951dc94",
+              "name": "实体.104",
+              "full_path": "Handle_Base1/Top Limint/凸台.22/实体.104",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.104",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "2a768748-7951-dc94-2a76-87487951dc94",
+              "owner_feature": "添加.18",
+              "owner_feature_id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "655aa016-a5ec-6005-655a-a016a5ec6005",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "6e675644-c29c-eb35-6e67-5644c29ceb35",
+              "name": "几何体.32",
+              "full_path": "Handle_Base1/几何体.32",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "几何体.32",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "6e675644-c29c-eb35-6e67-5644c29ceb35",
+              "owner_feature": "添加.18",
+              "owner_feature_id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "f44a8faf-923a-54b7-f44a-8faf923a54b7",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CreateContext",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "interface_available": true,
+    "internal_name": "Add.18",
+    "name": "添加.18",
+    "next_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "parent": {
+      "id": "6b14ad9f-342e-dbdc-6b14-ad9f342edbdc",
+      "name": "Top Limint",
+      "full_path": "Handle_Base1/Top Limint",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "7ee407ce-c97a-7083-7ee4-07cec97a7083",
+      "name": "凸台.22",
+      "full_path": "Handle_Base1/Top Limint/凸台.22",
+      "in_feature_catalog": true
+    },
+    "reconstruction_ready": true,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "添加.18",
+          "type": "Add",
+          "id": "e81b7f05-dd89-9e1f-e81b-7f05dd899e1f",
+          "full_path": "Handle_Base1/Top Limint/添加.18",
+          "body": "Top Limint",
+          "tool_body": "几何体.32",
+          "tool_body_path": "Handle_Base1/几何体.32",
+          "tool_body_id": "6e675644-c29c-eb35-6e67-5644c29ceb35",
+          "first_operand": "实体.104",
+          "first_operand_path": "Handle_Base1/Top Limint/凸台.22/实体.104",
+          "first_operand_id": "2a768748-7951-dc94-2a76-87487951dc94",
+          "second_operand": "实体.105",
+          "second_operand_path": "Handle_Base1/几何体.32/凸台.23/实体.105",
+          "second_operand_id": "72c1a801-4e9a-ec6b-72c1-a8014e9aec6b",
+          "interface_available": true,
+          "first_operand_inferred_from_result_body": false,
+          "reconstruction_ready": true,
+          "activity": "true"
+        }
+      }
+    ],
+    "second_operand": "实体.105",
+    "second_operand_id": "72c1a801-4e9a-ec6b-72c1-a8014e9aec6b",
+    "second_operand_path": "Handle_Base1/几何体.32/凸台.23/实体.105",
+    "source_visibility": 1,
+    "tool_body": "几何体.32",
+    "tool_body_id": "6e675644-c29c-eb35-6e67-5644c29ceb35",
+    "tool_body_path": "Handle_Base1/几何体.32",
+    "type": "Add"
+  },
+  "DEPENDENCIES": [
+    "6b14ad9f-342e-dbdc-6b14-ad9f342edbdc",
+    "6e675644-c29c-eb35-6e67-5644c29ceb35",
+    "7ee407ce-c97a-7083-7ee4-07cec97a7083",
+    "8e3dac2b-e054-866b-8e3d-ac2be054866b"
+  ],
+  "GEOMETRY": {}
+}

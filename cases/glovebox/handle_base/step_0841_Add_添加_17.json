@@ -1,0 +1,503 @@
+{
+  "STEP_NUMBER": 841,
+  "ORIGINAL_FEATURE_INDEX": 2181,
+  "SUPPORTED": true,
+  "RECORD": {
+    "id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+    "full_path": "Handle_Base1/几何体.27/添加.17",
+    "name": "添加.17",
+    "internal_name": "Add.17",
+    "type": "Add",
+    "body": "几何体.27",
+    "activity": "true",
+    "source_visibility": 0,
+    "input_attributes_available": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "e57bd63a-6d34-4b37-e57b-d63a6d344b37",
+              "name": "实体.95",
+              "full_path": "Handle_Base1/几何体.27/添加.17/实体.95",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.95",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e57bd63a-6d34-4b37-e57b-d63a6d344b37",
+              "owner_feature": "添加.17",
+              "owner_feature_id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4e4f9820-a609-dc6f-4e4f-9820a609dc6f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+              "name": "C block set",
+              "full_path": "Handle_Base1/C block set",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "C block set",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+              "owner_feature": "添加.17",
+              "owner_feature_id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4b669748-b291-c203-4b66-9748b291c203",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CreateContext",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "parent": {
+      "id": "3ff807f4-07ab-1613-3ff8-07f407ab1613",
+      "name": "几何体.27",
+      "full_path": "Handle_Base1/几何体.27",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "next_shape": {
+      "id": "ad490d47-a6ca-4775-ad49-0d47a6ca4775",
+      "name": "移除.18",
+      "full_path": "Handle_Base1/几何体.27/移除.18",
+      "in_feature_catalog": true
+    },
+    "order": 2181
+  },
+  "DEFINITION": {
+    "activity": "true",
+    "body": "几何体.27",
+    "definition_sources": [
+      "boolean_operations"
+    ],
+    "definition_status": "specialized_record",
+    "first_operand": "",
+    "first_operand_id": "",
+    "first_operand_inferred_from_result_body": true,
+    "first_operand_path": "",
+    "full_path": "Handle_Base1/几何体.27/添加.17",
+    "id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+    "in_feature_catalog": true,
+    "input_attributes": [
+      {
+        "attribute_name": "fixed",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          2
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_FtrList",
+        "value_type": 26,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "e57bd63a-6d34-4b37-e57b-d63a6d344b37",
+              "name": "实体.95",
+              "full_path": "Handle_Base1/几何体.27/添加.17/实体.95",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "实体.95",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "e57bd63a-6d34-4b37-e57b-d63a6d344b37",
+              "owner_feature": "添加.17",
+              "owner_feature_id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4e4f9820-a609-dc6f-4e4f-9820a609dc6f",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "_AlgorithmConfiguration",
+        "value_type": 10,
+        "is_list": true,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "value_type_supported": false
+      },
+      {
+        "attribute_name": "NewActivity",
+        "value_type": 8,
+        "is_list": false,
+        "values": [
+          true
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "FeatureKeep",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          4
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "Context",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "ToolList",
+        "value_type": 23,
+        "is_list": true,
+        "values": [
+          {
+            "feature": {
+              "id": "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+              "name": "C block set",
+              "full_path": "Handle_Base1/C block set",
+              "in_feature_catalog": true
+            },
+            "selection": {
+              "role": "attribute_reference",
+              "label": "C block set",
+              "label_is_generic_naming": 0,
+              "source_feature_id": "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+              "owner_feature": "添加.17",
+              "owner_feature_id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+              "owner_id_strategy": "feature_catalog_path_and_type",
+              "selection_id": "4b669748-b291-c203-4b66-9748b291c203",
+              "reference_kind": "feature",
+              "valid": true,
+              "automation_brep_name": "",
+              "support_feature": "",
+              "brep_type": "Feature",
+              "resolved_brep_count": 0,
+              "missing_reason": "",
+              "resolved_breps": []
+            },
+            "is_null": false
+          }
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "SimplificationMode",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      },
+      {
+        "attribute_name": "CreateContext",
+        "value_type": 28,
+        "is_list": false,
+        "values": [
+          0
+        ],
+        "value_type_supported": true
+      }
+    ],
+    "input_attributes_available": true,
+    "interface_available": true,
+    "internal_name": "Add.17",
+    "name": "添加.17",
+    "next_shape": {
+      "id": "ad490d47-a6ca-4775-ad49-0d47a6ca4775",
+      "name": "移除.18",
+      "full_path": "Handle_Base1/几何体.27/移除.18",
+      "in_feature_catalog": true
+    },
+    "parent": {
+      "id": "3ff807f4-07ab-1613-3ff8-07f407ab1613",
+      "name": "几何体.27",
+      "full_path": "Handle_Base1/几何体.27",
+      "in_feature_catalog": true
+    },
+    "previous_shape": {
+      "id": "",
+      "name": "",
+      "full_path": "",
+      "in_feature_catalog": false
+    },
+    "reconstruction_ready": true,
+    "replay_verified": false,
+    "representations": [
+      {
+        "source": "boolean_operations",
+        "feature": {
+          "name": "添加.17",
+          "type": "Add",
+          "id": "45929e66-66ac-25cb-4592-9e6666ac25cb",
+          "full_path": "Handle_Base1/几何体.27/添加.17",
+          "body": "几何体.27",
+          "tool_body": "C block set",
+          "tool_body_path": "Handle_Base1/C block set",
+          "tool_body_id": "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+          "first_operand": "",
+          "first_operand_path": "",
+          "first_operand_id": "",
+          "second_operand": "实体.96",
+          "second_operand_path": "Handle_Base1/C block set/拔模.14/实体.96",
+          "second_operand_id": "2e7ca269-f398-e1f3-2e7c-a269f398e1f3",
+          "interface_available": true,
+          "first_operand_inferred_from_result_body": true,
+          "reconstruction_ready": true,
+          "activity": "true"
+        }
+      }
+    ],
+    "second_operand": "实体.96",
+    "second_operand_id": "2e7ca269-f398-e1f3-2e7c-a269f398e1f3",
+    "second_operand_path": "Handle_Base1/C block set/拔模.14/实体.96",
+    "source_visibility": 0,
+    "tool_body": "C block set",
+    "tool_body_id": "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+    "tool_body_path": "Handle_Base1/C block set",
+    "type": "Add"
+  },
+  "DEPENDENCIES": [
+    "2ebc146a-d4ee-7358-2ebc-146ad4ee7358",
+    "3ff807f4-07ab-1613-3ff8-07f407ab1613",
+    "ec601eba-75a9-142e-ec60-1eba75a9142e"
+  ],
+  "GEOMETRY": {}
+}
