@@ -1,0 +1,9 @@
+{
+  "id": "glovebox-circle-pad-v1",
+  "checkpoint_steps": [249, 671],
+  "attempt_steps": [701, 794, "measure"],
+  "max_attempts": 4,
+  "volume_tolerance_mm3": 0.001,
+  "placement_policy": "frozen_exported_frame",
+  "retry_policy": "restore_checkpoint_for_each_candidate"
+}
