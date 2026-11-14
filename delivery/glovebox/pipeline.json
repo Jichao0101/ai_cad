@@ -1,0 +1,67 @@
+{
+  "id": "glovebox-circle-pad",
+  "version": 3,
+  "parameters": {
+    "radius_mm": {
+      "unit": "mm",
+      "default": 5.5,
+      "source": "historical circle 701; rounded evaluated radius",
+      "policy_min": "radius_min_mm",
+      "policy_max": "radius_max_mm"
+    }
+  },
+  "steps": [
+    {
+      "id": "bottom",
+      "operation": "create_reference_plane",
+      "inputs": {},
+      "parameters": {
+        "source_step": 249
+      },
+      "output": "bottom_plane"
+    },
+    {
+      "id": "top",
+      "operation": "create_reference_plane",
+      "inputs": {},
+      "parameters": {
+        "source_step": 671
+      },
+      "output": "top_plane"
+    },
+    {
+      "id": "profile",
+      "operation": "create_circle_sketch",
+      "inputs": {
+        "support": "top_plane"
+      },
+      "parameters": {
+        "radius_mm": {
+          "parameter": "radius_mm"
+        }
+      },
+      "output": "circle"
+    },
+    {
+      "id": "pad",
+      "operation": "create_pad_up_to_plane",
+      "inputs": {
+        "profile": "circle",
+        "limit": "bottom_plane"
+      },
+      "parameters": {},
+      "output": "solid"
+    }
+  ],
+  "check": {
+    "after_step": "pad",
+    "target": "solid",
+    "checks": [
+      "minimum_volume"
+    ]
+  },
+  "recovery": {
+    "mode": "parameter_decision",
+    "max_builds": 4
+  }
+}
