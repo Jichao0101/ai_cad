@@ -18,7 +18,14 @@
 
 结果位于`runs/steering-integrated-时间戳/`：`result.json`记录汇总，`start.json`和`resume.json`保留实际请求，`handover/`包含最终CATPart、STEP、基准和检查报告。目录中的请求绑定当次运行及revision，查看请求可理解调用方式，不要直接重放已经过期的resume。
 
-模型参与的同一流程可使用开发宿主，用户输入示例：“使用方向盘骨架Skill，首次轮圈半径5毫米；体积检查失败后改为5.5毫米，继续同一运行，不修改检查条件，保持模型打开。”向`dev/qwen_steering_acceptance.py`传入该文字，并指定`--flow tests/fixtures/steering_integrated_flow.json --allow-cloud --keep-open`。此路径需要已配置的开发API；上面的独立脚本入口不需要。
+模型参与时，使用已配置开发API的宿主执行同一份流程：
+
+```powershell
+$requirement = "使用方向盘骨架Skill，首次轮圈截面半径5毫米；组合体积检查失败后改为5.5毫米，继续同一运行，不修改检查条件。完成STEP检查和发布引用，中文报告测量、保存结果和DS状态，保持模型打开。"
+.\.venv\Scripts\python.exe -X utf8 dev/qwen_steering_acceptance.py $requirement --flow tests/fixtures/steering_integrated_flow.json --allow-cloud --keep-open
+```
+
+Qwen入口保存会话和运行至`runs/qwen-steering-时间戳/`，模型只负责参数和恢复决策，工序仍由执行器推进。该入口会打开成功阶段模型；独立集成验证入口还会执行干净构建对照及移交包导出，两者的验收范围不同。无需在正常模型建模时重复执行干净构建。
 
 这是合成骨架工序集成，尚不包含真实CAS选面、HUB/附件库、CAE加料和完整业务DS。无需为了使用此演示逐个运行下列专项验证。
 

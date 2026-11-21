@@ -481,3 +481,11 @@ B45仍缺矩形扫掠末端转角。dev/probe_rectangle_endpoints.py在自有副
 移交包含CATPart、STEP、基准和两份检查报告，共5个哈希文件；导出不改变运行state。重开移交CATPart后体积保持，实体/轴系Publication可解析，主Body显示、辅助Body隐藏，最终模型保持打开。ds_status仍为not_evaluated。源码62项测试通过。
 
 README改为统一入口优先，专项验证保留各自独立故障覆盖职责。包构建器新增verify-skeleton.bat，包说明同步使用该入口；已冻结v3包未修改。完整业务缺口仍见STATUS，本次合成流程没有替代CAS选面、HUB/附件库、CAE或业务DS，也未把矩形端面实验直接接入桥接。
+
+## 2026-11-21 Skill/Qwen驱动集成骨架流程
+
+在统一CLI集成验证之后，以自然语言需求和现有steering-wheel-design Skill调用qwen-plus，使用同一份steering_integrated_flow.json。模型仅依次调用get_workflow、start_build、resume_build，没有逐步调用CAD，也没有新建运行绕过失败。证据runs/qwen-steering-20261121-183301-711948/transcript.json，SHA256为265253f90424def734a86ad84c3c705d01b0be3e8f4f28e07d6233927ff542ac；同目录audit.json保存独立读回核验。
+
+同一个steering-ebc2486629224be99568fa1854ed124a运行首次半径5mm、默认厚度8.4mm，组合体积93258.92771095454mm³未达固定100000～110000mm³要求。模型仅改半径5.5mm，最终体积103463.50877209094mm³，STEP实体数1；执行器重建rim/rim_mirror/union/domains/publications，保留datum/baffle/spoke/spoke_mirror。流程及检查条件保持，全部最终资产磁盘哈希一致。
+
+工具返回published_skeleton已保存及model_kept_open=true，最终中文报告正确区分机制检查通过与DS未评估。README补入可直接复制的PowerShell自然语言调用示例，并说明模型入口不自动重复干净构建或导出移交包；这些额外验证由上一节独立集成入口执行。未修改Skill或执行代码，本轮为既有接口的完整集成验收；真实业务缺口仍未关闭。
