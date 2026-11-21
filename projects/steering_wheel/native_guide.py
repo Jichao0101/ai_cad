@@ -32,7 +32,41 @@ def _circle_end_sections(doc,reference,support,radius):
         if abs(alignment)<1e-8:raise ValueError('Endpoint plane cannot determine guide orientation')
         if alignment<0:x=[-v for v in x]
         result[label]={'center_mm':coordinates[0],'x':x,'y':y,'radius_mm':radius}
+    _verify_circle_end_faces(doc,result)
     return {'coordinate_system':'design_global','section_kind':'circle','sections':result}
+
+
+def _verify_circle_end_faces(doc,end_sections):
+    """将引导线推导的圆截面与实际Rib端面核对；容差仅用于几何身份一致性。"""
+    import pythoncom,win32com.client
+    selection=doc.Selection;selection.Clear();selection.Add(doc.Part.MainBody)
+    try:
+        selection.Search('Topology.CGMFace,sel')
+        references=[selection.Item2(i).Reference for i in range(1,selection.Count2+1)]
+    finally:selection.Clear()
+    spa=doc.GetWorkbench('SPAWorkbench');faces=[]
+    for reference in references:
+        measured=spa.GetMeasurable(reference)
+        # 本机SPA实际平面端面的GeometryName为7；不将侧面近似成端面。
+        if measured.GeometryName!=7:continue
+        center=win32com.client.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_ARRAY|pythoncom.VT_VARIANT,[0.0]*3)
+        plane=win32com.client.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_ARRAY|pythoncom.VT_VARIANT,[0.0]*9)
+        for method,value in [('GetCOG',center),('GetPlane',plane)]:
+            measured._oleobj_.Invoke(measured._oleobj_.GetIDsOfNames(method),0,1,0,value)
+        x,y=list(plane.value[3:6]),list(plane.value[6:9])
+        normal=unit([x[1]*y[2]-x[2]*y[1],x[2]*y[0]-x[0]*y[2],x[0]*y[1]-x[1]*y[0]])
+        faces.append((list(center.value),normal,measured.Area*1e6))
+    matched=[]
+    for label,spec in end_sections.items():
+        x,y=spec['x'],spec['y']
+        normal=unit([x[1]*y[2]-x[2]*y[1],x[2]*y[0]-x[0]*y[2],x[0]*y[1]-x[1]*y[0]])
+        expected_area=math.pi*spec['radius_mm']**2
+        candidates=[i for i,(center,axis,area) in enumerate(faces)
+                    if math.dist(center,spec['center_mm'])<=1e-6
+                    and abs(abs(dot(normal,axis))-1)<=1e-8 and abs(area-expected_area)<=1e-6]
+        if len(candidates)!=1 or candidates[0] in matched:
+            raise ValueError('Sweep endpoint does not match one distinct planar circular cap: '+label)
+        matched.append(candidates[0])
 
 
 def create(doc,object_path,radius=None,start_fraction=0,end_fraction=1,rectangle=None):

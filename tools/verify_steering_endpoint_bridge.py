@@ -1,9 +1,10 @@
 """上游原生圆截面扫掠端部读回、绑定桥接及分支改参恢复。"""
 import json,sys
+from copy import deepcopy
 from pathlib import Path
 from datetime import datetime
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from projects.steering_wheel import runtime
+from projects.steering_wheel import runtime,native_guide
 
 
 def main():
@@ -64,10 +65,23 @@ def main():
         volume=doc.GetWorkbench('SPAWorkbench').GetMeasurable(doc.Part.CreateReferenceFromObject(doc.Part.MainBody)).Volume*1e9
         assert abs(volume-after)<1e-6
     finally:doc.Close()
+    # 保存重开后仍能匹配真实端面；错误尺寸、位置、方向不得作为桥接输入通过。
+    doc=app.Documents.Open(str(folder/state['outputs']['first_part']['file']))
+    rejected=[]
+    try:
+        actual=state['outputs']['first_part']['measurements']['end_sections']['sections']
+        native_guide._verify_circle_end_faces(doc,actual)
+        for field,value in [('radius_mm',2.6),('center_mm',[10,20,21]),('x',[0,0,1])]:
+            wrong=deepcopy(actual);wrong['end'][field]=value
+            try:native_guide._verify_circle_end_faces(doc,wrong)
+            except ValueError as error:
+                assert 'distinct planar circular cap' in str(error);rejected.append(field)
+            else:raise AssertionError('Mismatched endpoint was accepted: '+field)
+    finally:doc.Close()
     assert runtime.digest(source)==definition['external_objects']['source']['sha256']
     report={'fixture_only':True,'passed':True,'ds_status':'not_evaluated','initial_volume_mm3':before,
         'updated_volume_mm3':after,'reopened_volume_mm3':volume,'end_sections':ends,'recovery':state['recovery'],
-        'joined_topology':state['outputs']['step_evidence']['measurements'],
+        'joined_topology':state['outputs']['step_evidence']['measurements'],'mismatched_cap_fields_rejected':rejected,
         'clean_build_matches':True,'retained_assets_unchanged':True,'run_directory':str(folder)}
     (output/'result.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report),flush=True)
 
