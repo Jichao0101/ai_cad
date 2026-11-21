@@ -1,0 +1,16 @@
+{
+  "id": "b10-b20-mechanism-fixture",
+  "fixture_only": true,
+  "max_attempts": 4,
+  "parameters": {"thickness_mm": {"default": 8.4, "min": 8, "max": 12, "unit": "mm"}},
+  "steps": [
+    {"id": "datum", "operation": "datum", "inputs": {}, "output": "basis", "parameters": {
+      "origin_rule": "sor_3_9", "column_point": [0,0,0], "column_direction": [0,0,1],
+      "symmetry_point": [0,0,0], "symmetry_normal": [0,1,0],
+      "outer_3": [0,100,40], "outer_9": [0,-100,40], "bottom_point": [0,0,0], "bottom_normal": [0,0,1]
+    }},
+    {"id": "baffle", "operation": "baffle", "inputs": {"basis": "basis"}, "output": "baffle_part",
+      "parameters": {"outline": [[-30,-20],[30,-20],[30,20],[-30,20]], "thickness_mm": {"parameter": "thickness_mm"}},
+      "check": {"measurement": "volume_mm3", "minimum": 22000, "source": "recovery regression fixture only, not DS"}}
+  ]
+}
