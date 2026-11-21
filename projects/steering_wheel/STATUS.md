@@ -29,3 +29,5 @@
 后续v2开发包已加入四点基准、原生减料、多项检查及统一续跑版本校验；新目录独立安装、62个文件哈希自检、42项逻辑测试、基准/辐板跨进程恢复、多项检查和四点原生输入实机验证通过。位置为delivery/steering wheel dev 20261121 v2.zip，详细证据见IMPLEMENTATION.md。它仍是阶段开发包，不能替代上表尚未完成的业务出口。
 
 最新v3开发包为delivery/steering wheel dev 20261121 v3.zip，包含近期桥接、STEP检查、圆角、原生对时参数及移交能力，共90个清单文件。已从ZIP在新的带空格目录独立安装，通过文件哈希/连接自检、61项逻辑测试、Skill校验及基准/辐板、端部桥接、原生对时组合的CAD实测。汇总证据为runs/package-v3-validation-20261121.json。仍为development_partial，旧v2保留作为历史快照。
+
+统一集成入口tools/verify_steering_integrated.py已通过本机实测：基准/辐板/轮圈/辐条组合在体积检查失败后同运行恢复，保留未变分支，继续STEP单实体检查、发布引用和显隐整理，并与干净构建对照后移交、重开及保持显示。结果见runs/steering-integrated-20261121-182810-625604/result.json。此入口将已验证工序集中验收，仍为合成夹具，未扩大上表业务完成范围。

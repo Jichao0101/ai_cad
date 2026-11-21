@@ -8,7 +8,13 @@
 
 本包不含API Key、模型SDK或开发Agent。需要模型执行时，由你的宿主加载projects/steering_wheel/skill/steering-wheel-design/SKILL.md，并映射下述CLI契约。是否需要人工确认仍以业务规则为准，模型不能代签。
 
-## 第一次运行
+## 一次运行完整集成演示
+
+安装、自检后运行`verify-skeleton.bat`。它通过独立CLI进程构建合成骨架，首次半径5mm触发固定体积条件失败，再以5.5mm继续同一运行；辐板和辐条保留，轮圈及依赖步骤重建。随后进行STEP实体数量检查、发布引用和显隐整理，与干净构建对照并导出移交包，最终打开移交CATPart供肉眼检查。
+
+汇总及请求记录在`runs/steering-integrated-时间戳/`，最终文件在其`handover/`目录。无需逐个运行专项脚本，也无需API或Agent。这条合成流程尚不能替代真实CAS、HUB/附件、CAE和业务DS验收。
+
+## 手动调用CLI的最小示例
 
 在包根目录打开PowerShell。以下命令使用本包环境，首次故意以8.4mm触发夹具体积检查失败：
 

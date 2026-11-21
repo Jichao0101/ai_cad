@@ -28,7 +28,8 @@ def main():
     commands={
         'install.bat':['python -m venv .venv','if errorlevel 1 exit /b 1',r'".venv\Scripts\python.exe" -m pip install -r requirements.txt'],
         'check.bat':[r'".venv\Scripts\python.exe" -X utf8 tools\check_steering_install.py'],
-        'verify.bat':[r'".venv\Scripts\python.exe" -X utf8 tools\verify_steering_runtime.py']}
+        'verify.bat':[r'".venv\Scripts\python.exe" -X utf8 tools\verify_steering_runtime.py'],
+        'verify-skeleton.bat':[r'".venv\Scripts\python.exe" -X utf8 tools\verify_steering_integrated.py']}
     for name,lines in commands.items():
         text='\r\n'.join(['@echo off','pushd "%~dp0"',*lines,'set "RUN_EXIT=%ERRORLEVEL%"','popd','exit /b %RUN_EXIT%',''])
         (target/name).write_bytes(text.encode('ascii'))

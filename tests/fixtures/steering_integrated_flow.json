@@ -1,0 +1,275 @@
+{
+  "id": "integrated-skeleton-development-fixture",
+  "fixture_only": true,
+  "max_attempts": 4,
+  "parameters": {
+    "thickness_mm": {
+      "default": 8.4,
+      "min": 8,
+      "max": 12,
+      "unit": "mm"
+    },
+    "section_radius_mm": {
+      "default": 5,
+      "min": 4,
+      "max": 6,
+      "unit": "mm"
+    }
+  },
+  "steps": [
+    {
+      "id": "datum",
+      "operation": "datum",
+      "inputs": {},
+      "output": "basis",
+      "parameters": {
+        "origin_rule": "sor_3_9",
+        "column_point": [
+          0,
+          0,
+          0
+        ],
+        "column_direction": [
+          0,
+          0,
+          1
+        ],
+        "symmetry_point": [
+          0,
+          0,
+          0
+        ],
+        "symmetry_normal": [
+          0,
+          1,
+          0
+        ],
+        "outer_3": [
+          0,
+          100,
+          40
+        ],
+        "outer_9": [
+          0,
+          -100,
+          40
+        ],
+        "bottom_point": [
+          0,
+          0,
+          0
+        ],
+        "bottom_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "baffle",
+      "operation": "baffle",
+      "inputs": {
+        "basis": "basis"
+      },
+      "output": "baffle_part",
+      "parameters": {
+        "outline": [
+          [
+            -30,
+            -20
+          ],
+          [
+            30,
+            -20
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            -30,
+            20
+          ]
+        ],
+        "thickness_mm": {
+          "parameter": "thickness_mm"
+        }
+      }
+    },
+    {
+      "id": "rim",
+      "operation": "rim_segment",
+      "inputs": {
+        "basis": "basis"
+      },
+      "output": "half_rim",
+      "parameters": {
+        "guide_radius_mm": 100,
+        "section_radius_mm": {
+          "parameter": "section_radius_mm"
+        },
+        "start_angle_rad": 0,
+        "end_angle_rad": 3.141592653589793
+      }
+    },
+    {
+      "id": "rim_mirror",
+      "operation": "mirror",
+      "inputs": {
+        "basis": "basis",
+        "source": "half_rim"
+      },
+      "output": "rim_part",
+      "parameters": {}
+    },
+    {
+      "id": "spoke",
+      "operation": "spoke",
+      "inputs": {
+        "basis": "basis"
+      },
+      "output": "half_spoke",
+      "parameters": {
+        "thickness_mm": {
+          "parameter": "thickness_mm"
+        },
+        "sections": [
+          {
+            "center_mm": [
+              0,
+              15,
+              0
+            ],
+            "x": [
+              1,
+              0,
+              0
+            ],
+            "y": [
+              0,
+              0,
+              1
+            ],
+            "width_mm": 20
+          },
+          {
+            "center_mm": [
+              0,
+              60,
+              0
+            ],
+            "x": [
+              1,
+              0,
+              0
+            ],
+            "y": [
+              0,
+              0,
+              1
+            ],
+            "width_mm": 18
+          },
+          {
+            "center_mm": [
+              0,
+              100,
+              0
+            ],
+            "x": [
+              1,
+              0,
+              0
+            ],
+            "y": [
+              0,
+              0,
+              1
+            ],
+            "width_mm": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "spoke_mirror",
+      "operation": "mirror",
+      "inputs": {
+        "basis": "basis",
+        "source": "half_spoke"
+      },
+      "output": "spoke_part",
+      "parameters": {}
+    },
+    {
+      "id": "union",
+      "operation": "combine",
+      "inputs": {
+        "baffle": "baffle_part",
+        "rim": "rim_part",
+        "spoke": "spoke_part",
+        "basis": "basis"
+      },
+      "output": "skeleton_part",
+      "parameters": {},
+      "checks": [
+        {
+          "id": "fixture-skeleton-volume",
+          "measurement": "volume_mm3",
+          "minimum": 100000,
+          "maximum": 110000,
+          "unit": "mm3",
+          "source": "integration fixture, not business DS",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "id": "domains",
+      "operation": "solid_domains",
+      "inputs": {
+        "source": "skeleton_part"
+      },
+      "output": "step_evidence",
+      "parameters": {},
+      "checks": [
+        {
+          "id": "fixture-single-solid",
+          "measurement": "step_solid_count",
+          "minimum": 1,
+          "maximum": 1,
+          "unit": "count",
+          "source": "STEP integration fixture, not native topology or DS",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "operation": "publish_references",
+      "inputs": {
+        "source": "skeleton_part",
+        "topology": "step_evidence"
+      },
+      "output": "published_skeleton",
+      "parameters": {
+        "prepare_display": true,
+        "publications": {
+          "SkeletonSolid": [
+            {
+              "collection": "Bodies",
+              "name": "B90_Skeleton"
+            }
+          ],
+          "DesignAxis": [
+            {
+              "collection": "AxisSystems",
+              "name": "B10_DesignAxis"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

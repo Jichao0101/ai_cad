@@ -471,3 +471,13 @@ B45仍缺矩形扫掠末端转角。dev/probe_rectangle_endpoints.py在自有副
 证据runs/rectangle-endpoints-probe-20261121-181941-558748/result.json：空间样条矩形12×8.4mm的12条直边搜索结果去重为8条，匹配2个端面，四角最大重构误差分别约7.11e-15和3.66e-15mm，源SHA256保持。已证明可从实际几何读回矩形平面方向，但轴的正负及桥接角点对应仍未确定，正方形还存在宽厚轴歧义；输出明确not_bridge_ready，不将其作为自动桥接能力已完成。
 
 后续以集成为出口：先确定显式端部/角点配对契约，再接入现有native_guide→rim_bridge流程及统一恢复测试。仅当该工序遇到具体接口未知项时新增探针；已验证探针应转化为执行能力或回归证据，避免将零散探针数量当作项目完成度。
+
+## 2026-11-21 骨架工序统一集成入口
+
+将已有能力串入tests/fixtures/steering_integrated_flow.json，由tools/verify_steering_integrated.py通过交付CLI的describe/start/resume/handover跨进程执行。流程覆盖基准、辐板、轮圈、辐条、镜像与组合，组合体积失败恢复后再进行STEP实体数量检查、Publication及显隐整理，导出开发移交包。发布步骤显式依赖STEP证据，避免拓扑检查未完成就进入发布副本构造。未新增执行器接口或建模操作。
+
+实测证据runs/steering-integrated-20261121-182810-625604/result.json：首次半径5mm，组合体积93258.92771095454mm³，未达到固定100000～110000mm³夹具条件。同一运行改5.5mm后体积103463.50877209094mm³通过，仅执行rim/rim_mirror/union/domains/publications，保留datum/baffle/spoke/spoke_mirror及相应文件哈希；流程和检查条件未改，干净构建一致。组合STEP为1个实体。
+
+移交包含CATPart、STEP、基准和两份检查报告，共5个哈希文件；导出不改变运行state。重开移交CATPart后体积保持，实体/轴系Publication可解析，主Body显示、辅助Body隐藏，最终模型保持打开。ds_status仍为not_evaluated。源码62项测试通过。
+
+README改为统一入口优先，专项验证保留各自独立故障覆盖职责。包构建器新增verify-skeleton.bat，包说明同步使用该入口；已冻结v3包未修改。完整业务缺口仍见STATUS，本次合成流程没有替代CAS选面、HUB/附件库、CAE或业务DS，也未把矩形端面实验直接接入桥接。

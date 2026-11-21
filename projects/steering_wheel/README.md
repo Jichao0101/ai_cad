@@ -4,7 +4,25 @@
 
 当前已接入执行器的阶段为基准求解、圆形/凸多边形辐板、圆弧段、显式点列样条段、三矩形截面辐条连接体及原生Body布尔组合。样条段已验证创建和位置持久化，解析体积对照尚未通过。完整骨架的CAS曲线适配、轮圈桥接、辐条环境适配、平台附件及CAE加料仍在开发；参考零件对比按用户安排待升级CATIA后进行。
 
-## 运行验证
+## 完整集成演示
+
+在仓库根目录打开终端，先启动CATIA，再执行一个命令：
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 tools/verify_steering_integrated.py
+```
+
+该入口经独立CLI进程读取`tests/fixtures/steering_integrated_flow.json`，构建基准、辐板、轮圈、辐条及组合骨架。首次轮圈半径为5mm，组合体积不满足夹具条件时，同一运行改为5.5mm；执行器重建轮圈、组合及后续检查，保留基准、辐板和辐条。固定体积条件为100000～110000mm³，用于验证恢复机制，并非客户DS。
+
+恢复通过后，流程执行STEP单实体检查、创建实体和基准轴系Publication并整理显隐。入口另做一次同参干净构建对照，导出开发移交包，再打开移交包中的CATPart核对体积、发布引用及显隐，最终保持该模型打开。整个演示不调用模型API；它验证Skill和模型宿主共用的CLI执行链。
+
+结果位于`runs/steering-integrated-时间戳/`：`result.json`记录汇总，`start.json`和`resume.json`保留实际请求，`handover/`包含最终CATPart、STEP、基准和检查报告。目录中的请求绑定当次运行及revision，查看请求可理解调用方式，不要直接重放已经过期的resume。
+
+模型参与的同一流程可使用开发宿主，用户输入示例：“使用方向盘骨架Skill，首次轮圈半径5毫米；体积检查失败后改为5.5毫米，继续同一运行，不修改检查条件，保持模型打开。”向`dev/qwen_steering_acceptance.py`传入该文字，并指定`--flow tests/fixtures/steering_integrated_flow.json --allow-cloud --keep-open`。此路径需要已配置的开发API；上面的独立脚本入口不需要。
+
+这是合成骨架工序集成，尚不包含真实CAS选面、HUB/附件库、CAE加料和完整业务DS。无需为了使用此演示逐个运行下列专项验证。
+
+## 专项回归验证
 
 在仓库根目录、CATIA已启动时执行：
 
