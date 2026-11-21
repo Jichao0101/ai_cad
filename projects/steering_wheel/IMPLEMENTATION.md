@@ -447,3 +447,9 @@ combine/subtract现显式复制顶层直接参数，核对新增数量并加Stag
 开发宿主实际调用qwen-plus，证据为runs/qwen-steering-20261121-174700-529658/transcript.json。同一个steering-ef2d123d88a244af8bc810d6f9d492ab运行先以plane_offset_mm=0构建，间隙3mm未达固定5mm条件；模型调用resume改为5mm，执行器只重建section/rim/clearance并保留datum，实测间隙8mm通过。检查条件、来源及版本保持不变。
 
 工具结果返回已保存的section_part、rim_part及model_kept_open=true，模型最终中文报告与这些字段一致。本轮完成此前保存证据字段增加后的公网调用验证，也验证了求交方向与裁剪流程的模型调用闭环。DS仍为not_evaluated，合成夹具不代表实际CAS或完整DS验收；既有网络中断记录不因此改为通过。
+
+## 2026-11-21 开发宿主成品显隐修正
+
+核对B90后发现Qwen宿主的keep-open路径仅隐藏顶层HybridBodies，源零件辅助Body中的草图可能仍显示。现复用publications.prepare_display，隐藏辅助Body、轴系、构造集合、主Body草图和原点平面，显示主Body；保留已有正视方向设置。删除宿主中重复且覆盖不足的显隐代码，无新增API、状态字段或建模流程变更。
+
+实测证据runs/steering-display-20261121-180006-605043/result.json：复制上一轮求交扫掠输出，先显式显示辅助Body以复现条件，再整理显隐。10个支撑对象隐藏，1个辅助Body隐藏、主Body显示；保存重开后保持，体积103.50116280329044mm³未变，源文件SHA256未变。验证仅涉及副本及COM显隐读回，未取得视觉截图，也未重新调用公网模型。宿主显示操作不自动保存既有运行资产，避免破坏持久化资产哈希。

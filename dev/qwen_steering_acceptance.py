@@ -125,10 +125,7 @@ def main():
                         if final:
                             app=win32com.client.GetActiveObject('CATIA.Application')
                             doc=app.Documents.Open(str(owned/final));doc.Activate();app.Visible=True
-                            selection=doc.Selection;selection.Clear()
-                            for i in range(1,doc.Part.HybridBodies.Count+1):selection.Add(doc.Part.HybridBodies.Item(i))
-                            if selection.Count:selection.VisProperties.SetShow(1)
-                            selection.Clear()
+                            runtime.publications.prepare_display(doc)
                             viewer=app.ActiveWindow.ActiveViewer;view=viewer.Viewpoint3D
                             view.PutSightDirection((0.0,0.0,-1.0));view.PutUpDirection((0.0,1.0,0.0))
                             viewer.Viewpoint3D=view;viewer.Reframe();viewer.Update()
